@@ -28,6 +28,8 @@ jobs:
       - name: login npm 
         uses: JS-DevTools/npm-publish@v1
         with:
+          usename: chasen-zhange
+          email: chasenzh@gmail.com
           token: ${{ secrets.PACKAGES_TOKEN }}
           registry: https://npm.pkg.github.com
       - name: release
