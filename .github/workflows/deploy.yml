@@ -1,0 +1,29 @@
+name: blog DEPLOY CI
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - README.md
+      - LICENSE
+
+jobs:
+  publish_packages_job:
+    runs-on: ubuntu-latest
+    name: build
+    steps:
+      # check out the repository
+      - name: Checkout    
+        uses: actions/checkout@v2
+
+      - name: get fetch
+        run: npm run fetch
+
+      - name: generate
+        run: npm run generate
+
+      - name: release
+        run: npm run release
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.PACKAGES_TOKEN}}
+      

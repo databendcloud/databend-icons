@@ -1,8 +1,11 @@
-import { IComnonProps } from '@/types';
 import React from 'react';
 import { FC } from 'react';
 import clsx from 'clsx';
-interface IProps extends IComnonProps {
+interface IProps {
+  style?: React.CSSProperties;
+  className?: string | 'g-icon-defaut-primary';
+  onClick?: React.MouseEventHandler<HTMLElement>;
+  children?: React.ReactNode[] | React.ReactNode;
   color: string;
   size: string | number;
 }
@@ -14,6 +17,7 @@ const ExpandDownIcon: FC<IProps | any> = props => {
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
+      viewBox="-2 -2 24 24"
       {...otherProps}
     >
       <path d="M2.5 4.167c0-.92.746-1.667 1.667-1.667h11.666c.92 0 1.667.746 1.667 1.667v11.666c0 .92-.746 1.667-1.667 1.667H4.167c-.92 0-1.667-.746-1.667-1.667V4.167z"></path>

@@ -1,8 +1,11 @@
-import { IComnonProps } from '@/types';
 import React from 'react';
 import { FC } from 'react';
 import clsx from 'clsx';
-interface IProps extends IComnonProps {
+interface IProps {
+  style?: React.CSSProperties;
+  className?: string | 'g-icon-defaut-primary';
+  onClick?: React.MouseEventHandler<HTMLElement>;
+  children?: React.ReactNode[] | React.ReactNode;
   color: string;
   size: string | number;
 }
@@ -14,6 +17,7 @@ const OrganizationIcon: FC<IProps | any> = props => {
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
+      viewBox="-2 -2 24 24"
       {...otherProps}
     >
       <path d="M1.667 2.083h16.666v3.334l-.582.35a2.917 2.917 0 01-3.002 0l-.582-.35-.583.35a2.917 2.917 0 01-3.001 0L10 5.416l-.583.35a2.917 2.917 0 01-3.001 0l-.583-.35-.582.35a2.917 2.917 0 01-3.002 0l-.582-.35V2.083z"></path>

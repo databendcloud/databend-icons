@@ -1,8 +1,11 @@
-import { IComnonProps } from '@/types';
 import React from 'react';
 import { FC } from 'react';
 import clsx from 'clsx';
-interface IProps extends IComnonProps {
+interface IProps {
+  style?: React.CSSProperties;
+  className?: string | 'g-icon-defaut-primary';
+  onClick?: React.MouseEventHandler<HTMLElement>;
+  children?: React.ReactNode[] | React.ReactNode;
   color: string;
   size: string | number;
 }
@@ -14,6 +17,7 @@ const MyworksheetIcon: FC<IProps | any> = props => {
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
+      viewBox="-2 -2 24 24"
       {...otherProps}
     >
       <path d="M15.333 9.667v-3l-3-3.334h-7A.667.667 0 004.667 4v12c0 .368.298.667.666.667h3.334"></path>

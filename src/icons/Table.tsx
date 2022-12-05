@@ -1,8 +1,11 @@
-import { IComnonProps } from '@/types';
 import React from 'react';
 import { FC } from 'react';
 import clsx from 'clsx';
-interface IProps extends IComnonProps {
+interface IProps {
+  style?: React.CSSProperties;
+  className?: string | 'g-icon-defaut-primary';
+  onClick?: React.MouseEventHandler<HTMLElement>;
+  children?: React.ReactNode[] | React.ReactNode;
   color: string;
   size: string | number;
 }
@@ -14,6 +17,7 @@ const TableIcon: FC<IProps | any> = props => {
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
+      viewBox="-2 -2 24 24"
       {...otherProps}
     >
       <path d="M16.375 2.5H3.625c-.621 0-1.125.504-1.125 1.125v12.75c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V3.625c0-.621-.504-1.125-1.125-1.125z"></path>

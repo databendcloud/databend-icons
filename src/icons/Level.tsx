@@ -1,8 +1,11 @@
-import { IComnonProps } from '@/types';
 import React from 'react';
 import { FC } from 'react';
 import clsx from 'clsx';
-interface IProps extends IComnonProps {
+interface IProps {
+  style?: React.CSSProperties;
+  className?: string | 'g-icon-defaut-primary';
+  onClick?: React.MouseEventHandler<HTMLElement>;
+  children?: React.ReactNode[] | React.ReactNode;
   color: string;
   size: string | number;
 }
@@ -14,6 +17,7 @@ const LevelIcon: FC<IProps | any> = props => {
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
+      viewBox="-2 -2 24 24"
       {...otherProps}
     >
       <path d="M10 16L3.333 8.167 5.232 4h9.536l1.899 4.167L10 16z"></path>

@@ -1,8 +1,11 @@
-import { IComnonProps } from '@/types';
 import React from 'react';
 import { FC } from 'react';
 import clsx from 'clsx';
-interface IProps extends IComnonProps {
+interface IProps {
+  style?: React.CSSProperties;
+  className?: string | 'g-icon-defaut-primary';
+  onClick?: React.MouseEventHandler<HTMLElement>;
+  children?: React.ReactNode[] | React.ReactNode;
   color: string;
   size: string | number;
 }
@@ -14,6 +17,7 @@ const HelpIcon: FC<IProps | any> = props => {
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
+      viewBox="-2 -2 24 24"
       {...otherProps}
     >
       <path d="M10 18.333a8.307 8.307 0 005.893-2.44A8.307 8.307 0 0018.332 10a8.307 8.307 0 00-2.44-5.893A8.307 8.307 0 0010 1.667a8.307 8.307 0 00-5.893 2.44A8.307 8.307 0 001.667 10c0 2.301.932 4.384 2.44 5.893A8.307 8.307 0 0010 18.332z"></path>
