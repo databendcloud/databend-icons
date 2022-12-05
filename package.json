@@ -1,6 +1,6 @@
 {
   "name": "@databendcloud/databend-icons",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Icons for Databend",
   "main": "src/icons.js",
   "module": "src/icons.js",
@@ -19,6 +19,9 @@
     "juuust",
     "design"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/databendcloud"
+  },
   "bugs": {
     "url": "https://github.com/leadream/juuust-react-icon/issues"
   },
