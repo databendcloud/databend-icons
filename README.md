@@ -4,7 +4,7 @@ Icons for Databend Cloud
 
 eg: 
 
-# install
+# Install
 ```
 yarn add @databendcloud/databend-icons
 ```
