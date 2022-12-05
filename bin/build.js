@@ -81,7 +81,6 @@ const generateIconCode = async ({name}) => {
   });
 
   fs.writeFileSync(destination, component, 'utf-8');
-
   console.log('Successfully built', ComponentName);
   return {ComponentName, name: names.name}
  } catch (error) {
@@ -113,7 +112,9 @@ Object
   .map(key => icons[key])
   .forEach(({name}) => {
     generateIconCode({name})
-      .then(({ComponentName, name}) => {
-        appendToIconsIndex({ComponentName, name})
+      .then((res) => {
+        if (res?.ComponentName) {
+          appendToIconsIndex({ComponentName: res?.ComponentName, name: res?.name})
+        }
       })
   })
