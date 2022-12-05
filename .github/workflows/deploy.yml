@@ -15,6 +15,9 @@ jobs:
       # check out the repository
       - name: Checkout    
         uses: actions/checkout@v2
+        
+      - name: Install and Build 
+        run: yarn install
 
       - name: get fetch
         run: npm run fetch
