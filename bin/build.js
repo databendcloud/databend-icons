@@ -60,6 +60,7 @@ const attrsToString = (attrs, style) => {
 
 // generate icon code separately
 const generateIconCode = async ({name}) => {
+ try {
   const names = parseName(name, defaultStyle)
   console.log(names)
   const location = path.join(rootDir, 'src/svg', `${names.name}.svg`)
@@ -84,6 +85,9 @@ const generateIconCode = async ({name}) => {
 
   console.log('Successfully built', ComponentName);
   return {ComponentName, name: names.name}
+ } catch (error) {
+  console.log.log(error)
+ }
 }
 
 // append export code to icons.js
