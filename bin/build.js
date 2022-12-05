@@ -62,7 +62,6 @@ const attrsToString = (attrs, style) => {
 const generateIconCode = async ({name}) => {
  try {
   const names = parseName(name, defaultStyle)
-  console.log(names)
   const location = path.join(rootDir, 'src/svg', `${names.name}.svg`)
   const destination = path.join(rootDir, 'src/icons', `${names.name}.tsx`)
   const code = fs.readFileSync(location)
@@ -86,7 +85,7 @@ const generateIconCode = async ({name}) => {
   console.log('Successfully built', ComponentName);
   return {ComponentName, name: names.name}
  } catch (error) {
-  console.log.log(error)
+  console.log(error)
  }
 }
 
