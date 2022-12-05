@@ -24,9 +24,12 @@ jobs:
 
       - name: generate
         run: npm run generate
-
+      
+      - name: login npm 
+        uses: JS-DevTools/npm-publish@v1
+        with:
+          token: ${{ secrets.PACKAGES_TOKEN }}
+          registry: https://npm.pkg.github.com
       - name: release
         run: npm run release
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.PACKAGES_TOKEN}}
       
