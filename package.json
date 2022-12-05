@@ -1,6 +1,6 @@
 {
-  "name": "@chasen-zhang/senquan-icons",
-  "version": "1.0.5",
+  "name": "@databendcloud/databend-icons",
+  "version": "0.0.1",
   "description": "Icons for Databend",
   "main": "src/icons.js",
   "module": "src/icons.js",

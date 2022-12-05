@@ -1,2 +1,0 @@
-# senquan-icons
-icons test
