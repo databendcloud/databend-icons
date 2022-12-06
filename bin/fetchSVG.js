@@ -11,7 +11,7 @@ const FIGMA_FILE_URL= 'https://www.figma.com/file/n1PpBmC70z0lUN9816jeBl/Icon?no
 
 const options = {
   format: 'svg',
-  outputDir: './src/dist',
+  outputDir: './src',
   scale: '1'
 }
 

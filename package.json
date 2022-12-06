@@ -1,6 +1,6 @@
 {
   "name": "@databendcloud/databend-icons",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Icons for Databend",
   "main": "src/icons.js",
   "module": "src/icons.js",
@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/leadream/juuust-react-icon#readme",
   "scripts": {
-    "fetch": "node bin/fetchSVG.js",
-    "generate": "sudo rm -rf src/icons && node bin/build.js",
+    "fetch": "rm -rf src/svg && node bin/fetchSVG.js",
+    "generate": "rm -rf src/icons && node bin/build.js",
     "build:bundle": "sudo rm -rf dist && node_modules/.bin/rollup --c ./build/rollup.config.bundle.js",
     "dev": "rollup -w -c ./build/rollup.config.dev.js",
     "build": "rollup -c ./build/rollup.config.prod.js",
@@ -41,7 +41,7 @@
   "dependencies": {
     "clsx": "^1.2.1",
     "normalize.css": "^8.0.1",
-    "react": "^16.13.1",
+    "react": "^18.2.0",
     "react-dom": "^16.13.1",
     "react-html-parser": "^2.0.2",
     "styled-components": "^5.1.1"

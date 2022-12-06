@@ -45,7 +45,6 @@ const generateIconsIndex = () => {
 
 // generate attributes code
 const attrsToString = (attrs, style) => {
-  console.log('style: ', style)
   return Object.keys(attrs).map((key) => {
     // should distinguish fill or stroke
     if (key === 'width' || key === 'height' || key === style) {
@@ -81,7 +80,6 @@ const generateIconCode = async ({name}) => {
   });
 
   fs.writeFileSync(destination, component, 'utf-8');
-  console.log('Successfully built', ComponentName);
   return {ComponentName, name: names.name}
  } catch (error) {
   console.log(error)

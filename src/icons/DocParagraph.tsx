@@ -9,7 +9,7 @@ interface IProps {
   color: string;
   size: string | number;
 }
-const WechatIcon: FC<IProps | any> = props => {
+const DocParagraphIcon: FC<IProps | any> = props => {
   const { color, size, className, ...otherProps } = props;
   return (
     <svg
@@ -20,17 +20,19 @@ const WechatIcon: FC<IProps | any> = props => {
       viewBox="-2 -2 24 24"
       {...otherProps}
     >
-      <path
-        d="M13.265 7.793V2.47s-2.604-1.396-5.644-.32l5.644 5.642zm.493 3.13V2.69s3.079 1.396 3.946 4.785l-3.946 3.449zm-1.656 2.394l5.683-5.345s1.006 1.635-.494 5.345h-5.19zm-2.902.677h7.676s-.927 2.512-4.243 3.549L9.2 13.994zM6.694 12.3v5.003s1.994 1.277 5.408.42l-5.408-5.423zm-4.44.259l3.888-3.49v7.935s-2.35-.816-3.889-4.445zm-.1-.558s-.889-2.87.355-5.363h5.348L2.155 12zm.691-5.922S3.97 3.528 7.03 2.33l3.65 3.748H2.845z"
-        fillOpacity=".8"
-      ></path>
+      <path d="M10 5h6"></path>
+      <path d="M10 8.333h6"></path>
+      <path d="M4 11.667h12"></path>
+      <path d="M4 15h12"></path>
+      <path d="M6.596 7.417H4.738l.929-1.858.929 1.858z"></path>
+      <path d="M4 8.333l.333-.666m3 .666L7 7.667m-2.667 0L5.667 5 7 7.667m-2.667 0H7"></path>
     </svg>
   );
 };
 
-WechatIcon.defaultProps = {
+DocParagraphIcon.defaultProps = {
   color: 'currentColor',
   size: '20'
 };
 
-export default WechatIcon;
+export default DocParagraphIcon;
