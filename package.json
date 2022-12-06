@@ -19,9 +19,6 @@
     "juuust",
     "design"
   ],
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/databendcloud"
-  },
   "bugs": {
     "url": "https://github.com/leadream/juuust-react-icon/issues"
   },

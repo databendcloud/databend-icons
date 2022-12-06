@@ -25,12 +25,12 @@ jobs:
       - name: generate
         run: npm run generate
       
-      - name: login npm 
-        uses: ahmadnassri/action-github-registry-npm-proxy@v2
-        with:
-          token: ${{ secrets.PACKAGES_TOKEN }}
-          scope: databendcloud
+      # - name: login npm 
+      #   uses: ahmadnassri/action-github-registry-npm-proxy@v2
+      #   with:
+      #     token: ${{ secrets.PACKAGES_TOKEN }}
+      #     scope: databendcloud
       
-      - name: release
-        run: npm run release
+      # - name: release
+      #   run: npm run release
       
