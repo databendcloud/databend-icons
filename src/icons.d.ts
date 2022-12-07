@@ -116,6 +116,7 @@ export const RecordDelimiter: Icon;
 export const FieldDelimiter: Icon;
 export const SkipHeader: Icon;
 export const Locked: Icon;
+export const Ueue: Icon;
 export const Right: Icon;
 export const Down: Icon;
 export const Up: Icon;

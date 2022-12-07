@@ -107,6 +107,7 @@ export { default as RecordDelimiter } from './icons/RecordDelimiter';
 export { default as FieldDelimiter } from './icons/FieldDelimiter';
 export { default as SkipHeader } from './icons/SkipHeader';
 export { default as Locked } from './icons/Locked';
+export { default as Ueue } from './icons/Ueue';
 export { default as Right } from './icons/Right';
 export { default as Down } from './icons/Down';
 export { default as Up } from './icons/Up';
