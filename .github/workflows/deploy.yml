@@ -26,9 +26,6 @@ jobs:
         run: npm run generate
 
       - name: Pushes to another repository
-        run: git add package.json
-        run: git commit
-        
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.PACKAGES_TOKEN }}
@@ -39,6 +36,9 @@ jobs:
           target-directory: 'src'
           user-email: ${{ secrets.USER_EMAIL }}
           target-branch: ${{ secrets.BUILD_BRANCH }}
+        run: |
+          git add package.json
+          git commit
       # - name: login npm 
       #   uses: ahmadnassri/action-github-registry-npm-proxy@v2
       #   with:
