@@ -36,9 +36,6 @@ jobs:
           target-directory: 'src'
           user-email: ${{ secrets.USER_EMAIL }}
           target-branch: ${{ secrets.BUILD_BRANCH }}
-        run: |
-          git add package.json
-          git commit
       # - name: login npm 
       #   uses: ahmadnassri/action-github-registry-npm-proxy@v2
       #   with:
