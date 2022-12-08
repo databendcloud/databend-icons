@@ -1,6 +1,6 @@
 {
   "name": "@databendcloud/databend-icons",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Icons for Databend",
   "main": "src/icons.js",
   "module": "src/icons.js",

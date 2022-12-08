@@ -26,6 +26,9 @@ jobs:
         run: npm run generate
 
       - name: Pushes to another repository
+        run: git add package.json
+        run: git commit
+        
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.PACKAGES_TOKEN }}
