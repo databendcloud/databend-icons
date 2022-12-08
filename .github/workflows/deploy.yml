@@ -31,11 +31,11 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.PACKAGES_TOKEN }}
         with:
           source-directory: 'src'
-          destination-github-username:  'databendcloud'
-          destination-repository-name: 'databend-icons'
+          destination-github-username: ${{ secrets.USE_NAME }}
+          destination-repository-name: ${{ secrets.REPOSITORY_NAME }}
           target-directory: 'src'
-          user-email: 'chasenzh@gmail.com'
-          target-branch: package
+          user-email: ${{ secrets.USER_EMAIL }}
+          target-branch: ${{ secrets.BUILD_BRANCH }}
       # - name: login npm 
       #   uses: ahmadnassri/action-github-registry-npm-proxy@v2
       #   with:
