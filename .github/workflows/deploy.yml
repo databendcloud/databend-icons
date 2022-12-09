@@ -27,26 +27,17 @@ jobs:
           npm run generate
           npm run build:bundle
 
-      # - name: Pushes to another repository
-      #   uses: cpina/github-action-push-to-another-repository@main
-      #   env:
-      #     API_TOKEN_GITHUB: ${{ secrets.PACKAGES_TOKEN }}
-      #   with:
-      #     source-directory: 'dist'
-      #     destination-github-username: ${{ secrets.USE_NAME }}
-      #     destination-repository-name: ${{ secrets.REPOSITORY_NAME }}
-      #     target-directory: 'dist'
-      #     user-email: ${{ secrets.USER_EMAIL }}
-      #     target-branch: ${{ secrets.BUILD_BRANCH }}
-      - name: Push generated files to another repository
-        uses: nkoppel/push-files-to-another-repository@1.1.1
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.PACKAGES_TOKEN }}
         with:
-          source-files: 'dist package.json .gitignore .npmignore'
-          destination-username: ${{ secrets.USE_NAME }}
-          destination-repository: package
-          commit-email: ${{ secrets.USER_EMAIL }}
+          source-directory: 'dist'
+          destination-github-username: ${{ secrets.USE_NAME }}
+          destination-repository-name: ${{ secrets.REPOSITORY_NAME }}
+          target-directory: 'dist'
+          user-email: ${{ secrets.USER_EMAIL }}
+          target-branch: ${{ secrets.BUILD_BRANCH }}
 
       # - name: login npm 
       #   uses: ahmadnassri/action-github-registry-npm-proxy@v2
