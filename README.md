@@ -6,7 +6,7 @@ eg:
 
 # Install
 ```
-yarn add git+https://github.com/databendcloud/databend-icons.git
+yarn add git+https://github.com/databendcloud/databend-icons.git#package
 ```
 
 # How to use
