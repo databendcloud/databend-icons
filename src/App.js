@@ -13,7 +13,8 @@ const Container = styled.ul`
   justify-items: stretch;
   align-items: stretch;
   margin: 0;
-  padding: 0 20px 50px 20px;
+  margin-right 20px: 
+  padding: 0 0 50px 20px;
   list-style: none;
 `
 
