@@ -27,13 +27,15 @@ class List extends React.Component {
               .map((key, index) => {
                 const Icon = icons[key]
                 const Copy = icons['Copy']
-                return <li key={index}>
+                return <li 
+                  style={{marginBottom: '24px'}}
+                  key={index}>
                   <IconWrapper>
-                    <Space size={30} align="center" direction="vertical">
+                    <Space size={6} align="center" direction="vertical">
                       <Tooltip title="点击复制svg">
-                        <Icon size={30} onClick={()=> console.log(Icon(), Icon, 'Icon')}/>
+                        <Icon size={30} onClick={()=> console.log(Icon, 'Icon')}/>
                       </Tooltip>
-                      <Space size={12}>
+                      <Space size={4}>
                         <span>{key}</span>
                         <span onClick={() => {
                           message.destroy();
