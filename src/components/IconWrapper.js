@@ -15,6 +15,6 @@ const IconWrapper = styled.a`
 export default ({children}) =>
   <IconWrapper 
   title='点击复制svg' 
-  onClick={()=> {copyToClipboard(children)}}>
+  onClick={()=> {copyToClipboard(JSON.stringify(children))}}>
     { children }
   </IconWrapper>
