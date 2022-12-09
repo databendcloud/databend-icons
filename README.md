@@ -21,10 +21,10 @@ example:
       fill: transparent;
       stroke: rgb(1, 14, 41);
     }
-    .icon.default:has(path[fill-rule="evenodd"]:not(:last-child)) {
-      fill: rgb(1, 14, 41);
-    }
+  .icon.default:has(path[fill-rule="evenodd"]:not(:last-child)) {
+    fill: rgb(1, 14, 41);
+  }
     
-    and so on
+ his css is just an example, you can play with it
 ```
 
