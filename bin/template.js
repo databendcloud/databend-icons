@@ -28,7 +28,7 @@ const getElementCode = (ComponentName, attrs, svgCode) => `
   const ${ComponentName} = (props) => {
     const { color, size, ...otherProps } = props;
     return (
-      <svg className={clsx('icon default')} ${attrs}>
+      <svg className={clsx('icon default', props?.className)} ${attrs}>
         ${svgCode}
       </svg>
     )

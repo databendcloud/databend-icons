@@ -6,7 +6,7 @@ const Book = props => {
   const { color, size, ...otherProps } = props;
   return (
     <svg
-      className={clsx('icon default')}
+      className={clsx('icon default', props?.className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
