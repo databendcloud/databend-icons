@@ -9,48 +9,37 @@ var PropTypes = _interopDefault(require('prop-types'));
 var clsx = _interopDefault(require('clsx'));
 
 function _extends() {
-  _extends = Object.assign || function (target) {
+  _extends = Object.assign ? Object.assign.bind() : function (target) {
     for (var i = 1; i < arguments.length; i++) {
       var source = arguments[i];
-
       for (var key in source) {
         if (Object.prototype.hasOwnProperty.call(source, key)) {
           target[key] = source[key];
         }
       }
     }
-
     return target;
   };
-
   return _extends.apply(this, arguments);
 }
-
 function _objectWithoutPropertiesLoose(source, excluded) {
   if (source == null) return {};
   var target = {};
   var sourceKeys = Object.keys(source);
   var key, i;
-
   for (i = 0; i < sourceKeys.length; i++) {
     key = sourceKeys[i];
     if (excluded.indexOf(key) >= 0) continue;
     target[key] = source[key];
   }
-
   return target;
 }
-
 function _objectWithoutProperties(source, excluded) {
   if (source == null) return {};
-
   var target = _objectWithoutPropertiesLoose(source, excluded);
-
   var key, i;
-
   if (Object.getOwnPropertySymbols) {
     var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
-
     for (i = 0; i < sourceSymbolKeys.length; i++) {
       key = sourceSymbolKeys[i];
       if (excluded.indexOf(key) >= 0) continue;
@@ -58,16 +47,15 @@ function _objectWithoutProperties(source, excluded) {
       target[key] = source[key];
     }
   }
-
   return target;
 }
 
+var _excluded = ["color", "size", "className"];
 var Dashboard = function Dashboard(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -85,7 +73,6 @@ var Dashboard = function Dashboard(props) {
     d: "M7.667 8.333v5"
   }));
 };
-
 Dashboard.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -95,18 +82,18 @@ Dashboard.propTypes = {
   children: PropTypes.node
 };
 Dashboard.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1 = ["color", "size", "className"];
 var Worksheet = function Worksheet(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -126,7 +113,6 @@ var Worksheet = function Worksheet(props) {
     d: "M13.75 7.5h-2.5v7.083h2.5V7.5z"
   }));
 };
-
 Worksheet.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -136,18 +122,18 @@ Worksheet.propTypes = {
   children: PropTypes.node
 };
 Worksheet.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$2 = ["color", "size", "className"];
 var Data = function Data(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$2);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -165,7 +151,6 @@ var Data = function Data(props) {
     d: "M10 6.667c4.602 0 8.333-1.12 8.333-2.5 0-1.381-3.73-2.5-8.333-2.5-4.602 0-8.333 1.119-8.333 2.5 0 1.38 3.73 2.5 8.333 2.5z"
   }));
 };
-
 Data.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -175,18 +160,18 @@ Data.propTypes = {
   children: PropTypes.node
 };
 Data.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$3 = ["color", "size", "className"];
 var Support = function Support(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$3);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -209,7 +194,6 @@ var Support = function Support(props) {
     d: "M13.536 13.536a5 5 0 10-7.072-7.072 5 5 0 007.072 7.072z"
   }));
 };
-
 Support.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -219,18 +203,18 @@ Support.propTypes = {
   children: PropTypes.node
 };
 Support.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$4 = ["color", "size", "className"];
 var Compute = function Compute(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$4);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -252,7 +236,6 @@ var Compute = function Compute(props) {
     d: "M8 15.333v-.666h.667v.666H8z"
   }));
 };
-
 Compute.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -262,18 +245,18 @@ Compute.propTypes = {
   children: PropTypes.node
 };
 Compute.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$5 = ["color", "size", "className"];
 var Setting = function Setting(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$5);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -287,7 +270,6 @@ var Setting = function Setting(props) {
     d: "M10 12.917a2.917 2.917 0 100-5.834 2.917 2.917 0 000 5.834z"
   }));
 };
-
 Setting.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -297,18 +279,18 @@ Setting.propTypes = {
   children: PropTypes.node
 };
 Setting.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$6 = ["color", "size", "className"];
 var Notifications = function Notifications(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$6);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -326,7 +308,6 @@ var Notifications = function Notifications(props) {
     d: "M5.833 14.167H10"
   }));
 };
-
 Notifications.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -336,18 +317,18 @@ Notifications.propTypes = {
   children: PropTypes.node
 };
 Notifications.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$7 = ["color", "size", "className"];
 var Search = function Search(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$7);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -363,7 +344,6 @@ var Search = function Search(props) {
     d: "M13.842 13.842l3.536 3.536"
   }));
 };
-
 Search.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -373,18 +353,18 @@ Search.propTypes = {
   children: PropTypes.node
 };
 Search.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$8 = ["color", "size", "className"];
 var Close = function Close(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$8);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -398,7 +378,6 @@ var Close = function Close(props) {
     d: "M5 15L15 5"
   }));
 };
-
 Close.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -408,18 +387,18 @@ Close.propTypes = {
   children: PropTypes.node
 };
 Close.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$9 = ["color", "size", "className"];
 var Error = function Error(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$9);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -434,7 +413,6 @@ var Error = function Error(props) {
     fillOpacity: ".8"
   }));
 };
-
 Error.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -444,18 +422,18 @@ Error.propTypes = {
   children: PropTypes.node
 };
 Error.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$a = ["color", "size", "className"];
 var Check = function Check(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$a);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -470,7 +448,6 @@ var Check = function Check(props) {
     fillOpacity: ".8"
   }));
 };
-
 Check.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -480,18 +457,18 @@ Check.propTypes = {
   children: PropTypes.node
 };
 Check.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$b = ["color", "size", "className"];
 var Hidden = function Hidden(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$b);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -511,7 +488,6 @@ var Hidden = function Hidden(props) {
     d: "M7.053 13.22L7.916 10"
   }));
 };
-
 Hidden.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -521,18 +497,18 @@ Hidden.propTypes = {
   children: PropTypes.node
 };
 Hidden.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$c = ["color", "size", "className"];
 var Show = function Show(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$c);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -546,7 +522,6 @@ var Show = function Show(props) {
     d: "M10 12.083a2.083 2.083 0 100-4.166 2.083 2.083 0 000 4.166z"
   }));
 };
-
 Show.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -556,18 +531,18 @@ Show.propTypes = {
   children: PropTypes.node
 };
 Show.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$d = ["color", "size", "className"];
 var Loading = function Loading(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$d);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -596,7 +571,6 @@ var Loading = function Loading(props) {
     stopColor: "#C6CACD"
   }))));
 };
-
 Loading.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -606,18 +580,18 @@ Loading.propTypes = {
   children: PropTypes.node
 };
 Loading.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$e = ["color", "size", "className"];
 var Share = function Share(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$e);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -637,7 +611,6 @@ var Share = function Share(props) {
     d: "M14.583 13.333a2.083 2.083 0 110 4.167 2.083 2.083 0 010-4.167z"
   }));
 };
-
 Share.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -647,18 +620,18 @@ Share.propTypes = {
   children: PropTypes.node
 };
 Share.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$f = ["color", "size", "className"];
 var Begin = function Begin(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$f);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -670,7 +643,6 @@ var Begin = function Begin(props) {
     d: "M6 16V4l9 6-9 6z"
   }));
 };
-
 Begin.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -680,18 +652,18 @@ Begin.propTypes = {
   children: PropTypes.node
 };
 Begin.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$g = ["color", "size", "className"];
 var Export = function Export(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$g);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -707,7 +679,6 @@ var Export = function Export(props) {
     d: "M5 7.083l5-5 5 5"
   }));
 };
-
 Export.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -717,18 +688,18 @@ Export.propTypes = {
   children: PropTypes.node
 };
 Export.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$h = ["color", "size", "className"];
 var Download = function Download(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$h);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -745,7 +716,6 @@ var Download = function Download(props) {
     d: "M14.167 18.333H5.833"
   }));
 };
-
 Download.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -755,18 +725,18 @@ Download.propTypes = {
   children: PropTypes.node
 };
 Download.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$i = ["color", "size", "className"];
 var Refresh = function Refresh(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$i);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -784,7 +754,6 @@ var Refresh = function Refresh(props) {
     d: "M17.5 10A7.5 7.5 0 004.604 4.792"
   }));
 };
-
 Refresh.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -794,18 +763,18 @@ Refresh.propTypes = {
   children: PropTypes.node
 };
 Refresh.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$j = ["color", "size", "className"];
 var AddSheet = function AddSheet(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$j);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -823,7 +792,6 @@ var AddSheet = function AddSheet(props) {
     d: "M12.5 1.667v4.166h4.167"
   }));
 };
-
 AddSheet.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -833,18 +801,18 @@ AddSheet.propTypes = {
   children: PropTypes.node
 };
 AddSheet.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$k = ["color", "size", "className"];
 var Pin = function Pin(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$k);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -856,7 +824,6 @@ var Pin = function Pin(props) {
     d: "M4.457 7.293c1.1-1.099 2.406-1.069 3.826-.29l5.309-2.943-.3-2.065 4.713 4.714-2.061-.296-2.947 5.304c.743 1.516.809 2.727-.29 3.826l-3.242-3.24-6.78 5.012 4.998-6.796-3.226-3.226z"
   }));
 };
-
 Pin.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -866,18 +833,18 @@ Pin.propTypes = {
   children: PropTypes.node
 };
 Pin.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$l = ["color", "size", "className"];
 var Table = function Table(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$l);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -897,7 +864,6 @@ var Table = function Table(props) {
     d: "M2.5 12.5h15"
   }));
 };
-
 Table.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -907,18 +873,18 @@ Table.propTypes = {
   children: PropTypes.node
 };
 Table.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$m = ["color", "size", "className"];
 var Schema = function Schema(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$m);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -934,7 +900,6 @@ var Schema = function Schema(props) {
     d: "M5.833 2.917H17.5v5H5.833v-5z"
   }));
 };
-
 Schema.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -944,18 +909,18 @@ Schema.propTypes = {
   children: PropTypes.node
 };
 Schema.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$n = ["color", "size", "className"];
 var ExpandTop = function ExpandTop(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$n);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -975,7 +940,6 @@ var ExpandTop = function ExpandTop(props) {
     d: "M17.5 4.167v5"
   }));
 };
-
 ExpandTop.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -985,18 +949,18 @@ ExpandTop.propTypes = {
   children: PropTypes.node
 };
 ExpandTop.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$o = ["color", "size", "className"];
 var ExpandDown = function ExpandDown(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$o);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1016,7 +980,6 @@ var ExpandDown = function ExpandDown(props) {
     d: "M17.5 10.833v5"
   }));
 };
-
 ExpandDown.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1026,18 +989,18 @@ ExpandDown.propTypes = {
   children: PropTypes.node
 };
 ExpandDown.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$p = ["color", "size", "className"];
 var ExpandRight = function ExpandRight(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$p);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1057,7 +1020,6 @@ var ExpandRight = function ExpandRight(props) {
     d: "M10.833 17.5h5"
   }));
 };
-
 ExpandRight.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1067,18 +1029,18 @@ ExpandRight.propTypes = {
   children: PropTypes.node
 };
 ExpandRight.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$q = ["color", "size", "className"];
 var ExpandLeft = function ExpandLeft(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$q);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1098,7 +1060,6 @@ var ExpandLeft = function ExpandLeft(props) {
     d: "M13.333 8.333L11.667 10l1.666 1.667"
   }));
 };
-
 ExpandLeft.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1108,18 +1069,18 @@ ExpandLeft.propTypes = {
   children: PropTypes.node
 };
 ExpandLeft.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$r = ["color", "size", "className"];
 var Link = function Link(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$r);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1131,7 +1092,6 @@ var Link = function Link(props) {
     d: "M10.295 3.985l-6.188 6.188a3.75 3.75 0 005.304 5.303l7.365-7.366a2.5 2.5 0 00-3.535-3.535L5.875 11.94a1.25 1.25 0 001.768 1.768l6.187-6.187"
   }));
 };
-
 Link.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1141,18 +1101,18 @@ Link.propTypes = {
   children: PropTypes.node
 };
 Link.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$s = ["color", "size", "className"];
 var Help = function Help(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$s);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1171,7 +1131,6 @@ var Help = function Help(props) {
     fillOpacity: ".8"
   }));
 };
-
 Help.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1181,18 +1140,18 @@ Help.propTypes = {
   children: PropTypes.node
 };
 Help.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$t = ["color", "size", "className"];
 var More = function More(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$t);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1211,7 +1170,6 @@ var More = function More(props) {
     fillOpacity: ".8"
   }));
 };
-
 More.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1221,18 +1179,18 @@ More.propTypes = {
   children: PropTypes.node
 };
 More.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$u = ["color", "size", "className"];
 var String = function String(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$u);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1246,7 +1204,6 @@ var String = function String(props) {
     d: "M6 11h8"
   }));
 };
-
 String.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1256,18 +1213,18 @@ String.propTypes = {
   children: PropTypes.node
 };
 String.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$v = ["color", "size", "className"];
 var Number = function Number(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$v);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1295,7 +1252,6 @@ var Number = function Number(props) {
     d: "M8 5h9"
   }));
 };
-
 Number.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1305,18 +1261,18 @@ Number.propTypes = {
   children: PropTypes.node
 };
 Number.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$w = ["color", "size", "className"];
 var AddFolder = function AddFolder(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$w);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1332,7 +1288,6 @@ var AddFolder = function AddFolder(props) {
     d: "M10 7.75v5"
   }));
 };
-
 AddFolder.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1342,18 +1297,18 @@ AddFolder.propTypes = {
   children: PropTypes.node
 };
 AddFolder.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$x = ["color", "size", "className"];
 var Add = function Add(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$x);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1367,7 +1322,6 @@ var Add = function Add(props) {
     d: "M10 5v10"
   }));
 };
-
 Add.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1377,18 +1331,18 @@ Add.propTypes = {
   children: PropTypes.node
 };
 Add.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$y = ["color", "size", "className"];
 var WareHouse = function WareHouse(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$y);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1406,7 +1360,6 @@ var WareHouse = function WareHouse(props) {
     d: "M11.667 15.417h.833"
   }));
 };
-
 WareHouse.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1416,18 +1369,18 @@ WareHouse.propTypes = {
   children: PropTypes.node
 };
 WareHouse.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$z = ["color", "size", "className"];
 var Folder = function Folder(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$z);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1443,7 +1396,6 @@ var Folder = function Folder(props) {
     d: "M10.833 13.333h3.334"
   }));
 };
-
 Folder.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1453,18 +1405,18 @@ Folder.propTypes = {
   children: PropTypes.node
 };
 Folder.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$A = ["color", "size", "className"];
 var Switch = function Switch(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$A);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1484,7 +1436,6 @@ var Switch = function Switch(props) {
     fillOpacity: ".8"
   }));
 };
-
 Switch.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1494,18 +1445,18 @@ Switch.propTypes = {
   children: PropTypes.node
 };
 Switch.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$B = ["color", "size", "className"];
 var Book = function Book(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$B);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1520,7 +1471,6 @@ var Book = function Book(props) {
     d: "M5 18.333h11.667V15H5a1.667 1.667 0 000 3.333z"
   }));
 };
-
 Book.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1530,18 +1480,18 @@ Book.propTypes = {
   children: PropTypes.node
 };
 Book.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$C = ["color", "size", "className"];
 var Copy = function Copy(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$C);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1555,7 +1505,6 @@ var Copy = function Copy(props) {
     d: "M13.412 5.417H3.255c-.647 0-1.172.524-1.172 1.172v10.156c0 .647.525 1.172 1.172 1.172h10.157c.647 0 1.171-.525 1.171-1.172V6.589c0-.648-.524-1.172-1.171-1.172z"
   }));
 };
-
 Copy.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1565,18 +1514,18 @@ Copy.propTypes = {
   children: PropTypes.node
 };
 Copy.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$D = ["color", "size", "className"];
 var HamburgerButton = function HamburgerButton(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$D);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1592,7 +1541,6 @@ var HamburgerButton = function HamburgerButton(props) {
     d: "M3.312 14.98h13.334"
   }));
 };
-
 HamburgerButton.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1602,18 +1550,18 @@ HamburgerButton.propTypes = {
   children: PropTypes.node
 };
 HamburgerButton.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$E = ["color", "size", "className"];
 var CardShow = function CardShow(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$E);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1633,7 +1581,6 @@ var CardShow = function CardShow(props) {
     d: "M14.583 11.25H11.25v3.333h3.333V11.25z"
   }));
 };
-
 CardShow.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1643,18 +1590,18 @@ CardShow.propTypes = {
   children: PropTypes.node
 };
 CardShow.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$F = ["color", "size", "className"];
 var ListShow = function ListShow(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$F);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1678,7 +1625,6 @@ var ListShow = function ListShow(props) {
     d: "M5.25 6.8h1"
   }));
 };
-
 ListShow.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1688,18 +1634,18 @@ ListShow.propTypes = {
   children: PropTypes.node
 };
 ListShow.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$G = ["color", "size", "className"];
 var Smiling = function Smiling(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$G);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1717,7 +1663,6 @@ var Smiling = function Smiling(props) {
     d: "M7 7v1.667"
   }));
 };
-
 Smiling.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1727,18 +1672,18 @@ Smiling.propTypes = {
   children: PropTypes.node
 };
 Smiling.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$H = ["color", "size", "className"];
 var Delete = function Delete(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$H);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1757,7 +1702,6 @@ var Delete = function Delete(props) {
     d: "M7.917 14.583h4.166"
   }));
 };
-
 Delete.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1767,18 +1711,18 @@ Delete.propTypes = {
   children: PropTypes.node
 };
 Delete.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$I = ["color", "size", "className"];
 var Upload = function Upload(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$I);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1798,7 +1742,6 @@ var Upload = function Upload(props) {
     d: "M10 15.833v-5.64"
   }));
 };
-
 Upload.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1808,18 +1751,18 @@ Upload.propTypes = {
   children: PropTypes.node
 };
 Upload.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$J = ["color", "size", "className"];
 var Wallet = function Wallet(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$J);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1845,7 +1788,6 @@ var Wallet = function Wallet(props) {
     height: "20"
   }))));
 };
-
 Wallet.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1855,18 +1797,18 @@ Wallet.propTypes = {
   children: PropTypes.node
 };
 Wallet.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$K = ["color", "size", "className"];
 var Collaborators = function Collaborators(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$K);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1884,7 +1826,6 @@ var Collaborators = function Collaborators(props) {
     d: "M18.333 17.5V17c0-1.867 0-2.8-.363-3.513a3.333 3.333 0 00-1.457-1.457"
   }));
 };
-
 Collaborators.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1894,18 +1835,18 @@ Collaborators.propTypes = {
   children: PropTypes.node
 };
 Collaborators.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$L = ["color", "size", "className"];
 var Organization = function Organization(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$L);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1923,7 +1864,6 @@ var Organization = function Organization(props) {
     d: "M16.25 6.667v3.75"
   }));
 };
-
 Organization.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1933,18 +1873,18 @@ Organization.propTypes = {
   children: PropTypes.node
 };
 Organization.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$M = ["color", "size", "className"];
 var Analysis = function Analysis(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$M);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -1966,7 +1906,6 @@ var Analysis = function Analysis(props) {
     d: "M1.667 7.5v3.75"
   }));
 };
-
 Analysis.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -1976,18 +1915,18 @@ Analysis.propTypes = {
   children: PropTypes.node
 };
 Analysis.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$N = ["color", "size", "className"];
 var Reduction = function Reduction(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$N);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2003,7 +1942,6 @@ var Reduction = function Reduction(props) {
     fillOpacity: ".8"
   }));
 };
-
 Reduction.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2013,18 +1951,18 @@ Reduction.propTypes = {
   children: PropTypes.node
 };
 Reduction.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$O = ["color", "size", "className"];
 var Question = function Question(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$O);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2037,7 +1975,6 @@ var Question = function Question(props) {
     fillOpacity: ".8"
   }));
 };
-
 Question.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2047,18 +1984,18 @@ Question.propTypes = {
   children: PropTypes.node
 };
 Question.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$P = ["color", "size", "className"];
 var SqLuser = function SqLuser(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$P);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2082,7 +2019,6 @@ var SqLuser = function SqLuser(props) {
     d: "M18.333 18.333h-7.5a3.75 3.75 0 017.5 0z"
   }));
 };
-
 SqLuser.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2092,18 +2028,18 @@ SqLuser.propTypes = {
   children: PropTypes.node
 };
 SqLuser.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$Q = ["color", "size", "className"];
 var Suspended = function Suspended(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$Q);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2117,7 +2053,6 @@ var Suspended = function Suspended(props) {
     d: "M11.5 4.5h3v11h-3v-11z"
   }));
 };
-
 Suspended.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2127,18 +2062,18 @@ Suspended.propTypes = {
   children: PropTypes.node
 };
 Suspended.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$R = ["color", "size", "className"];
 var Dev = function Dev(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$R);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2152,7 +2087,6 @@ var Dev = function Dev(props) {
     d: "M7.53 16h7.764"
   }));
 };
-
 Dev.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2162,18 +2096,18 @@ Dev.propTypes = {
   children: PropTypes.node
 };
 Dev.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$S = ["color", "size", "className"];
 var Unlink = function Unlink(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$S);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2191,7 +2125,6 @@ var Unlink = function Unlink(props) {
     d: "M12.63 12.563l-1.62-1.62"
   }));
 };
-
 Unlink.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2201,18 +2134,18 @@ Unlink.propTypes = {
   children: PropTypes.node
 };
 Unlink.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$T = ["color", "size", "className"];
 var Calendar = function Calendar(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$T);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2238,7 +2171,6 @@ var Calendar = function Calendar(props) {
     d: "M5.833 10.833h2.5"
   }));
 };
-
 Calendar.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2248,18 +2180,18 @@ Calendar.propTypes = {
   children: PropTypes.node
 };
 Calendar.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$U = ["color", "size", "className"];
 var Time = function Time(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$U);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2273,7 +2205,6 @@ var Time = function Time(props) {
     d: "M10.004 5l-.001 5.004 3.533 3.533"
   }));
 };
-
 Time.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2283,18 +2214,18 @@ Time.propTypes = {
   children: PropTypes.node
 };
 Time.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$V = ["color", "size", "className"];
 var Chart = function Chart(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$V);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2310,7 +2241,6 @@ var Chart = function Chart(props) {
     d: "M12.917 10h2.5"
   }));
 };
-
 Chart.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2320,18 +2250,18 @@ Chart.propTypes = {
   children: PropTypes.node
 };
 Chart.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$W = ["color", "size", "className"];
 var Preferences = function Preferences(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$W);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2359,7 +2289,6 @@ var Preferences = function Preferences(props) {
     d: "M11.458 15.833H2.292"
   }));
 };
-
 Preferences.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2369,18 +2298,18 @@ Preferences.propTypes = {
   children: PropTypes.node
 };
 Preferences.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$X = ["color", "size", "className"];
 var Enter = function Enter(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$X);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2396,7 +2325,6 @@ var Enter = function Enter(props) {
     d: "M14.167 9.583v3.75H7.083"
   }));
 };
-
 Enter.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2406,18 +2334,18 @@ Enter.propTypes = {
   children: PropTypes.node
 };
 Enter.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$Y = ["color", "size", "className"];
 var Return = function Return(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$Y);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2431,7 +2359,6 @@ var Return = function Return(props) {
     d: "M2.5 5.833h9.58c2.869 0 5.304 2.342 5.416 5.209.118 3.029-2.385 5.625-5.415 5.625H4.999"
   }));
 };
-
 Return.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2441,18 +2368,18 @@ Return.propTypes = {
   children: PropTypes.node
 };
 Return.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$Z = ["color", "size", "className"];
 var Queryhistory = function Queryhistory(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$Z);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2472,7 +2399,6 @@ var Queryhistory = function Queryhistory(props) {
     d: "M5.833 10h3.334"
   }));
 };
-
 Queryhistory.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2482,18 +2408,18 @@ Queryhistory.propTypes = {
   children: PropTypes.node
 };
 Queryhistory.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$_ = ["color", "size", "className"];
 var Send = function Send(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$_);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2507,7 +2433,6 @@ var Send = function Send(props) {
     d: "M17.917 2.083l-8.709 8.709"
   }));
 };
-
 Send.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2517,18 +2442,18 @@ Send.propTypes = {
   children: PropTypes.node
 };
 Send.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$$ = ["color", "size", "className"];
 var ChartsScorecard = function ChartsScorecard(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$$);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2542,7 +2467,6 @@ var ChartsScorecard = function ChartsScorecard(props) {
     d: "M6.667 7.333L8 12.667l2-4.334 2 4.334 1.333-5.334"
   }));
 };
-
 ChartsScorecard.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2552,18 +2476,18 @@ ChartsScorecard.propTypes = {
   children: PropTypes.node
 };
 ChartsScorecard.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$10 = ["color", "size", "className"];
 var ChartsPie = function ChartsPie(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$10);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2577,7 +2501,6 @@ var ChartsPie = function ChartsPie(props) {
     d: "M16.361 8H12V3.639A6.682 6.682 0 0116.361 8z"
   }));
 };
-
 ChartsPie.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2587,18 +2510,18 @@ ChartsPie.propTypes = {
   children: PropTypes.node
 };
 ChartsPie.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$11 = ["color", "size", "className"];
 var ChartsPieDoughnut = function ChartsPieDoughnut(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$11);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2614,7 +2537,6 @@ var ChartsPieDoughnut = function ChartsPieDoughnut(props) {
     fillOpacity: ".8"
   }));
 };
-
 ChartsPieDoughnut.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2624,18 +2546,18 @@ ChartsPieDoughnut.propTypes = {
   children: PropTypes.node
 };
 ChartsPieDoughnut.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$12 = ["color", "size", "className"];
 var ChartsBar = function ChartsBar(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$12);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2653,7 +2575,6 @@ var ChartsBar = function ChartsBar(props) {
     d: "M15 5h-2v10h2V5z"
   }));
 };
-
 ChartsBar.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2663,18 +2584,18 @@ ChartsBar.propTypes = {
   children: PropTypes.node
 };
 ChartsBar.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$13 = ["color", "size", "className"];
 var ChartsBarVertical = function ChartsBarVertical(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$13);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2690,7 +2611,6 @@ var ChartsBarVertical = function ChartsBarVertical(props) {
     d: "M15 5h-2v10h2V5z"
   }));
 };
-
 ChartsBarVertical.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2700,18 +2620,18 @@ ChartsBarVertical.propTypes = {
   children: PropTypes.node
 };
 ChartsBarVertical.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$14 = ["color", "size", "className"];
 var ChartsBarHorizontal = function ChartsBarHorizontal(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$14);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2727,7 +2647,6 @@ var ChartsBarHorizontal = function ChartsBarHorizontal(props) {
     d: "M15 7V5H5v2h10z"
   }));
 };
-
 ChartsBarHorizontal.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2737,18 +2656,18 @@ ChartsBarHorizontal.propTypes = {
   children: PropTypes.node
 };
 ChartsBarHorizontal.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$15 = ["color", "size", "className"];
 var DataNum = function DataNum(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$15);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2767,7 +2686,6 @@ var DataNum = function DataNum(props) {
     fillOpacity: ".8"
   }));
 };
-
 DataNum.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2777,18 +2695,18 @@ DataNum.propTypes = {
   children: PropTypes.node
 };
 DataNum.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$16 = ["color", "size", "className"];
 var ChartsLine = function ChartsLine(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$16);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2802,7 +2720,6 @@ var ChartsLine = function ChartsLine(props) {
     d: "M6.111 13.889l3.111-6.222 3.89 3.5L17 3"
   }));
 };
-
 ChartsLine.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2812,18 +2729,18 @@ ChartsLine.propTypes = {
   children: PropTypes.node
 };
 ChartsLine.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$17 = ["color", "size", "className"];
 var DataString = function DataString(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$17);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2842,7 +2759,6 @@ var DataString = function DataString(props) {
     fillOpacity: ".8"
   }));
 };
-
 DataString.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2852,18 +2768,18 @@ DataString.propTypes = {
   children: PropTypes.node
 };
 DataString.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$18 = ["color", "size", "className"];
 var DataTime = function DataTime(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$18);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2879,7 +2795,6 @@ var DataTime = function DataTime(props) {
     r: "5.5"
   }));
 };
-
 DataTime.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2889,18 +2804,18 @@ DataTime.propTypes = {
   children: PropTypes.node
 };
 DataTime.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$19 = ["color", "size", "className"];
 var DataBool = function DataBool(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$19);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2919,7 +2834,6 @@ var DataBool = function DataBool(props) {
     fillOpacity: ".8"
   }));
 };
-
 DataBool.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2929,18 +2843,18 @@ DataBool.propTypes = {
   children: PropTypes.node
 };
 DataBool.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1a = ["color", "size", "className"];
 var DataVariant = function DataVariant(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1a);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2959,7 +2873,6 @@ var DataVariant = function DataVariant(props) {
     fillOpacity: ".8"
   }));
 };
-
 DataVariant.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -2969,18 +2882,18 @@ DataVariant.propTypes = {
   children: PropTypes.node
 };
 DataVariant.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1b = ["color", "size", "className"];
 var Mail = function Mail(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1b);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -2998,7 +2911,6 @@ var Mail = function Mail(props) {
     d: "M16.667 10V5H10"
   }));
 };
-
 Mail.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3008,18 +2920,18 @@ Mail.propTypes = {
   children: PropTypes.node
 };
 Mail.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1c = ["color", "size", "className"];
 var Markdown = function Markdown(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1c);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3032,7 +2944,6 @@ var Markdown = function Markdown(props) {
     fillOpacity: ".8"
   }));
 };
-
 Markdown.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3042,18 +2953,18 @@ Markdown.propTypes = {
   children: PropTypes.node
 };
 Markdown.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1d = ["color", "size", "className"];
 var Label = function Label(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1d);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3067,7 +2978,6 @@ var Label = function Label(props) {
     d: "M15 3.333H5v4h10v-4z"
   }));
 };
-
 Label.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3077,18 +2987,18 @@ Label.propTypes = {
   children: PropTypes.node
 };
 Label.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1e = ["color", "size", "className"];
 var Column = function Column(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1e);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3108,7 +3018,6 @@ var Column = function Column(props) {
     height: "5"
   }));
 };
-
 Column.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3118,18 +3027,18 @@ Column.propTypes = {
   children: PropTypes.node
 };
 Column.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1f = ["color", "size", "className"];
 var Row = function Row(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1f);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3149,7 +3058,6 @@ var Row = function Row(props) {
     height: "4"
   }));
 };
-
 Row.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3159,18 +3067,18 @@ Row.propTypes = {
   children: PropTypes.node
 };
 Row.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1g = ["color", "size", "className"];
 var Stereo = function Stereo(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1g);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3194,7 +3102,6 @@ var Stereo = function Stereo(props) {
     d: "M6.5 13.5H17"
   }));
 };
-
 Stereo.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3204,18 +3111,18 @@ Stereo.propTypes = {
   children: PropTypes.node
 };
 Stereo.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1h = ["color", "size", "className"];
 var Person = function Person(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1h);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3229,7 +3136,6 @@ var Person = function Person(props) {
     d: "M16 16.667a6 6 0 00-12 0"
   }));
 };
-
 Person.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3239,18 +3145,18 @@ Person.propTypes = {
   children: PropTypes.node
 };
 Person.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1i = ["color", "size", "className"];
 var FullScreen = function FullScreen(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1i);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3272,7 +3178,6 @@ var FullScreen = function FullScreen(props) {
     d: "M8.333 11.667L4 16"
   }));
 };
-
 FullScreen.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3282,18 +3187,18 @@ FullScreen.propTypes = {
   children: PropTypes.node
 };
 FullScreen.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1j = ["color", "size", "className"];
 var OffScreen = function OffScreen(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1j);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3311,7 +3216,6 @@ var OffScreen = function OffScreen(props) {
     d: "M13 16v-3h2.966"
   }));
 };
-
 OffScreen.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3321,18 +3225,18 @@ OffScreen.propTypes = {
   children: PropTypes.node
 };
 OffScreen.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1k = ["color", "size", "className"];
 var Comma = function Comma(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1k);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3345,7 +3249,6 @@ var Comma = function Comma(props) {
     fillOpacity: ".8"
   }));
 };
-
 Comma.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3355,18 +3258,18 @@ Comma.propTypes = {
   children: PropTypes.node
 };
 Comma.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1l = ["color", "size", "className"];
 var Percent = function Percent(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1l);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3379,7 +3282,6 @@ var Percent = function Percent(props) {
     fillOpacity: ".8"
   }));
 };
-
 Percent.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3389,18 +3291,18 @@ Percent.propTypes = {
   children: PropTypes.node
 };
 Percent.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1m = ["color", "size", "className"];
 var Applications = function Applications(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1m);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3420,7 +3322,6 @@ var Applications = function Applications(props) {
     d: "M13 9.667v2"
   }));
 };
-
 Applications.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3430,18 +3331,18 @@ Applications.propTypes = {
   children: PropTypes.node
 };
 Applications.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1n = ["color", "size", "className"];
 var Activity = function Activity(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1n);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3453,7 +3354,6 @@ var Activity = function Activity(props) {
     d: "M3 9.452h3L8.296 3l3.667 13.333 2.704-6.881h3"
   }));
 };
-
 Activity.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3463,18 +3363,18 @@ Activity.propTypes = {
   children: PropTypes.node
 };
 Activity.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1o = ["color", "size", "className"];
 var Recent = function Recent(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1o);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3492,7 +3392,6 @@ var Recent = function Recent(props) {
     d: "M9.667 7.667h4.663c1.106 0 2.003.895 2.003 2 0 1.104-.897 2-2.003 2h-.641"
   }));
 };
-
 Recent.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3502,18 +3401,18 @@ Recent.propTypes = {
   children: PropTypes.node
 };
 Recent.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1p = ["color", "size", "className"];
 var Myworksheet = function Myworksheet(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1p);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3531,7 +3430,6 @@ var Myworksheet = function Myworksheet(props) {
     d: "M12 3.333v3.334h3.333"
   }));
 };
-
 Myworksheet.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3541,18 +3439,18 @@ Myworksheet.propTypes = {
   children: PropTypes.node
 };
 Myworksheet.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1q = ["color", "size", "className"];
 var Getstart = function Getstart(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1q);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3572,7 +3470,6 @@ var Getstart = function Getstart(props) {
     d: "M3 16.333c1.333 0 1.333-.666 2.333-.666 1 0 1 .666 2 .666s1.167-.666 2.334-.666c1.166 0 1.333.666 2.333.666 1 0 1-.666 2-.666s1 .666 2.333.666"
   }));
 };
-
 Getstart.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3582,18 +3479,18 @@ Getstart.propTypes = {
   children: PropTypes.node
 };
 Getstart.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1r = ["color", "size", "className"];
 var Folderopen = function Folderopen(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1r);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3607,7 +3504,6 @@ var Folderopen = function Folderopen(props) {
     d: "M15.333 15.667L16.667 9H4.937l-1.604 6.667h12z"
   }));
 };
-
 Folderopen.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3617,18 +3513,18 @@ Folderopen.propTypes = {
   children: PropTypes.node
 };
 Folderopen.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1s = ["color", "size", "className"];
 var Filescode = function Filescode(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1s);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3646,7 +3542,6 @@ var Filescode = function Filescode(props) {
     d: "M11.333 3v3.333h3.334"
   }));
 };
-
 Filescode.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3656,18 +3551,18 @@ Filescode.propTypes = {
   children: PropTypes.node
 };
 Filescode.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1t = ["color", "size", "className"];
 var Terminal = function Terminal(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1t);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3683,7 +3578,6 @@ var Terminal = function Terminal(props) {
     d: "M9.667 12.667H14"
   }));
 };
-
 Terminal.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3693,18 +3587,18 @@ Terminal.propTypes = {
   children: PropTypes.node
 };
 Terminal.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1u = ["color", "size", "className"];
 var Tickets = function Tickets(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1u);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3724,7 +3618,6 @@ var Tickets = function Tickets(props) {
     d: "M10.333 11H14"
   }));
 };
-
 Tickets.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3734,18 +3627,18 @@ Tickets.propTypes = {
   children: PropTypes.node
 };
 Tickets.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1v = ["color", "size", "className"];
 var Level = function Level(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1v);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3759,7 +3652,6 @@ var Level = function Level(props) {
     d: "M12.667 8L10 11 7.333 8"
   }));
 };
-
 Level.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3769,18 +3661,18 @@ Level.propTypes = {
   children: PropTypes.node
 };
 Level.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1w = ["color", "size", "className"];
 var ChartsBarStacked = function ChartsBarStacked(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1w);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3802,7 +3694,6 @@ var ChartsBarStacked = function ChartsBarStacked(props) {
     d: "M15 5h-2v8h2V5z"
   }));
 };
-
 ChartsBarStacked.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3812,18 +3703,18 @@ ChartsBarStacked.propTypes = {
   children: PropTypes.node
 };
 ChartsBarStacked.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1x = ["color", "size", "className"];
 var Credentials = function Credentials(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1x);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3843,7 +3734,6 @@ var Credentials = function Credentials(props) {
     d: "M10 9.875v-.917"
   }));
 };
-
 Credentials.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3853,18 +3743,18 @@ Credentials.propTypes = {
   children: PropTypes.node
 };
 Credentials.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1y = ["color", "size", "className"];
 var Coupon = function Coupon(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1y);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3882,7 +3772,6 @@ var Coupon = function Coupon(props) {
     d: "M7.55 12.885h4.9"
   }));
 };
-
 Coupon.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3892,18 +3781,18 @@ Coupon.propTypes = {
   children: PropTypes.node
 };
 Coupon.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1z = ["color", "size", "className"];
 var ThumbsUp = function ThumbsUp(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1z);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3917,7 +3806,6 @@ var ThumbsUp = function ThumbsUp(props) {
     d: "M6.496 9.215H4.629C3.81 9.201 3.11 9.88 3 10.691v4.894c.11.812.81 1.413 1.63 1.399h1.866V9.215z"
   }));
 };
-
 ThumbsUp.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3927,18 +3815,18 @@ ThumbsUp.propTypes = {
   children: PropTypes.node
 };
 ThumbsUp.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1A = ["color", "size", "className"];
 var ThumbsDown = function ThumbsDown(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1A);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3952,7 +3840,6 @@ var ThumbsDown = function ThumbsDown(props) {
     d: "M13.504 3h1.867c.819-.014 1.52.587 1.629 1.399v4.894c-.11.812-.81 1.49-1.63 1.476h-1.866V3z"
   }));
 };
-
 ThumbsDown.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3962,18 +3849,18 @@ ThumbsDown.propTypes = {
   children: PropTypes.node
 };
 ThumbsDown.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1B = ["color", "size", "className"];
 var Pencil = function Pencil(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1B);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -3987,7 +3874,6 @@ var Pencil = function Pencil(props) {
     d: "M11 6l3 3"
   }));
 };
-
 Pencil.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -3997,18 +3883,18 @@ Pencil.propTypes = {
   children: PropTypes.node
 };
 Pencil.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1C = ["color", "size", "className"];
 var DocTitle = function DocTitle(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1C);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4028,7 +3914,6 @@ var DocTitle = function DocTitle(props) {
     d: "M13.111 12.954c0-.998.778-1.954 1.945-1.954 1.166 0 1.944.917 1.944 1.954v3.496"
   }));
 };
-
 DocTitle.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4038,18 +3923,18 @@ DocTitle.propTypes = {
   children: PropTypes.node
 };
 DocTitle.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1D = ["color", "size", "className"];
 var DocParagraph = function DocParagraph(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1D);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4071,7 +3956,6 @@ var DocParagraph = function DocParagraph(props) {
     d: "M4 8.333l.333-.666m3 .666L7 7.667m-2.667 0L5.667 5 7 7.667m-2.667 0H7"
   }));
 };
-
 DocParagraph.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4081,18 +3965,18 @@ DocParagraph.propTypes = {
   children: PropTypes.node
 };
 DocParagraph.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1E = ["color", "size", "className"];
 var DocPage = function DocPage(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1E);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4110,7 +3994,6 @@ var DocPage = function DocPage(props) {
     d: "M7.8 6.5H12"
   }));
 };
-
 DocPage.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4120,18 +4003,18 @@ DocPage.propTypes = {
   children: PropTypes.node
 };
 DocPage.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1F = ["color", "size", "className"];
 var RecordDelimiter = function RecordDelimiter(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1F);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4155,7 +4038,6 @@ var RecordDelimiter = function RecordDelimiter(props) {
     d: "M14.79 5H17"
   }));
 };
-
 RecordDelimiter.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4165,18 +4047,18 @@ RecordDelimiter.propTypes = {
   children: PropTypes.node
 };
 RecordDelimiter.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1G = ["color", "size", "className"];
 var FieldDelimiter = function FieldDelimiter(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1G);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4194,7 +4076,6 @@ var FieldDelimiter = function FieldDelimiter(props) {
     d: "M6.8 13.15h9.8"
   }));
 };
-
 FieldDelimiter.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4204,18 +4085,18 @@ FieldDelimiter.propTypes = {
   children: PropTypes.node
 };
 FieldDelimiter.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1H = ["color", "size", "className"];
 var SkipHeader = function SkipHeader(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1H);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4229,7 +4110,6 @@ var SkipHeader = function SkipHeader(props) {
     d: "M3 8.2h14"
   }));
 };
-
 SkipHeader.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4239,18 +4119,18 @@ SkipHeader.propTypes = {
   children: PropTypes.node
 };
 SkipHeader.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1I = ["color", "size", "className"];
 var Locked = function Locked(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1I);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4266,7 +4146,6 @@ var Locked = function Locked(props) {
     d: "M10.3 12.1v2.1"
   }));
 };
-
 Locked.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4276,18 +4155,18 @@ Locked.propTypes = {
   children: PropTypes.node
 };
 Locked.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1J = ["color", "size", "className"];
 var Ueue = function Ueue(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1J);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4337,7 +4216,6 @@ var Ueue = function Ueue(props) {
     d: "M17 3h-.389"
   }));
 };
-
 Ueue.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4347,18 +4225,18 @@ Ueue.propTypes = {
   children: PropTypes.node
 };
 Ueue.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1K = ["color", "size", "className"];
 var Right = function Right(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1K);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4370,7 +4248,6 @@ var Right = function Right(props) {
     d: "M7.917 5l5 5-5 5"
   }));
 };
-
 Right.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4380,18 +4257,18 @@ Right.propTypes = {
   children: PropTypes.node
 };
 Right.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1L = ["color", "size", "className"];
 var Down = function Down(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1L);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4403,7 +4280,6 @@ var Down = function Down(props) {
     d: "M15 8l-5 5-5-5"
   }));
 };
-
 Down.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4413,18 +4289,18 @@ Down.propTypes = {
   children: PropTypes.node
 };
 Down.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1M = ["color", "size", "className"];
 var Up = function Up(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1M);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4436,7 +4312,6 @@ var Up = function Up(props) {
     d: "M5 12l5-5 5 5"
   }));
 };
-
 Up.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4446,18 +4321,18 @@ Up.propTypes = {
   children: PropTypes.node
 };
 Up.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1N = ["color", "size", "className"];
 var Left = function Left(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1N);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4469,7 +4344,6 @@ var Left = function Left(props) {
     d: "M11.5 14.5l-5-5 5-5"
   }));
 };
-
 Left.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4479,18 +4353,18 @@ Left.propTypes = {
   children: PropTypes.node
 };
 Left.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1O = ["color", "size", "className"];
 var ArrowLeft = function ArrowLeft(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1O);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4504,7 +4378,6 @@ var ArrowLeft = function ArrowLeft(props) {
     d: "M10 5l-5 5 5 5"
   }));
 };
-
 ArrowLeft.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4514,18 +4387,18 @@ ArrowLeft.propTypes = {
   children: PropTypes.node
 };
 ArrowLeft.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1P = ["color", "size", "className"];
 var ArrowRight = function ArrowRight(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1P);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4539,7 +4412,6 @@ var ArrowRight = function ArrowRight(props) {
     d: "M10 15l5-5-5-5"
   }));
 };
-
 ArrowRight.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4549,18 +4421,18 @@ ArrowRight.propTypes = {
   children: PropTypes.node
 };
 ArrowRight.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1Q = ["color", "size", "className"];
 var ArrowTop = function ArrowTop(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1Q);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4574,7 +4446,6 @@ var ArrowTop = function ArrowTop(props) {
     d: "M9.997 5v10"
   }));
 };
-
 ArrowTop.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4584,18 +4455,18 @@ ArrowTop.propTypes = {
   children: PropTypes.node
 };
 ArrowTop.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1R = ["color", "size", "className"];
 var ArrowDown = function ArrowDown(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1R);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4609,7 +4480,6 @@ var ArrowDown = function ArrowDown(props) {
     d: "M10.003 15V5"
   }));
 };
-
 ArrowDown.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4619,18 +4489,18 @@ ArrowDown.propTypes = {
   children: PropTypes.node
 };
 ArrowDown.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1S = ["color", "size", "className"];
 var SortUp = function SortUp(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1S);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4652,7 +4522,6 @@ var SortUp = function SortUp(props) {
     d: "M9.583 16.25h3.334"
   }));
 };
-
 SortUp.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4662,18 +4531,18 @@ SortUp.propTypes = {
   children: PropTypes.node
 };
 SortUp.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1T = ["color", "size", "className"];
 var SortDown = function SortDown(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1T);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4695,7 +4564,6 @@ var SortDown = function SortDown(props) {
     d: "M9.583 15.833h3.334"
   }));
 };
-
 SortDown.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4705,18 +4573,18 @@ SortDown.propTypes = {
   children: PropTypes.node
 };
 SortDown.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1U = ["color", "size", "className"];
 var TriangleRight = function TriangleRight(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1U);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4729,7 +4597,6 @@ var TriangleRight = function TriangleRight(props) {
     fillOpacity: ".8"
   }));
 };
-
 TriangleRight.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4739,18 +4606,18 @@ TriangleRight.propTypes = {
   children: PropTypes.node
 };
 TriangleRight.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1V = ["color", "size", "className"];
 var TriangleDown = function TriangleDown(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1V);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4763,7 +4630,6 @@ var TriangleDown = function TriangleDown(props) {
     fillOpacity: ".8"
   }));
 };
-
 TriangleDown.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4773,18 +4639,18 @@ TriangleDown.propTypes = {
   children: PropTypes.node
 };
 TriangleDown.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1W = ["color", "size", "className"];
 var LoadingSpin = function LoadingSpin(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1W);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4813,7 +4679,6 @@ var LoadingSpin = function LoadingSpin(props) {
     stopColor: "#C6CACD"
   }))));
 };
-
 LoadingSpin.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4823,18 +4688,18 @@ LoadingSpin.propTypes = {
   children: PropTypes.node
 };
 LoadingSpin.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1X = ["color", "size", "className"];
 var Github = function Github(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1X);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4849,7 +4714,6 @@ var Github = function Github(props) {
     fillOpacity: ".8"
   }));
 };
-
 Github.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4859,18 +4723,18 @@ Github.propTypes = {
   children: PropTypes.node
 };
 Github.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1Y = ["color", "size", "className"];
 var Aws = function Aws(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1Y);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4883,7 +4747,6 @@ var Aws = function Aws(props) {
     fillOpacity: ".8"
   }));
 };
-
 Aws.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4893,18 +4756,18 @@ Aws.propTypes = {
   children: PropTypes.node
 };
 Aws.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1Z = ["color", "size", "className"];
 var Google = function Google(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1Z);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4932,7 +4795,6 @@ var Google = function Google(props) {
     fillOpacity: ".8"
   }));
 };
-
 Google.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4942,18 +4804,18 @@ Google.propTypes = {
   children: PropTypes.node
 };
 Google.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1_ = ["color", "size", "className"];
 var Twitter = function Twitter(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1_);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4966,7 +4828,6 @@ var Twitter = function Twitter(props) {
     fillOpacity: ".8"
   }));
 };
-
 Twitter.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -4976,18 +4837,18 @@ Twitter.propTypes = {
   children: PropTypes.node
 };
 Twitter.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$1$ = ["color", "size", "className"];
 var Slack = function Slack(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1$);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -5016,7 +4877,6 @@ var Slack = function Slack(props) {
     transform: "translate(2 2)"
   }))));
 };
-
 Slack.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -5026,18 +4886,18 @@ Slack.propTypes = {
   children: PropTypes.node
 };
 Slack.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$20 = ["color", "size", "className"];
 var Wechat = function Wechat(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$20);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -5050,7 +4910,6 @@ var Wechat = function Wechat(props) {
     fillOpacity: ".8"
   }));
 };
-
 Wechat.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -5060,18 +4919,18 @@ Wechat.propTypes = {
   children: PropTypes.node
 };
 Wechat.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
 };
 
+var _excluded$21 = ["color", "size", "className"];
 var Youtube = function Youtube(props) {
   var color = props.color,
-      size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
-
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$21);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -5086,7 +4945,6 @@ var Youtube = function Youtube(props) {
     fillOpacity: ".8"
   }));
 };
-
 Youtube.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -5096,7 +4954,7 @@ Youtube.propTypes = {
   children: PropTypes.node
 };
 Youtube.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
