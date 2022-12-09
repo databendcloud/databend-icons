@@ -31,11 +31,12 @@ class List extends React.Component {
                   <IconWrapper>
                     <Space size={30} align="center" direction="vertical">
                       <Tooltip title="点击复制svg">
-                        <Icon onClick={()=> console.log(Icon(), Icon, 'Icon')}/>
+                        <Icon size={30} onClick={()=> console.log(Icon(), Icon, 'Icon')}/>
                       </Tooltip>
                       <Space size={12}>
                         <span>{key}</span>
                         <span onClick={() => {
+                          message.destroy();
                           message.success('已复制')
                           copyToClipboard(key)
                         }}>
