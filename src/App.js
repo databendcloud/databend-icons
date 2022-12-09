@@ -33,6 +33,7 @@ class List extends React.Component {
                   style={{
                     marginBottom: '24px',
                     padding: '12px',
+                    borderRadius: '6px',
                     boxShadow: '0px 0px 1px rgba(0, 0, 0, 0.3), 0px 4px 6px rgba(0, 0, 0, 0.1)'
                   }}
                   key={index}>
