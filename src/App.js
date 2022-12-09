@@ -4,7 +4,7 @@ import * as icons from './icons'
 import Header from './components/Header'
 import IconWrapper from './components/IconWrapper'
 import { copyToClipboard } from 'copyforjs';
-import { Tooltip, Space } from 'antd';
+import { Tooltip, Space, message } from 'antd';
 
 const Container = styled.ul`
   display: grid;
@@ -29,13 +29,16 @@ class List extends React.Component {
                 const Copy = icons['Copy']
                 return <li key={index}>
                   <IconWrapper>
-                    <Space size={30} direction="vertical">
+                    <Space size={30} align="center" direction="vertical">
                       <Tooltip title="点击复制svg">
-                        <Icon onClick={()=> console.log(Icon(), 'Icon')}/>
+                        <Icon onClick={()=> console.log(Icon(), Icon, 'Icon')}/>
                       </Tooltip>
                       <Space size={12}>
                         <span>{key}</span>
-                        <span style={{marginLeft: '10px'}} onDoubleClick={() => copyToClipboard(key)}>
+                        <span style={{marginLeft: '10px'}} onClick={() => {
+                          message.success('已复制')
+                          copyToClipboard(key)
+                        }}>
                           <Tooltip title="点击复制名称">
                             <Copy></Copy>
                           </Tooltip>
