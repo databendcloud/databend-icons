@@ -29,19 +29,19 @@ class List extends React.Component {
                 const Copy = icons['Copy']
                 return <li key={index}>
                   <IconWrapper>
-                    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+                    <Space size={30} direction="vertical">
                       <Tooltip title="点击复制svg">
-                        <Icon onClick={()=> console.log(Icon, 'Icon')}/>
+                        <Icon onClick={()=> console.log(Icon(), 'Icon')}/>
                       </Tooltip>
-                      <span>
-                        {key}
+                      <Space size={12}>
+                        <span>{key}</span>
                         <span style={{marginLeft: '10px'}} onDoubleClick={() => copyToClipboard(key)}>
                           <Tooltip title="点击复制名称">
                             <Copy></Copy>
                           </Tooltip>
                         </span>
-                      </span>
-                      </div>
+                      </Space>
+                      </Space>
                   </IconWrapper>
                 </li>
               })
