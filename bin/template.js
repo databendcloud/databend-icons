@@ -28,7 +28,7 @@ const getElementCode = (ComponentName, attrs, svgCode) => `
   const ${ComponentName} = (props) => {
     const { color, size, ...otherProps } = props;
     return (
-      <svg className="icon default" ${attrs}>
+      <svg class="icon default" ${attrs}>
         ${svgCode}
       </svg>
     )
