@@ -6,7 +6,6 @@ import IconWrapper from './components/IconWrapper'
 import { copyToClipboard } from 'copyforjs';
 import { Tooltip, Space, message } from 'antd';
 
-console.log(require('./svg/Activity.svg'))
 
 const Container = styled.ul`
   display: grid;
