@@ -24,7 +24,5 @@ Tips: This css is just an example, You're free to play
   .icon.default:has(path[fill-rule="evenodd"]:not(:last-child)) {
      fill: rgb(1, 14, 41);
   }
-    
- This css is just an example, You're free to play
 ```
 
