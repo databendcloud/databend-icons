@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { copyToClipboard } from 'copyforjs';
-import Tooltip from 'antd';
+import { Tooltip } from 'antd';
 
 const IconWrapper = styled.a`
   display: flex;
