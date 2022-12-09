@@ -3,6 +3,8 @@ import styled from 'styled-components'
 import * as icons from './icons'
 import Header from './components/Header'
 import IconWrapper from './components/IconWrapper'
+import { copyToClipboard } from 'copyforjs';
+import { Tooltip } from 'antd';
 
 const Container = styled.ul`
   display: grid;
@@ -24,10 +26,22 @@ class List extends React.Component {
             Object.keys(icons)
               .map((key, index) => {
                 const Icon = icons[key]
+                const Copy = icons['Copy']
                 return <li key={index}>
                   <IconWrapper>
-                    <Icon/>
-                    <span onDoubleClick={() => handleCopyIcon(key)}>{key}</span>
+                    <div style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center'}}>
+                      <Tooltip title="点击复制svg">
+                        <Icon onClick={()=> console.log(Icon, 'Icon')}/>
+                      </Tooltip>
+                      <span>
+                        {key}
+                        <span style={{marginLeft: '10px'}} onDoubleClick={() => copyToClipboard(key)}>
+                          <Tooltip title="点击复制名称">
+                            <Copy></Copy>
+                          </Tooltip>
+                        </span>
+                      </span>
+                      </div>
                   </IconWrapper>
                 </li>
               })
@@ -36,19 +50,6 @@ class List extends React.Component {
       </div>
     )
   }
-}
-
-// copy icon
-function handleCopyIcon(str) {
-  const el = document.createElement('textarea');
-  el.value = str;
-  el.setAttribute('readonly', '');
-  el.style.position = 'absolute';
-  el.style.left = '-9999px';
-  document.body.appendChild(el);
-  el.select();
-  document.execCommand('copy');
-  document.body.removeChild(el);
 }
 
 export default List;
