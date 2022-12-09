@@ -29,7 +29,7 @@ Reduction.propTypes = {
 };
 
 Reduction.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}

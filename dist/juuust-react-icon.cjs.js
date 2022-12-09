@@ -95,7 +95,7 @@ Dashboard.propTypes = {
   children: PropTypes.node
 };
 Dashboard.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -136,7 +136,7 @@ Worksheet.propTypes = {
   children: PropTypes.node
 };
 Worksheet.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -175,7 +175,7 @@ Data.propTypes = {
   children: PropTypes.node
 };
 Data.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -219,7 +219,7 @@ Support.propTypes = {
   children: PropTypes.node
 };
 Support.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -262,7 +262,7 @@ Compute.propTypes = {
   children: PropTypes.node
 };
 Compute.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -297,7 +297,7 @@ Setting.propTypes = {
   children: PropTypes.node
 };
 Setting.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -336,7 +336,7 @@ Notifications.propTypes = {
   children: PropTypes.node
 };
 Notifications.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -373,7 +373,7 @@ Search.propTypes = {
   children: PropTypes.node
 };
 Search.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -408,7 +408,7 @@ Close.propTypes = {
   children: PropTypes.node
 };
 Close.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -444,7 +444,7 @@ Error.propTypes = {
   children: PropTypes.node
 };
 Error.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -480,7 +480,7 @@ Check.propTypes = {
   children: PropTypes.node
 };
 Check.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -521,7 +521,7 @@ Hidden.propTypes = {
   children: PropTypes.node
 };
 Hidden.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -556,7 +556,7 @@ Show.propTypes = {
   children: PropTypes.node
 };
 Show.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -606,7 +606,7 @@ Loading.propTypes = {
   children: PropTypes.node
 };
 Loading.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -647,7 +647,7 @@ Share.propTypes = {
   children: PropTypes.node
 };
 Share.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -680,7 +680,7 @@ Begin.propTypes = {
   children: PropTypes.node
 };
 Begin.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -717,7 +717,7 @@ Export.propTypes = {
   children: PropTypes.node
 };
 Export.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -755,7 +755,7 @@ Download.propTypes = {
   children: PropTypes.node
 };
 Download.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -794,7 +794,7 @@ Refresh.propTypes = {
   children: PropTypes.node
 };
 Refresh.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -833,7 +833,7 @@ AddSheet.propTypes = {
   children: PropTypes.node
 };
 AddSheet.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -866,7 +866,7 @@ Pin.propTypes = {
   children: PropTypes.node
 };
 Pin.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -907,7 +907,7 @@ Table.propTypes = {
   children: PropTypes.node
 };
 Table.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -944,7 +944,7 @@ Schema.propTypes = {
   children: PropTypes.node
 };
 Schema.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -985,7 +985,7 @@ ExpandTop.propTypes = {
   children: PropTypes.node
 };
 ExpandTop.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1026,7 +1026,7 @@ ExpandDown.propTypes = {
   children: PropTypes.node
 };
 ExpandDown.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1067,7 +1067,7 @@ ExpandRight.propTypes = {
   children: PropTypes.node
 };
 ExpandRight.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1108,7 +1108,7 @@ ExpandLeft.propTypes = {
   children: PropTypes.node
 };
 ExpandLeft.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1141,7 +1141,7 @@ Link.propTypes = {
   children: PropTypes.node
 };
 Link.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1181,7 +1181,7 @@ Help.propTypes = {
   children: PropTypes.node
 };
 Help.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1221,7 +1221,7 @@ More.propTypes = {
   children: PropTypes.node
 };
 More.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1256,7 +1256,7 @@ String.propTypes = {
   children: PropTypes.node
 };
 String.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1305,7 +1305,7 @@ Number.propTypes = {
   children: PropTypes.node
 };
 Number.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1342,7 +1342,7 @@ AddFolder.propTypes = {
   children: PropTypes.node
 };
 AddFolder.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1377,7 +1377,7 @@ Add.propTypes = {
   children: PropTypes.node
 };
 Add.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1416,7 +1416,7 @@ WareHouse.propTypes = {
   children: PropTypes.node
 };
 WareHouse.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1453,7 +1453,7 @@ Folder.propTypes = {
   children: PropTypes.node
 };
 Folder.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1494,7 +1494,7 @@ Switch.propTypes = {
   children: PropTypes.node
 };
 Switch.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1530,7 +1530,7 @@ Book.propTypes = {
   children: PropTypes.node
 };
 Book.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1565,7 +1565,7 @@ Copy.propTypes = {
   children: PropTypes.node
 };
 Copy.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1602,7 +1602,7 @@ HamburgerButton.propTypes = {
   children: PropTypes.node
 };
 HamburgerButton.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1643,7 +1643,7 @@ CardShow.propTypes = {
   children: PropTypes.node
 };
 CardShow.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1688,7 +1688,7 @@ ListShow.propTypes = {
   children: PropTypes.node
 };
 ListShow.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1727,7 +1727,7 @@ Smiling.propTypes = {
   children: PropTypes.node
 };
 Smiling.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1767,7 +1767,7 @@ Delete.propTypes = {
   children: PropTypes.node
 };
 Delete.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1808,7 +1808,7 @@ Upload.propTypes = {
   children: PropTypes.node
 };
 Upload.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1855,7 +1855,7 @@ Wallet.propTypes = {
   children: PropTypes.node
 };
 Wallet.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1894,7 +1894,7 @@ Collaborators.propTypes = {
   children: PropTypes.node
 };
 Collaborators.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1933,7 +1933,7 @@ Organization.propTypes = {
   children: PropTypes.node
 };
 Organization.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -1976,7 +1976,7 @@ Analysis.propTypes = {
   children: PropTypes.node
 };
 Analysis.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2013,7 +2013,7 @@ Reduction.propTypes = {
   children: PropTypes.node
 };
 Reduction.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2047,7 +2047,7 @@ Question.propTypes = {
   children: PropTypes.node
 };
 Question.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2092,7 +2092,7 @@ SqLuser.propTypes = {
   children: PropTypes.node
 };
 SqLuser.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2127,7 +2127,7 @@ Suspended.propTypes = {
   children: PropTypes.node
 };
 Suspended.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2162,7 +2162,7 @@ Dev.propTypes = {
   children: PropTypes.node
 };
 Dev.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2201,7 +2201,7 @@ Unlink.propTypes = {
   children: PropTypes.node
 };
 Unlink.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2248,7 +2248,7 @@ Calendar.propTypes = {
   children: PropTypes.node
 };
 Calendar.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2283,7 +2283,7 @@ Time.propTypes = {
   children: PropTypes.node
 };
 Time.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2320,7 +2320,7 @@ Chart.propTypes = {
   children: PropTypes.node
 };
 Chart.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2369,7 +2369,7 @@ Preferences.propTypes = {
   children: PropTypes.node
 };
 Preferences.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2406,7 +2406,7 @@ Enter.propTypes = {
   children: PropTypes.node
 };
 Enter.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2441,7 +2441,7 @@ Return.propTypes = {
   children: PropTypes.node
 };
 Return.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2482,7 +2482,7 @@ Queryhistory.propTypes = {
   children: PropTypes.node
 };
 Queryhistory.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2517,7 +2517,7 @@ Send.propTypes = {
   children: PropTypes.node
 };
 Send.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2552,7 +2552,7 @@ ChartsScorecard.propTypes = {
   children: PropTypes.node
 };
 ChartsScorecard.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2587,7 +2587,7 @@ ChartsPie.propTypes = {
   children: PropTypes.node
 };
 ChartsPie.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2624,7 +2624,7 @@ ChartsPieDoughnut.propTypes = {
   children: PropTypes.node
 };
 ChartsPieDoughnut.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2663,7 +2663,7 @@ ChartsBar.propTypes = {
   children: PropTypes.node
 };
 ChartsBar.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2700,7 +2700,7 @@ ChartsBarVertical.propTypes = {
   children: PropTypes.node
 };
 ChartsBarVertical.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2737,7 +2737,7 @@ ChartsBarHorizontal.propTypes = {
   children: PropTypes.node
 };
 ChartsBarHorizontal.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2777,7 +2777,7 @@ DataNum.propTypes = {
   children: PropTypes.node
 };
 DataNum.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2812,7 +2812,7 @@ ChartsLine.propTypes = {
   children: PropTypes.node
 };
 ChartsLine.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2852,7 +2852,7 @@ DataString.propTypes = {
   children: PropTypes.node
 };
 DataString.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2889,7 +2889,7 @@ DataTime.propTypes = {
   children: PropTypes.node
 };
 DataTime.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2929,7 +2929,7 @@ DataBool.propTypes = {
   children: PropTypes.node
 };
 DataBool.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -2969,7 +2969,7 @@ DataVariant.propTypes = {
   children: PropTypes.node
 };
 DataVariant.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3008,7 +3008,7 @@ Mail.propTypes = {
   children: PropTypes.node
 };
 Mail.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3042,7 +3042,7 @@ Markdown.propTypes = {
   children: PropTypes.node
 };
 Markdown.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3077,7 +3077,7 @@ Label.propTypes = {
   children: PropTypes.node
 };
 Label.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3118,7 +3118,7 @@ Column.propTypes = {
   children: PropTypes.node
 };
 Column.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3159,7 +3159,7 @@ Row.propTypes = {
   children: PropTypes.node
 };
 Row.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3204,7 +3204,7 @@ Stereo.propTypes = {
   children: PropTypes.node
 };
 Stereo.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3239,7 +3239,7 @@ Person.propTypes = {
   children: PropTypes.node
 };
 Person.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3282,7 +3282,7 @@ FullScreen.propTypes = {
   children: PropTypes.node
 };
 FullScreen.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3321,7 +3321,7 @@ OffScreen.propTypes = {
   children: PropTypes.node
 };
 OffScreen.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3355,7 +3355,7 @@ Comma.propTypes = {
   children: PropTypes.node
 };
 Comma.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3389,7 +3389,7 @@ Percent.propTypes = {
   children: PropTypes.node
 };
 Percent.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3430,7 +3430,7 @@ Applications.propTypes = {
   children: PropTypes.node
 };
 Applications.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3463,7 +3463,7 @@ Activity.propTypes = {
   children: PropTypes.node
 };
 Activity.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3502,7 +3502,7 @@ Recent.propTypes = {
   children: PropTypes.node
 };
 Recent.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3541,7 +3541,7 @@ Myworksheet.propTypes = {
   children: PropTypes.node
 };
 Myworksheet.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3582,7 +3582,7 @@ Getstart.propTypes = {
   children: PropTypes.node
 };
 Getstart.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3617,7 +3617,7 @@ Folderopen.propTypes = {
   children: PropTypes.node
 };
 Folderopen.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3656,7 +3656,7 @@ Filescode.propTypes = {
   children: PropTypes.node
 };
 Filescode.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3693,7 +3693,7 @@ Terminal.propTypes = {
   children: PropTypes.node
 };
 Terminal.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3734,7 +3734,7 @@ Tickets.propTypes = {
   children: PropTypes.node
 };
 Tickets.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3769,7 +3769,7 @@ Level.propTypes = {
   children: PropTypes.node
 };
 Level.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3812,7 +3812,7 @@ ChartsBarStacked.propTypes = {
   children: PropTypes.node
 };
 ChartsBarStacked.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3853,7 +3853,7 @@ Credentials.propTypes = {
   children: PropTypes.node
 };
 Credentials.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3892,7 +3892,7 @@ Coupon.propTypes = {
   children: PropTypes.node
 };
 Coupon.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3927,7 +3927,7 @@ ThumbsUp.propTypes = {
   children: PropTypes.node
 };
 ThumbsUp.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3962,7 +3962,7 @@ ThumbsDown.propTypes = {
   children: PropTypes.node
 };
 ThumbsDown.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -3997,7 +3997,7 @@ Pencil.propTypes = {
   children: PropTypes.node
 };
 Pencil.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4038,7 +4038,7 @@ DocTitle.propTypes = {
   children: PropTypes.node
 };
 DocTitle.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4081,7 +4081,7 @@ DocParagraph.propTypes = {
   children: PropTypes.node
 };
 DocParagraph.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4120,7 +4120,7 @@ DocPage.propTypes = {
   children: PropTypes.node
 };
 DocPage.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4165,7 +4165,7 @@ RecordDelimiter.propTypes = {
   children: PropTypes.node
 };
 RecordDelimiter.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4204,7 +4204,7 @@ FieldDelimiter.propTypes = {
   children: PropTypes.node
 };
 FieldDelimiter.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4239,7 +4239,7 @@ SkipHeader.propTypes = {
   children: PropTypes.node
 };
 SkipHeader.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4276,7 +4276,7 @@ Locked.propTypes = {
   children: PropTypes.node
 };
 Locked.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4347,7 +4347,7 @@ Ueue.propTypes = {
   children: PropTypes.node
 };
 Ueue.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4380,7 +4380,7 @@ Right.propTypes = {
   children: PropTypes.node
 };
 Right.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4413,7 +4413,7 @@ Down.propTypes = {
   children: PropTypes.node
 };
 Down.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4446,7 +4446,7 @@ Up.propTypes = {
   children: PropTypes.node
 };
 Up.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4479,7 +4479,7 @@ Left.propTypes = {
   children: PropTypes.node
 };
 Left.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4514,7 +4514,7 @@ ArrowLeft.propTypes = {
   children: PropTypes.node
 };
 ArrowLeft.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4549,7 +4549,7 @@ ArrowRight.propTypes = {
   children: PropTypes.node
 };
 ArrowRight.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4584,7 +4584,7 @@ ArrowTop.propTypes = {
   children: PropTypes.node
 };
 ArrowTop.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4619,7 +4619,7 @@ ArrowDown.propTypes = {
   children: PropTypes.node
 };
 ArrowDown.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4662,7 +4662,7 @@ SortUp.propTypes = {
   children: PropTypes.node
 };
 SortUp.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4705,7 +4705,7 @@ SortDown.propTypes = {
   children: PropTypes.node
 };
 SortDown.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4739,7 +4739,7 @@ TriangleRight.propTypes = {
   children: PropTypes.node
 };
 TriangleRight.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4773,7 +4773,7 @@ TriangleDown.propTypes = {
   children: PropTypes.node
 };
 TriangleDown.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4823,7 +4823,7 @@ LoadingSpin.propTypes = {
   children: PropTypes.node
 };
 LoadingSpin.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4859,7 +4859,7 @@ Github.propTypes = {
   children: PropTypes.node
 };
 Github.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4893,7 +4893,7 @@ Aws.propTypes = {
   children: PropTypes.node
 };
 Aws.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4942,7 +4942,7 @@ Google.propTypes = {
   children: PropTypes.node
 };
 Google.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -4976,7 +4976,7 @@ Twitter.propTypes = {
   children: PropTypes.node
 };
 Twitter.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -5026,7 +5026,7 @@ Slack.propTypes = {
   children: PropTypes.node
 };
 Slack.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -5060,7 +5060,7 @@ Wechat.propTypes = {
   children: PropTypes.node
 };
 Wechat.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
@@ -5096,7 +5096,7 @@ Youtube.propTypes = {
   children: PropTypes.node
 };
 Youtube.defaultProps = {
-  color: 'currentColor',
+  color: 'rgb(1, 14, 41)',
   size: '20',
   className: '',
   style: {}
