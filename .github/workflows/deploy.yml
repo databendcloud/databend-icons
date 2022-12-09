@@ -15,14 +15,6 @@ jobs:
       # check out the repository
       - name: Checkout    
         uses: actions/checkout@v2
-        with:
-          ref: main
-        - run: cp package.json package.json
-        - uses: actions/checkout@v2
-          with:
-            ref: package
-        - run: git add package.json
-        - run: git commit -m "Add package.json from main"
 
       - name: Install and Build 
         run: yarn
@@ -54,4 +46,17 @@ jobs:
       
       # - name: release
       #   run: npm run release
+
+    copy:
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+      - run: cp package.json package.json
+      - uses: actions/checkout@v2
+        with:
+          ref: package
+      - run: git add package.json
+      - run: git commit -m "Add package.json from Main"
       
