@@ -27,7 +27,6 @@ jobs:
           npm run generate
           npm run build:bundle
       - name: Copy file
-        uses: actions/checkout@v2
         run: |
           cd /
           ls
