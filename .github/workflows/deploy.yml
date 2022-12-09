@@ -16,6 +16,9 @@ jobs:
       run: |
         git checkout package
         cp package.json package
+        git add package.json
+        git commit -m "Copied file from source-branch to target-branch"
+        git push
   publish_packages_job:
     runs-on: ubuntu-latest
     name: build
