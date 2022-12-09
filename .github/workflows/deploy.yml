@@ -38,16 +38,16 @@ jobs:
       #     target-directory: 'dist'
       #     user-email: ${{ secrets.USER_EMAIL }}
       #     target-branch: ${{ secrets.BUILD_BRANCH }}
-      - uses: actions/checkout@v2.3.4
-      - uses: GuillaumeFalourd/copy-push-files@v1
+      - name: Push generated files to another repository
+        uses: nkoppel/push-files-to-another-repository@1.1.0
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.PACKAGES_TOKEN }}
         with:
-          email: ${{ secrets.USER_EMAIL }}
-          name: ${{ secrets.USE_NAME }}
-          commit_message: copy package.json
-          target_branch: package
-          source_files: package.json dist .npmignore .gitignore
-          remote_repository: https://github.com/databendcloud/databend-icons
-          access_token: ${{ secrets.PACKAGES_TOKEN }}
+          source-files: 'dist package.json .gitignore .npmignore'
+          destination-username: ${{ secrets.USE_NAME }}
+          destination-repository: package
+          destination-directory:  ${{ secrets.REPOSITORY_NAME }}
+          commit-email: ${{ secrets.USER_EMAIL }}
 
       # - name: login npm 
       #   uses: ahmadnassri/action-github-registry-npm-proxy@v2
