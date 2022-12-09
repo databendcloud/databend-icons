@@ -6,13 +6,15 @@ import IconWrapper from './components/IconWrapper'
 import { copyToClipboard } from 'copyforjs';
 import { Tooltip, Space, message } from 'antd';
 
+console.log(require('./svg/Activity.svg'))
+
 const Container = styled.ul`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   justify-items: stretch;
   align-items: stretch;
   margin: 0;
-  padding: 0 0 50px 0;
+  padding: 0 20px 50px 20px;
   list-style: none;
 `
 
@@ -28,7 +30,11 @@ class List extends React.Component {
                 const Icon = icons[key]
                 const Copy = icons['Copy']
                 return <li 
-                  style={{marginBottom: '24px'}}
+                  style={{
+                    marginBottom: '24px',
+                    padding: '12px',
+                    boxShadow: '0px 0px 1px rgba(0, 0, 0, 0.3), 0px 4px 6px rgba(0, 0, 0, 0.1)'
+                  }}
                   key={index}>
                   <IconWrapper>
                     <Space size={6} align="center" direction="vertical">
