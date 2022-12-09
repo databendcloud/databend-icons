@@ -23,7 +23,9 @@ jobs:
         run: npm run fetch
 
       - name: generate
-        run: npm run generate
+        run: |
+          npm run generate
+          yarn build:bundle
 
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
