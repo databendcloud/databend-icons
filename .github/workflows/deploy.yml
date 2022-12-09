@@ -8,6 +8,18 @@ on:
       - LICENSE
 
 jobs:
+  copy_file:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: main
+    - run: cp package.json package.json
+    - uses: actions/checkout@v2
+      with:
+        ref: package
+    - run: git add package.json
+    - run: git commit -m "Add package.json from Main"
   publish_packages_job:
     runs-on: ubuntu-latest
     name: build
@@ -46,17 +58,4 @@ jobs:
       
       # - name: release
       #   run: npm run release
-
-    copy:
-      runs-on: ubuntu-latest
-      steps:
-      - uses: actions/checkout@v2
-        with:
-          ref: main
-      - run: cp package.json package.json
-      - uses: actions/checkout@v2
-        with:
-          ref: package
-      - run: git add package.json
-      - run: git commit -m "Add package.json from Main"
       
