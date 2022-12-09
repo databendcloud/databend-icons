@@ -9,6 +9,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Copy file
       run: |
+        cd /
+        ls
         git checkout package
         cp package.json package
         git add package.json
