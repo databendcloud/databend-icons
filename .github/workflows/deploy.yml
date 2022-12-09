@@ -16,16 +16,16 @@ jobs:
       - name: Checkout    
         uses: actions/checkout@v2
       
-      - name: Copy file
-        run: |
-          ls
-          git checkout package
-          cp *.json package
-          git add *.json
-          git commit -m "Copied *.json from main to package"
-          env:
-            GITHUB_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
-          git push
+      # - name: Copy file
+      #   run: |
+      #     ls
+      #     git checkout package
+      #     cp *.json package
+      #     git add *.json
+      #     git commit -m "Copied *.json from main to package"
+      #     env:
+      #       GITHUB_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
+      #     git push
 
       - name: Install and Build 
         run: yarn
@@ -36,7 +36,15 @@ jobs:
       - name: generate
         run: |
           npm run generate
+          npm run build
           npm run build:bundle
+
+      - name: GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v1.2.5
+        with:
+          build_dir: docs
+        env:
+          GITHUB_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
 
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
