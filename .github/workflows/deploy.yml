@@ -30,10 +30,10 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.PACKAGES_TOKEN }}
         with:
-          source-directory: 'src'
+          source-directory: 'dist'
           destination-github-username: ${{ secrets.USE_NAME }}
           destination-repository-name: ${{ secrets.REPOSITORY_NAME }}
-          target-directory: 'src'
+          target-directory: 'dist'
           user-email: ${{ secrets.USER_EMAIL }}
           target-branch: ${{ secrets.BUILD_BRANCH }}
       # - name: login npm 

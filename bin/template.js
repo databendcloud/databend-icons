@@ -6,11 +6,12 @@ const getAttrs = (style) => {
     viewBox: '-2 -2 24 24',
   }
   const fillAttrs = {
+    fill: 'color',
     otherProps: '...otherProps'
   }
   const strokeAttrs = {
     fill: 'none',
-    stroke: 'color?color:"none"',
+    stroke: 'color',
     strokeWidth: 2,
     strokeLinecap: 'round',
     strokeLinejoin: 'round',
@@ -21,31 +22,36 @@ const getAttrs = (style) => {
 
 const getElementCode = (ComponentName, attrs, svgCode) => `
   import React from 'react';
-  import { FC } from 'react';
+  import PropTypes from 'prop-types';
   import clsx from 'clsx';
-  interface IProps{
-    style?: React.CSSProperties;
-    className?: string | 'g-icon-defaut-primary';
-    onClick?: React.MouseEventHandler<HTMLElement>;
-    children?: React.ReactNode[] | React.ReactNode;
-    color: string;
-    size: string | number;
-  }
-  const ${ComponentName}Icon:FC<IProps | any> = (props) => {
-    const { color, size, className, ...otherProps } = props;
+
+  const ${ComponentName} = (props) => {
+    const { color, size, ...otherProps } = props;
     return (
-        <svg className={clsx('icon default', className)} ${attrs}>
-          ${svgCode}
-        </svg>
+      <svg className={clsx('icon default', className)} ${attrs}>
+        ${svgCode}
+      </svg>
     )
   };
 
-  ${ComponentName}Icon.defaultProps = {
+  ${ComponentName}.propTypes = {
+    color: PropTypes.string,
+    size: PropTypes.oneOfType([
+      PropTypes.string,
+      PropTypes.number
+    ]),
+    className: PropTypes.string,
+    style: PropTypes.any,
+    onClick: PropTypes.func,
+    children: PropTypes.node
+  }
+
+  ${ComponentName}.defaultProps = {
     color: 'currentColor',
     size: '20',
   }
 
-  export default ${ComponentName}Icon
+  export default ${ComponentName}
 `
 
 module.exports = { getAttrs, getElementCode }

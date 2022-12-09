@@ -4,4 +4,3 @@ docs
 public
 .babelrc
 yarn-error.log
-node_modules

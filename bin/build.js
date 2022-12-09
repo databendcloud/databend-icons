@@ -45,6 +45,7 @@ const generateIconsIndex = () => {
 
 // generate attributes code
 const attrsToString = (attrs, style) => {
+  console.log('style: ', style)
   return Object.keys(attrs).map((key) => {
     // should distinguish fill or stroke
     if (key === 'width' || key === 'height' || key === style) {
@@ -59,10 +60,10 @@ const attrsToString = (attrs, style) => {
 
 // generate icon code separately
 const generateIconCode = async ({name}) => {
- try {
   const names = parseName(name, defaultStyle)
+  console.log(names)
   const location = path.join(rootDir, 'src/svg', `${names.name}.svg`)
-  const destination = path.join(rootDir, 'src/icons', `${names.name}.tsx`)
+  const destination = path.join(rootDir, 'src/icons', `${names.name}.js`)
   const code = fs.readFileSync(location)
   const svgCode = await processSvg(code)
   const ComponentName = names.componentName
@@ -80,10 +81,9 @@ const generateIconCode = async ({name}) => {
   });
 
   fs.writeFileSync(destination, component, 'utf-8');
+
+  console.log('Successfully built', ComponentName);
   return {ComponentName, name: names.name}
- } catch (error) {
-  console.log(error)
- }
 }
 
 // append export code to icons.js
@@ -110,9 +110,7 @@ Object
   .map(key => icons[key])
   .forEach(({name}) => {
     generateIconCode({name})
-      .then((res) => {
-        if (res?.ComponentName) {
-          appendToIconsIndex({ComponentName: res?.ComponentName, name: res?.name})
-        }
+      .then(({ComponentName, name}) => {
+        appendToIconsIndex({ComponentName, name})
       })
   })

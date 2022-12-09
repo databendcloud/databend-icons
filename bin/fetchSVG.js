@@ -4,14 +4,11 @@ const {join, resolve} = require('path')
 const Figma = require('figma-js')
 const PQueue = require('p-queue')
 require('dotenv').config()
-// FIGMA_FILE_URL=https://www.figma.com/file/jBxZh960tcMF1WWAqjHQkn/ColorIcon?node-id=2%3A11
-const FIGMA_TOKEN = '381851-463491fd-bc81-48b9-9361-fcd66526949b'
-const FIGMA_FILE_URL= 'https://www.figma.com/file/n1PpBmC70z0lUN9816jeBl/Icon?node-id=0%3A1'
-// const {FIGMA_TOKEN, FIGMA_FILE_URL} = process.env
+const {FIGMA_TOKEN, FIGMA_FILE_URL} = process.env
 
 const options = {
   format: 'svg',
-  outputDir: './src',
+  outputDir: './src/',
   scale: '1'
 }
 
