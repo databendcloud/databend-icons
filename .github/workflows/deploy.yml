@@ -20,9 +20,9 @@ jobs:
         run: |
           ls
           git checkout package
-          cp package.json package
-          git add package.json
-          git commit -m "Copied package.json from main to package"
+          cp *.json package
+          git add *.json
+          git commit -m "Copied *.json from main to package"
           env:
             GITHUB_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
           git push
