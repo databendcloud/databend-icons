@@ -27,7 +27,7 @@ jobs:
           npm run generate
           npm run build:bundle
 
-      - name: Pushes to another repository
+      - name: Pushes to package
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.PACKAGES_TOKEN }}
@@ -39,7 +39,7 @@ jobs:
           user-email: ${{ secrets.USER_EMAIL }}
           target-branch: ${{ secrets.BUILD_BRANCH }}
       
-      - name: Pushes package.json another repository
+      - name: Pushes package.json to package
         - uses: actions/checkout@v2.3.4
         - uses: GuillaumeFalourd/copy-push-files@v1
           with:
