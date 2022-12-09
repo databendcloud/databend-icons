@@ -39,14 +39,13 @@ jobs:
       #     user-email: ${{ secrets.USER_EMAIL }}
       #     target-branch: ${{ secrets.BUILD_BRANCH }}
       - name: Push generated files to another repository
-        uses: nkoppel/push-files-to-another-repository@1.1.0
+        uses: nkoppel/push-files-to-another-repository
         env:
           API_TOKEN_GITHUB: ${{ secrets.PACKAGES_TOKEN }}
         with:
           source-files: 'dist package.json .gitignore .npmignore'
           destination-username: ${{ secrets.USE_NAME }}
           destination-repository: package
-          destination-directory:  ${{ secrets.REPOSITORY_NAME }}
           commit-email: ${{ secrets.USER_EMAIL }}
 
       # - name: login npm 
