@@ -8,21 +8,6 @@ var React = _interopDefault(require('react'));
 var PropTypes = _interopDefault(require('prop-types'));
 require('clsx');
 
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-}
-
 function _extends() {
   _extends = Object.assign || function (target) {
     for (var i = 1; i < arguments.length; i++) {
@@ -78,19 +63,18 @@ function _objectWithoutProperties(source, excluded) {
 }
 
 var Dashboard = function Dashboard(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M18.5 3.333h-15a.833.833 0 00-.833.834v11.666c0 .46.373.834.833.834h15c.46 0 .833-.373.833-.834V4.167a.833.833 0 00-.833-.834z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M14.333 10.417v2.916"
@@ -117,19 +101,18 @@ Dashboard.defaultProps = {
 };
 
 var Worksheet = function Worksheet(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3.333 18.333V1.667h9.584l3.75 4.375v12.291H3.333z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M8.75 11.667h-2.5v2.916h2.5v-2.916z"
@@ -158,19 +141,18 @@ Worksheet.defaultProps = {
 };
 
 var Data = function Data(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M18.333 4.583v11.25c0 1.381-3.73 2.5-8.333 2.5-4.602 0-8.333-1.119-8.333-2.5V4.583"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M18.333 12.083c0 1.381-3.73 2.5-8.333 2.5-4.602 0-8.333-1.119-8.333-2.5"
@@ -197,19 +179,18 @@ Data.defaultProps = {
 };
 
 var Support = function Support(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     clipRule: "evenodd",
     d: "M15.893 15.893A8.333 8.333 0 104.107 4.107a8.333 8.333 0 0011.785 11.785zm-2.357-9.429a5 5 0 11-7.071 7.071 5 5 0 017.07-7.07z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -241,19 +222,18 @@ Support.defaultProps = {
 };
 
 var Compute = function Compute(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M18.333 1.667H1.667v6.666h16.666V1.667z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M18.333 11.667H1.667v6.666h16.666v-6.666z"
@@ -284,19 +264,18 @@ Compute.defaultProps = {
 };
 
 var Setting = function Setting(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M7.618 17.988a8.331 8.331 0 01-3.623-2.21 2.5 2.5 0 00-2.16-4.1A8.371 8.371 0 012.049 7.5h.035a2.5 2.5 0 002.244-3.604 8.32 8.32 0 013.445-1.928 2.5 2.5 0 004.456 0 8.32 8.32 0 013.445 1.928A2.5 2.5 0 0017.952 7.5a8.373 8.373 0 01.213 4.18 2.5 2.5 0 00-2.16 4.1 8.331 8.331 0 01-3.623 2.208 2.501 2.501 0 00-4.764 0z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M10 12.917a2.917 2.917 0 100-5.834 2.917 2.917 0 000 5.834z"
@@ -319,19 +298,18 @@ Setting.defaultProps = {
 };
 
 var Notifications = function Notifications(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M18.333 10A8.333 8.333 0 0110 18.333H1.667V10a8.333 8.333 0 1116.666 0z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M5.833 7.5h7.5"
@@ -358,19 +336,18 @@ Notifications.defaultProps = {
 };
 
 var Search = function Search(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M8.75 15.833a7.083 7.083 0 100-14.166 7.083 7.083 0 000 14.166z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M11.107 5.976A3.323 3.323 0 008.75 5c-.92 0-1.754.373-2.357.976"
@@ -395,19 +372,18 @@ Search.defaultProps = {
 };
 
 var Close = function Close(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5 5l10 10"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M5 15L15 5"
@@ -430,19 +406,18 @@ Close.defaultProps = {
 };
 
 var Error = function Error(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
     d: "M2.5 4.583L4.583 2.5 10 7.917 15.417 2.5 17.5 4.583 12.083 10l5.417 5.417-2.083 2.083L10 12.083 4.583 17.5 2.5 15.417 7.917 10 2.5 4.583z",
@@ -466,19 +441,18 @@ Error.defaultProps = {
 };
 
 var Check = function Check(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
     d: "M1.667 10L3.75 7.917l4.167 4.166L16.25 3.75l2.083 2.083L7.917 16.25 1.667 10z",
@@ -502,19 +476,18 @@ Check.defaultProps = {
 };
 
 var Hidden = function Hidden(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M2.5 6.667c.264.508.665.979 1.176 1.398C5.11 9.239 7.408 10 10 10c2.592 0 4.891-.761 6.324-1.935.51-.419.911-.89 1.176-1.398"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M12.074 10l.863 3.22"
@@ -543,19 +516,18 @@ Hidden.defaultProps = {
 };
 
 var Show = function Show(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 15c4.602 0 8.333-5 8.333-5S14.603 5 10 5c-4.602 0-8.333 5-8.333 5s3.73 5 8.333 5z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M10 12.083a2.083 2.083 0 100-4.166 2.083 2.083 0 000 4.166z"
@@ -578,19 +550,18 @@ Show.defaultProps = {
 };
 
 var Loading = function Loading(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17 10.941A6.994 6.994 0 003.707 7.897"
   }), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
     id: "paint0_linear_2_104",
@@ -628,19 +599,18 @@ Loading.defaultProps = {
 };
 
 var Share = function Share(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M14.583 6.667a2.083 2.083 0 100-4.167 2.083 2.083 0 000 4.167z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M5.417 12.083a2.083 2.083 0 100-4.166 2.083 2.083 0 000 4.166z"
@@ -669,19 +639,18 @@ Share.defaultProps = {
 };
 
 var Begin = function Begin(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M6 16V4l9 6-9 6z"
   }));
 };
@@ -702,19 +671,18 @@ Begin.defaultProps = {
 };
 
 var Export = function Export(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17.5 11.25c0 2.5-1.667 6.667-7.5 6.667S2.5 13.75 2.5 11.25"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M10.003 2.125V13.75"
@@ -739,19 +707,18 @@ Export.defaultProps = {
 };
 
 var Download = function Download(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     clipRule: "evenodd",
     d: "M10 12.083l-5-5h3.333V2.5h3.334v4.583H15l-5 5z"
   }), /*#__PURE__*/React.createElement("path", {
@@ -777,19 +744,18 @@ Download.defaultProps = {
 };
 
 var Refresh = function Refresh(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17.5 3.333V10"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M2.5 10v6.667"
@@ -816,19 +782,18 @@ Refresh.defaultProps = {
 };
 
 var AddSheet = function AddSheet(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.667 9.583v-3.75l-3.75-4.166h-8.75a.833.833 0 00-.834.833v15c0 .46.373.833.834.833h5"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M13.75 12.083v5.834"
@@ -855,19 +820,18 @@ AddSheet.defaultProps = {
 };
 
 var Pin = function Pin(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4.457 7.293c1.1-1.099 2.406-1.069 3.826-.29l5.309-2.943-.3-2.065 4.713 4.714-2.061-.296-2.947 5.304c.743 1.516.809 2.727-.29 3.826l-3.242-3.24-6.78 5.012 4.998-6.796-3.226-3.226z"
   }));
 };
@@ -888,19 +852,18 @@ Pin.defaultProps = {
 };
 
 var Table = function Table(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.375 2.5H3.625c-.621 0-1.125.504-1.125 1.125v12.75c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V3.625c0-.621-.504-1.125-1.125-1.125z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M7.5 2.5v15"
@@ -929,19 +892,18 @@ Table.defaultProps = {
 };
 
 var Schema = function Schema(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5.833 5.417H2.5v9.166h3.333"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M5.833 12.083H17.5v5H5.833v-5z"
@@ -966,19 +928,18 @@ Schema.defaultProps = {
 };
 
 var ExpandTop = function ExpandTop(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.25 2.5H3.75c-.69 0-1.25.56-1.25 1.25v12.5c0 .69.56 1.25 1.25 1.25h12.5c.69 0 1.25-.56 1.25-1.25V3.75c0-.69-.56-1.25-1.25-1.25z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M2.5 6.667h15"
@@ -1007,19 +968,18 @@ ExpandTop.defaultProps = {
 };
 
 var ExpandDown = function ExpandDown(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M2.5 4.167c0-.92.746-1.667 1.667-1.667h11.666c.92 0 1.667.746 1.667 1.667v11.666c0 .92-.746 1.667-1.667 1.667H4.167c-.92 0-1.667-.746-1.667-1.667V4.167z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M2.5 13.333h15"
@@ -1048,19 +1008,18 @@ ExpandDown.defaultProps = {
 };
 
 var ExpandRight = function ExpandRight(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M2.5 3.75c0-.69.56-1.25 1.25-1.25h12.5c.69 0 1.25.56 1.25 1.25v12.5c0 .69-.56 1.25-1.25 1.25H3.75c-.69 0-1.25-.56-1.25-1.25V3.75z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M13.333 2.5v15"
@@ -1089,19 +1048,18 @@ ExpandRight.defaultProps = {
 };
 
 var ExpandLeft = function ExpandLeft(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.25 2.5H3.75c-.69 0-1.25.56-1.25 1.25v12.5c0 .69.56 1.25 1.25 1.25h12.5c.69 0 1.25-.56 1.25-1.25V3.75c0-.69-.56-1.25-1.25-1.25z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M7.5 2.5v15"
@@ -1130,19 +1088,18 @@ ExpandLeft.defaultProps = {
 };
 
 var Link = function Link(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10.295 3.985l-6.188 6.188a3.75 3.75 0 005.304 5.303l7.365-7.366a2.5 2.5 0 00-3.535-3.535L5.875 11.94a1.25 1.25 0 001.768 1.768l6.187-6.187"
   }));
 };
@@ -1163,19 +1120,18 @@ Link.defaultProps = {
 };
 
 var Help = function Help(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 18.333a8.307 8.307 0 005.893-2.44A8.307 8.307 0 0018.332 10a8.307 8.307 0 00-2.44-5.893A8.307 8.307 0 0010 1.667a8.307 8.307 0 00-5.893 2.44A8.307 8.307 0 001.667 10c0 2.301.932 4.384 2.44 5.893A8.307 8.307 0 0010 18.332z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M10 11.927V10.26a2.5 2.5 0 10-2.5-2.5"
@@ -1203,19 +1159,18 @@ Help.defaultProps = {
 };
 
 var More = function More(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5 11.25a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5z",
     fillOpacity: ".8"
   }), /*#__PURE__*/React.createElement("path", {
@@ -1243,19 +1198,18 @@ More.defaultProps = {
 };
 
 var String = function String(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 17l7-14 7 14"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M6 11h8"
@@ -1278,19 +1232,18 @@ String.defaultProps = {
 };
 
 var Number = function Number(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4 3v3"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M5 6H3"
@@ -1327,19 +1280,18 @@ Number.defaultProps = {
 };
 
 var AddFolder = function AddFolder(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M2 2.833c0-.46.373-.833.833-.833h5l2.084 2.5H17c.46 0 .833.373.833.833v10.834c0 .46-.373.833-.833.833H2.833A.833.833 0 012 16.167V2.833z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M7.5 10.25h5"
@@ -1364,19 +1316,18 @@ AddFolder.defaultProps = {
 };
 
 var Add = function Add(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5 10h10"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M10 5v10"
@@ -1399,19 +1350,18 @@ Add.defaultProps = {
 };
 
 var WareHouse = function WareHouse(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M9.583 17.917h8.334V2.083H5.833V6.25"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M2.083 6.25h7.5v11.667h-7.5V6.25z"
@@ -1438,19 +1388,18 @@ WareHouse.defaultProps = {
 };
 
 var Folder = function Folder(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M2.083 3.333c0-.46.373-.833.834-.833h5L10 5h7.083c.46 0 .834.373.834.833v10.834c0 .46-.373.833-.834.833H2.917a.833.833 0 01-.834-.833V3.333z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M5.833 9.167l2.084 2.083-2.084 2.083"
@@ -1475,19 +1424,18 @@ Folder.defaultProps = {
 };
 
 var Switch = function Switch(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
     d: "M12.067 5.183a.625.625 0 10-.884.884L13.116 8H5.625a.625.625 0 100 1.25h9a.623.623 0 00.578-.864.623.623 0 00-.132-.199m-3.004-3.004l3 3-3-3z",
@@ -1516,19 +1464,18 @@ Switch.defaultProps = {
 };
 
 var Book = function Book(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3.333 16.667v-12.5c0-1.381 1.194-2.5 2.667-2.5h10.667V15H6c-2.099 0-2.667.285-2.667 1.667z"
   }), /*#__PURE__*/React.createElement("path", {
     clipRule: "evenodd",
@@ -1552,19 +1499,18 @@ Book.defaultProps = {
 };
 
 var Copy = function Copy(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5.417 5.18V3.255c0-.647.524-1.172 1.172-1.172h10.156c.647 0 1.172.525 1.172 1.172v10.156c0 .648-.525 1.172-1.172 1.172h-1.947"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M13.412 5.417H3.255c-.647 0-1.172.524-1.172 1.172v10.156c0 .647.525 1.172 1.172 1.172h10.157c.647 0 1.171-.525 1.171-1.172V6.589c0-.648-.524-1.172-1.171-1.172z"
@@ -1587,19 +1533,18 @@ Copy.defaultProps = {
 };
 
 var HamburgerButton = function HamburgerButton(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3.312 4.98h13.334"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M3.312 9.98h13.334"
@@ -1624,19 +1569,18 @@ HamburgerButton.defaultProps = {
 };
 
 var CardShow = function CardShow(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.25 2.5H3.75c-.69 0-1.25.56-1.25 1.25v12.5c0 .69.56 1.25 1.25 1.25h12.5c.69 0 1.25-.56 1.25-1.25V3.75c0-.69-.56-1.25-1.25-1.25z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M8.75 5.417H5.417V8.75H8.75V5.417z"
@@ -1665,19 +1609,18 @@ CardShow.defaultProps = {
 };
 
 var ListShow = function ListShow(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.25 2.5H3.75c-.69 0-1.25.56-1.25 1.25v12.5c0 .69.56 1.25 1.25 1.25h12.5c.69 0 1.25-.56 1.25-1.25V3.75c0-.69-.56-1.25-1.25-1.25z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M9.25 9.9h5.3"
@@ -1710,19 +1653,18 @@ ListShow.defaultProps = {
 };
 
 var Smiling = function Smiling(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 18.333a8.333 8.333 0 100-16.666 8.333 8.333 0 000 16.666z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M12.917 12.917s-.834 1.666-2.917 1.666c-2.083 0-2.917-1.666-2.917-1.666"
@@ -1749,19 +1691,18 @@ Smiling.defaultProps = {
 };
 
 var Delete = function Delete(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M6.25 5l.5-2.917h6.5L13.75 5"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M2.5 5h15"
@@ -1789,19 +1730,18 @@ Delete.defaultProps = {
 };
 
 var Upload = function Upload(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4.866 8.446a4.168 4.168 0 102.106 8.063"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M15.023 8.446a4.168 4.168 0 11-2.106 8.063"
@@ -1830,19 +1770,18 @@ Upload.defaultProps = {
 };
 
 var Wallet = function Wallet(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("g", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("g", {
     clipPath: "url(#clip0_122_16)"
   }, /*#__PURE__*/React.createElement("path", {
     clipRule: "evenodd",
@@ -1877,19 +1816,18 @@ Wallet.defaultProps = {
 };
 
 var Collaborators = function Collaborators(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M7.917 8.333a2.917 2.917 0 100-5.833 2.917 2.917 0 000 5.833z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M13.586 2.917a2.915 2.915 0 010 5"
@@ -1916,19 +1854,18 @@ Collaborators.defaultProps = {
 };
 
 var Organization = function Organization(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M1.667 2.083h16.666v3.334l-.582.35a2.917 2.917 0 01-3.002 0l-.582-.35-.583.35a2.917 2.917 0 01-3.001 0L10 5.416l-.583.35a2.917 2.917 0 01-3.001 0l-.583-.35-.582.35a2.917 2.917 0 01-3.002 0l-.582-.35V2.083z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M17.5 10.417h-15v7.5h15v-7.5z"
@@ -1955,19 +1892,18 @@ Organization.defaultProps = {
 };
 
 var Analysis = function Analysis(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M18.333 4.583c0-.69-.56-1.25-1.25-1.25H2.917c-.69 0-1.25.56-1.25 1.25v3.75h16.666v-3.75z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M1.713 16.262l5.074-5.125 2.741 2.625 3.351-2.929 1.867 1.82"
@@ -1998,19 +1934,18 @@ Analysis.defaultProps = {
 };
 
 var Reduction = function Reduction(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("rect", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("rect", {
     x: "3",
     y: "8.5",
     width: "14",
@@ -2035,19 +1970,18 @@ Reduction.defaultProps = {
 };
 
 var Question = function Question(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M11.636 14.62a.35.35 0 01-.124.267.421.421 0 01-.293.113H9.273a.42.42 0 01-.293-.113.35.35 0 01-.123-.267v-1.423a.35.35 0 01.123-.267.42.42 0 01.293-.113h1.946c.113 0 .211.037.293.113a.35.35 0 01.124.267v1.423zM10.293 5c.576 0 1.116.075 1.62.225.515.141.958.343 1.329.606.38.254.68.559.895.915.216.348.324.733.324 1.155 0 .338-.061.634-.185.888a2.75 2.75 0 01-.478.69 4.214 4.214 0 01-.618.563c-.226.16-.448.32-.664.48-.206.159-.396.328-.571.506a1.361 1.361 0 00-.34.563.65.65 0 01-.154.268.32.32 0 01-.263.113H9.304a.42.42 0 01-.293-.113.35.35 0 01-.124-.268c0-.31.067-.586.201-.83.144-.245.32-.465.525-.662.206-.207.427-.395.664-.564.247-.169.474-.328.68-.479a3.3 3.3 0 00.509-.479.763.763 0 00.216-.52.718.718 0 00-.34-.634c-.226-.16-.576-.24-1.05-.24-.463 0-.797.066-1.003.197-.196.122-.34.258-.432.409-.093.15-.175.29-.248.422-.061.122-.19.183-.386.183H6.34a.39.39 0 01-.247-.084A.29.29 0 016 8.085c.01-.33.113-.672.309-1.029.195-.366.473-.7.834-1 .37-.31.818-.563 1.343-.76C9.011 5.099 9.613 5 10.292 5z",
     fillOpacity: ".8"
   }));
@@ -2069,19 +2003,18 @@ Question.defaultProps = {
 };
 
 var SqLuser = function SqLuser(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M9.167 3.333v5c0 .92-1.68 1.667-3.75 1.667-2.071 0-3.75-.746-3.75-1.667v-5"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M9.167 5.833c0 .92-1.68 1.667-3.75 1.667-2.071 0-3.75-.746-3.75-1.667"
@@ -2114,19 +2047,18 @@ SqLuser.defaultProps = {
 };
 
 var Suspended = function Suspended(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5.5 4.5h3v11h-3v-11z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M11.5 4.5h3v11h-3v-11z"
@@ -2149,19 +2081,18 @@ Suspended.defaultProps = {
 };
 
 var Dev = function Dev(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4.706 4l4.941 4.941-4.941 4.941"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M7.53 16h7.764"
@@ -2184,19 +2115,18 @@ Dev.defaultProps = {
 };
 
 var Unlink = function Unlink(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10.789 6.68L7.548 3.438c-1.194-1.194-3.088-1.234-4.232-.09-1.145 1.145-1.105 3.04.089 4.233l3.24 3.24"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M13.298 9.196l3.241 3.241c1.194 1.193 1.348 3.031.09 4.232-1.26 1.201-3.04 1.104-4.233-.089l-3.24-3.24"
@@ -2223,19 +2153,18 @@ Unlink.defaultProps = {
 };
 
 var Calendar = function Calendar(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M2.083 7.917h15.834v8.75c0 .46-.373.833-.834.833H2.917a.833.833 0 01-.834-.833v-8.75z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M2.083 3.75c0-.46.373-.833.834-.833h14.166c.46 0 .834.373.834.833v4.167H2.083V3.75z"
@@ -2270,19 +2199,18 @@ Calendar.defaultProps = {
 };
 
 var Time = function Time(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 18.333a8.333 8.333 0 100-16.666 8.333 8.333 0 000 16.666z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M10.004 5l-.001 5.004 3.533 3.533"
@@ -2305,19 +2233,18 @@ Time.defaultProps = {
 };
 
 var Chart = function Chart(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M1.667 10S2.5 1.667 5.833 1.667c3.334 0 3.75 6.25 4.167 8.333.417 2.083 1.667 8.333 4.583 8.333 2.917 0 3.75-8.333 3.75-8.333"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M4.583 10h2.5"
@@ -2342,19 +2269,18 @@ Chart.defaultProps = {
 };
 
 var Preferences = function Preferences(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17.292 4.167h-2.5"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M11.458 2.5v3.333"
@@ -2391,19 +2317,18 @@ Preferences.defaultProps = {
 };
 
 var Enter = function Enter(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M18.333 18.333V1.667H10v6.666H1.667v10h16.666z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M8.75 11.667l-1.667 1.666L8.75 15"
@@ -2428,19 +2353,18 @@ Enter.defaultProps = {
 };
 
 var Return = function Return(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5.417 3.333L2.5 5.833 5.417 8.75"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M2.5 5.833h9.58c2.869 0 5.304 2.342 5.416 5.209.118 3.029-2.385 5.625-5.415 5.625H4.999"
@@ -2463,19 +2387,18 @@ Return.defaultProps = {
 };
 
 var Queryhistory = function Queryhistory(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17.5 10V3.75c0-.69-.56-1.25-1.25-1.25H3.75c-.69 0-1.25.56-1.25 1.25v12.5c0 .69.56 1.25 1.25 1.25H10"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M13.333 15.833a2.5 2.5 0 100-5 2.5 2.5 0 000 5z"
@@ -2504,19 +2427,18 @@ Queryhistory.defaultProps = {
 };
 
 var Send = function Send(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17.917 2.083l-5.542 15.834-3.167-7.125-7.125-3.167 15.834-5.542z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M17.917 2.083l-8.709 8.709"
@@ -2539,19 +2461,18 @@ Send.defaultProps = {
 };
 
 var ChartsScorecard = function ChartsScorecard(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M15 4H5a1 1 0 00-1 1v10a1 1 0 001 1h10a1 1 0 001-1V5a1 1 0 00-1-1z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M6.667 7.333L8 12.667l2-4.334 2 4.334 1.333-5.334"
@@ -2574,19 +2495,18 @@ ChartsScorecard.defaultProps = {
 };
 
 var ChartsPie = function ChartsPie(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.667 10A6.667 6.667 0 1110 3.333V10h6.667z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M16.361 8H12V3.639A6.682 6.682 0 0116.361 8z"
@@ -2609,19 +2529,18 @@ ChartsPie.defaultProps = {
 };
 
 var ChartsPieDoughnut = function ChartsPieDoughnut(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.667 10h.5a.5.5 0 00-.5-.5v.5zM14 10v-.5a.5.5 0 00-.5.5h.5zm-4-4v.5a.5.5 0 00.5-.5H10zm0-2.667h.5a.5.5 0 00-.5-.5v.5zM16.167 10A6.167 6.167 0 0110 16.167v1A7.167 7.167 0 0017.167 10h-1zM14 10.5h2.667v-1H14v1zm-.5-.5a3.5 3.5 0 01-3.5 3.5v1a4.5 4.5 0 004.5-4.5h-1zM10 13.5A3.5 3.5 0 016.5 10h-1a4.5 4.5 0 004.5 4.5v-1zM6.5 10A3.5 3.5 0 0110 6.5v-1A4.5 4.5 0 005.5 10h1zm3-6.667V6h1V3.333h-1zM3.833 10A6.167 6.167 0 0110 3.833v-1A7.167 7.167 0 002.833 10h1zM10 16.167A6.167 6.167 0 013.833 10h-1A7.167 7.167 0 0010 17.167v-1z",
     fillOpacity: ".8"
   }), /*#__PURE__*/React.createElement("path", {
@@ -2646,19 +2565,18 @@ ChartsPieDoughnut.defaultProps = {
 };
 
 var ChartsBar = function ChartsBar(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3.333 15h13.334"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M7 11.25H5V15h2v-3.75z"
@@ -2685,19 +2603,18 @@ ChartsBar.defaultProps = {
 };
 
 var ChartsBarVertical = function ChartsBarVertical(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M7 11.25H5V15h2v-3.75z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M11 8.75H9V15h2V8.75z"
@@ -2722,19 +2639,18 @@ ChartsBarVertical.defaultProps = {
 };
 
 var ChartsBarHorizontal = function ChartsBarHorizontal(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M8.75 15v-2H5v2h3.75z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M11.25 11V9H5v2h6.25z"
@@ -2759,19 +2675,18 @@ ChartsBarHorizontal.defaultProps = {
 };
 
 var DataNum = function DataNum(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M2.5 8.636V7.158h2.826v6.786H3.51V8.636H2.5z",
     fillOpacity: ".8"
   }), /*#__PURE__*/React.createElement("path", {
@@ -2799,19 +2714,18 @@ DataNum.defaultProps = {
 };
 
 var ChartsLine = function ChartsLine(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 3v14h14"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M6.111 13.889l3.111-6.222 3.89 3.5L17 3"
@@ -2834,19 +2748,18 @@ ChartsLine.defaultProps = {
 };
 
 var DataString = function DataString(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5.91 12.147H3.79l-.34 1.036H2l2.057-5.865H5.66l2.057 5.865H6.25l-.34-1.036zm-.355-1.103L4.85 8.897l-.696 2.147h1.4z",
     fillOpacity: ".8"
   }), /*#__PURE__*/React.createElement("path", {
@@ -2874,19 +2787,18 @@ DataString.defaultProps = {
 };
 
 var DataTime = function DataTime(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 6.667V10l2.5 1.25"
   }), /*#__PURE__*/React.createElement("circle", {
     cx: "10",
@@ -2911,19 +2823,18 @@ DataTime.defaultProps = {
 };
 
 var DataBool = function DataBool(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M7.746 7.099l-2.125 4.11v2.03H4.125v-2.03L2 7.1h1.697L4.886 9.67 6.066 7.1h1.68z",
     fillOpacity: ".8"
   }), /*#__PURE__*/React.createElement("path", {
@@ -2951,19 +2862,18 @@ DataBool.defaultProps = {
 };
 
 var DataVariant = function DataVariant(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 9.846c.36-.014.625-.091.794-.231.17-.147.254-.353.254-.618 0-.199-.037-.592-.11-1.18l-.067-.563a7.795 7.795 0 01-.055-.871c0-.625.191-1.11.574-1.456.382-.353.893-.53 1.533-.53h.794v1.544h-.43c-.235 0-.404.052-.507.155-.103.103-.155.261-.155.474 0 .162.03.53.089 1.103.066.714.099 1.18.099 1.401 0 .405-.1.74-.298 1.004-.191.265-.485.434-.882.508v.022c.397.08.69.253.882.518.199.257.298.592.298 1.004 0 .22-.033.688-.1 1.4-.058.56-.088.924-.088 1.093 0 .213.052.371.155.474.103.11.272.166.507.166h.43v1.544h-.794c-.64 0-1.15-.176-1.533-.53-.383-.345-.574-.834-.574-1.467 0-.257.019-.544.055-.86l.067-.574c.073-.588.11-.981.11-1.18a.749.749 0 00-.254-.596c-.169-.154-.434-.239-.794-.253v-1.5z",
     fillOpacity: ".8"
   }), /*#__PURE__*/React.createElement("path", {
@@ -2991,19 +2901,18 @@ DataVariant.defaultProps = {
 };
 
 var Mail = function Mail(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3.333 15h13.334V5H3.333v10z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M3.333 5L10 10l6.667-5"
@@ -3030,19 +2939,18 @@ Mail.defaultProps = {
 };
 
 var Markdown = function Markdown(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.846 14.846H3.154A1.155 1.155 0 012 13.692V6.154C2 5.518 2.518 5 3.154 5h13.692C17.483 5 18 5.518 18 6.154v7.538c0 .637-.517 1.154-1.154 1.154zm-11-2.307v-3l1.539 1.923 1.538-1.923v3h1.539V7.308H8.923L7.385 9.23 5.846 7.308H4.308v5.23h1.538zm10.308-2.616h-1.539V7.308h-1.538v2.615h-1.539l2.308 2.692 2.308-2.692z",
     fillOpacity: ".8"
   }));
@@ -3064,19 +2972,18 @@ Markdown.defaultProps = {
 };
 
 var Label = function Label(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5 3.333h10v13.334l-5-3.524-5 3.524V3.333z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M15 3.333H5v4h10v-4z"
@@ -3099,19 +3006,18 @@ Label.defaultProps = {
 };
 
 var Column = function Column(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("rect", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("rect", {
     x: "6",
     y: "3",
     width: "8",
@@ -3140,19 +3046,18 @@ Column.defaultProps = {
 };
 
 var Row = function Row(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("rect", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("rect", {
     x: "3",
     y: "11",
     width: "14",
@@ -3181,19 +3086,18 @@ Row.defaultProps = {
 };
 
 var Stereo = function Stereo(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 17V6.5L6.5 3H17v10.5L13.5 17H3z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M13.5 6.5V17"
@@ -3226,19 +3130,18 @@ Stereo.defaultProps = {
 };
 
 var Person = function Person(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 8.667a2.667 2.667 0 100-5.334 2.667 2.667 0 000 5.334z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M16 16.667a6 6 0 00-12 0"
@@ -3261,19 +3164,18 @@ Person.defaultProps = {
 };
 
 var FullScreen = function FullScreen(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M12 4h4v4"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M8 4H4v4"
@@ -3304,19 +3206,18 @@ FullScreen.defaultProps = {
 };
 
 var OffScreen = function OffScreen(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M13 4v3h3"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M7 4v3H4"
@@ -3343,19 +3244,18 @@ OffScreen.defaultProps = {
 };
 
 var Comma = function Comma(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M12 10.941c-.18.514-.333.94-.461 1.278-.116.35-.231.639-.347.865-.115.238-.23.432-.346.582-.115.15-.256.288-.423.413a5.723 5.723 0 01-.615.395c-.244.138-.539.313-.885.526a19.6 19.6 0 01-.23-.432.897.897 0 00-.155-.263 5.91 5.91 0 00-.192-.263L8 13.647a10.9 10.9 0 00.885-.563c.205-.138.371-.301.5-.489.128-.188.243-.426.346-.714.102-.288.243-.695.423-1.221V9.608H8.308V6H12v4.941z",
     fillOpacity: ".8"
   }));
@@ -3377,19 +3277,18 @@ Comma.defaultProps = {
 };
 
 var Percent = function Percent(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4.969 7.586c0 .661.057 1.156.172 1.484.12.323.31.485.57.485.255 0 .443-.162.562-.485.125-.323.188-.817.188-1.484 0-1.302-.25-1.953-.75-1.953-.26 0-.45.161-.57.484-.115.318-.172.807-.172 1.469zm3.46-.016c0 .563-.054 1.068-.163 1.516a3.09 3.09 0 01-.493 1.133 2.256 2.256 0 01-.851.71c-.344.162-.753.243-1.227.243-.442 0-.833-.08-1.172-.242a2.357 2.357 0 01-.843-.711 3.287 3.287 0 01-.508-1.133A6.127 6.127 0 013 7.57c0-.562.052-1.065.156-1.508.104-.442.266-.815.485-1.117.224-.307.505-.541.843-.703C4.823 4.081 5.227 4 5.695 4c.448 0 .841.08 1.18.242.344.162.63.396.86.703.229.302.4.675.515 1.117.12.443.18.946.18 1.508zm5.212-3.406L7.305 15.586H5.438l6.335-11.422h1.868zm-.993 7.984c0 .662.058 1.157.172 1.485.12.323.31.484.57.484.256 0 .443-.161.563-.484.125-.323.188-.818.188-1.485 0-1.302-.25-1.953-.75-1.953-.26 0-.45.162-.57.485-.115.317-.173.807-.173 1.468zm3.461-.015c0 .562-.054 1.068-.164 1.515a3.089 3.089 0 01-.492 1.125 2.255 2.255 0 01-.851.711c-.344.162-.753.243-1.227.243-.443 0-.83-.081-1.164-.243a2.357 2.357 0 01-.844-.71 3.29 3.29 0 01-.508-1.126 6.126 6.126 0 01-.171-1.515c0-.563.052-1.065.156-1.508a3.09 3.09 0 01.484-1.117c.219-.307.498-.542.836-.703.339-.162.742-.242 1.211-.242.448 0 .841.08 1.18.242.343.161.63.396.86.703.228.302.4.674.515 1.117.12.443.18.945.18 1.508z",
     fillOpacity: ".8"
   }));
@@ -3411,19 +3310,18 @@ Percent.defaultProps = {
 };
 
 var Applications = function Applications(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4.667 10.333v4.334a1 1 0 001 1h8.666a1 1 0 001-1v-4.334"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M3.667 7c0-.368.298-.667.666-.667h11.334c.368 0 .666.299.666.667v2.667a.667.667 0 01-.666.666H4.333a.667.667 0 01-.666-.666V7z"
@@ -3452,19 +3350,18 @@ Applications.defaultProps = {
 };
 
 var Activity = function Activity(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 9.452h3L8.296 3l3.667 13.333 2.704-6.881h3"
   }));
 };
@@ -3485,19 +3382,18 @@ Activity.defaultProps = {
 };
 
 var Recent = function Recent(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M7.667 9.646V5a2 2 0 114 0v.669"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M11.667 9.668v4.665a2 2 0 01-4 0v-.676"
@@ -3524,19 +3420,18 @@ Recent.defaultProps = {
 };
 
 var Myworksheet = function Myworksheet(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M15.333 9.667v-3l-3-3.334h-7A.667.667 0 004.667 4v12c0 .368.298.667.666.667h3.334"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M13.333 14a1.333 1.333 0 100-2.667 1.333 1.333 0 000 2.667z"
@@ -3563,19 +3458,18 @@ Myworksheet.defaultProps = {
 };
 
 var Getstart = function Getstart(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M14.333 15.667l1.13-3.109a.667.667 0 00-.328-.824L9.965 9.15a.667.667 0 00-.596 0l-5.17 2.585a.667.667 0 00-.33.824L5 15.667"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M13.333 6.333H6A.667.667 0 005.333 7v4l4.054-1.871a.667.667 0 01.559 0L14 11V7a.667.667 0 00-.667-.667z"
@@ -3604,19 +3498,18 @@ Getstart.defaultProps = {
 };
 
 var Folderopen = function Folderopen(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3.333 5v10.667L5 9h10.167V7a.667.667 0 00-.667-.667H10l-1.667-2H4A.667.667 0 003.333 5z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M15.333 15.667L16.667 9H4.937l-1.604 6.667h12z"
@@ -3639,19 +3532,18 @@ Folderopen.defaultProps = {
 };
 
 var Filescode = function Filescode(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M14.667 9.333v-3l-3-3.333h-7A.667.667 0 004 3.667v12c0 .368.298.666.667.666h4"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M13.667 12l1.666 1.667-1.666 1.666"
@@ -3678,19 +3570,18 @@ Filescode.defaultProps = {
 };
 
 var Terminal = function Terminal(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16 4.667H4a.667.667 0 00-.667.666v9.334c0 .368.299.666.667.666h12a.667.667 0 00.667-.666V5.333A.667.667 0 0016 4.667z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M6 8l2.333 2L6 12"
@@ -3715,19 +3606,18 @@ Terminal.defaultProps = {
 };
 
 var Tickets = function Tickets(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3.333 4.667h2.334s.333 1.666 2 1.666c1.666 0 2-1.666 2-1.666h7v10.666h-7s-.334-1.666-2-1.666c-1.667 0-2 1.666-2 1.666H3.333V4.667z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M7.667 8.333V9"
@@ -3756,19 +3646,18 @@ Tickets.defaultProps = {
 };
 
 var Level = function Level(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 16L3.333 8.167 5.232 4h9.536l1.899 4.167L10 16z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M12.667 8L10 11 7.333 8"
@@ -3791,19 +3680,18 @@ Level.defaultProps = {
 };
 
 var ChartsBarStacked = function ChartsBarStacked(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M11 13H9v2h2v-2z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M11 7H9v6h2V7z"
@@ -3834,19 +3722,18 @@ ChartsBarStacked.defaultProps = {
 };
 
 var Credentials = function Credentials(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M8 16V9a2 2 0 114 0v7"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M6 15V9a4 4 0 018 0v6"
@@ -3875,19 +3762,18 @@ Credentials.defaultProps = {
 };
 
 var Coupon = function Coupon(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4.75 7.5L13.5 4l1.4 3.5"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M3 7.5h14v2.1c-1.05 0-2.1.7-2.1 1.925S15.95 13.8 17 13.8v2.1H3v-2.1c1.05 0 2.1-.7 2.1-2.1 0-1.4-1.05-2.1-2.1-2.1V7.5z"
@@ -3914,19 +3800,18 @@ Coupon.defaultProps = {
 };
 
 var ThumbsUp = function ThumbsUp(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M11.39 7.894V5.098C11.39 3.939 10.451 3 9.293 3L6.496 9.293v7.691h8.125c.697.008 1.294-.5 1.398-1.189l.965-6.292a1.4 1.4 0 00-1.398-1.609H11.39z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M6.496 9.215H4.629C3.81 9.201 3.11 9.88 3 10.691v4.894c.11.812.81 1.413 1.63 1.399h1.866V9.215z"
@@ -3949,19 +3834,18 @@ ThumbsUp.defaultProps = {
 };
 
 var ThumbsDown = function ThumbsDown(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M8.61 12.09v2.797c0 1.158.939 2.097 2.097 2.097l2.797-6.292V3H5.379A1.398 1.398 0 003.981 4.19l-.965 6.293a1.398 1.398 0 001.398 1.608H8.61z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M13.504 3h1.867c.819-.014 1.52.587 1.629 1.399v4.894c-.11.812-.81 1.49-1.63 1.476h-1.866V3z"
@@ -3984,19 +3868,18 @@ ThumbsDown.defaultProps = {
 };
 
 var Pencil = function Pencil(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 17h3L17 6l-3-3L3 14v3z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M11 6l3 3"
@@ -4019,19 +3902,18 @@ Pencil.defaultProps = {
 };
 
 var DocTitle = function DocTitle(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 4v12.444"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M10 4v12.444"
@@ -4060,19 +3942,18 @@ DocTitle.defaultProps = {
 };
 
 var DocParagraph = function DocParagraph(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 5h6"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M10 8.333h6"
@@ -4103,19 +3984,18 @@ DocParagraph.defaultProps = {
 };
 
 var DocPage = function DocPage(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5 3.7a.7.7 0 01.7-.7h8.4a.7.7 0 01.7.7V17l-2.45-1.75L9.9 17l-2.45-1.75L5 17V3.7z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M7.8 9.3H12"
@@ -4142,19 +4022,18 @@ DocPage.defaultProps = {
 };
 
 var RecordDelimiter = function RecordDelimiter(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 10.158h14"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M8.895 15.316h2.21"
@@ -4187,19 +4066,18 @@ RecordDelimiter.defaultProps = {
 };
 
 var FieldDelimiter = function FieldDelimiter(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4 3v14"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M16.6 3v14"
@@ -4226,19 +4104,18 @@ FieldDelimiter.defaultProps = {
 };
 
 var SkipHeader = function SkipHeader(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.3 4H3.7a.7.7 0 00-.7.7v11.2a.7.7 0 00.7.7h12.6a.7.7 0 00.7-.7V4.7a.7.7 0 00-.7-.7z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M3 8.2h14"
@@ -4261,19 +4138,18 @@ SkipHeader.defaultProps = {
 };
 
 var Locked = function Locked(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M15.9 9.3H4.7a.7.7 0 00-.7.7v6.3a.7.7 0 00.7.7h11.2a.7.7 0 00.7-.7V10a.7.7 0 00-.7-.7z"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M6.8 9.3V6.5a3.5 3.5 0 017 0v2.8"
@@ -4298,19 +4174,18 @@ Locked.defaultProps = {
 };
 
 var Ueue = function Ueue(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 12.333V10"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M3 12.333h14V17H3v-4.667z"
@@ -4369,19 +4244,18 @@ Ueue.defaultProps = {
 };
 
 var Right = function Right(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M7.917 5l5 5-5 5"
   }));
 };
@@ -4402,19 +4276,18 @@ Right.defaultProps = {
 };
 
 var Down = function Down(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M15 8l-5 5-5-5"
   }));
 };
@@ -4435,19 +4308,18 @@ Down.defaultProps = {
 };
 
 var Up = function Up(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5 12l5-5 5 5"
   }));
 };
@@ -4468,19 +4340,18 @@ Up.defaultProps = {
 };
 
 var Left = function Left(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M11.5 14.5l-5-5 5-5"
   }));
 };
@@ -4501,19 +4372,18 @@ Left.defaultProps = {
 };
 
 var ArrowLeft = function ArrowLeft(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5 9.997h10"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M10 5l-5 5 5 5"
@@ -4536,19 +4406,18 @@ ArrowLeft.defaultProps = {
 };
 
 var ArrowRight = function ArrowRight(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M15 9.997H5"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M10 15l5-5-5-5"
@@ -4571,19 +4440,18 @@ ArrowRight.defaultProps = {
 };
 
 var ArrowTop = function ArrowTop(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M15 10l-5-5-5 5"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M9.997 5v10"
@@ -4606,19 +4474,18 @@ ArrowTop.defaultProps = {
 };
 
 var ArrowDown = function ArrowDown(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5 10l5 5 5-5"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M10.003 15V5"
@@ -4641,19 +4508,18 @@ ArrowDown.defaultProps = {
 };
 
 var SortUp = function SortUp(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M9.583 3.75h8.334"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M2.083 6.667l3.334-3.334"
@@ -4684,19 +4550,18 @@ SortUp.defaultProps = {
 };
 
 var SortDown = function SortDown(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M9.583 3.333h8.334"
   }), /*#__PURE__*/React.createElement("path", {
     d: "M5.833 17.083L2.5 13.75"
@@ -4727,19 +4592,18 @@ SortDown.defaultProps = {
 };
 
 var TriangleRight = function TriangleRight(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M13.157 9.785a.5.5 0 010 .822L7.035 14.85a.5.5 0 01-.785-.411V5.955a.5.5 0 01.785-.411l6.122 4.241z",
     fillOpacity: ".8"
   }));
@@ -4761,19 +4625,18 @@ TriangleRight.defaultProps = {
 };
 
 var TriangleDown = function TriangleDown(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10.411 13.353a.5.5 0 01-.822 0L5.348 7.23a.5.5 0 01.41-.785h8.483a.5.5 0 01.412.785l-4.242 6.122z",
     fillOpacity: ".8"
   }));
@@ -4795,19 +4658,18 @@ TriangleDown.defaultProps = {
 };
 
 var LoadingSpin = function LoadingSpin(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16 10.415A5.942 5.942 0 004.707 7.83"
   }), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
     id: "paint0_linear_420_11",
@@ -4845,19 +4707,18 @@ LoadingSpin.defaultProps = {
 };
 
 var Github = function Github(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
     d: "M10.177 3A7.175 7.175 0 003 10.177a7.172 7.172 0 004.907 6.81c.36.062.494-.153.494-.342 0-.17-.01-.735-.01-1.336-1.802.332-2.269-.44-2.413-.844-.08-.206-.43-.843-.735-1.013-.251-.135-.61-.467-.01-.476.566-.009.97.52 1.104.736.646 1.085 1.678.78 2.09.592.063-.467.252-.78.458-.96-1.597-.18-3.265-.798-3.265-3.544 0-.78.278-1.426.735-1.929-.072-.179-.323-.915.072-1.901 0 0 .601-.189 1.974.735a6.66 6.66 0 011.794-.242c.61 0 1.22.08 1.794.242 1.373-.933 1.974-.735 1.974-.735.395.986.144 1.722.072 1.901.457.503.735 1.14.735 1.93 0 2.754-1.677 3.364-3.274 3.543.26.224.484.655.484 1.328 0 .96-.009 1.731-.009 1.973 0 .189.135.413.494.341a7.189 7.189 0 004.89-6.809A7.175 7.175 0 0010.176 3z",
@@ -4881,19 +4742,18 @@ Github.defaultProps = {
 };
 
 var Aws = function Aws(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M6.51 9.075c-.018.567.265.817.272.977a.204.204 0 01-.102.156l-.32.224a.267.267 0 01-.141.048c-.01 0-.205.046-.512-.64a1.965 1.965 0 01-1.565.736c-.407.022-1.51-.23-1.453-1.405-.04-.957.851-1.551 1.773-1.501.177 0 .54.009 1.175.157v-.391c.067-.661-.368-1.175-1.12-1.098-.06 0-.486-.012-1.147.253-.184.085-.207.07-.268.07-.186 0-.11-.536-.074-.604.13-.16.897-.46 1.649-.455a1.921 1.921 0 011.392.432 1.757 1.757 0 01.442 1.309v1.732zm-2.16.81c.81-.012 1.154-.5 1.232-.762.062-.251.051-.41.051-.685a4.297 4.297 0 00-.989-.121c-.378-.029-1.07.14-1.043.806a.694.694 0 00.749.762zm4.273.576c-.197.018-.288-.121-.317-.259L7.06 6.086a.955.955 0 01-.048-.215.115.115 0 01.096-.131h.557c.219-.022.29.15.313.26l.893 3.52.83-3.52c.013-.081.073-.277.32-.257h.428c.055-.004.278-.012.317.26l.836 3.565.922-3.565c.011-.055.068-.285.316-.26h.494c.02-.003.153-.02.13.215-.01.046.086-.267-1.318 4.247-.029.138-.12.277-.317.26h-.467c-.274.028-.313-.242-.317-.27l-.83-3.427-.819 3.424c-.004.027-.043.298-.317.269h-.457zm6.837.141c-.147 0-.848-.008-1.434-.307a.32.32 0 01-.195-.298v-.269c0-.211.155-.172.22-.147.251.102.412.179.72.24.917.188 1.32-.057 1.419-.112a.575.575 0 00.13-.874c-.261-.22-.386-.228-1.328-.525-.116-.032-1.092-.34-1.094-1.309-.015-.706.626-1.404 1.738-1.398.317 0 1.16.103 1.389.39.034.052.05.114.048.176v.253c0 .11-.04.166-.122.166-.192-.021-.535-.279-1.229-.268-.172-.01-.997.022-.96.624-.01.474.665.652.742.672.912.274 1.217.32 1.579.74.428.556.197 1.207.108 1.386-.477.937-1.71.86-1.731.86zm1.005 2.621c-1.75 1.293-4.292 1.982-6.462 1.982a11.728 11.728 0 01-7.932-3.018c-.163-.148-.02-.35.179-.237a15.935 15.935 0 007.922 2.103 15.756 15.756 0 006.04-1.239c.294-.125.544.195.253.41zm.73-.832c-.224-.288-1.482-.134-2.046-.067-.17.02-.198-.128-.044-.237 1.001-.704 2.646-.502 2.835-.265.19.236-.05 1.885-.989 2.672-.143.122-.281.058-.217-.102.21-.531.685-1.712.46-2z",
     fillOpacity: ".8"
   }));
@@ -4915,19 +4775,18 @@ Aws.defaultProps = {
 };
 
 var Google = function Google(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4.474 9.665h.688v.967a2.587 2.587 0 01-.767.106c-1.142 0-1.814-.978-1.814-1.933 0-.936.608-1.593 1.455-1.593.536 0 .847.181 1.126.434v.315l.524-.523c-.331-.224-.81-.436-1.495-.436C2.687 7.002 2 8.077 2 8.962c0 1.257.916 2.015 2.068 2.015.558 0 1.054-.085 1.627-.244v-.999a.15.15 0 01.056-.117l.18-.18H4.705l-.23.228z",
     fillOpacity: ".8"
   }), /*#__PURE__*/React.createElement("path", {
@@ -4964,19 +4823,18 @@ Google.defaultProps = {
 };
 
 var Twitter = function Twitter(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M7.032 16.008c6.038 0 9.34-5.004 9.34-9.343 0-.142-.003-.284-.01-.425A6.677 6.677 0 0018 4.54a6.542 6.542 0 01-1.885.517 3.296 3.296 0 001.443-1.817 6.582 6.582 0 01-2.084.798A3.284 3.284 0 009.88 7.033 9.32 9.32 0 013.113 3.6 3.282 3.282 0 004.13 7.985a3.257 3.257 0 01-1.486-.41v.041a3.284 3.284 0 002.633 3.22 3.287 3.287 0 01-1.482.056 3.286 3.286 0 003.066 2.28 6.584 6.584 0 01-4.077 1.406c-.262 0-.523-.015-.783-.045a9.29 9.29 0 005.032 1.475",
     fillOpacity: ".8"
   }));
@@ -4998,19 +4856,18 @@ Twitter.defaultProps = {
 };
 
 var Slack = function Slack(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("g", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("g", {
     clipPath: "url(#clip0_303_60)",
     fillRule: "evenodd",
     clipRule: "evenodd",
@@ -5048,19 +4905,18 @@ Slack.defaultProps = {
 };
 
 var Wechat = function Wechat(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M13.265 7.793V2.47s-2.604-1.396-5.644-.32l5.644 5.642zm.493 3.13V2.69s3.079 1.396 3.946 4.785l-3.946 3.449zm-1.656 2.394l5.683-5.345s1.006 1.635-.494 5.345h-5.19zm-2.902.677h7.676s-.927 2.512-4.243 3.549L9.2 13.994zM6.694 12.3v5.003s1.994 1.277 5.408.42l-5.408-5.423zm-4.44.259l3.888-3.49v7.935s-2.35-.816-3.889-4.445zm-.1-.558s-.889-2.87.355-5.363h5.348L2.155 12zm.691-5.922S3.97 3.528 7.03 2.33l3.65 3.748H2.845z",
     fillOpacity: ".8"
   }));
@@ -5082,19 +4938,18 @@ Wechat.defaultProps = {
 };
 
 var Youtube = function Youtube(props) {
-  var _extends2;
-
   var color = props.color,
       size = props.size,
-      className = props.className,
-      otherProps = _objectWithoutProperties(props, ["color", "size", "className"]);
+      otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
-  return /*#__PURE__*/React.createElement("svg", _extends((_extends2 = {
-    "class": "icon default className",
+  return /*#__PURE__*/React.createElement("svg", _extends({
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size
-  }, _defineProperty(_extends2, "class", "className"), _defineProperty(_extends2, "viewBox", "-2 -2 24 24"), _defineProperty(_extends2, "fill", color), _extends2), otherProps), /*#__PURE__*/React.createElement("path", {
+    height: size,
+    "class": "icon default props.className",
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
     d: "M17.666 5.72C18 6.949 18 9.51 18 9.51s0 2.56-.334 3.789a1.988 1.988 0 01-1.415 1.392c-1.248.328-6.251.328-6.251.328s-5.003 0-6.25-.329A1.988 1.988 0 012.333 13.3C2 12.07 2 9.509 2 9.509s0-2.56.334-3.788A1.988 1.988 0 013.75 4.329C4.997 4 10 4 10 4s5.004 0 6.252.33a1.988 1.988 0 011.415 1.39zM8.4 11.872l4.157-2.361L8.4 7.149v4.722z",
