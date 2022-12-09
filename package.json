@@ -1,12 +1,14 @@
 {
   "name": "@databendcloud/databend-icons",
   "description": "Icons for Databend",
-  "version": "0.0.40",
+  "version": "0.0.41",
   "main": "dist/juuust-react-icon.cjs.js",
   "module": "dist/juuust-react-icon.esm.js",
   "typings": "dist/icons.d.ts",
   "files": [
-    "dist"
+    "dist",
+    ".gitignore",
+    "package.json"
   ],
   "repository": "https://github.com/leadream/juuust-react-icon.git",
   "author": "leadream",

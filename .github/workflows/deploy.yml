@@ -39,17 +39,6 @@ jobs:
           user-email: ${{ secrets.USER_EMAIL }}
           target-branch: ${{ secrets.BUILD_BRANCH }}
       
-      - name: Pushes package.json another repository
-        uses: cpina/github-action-push-to-another-repository@main
-        env:
-          API_TOKEN_GITHUB: ${{ secrets.PACKAGES_TOKEN }}
-        with:
-          source-directory: 'package.json'
-          destination-github-username: ${{ secrets.USE_NAME }}
-          destination-repository-name: ${{ secrets.REPOSITORY_NAME }}
-          target-directory: 'package.json'
-          user-email: ${{ secrets.USER_EMAIL }}
-          target-branch: ${{ secrets.BUILD_BRANCH }}
       # - name: login npm 
       #   uses: ahmadnassri/action-github-registry-npm-proxy@v2
       #   with:
