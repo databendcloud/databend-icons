@@ -25,6 +25,6 @@ example:
      fill: rgb(1, 14, 41);
   }
     
- This css is just an example, you can play with it
+ This css is just an example, You're free to play
 ```
 
