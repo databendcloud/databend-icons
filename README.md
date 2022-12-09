@@ -15,7 +15,7 @@ import { Loading } from '@databendcloud/databend-icons';
 ```
 
 # May be you need css Or you can define your own style
-example: 
+Tips: This css is just an example, You're free to play 
 ```css
   .icon.default{
      fill: transparent;
