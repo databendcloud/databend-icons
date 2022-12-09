@@ -10,7 +10,7 @@ console.log(require('./svg/Activity.svg'))
 
 const Container = styled.ul`
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   justify-items: stretch;
   align-items: stretch;
   margin: 0;
