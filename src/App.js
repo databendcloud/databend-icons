@@ -11,9 +11,9 @@ const Container = styled.ul`
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   justify-items: stretch;
+  column-gap: 20px;
   align-items: stretch;
   margin: 0;
-  margin-right 20px: 
   padding: 0 0 50px 20px;
   list-style: none;
 `
