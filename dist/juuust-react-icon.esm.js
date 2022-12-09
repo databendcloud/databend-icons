@@ -62,7 +62,7 @@ var Dashboard = function Dashboard(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -89,7 +89,9 @@ Dashboard.propTypes = {
 };
 Dashboard.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Worksheet = function Worksheet(props) {
@@ -98,7 +100,7 @@ var Worksheet = function Worksheet(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -127,7 +129,9 @@ Worksheet.propTypes = {
 };
 Worksheet.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Data = function Data(props) {
@@ -136,7 +140,7 @@ var Data = function Data(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -163,7 +167,9 @@ Data.propTypes = {
 };
 Data.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Support = function Support(props) {
@@ -172,7 +178,7 @@ var Support = function Support(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -204,7 +210,9 @@ Support.propTypes = {
 };
 Support.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Compute = function Compute(props) {
@@ -213,7 +221,7 @@ var Compute = function Compute(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -244,7 +252,9 @@ Compute.propTypes = {
 };
 Compute.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Setting = function Setting(props) {
@@ -253,7 +263,7 @@ var Setting = function Setting(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -276,7 +286,9 @@ Setting.propTypes = {
 };
 Setting.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Notifications = function Notifications(props) {
@@ -285,7 +297,7 @@ var Notifications = function Notifications(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -312,7 +324,9 @@ Notifications.propTypes = {
 };
 Notifications.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Search = function Search(props) {
@@ -321,7 +335,7 @@ var Search = function Search(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -346,7 +360,9 @@ Search.propTypes = {
 };
 Search.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Close = function Close(props) {
@@ -355,7 +371,7 @@ var Close = function Close(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -378,7 +394,9 @@ Close.propTypes = {
 };
 Close.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Error = function Error(props) {
@@ -387,7 +405,7 @@ var Error = function Error(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -411,7 +429,9 @@ Error.propTypes = {
 };
 Error.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Check = function Check(props) {
@@ -420,7 +440,7 @@ var Check = function Check(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -444,7 +464,9 @@ Check.propTypes = {
 };
 Check.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Hidden = function Hidden(props) {
@@ -453,7 +475,7 @@ var Hidden = function Hidden(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -482,7 +504,9 @@ Hidden.propTypes = {
 };
 Hidden.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Show = function Show(props) {
@@ -491,7 +515,7 @@ var Show = function Show(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -514,7 +538,9 @@ Show.propTypes = {
 };
 Show.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Loading = function Loading(props) {
@@ -523,7 +549,7 @@ var Loading = function Loading(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -561,7 +587,9 @@ Loading.propTypes = {
 };
 Loading.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Share = function Share(props) {
@@ -570,7 +598,7 @@ var Share = function Share(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -599,7 +627,9 @@ Share.propTypes = {
 };
 Share.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Begin = function Begin(props) {
@@ -608,7 +638,7 @@ var Begin = function Begin(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -629,7 +659,9 @@ Begin.propTypes = {
 };
 Begin.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Export = function Export(props) {
@@ -638,7 +670,7 @@ var Export = function Export(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -663,7 +695,9 @@ Export.propTypes = {
 };
 Export.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Download = function Download(props) {
@@ -672,7 +706,7 @@ var Download = function Download(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -698,7 +732,9 @@ Download.propTypes = {
 };
 Download.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Refresh = function Refresh(props) {
@@ -707,7 +743,7 @@ var Refresh = function Refresh(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -734,7 +770,9 @@ Refresh.propTypes = {
 };
 Refresh.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var AddSheet = function AddSheet(props) {
@@ -743,7 +781,7 @@ var AddSheet = function AddSheet(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -770,7 +808,9 @@ AddSheet.propTypes = {
 };
 AddSheet.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Pin = function Pin(props) {
@@ -779,7 +819,7 @@ var Pin = function Pin(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -800,7 +840,9 @@ Pin.propTypes = {
 };
 Pin.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Table = function Table(props) {
@@ -809,7 +851,7 @@ var Table = function Table(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -838,7 +880,9 @@ Table.propTypes = {
 };
 Table.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Schema = function Schema(props) {
@@ -847,7 +891,7 @@ var Schema = function Schema(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -872,7 +916,9 @@ Schema.propTypes = {
 };
 Schema.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ExpandTop = function ExpandTop(props) {
@@ -881,7 +927,7 @@ var ExpandTop = function ExpandTop(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -910,7 +956,9 @@ ExpandTop.propTypes = {
 };
 ExpandTop.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ExpandDown = function ExpandDown(props) {
@@ -919,7 +967,7 @@ var ExpandDown = function ExpandDown(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -948,7 +996,9 @@ ExpandDown.propTypes = {
 };
 ExpandDown.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ExpandRight = function ExpandRight(props) {
@@ -957,7 +1007,7 @@ var ExpandRight = function ExpandRight(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -986,7 +1036,9 @@ ExpandRight.propTypes = {
 };
 ExpandRight.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ExpandLeft = function ExpandLeft(props) {
@@ -995,7 +1047,7 @@ var ExpandLeft = function ExpandLeft(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1024,7 +1076,9 @@ ExpandLeft.propTypes = {
 };
 ExpandLeft.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Link = function Link(props) {
@@ -1033,7 +1087,7 @@ var Link = function Link(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1054,7 +1108,9 @@ Link.propTypes = {
 };
 Link.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Help = function Help(props) {
@@ -1063,7 +1119,7 @@ var Help = function Help(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1091,7 +1147,9 @@ Help.propTypes = {
 };
 Help.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var More = function More(props) {
@@ -1100,7 +1158,7 @@ var More = function More(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1128,7 +1186,9 @@ More.propTypes = {
 };
 More.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var String = function String(props) {
@@ -1137,7 +1197,7 @@ var String = function String(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1160,7 +1220,9 @@ String.propTypes = {
 };
 String.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Number = function Number(props) {
@@ -1169,7 +1231,7 @@ var Number = function Number(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1206,7 +1268,9 @@ Number.propTypes = {
 };
 Number.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var AddFolder = function AddFolder(props) {
@@ -1215,7 +1279,7 @@ var AddFolder = function AddFolder(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1240,7 +1304,9 @@ AddFolder.propTypes = {
 };
 AddFolder.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Add = function Add(props) {
@@ -1249,7 +1315,7 @@ var Add = function Add(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1272,7 +1338,9 @@ Add.propTypes = {
 };
 Add.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var WareHouse = function WareHouse(props) {
@@ -1281,7 +1349,7 @@ var WareHouse = function WareHouse(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1308,7 +1376,9 @@ WareHouse.propTypes = {
 };
 WareHouse.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Folder = function Folder(props) {
@@ -1317,7 +1387,7 @@ var Folder = function Folder(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1342,7 +1412,9 @@ Folder.propTypes = {
 };
 Folder.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Switch = function Switch(props) {
@@ -1351,7 +1423,7 @@ var Switch = function Switch(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1380,7 +1452,9 @@ Switch.propTypes = {
 };
 Switch.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Book = function Book(props) {
@@ -1389,7 +1463,7 @@ var Book = function Book(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1413,7 +1487,9 @@ Book.propTypes = {
 };
 Book.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Copy = function Copy(props) {
@@ -1422,7 +1498,7 @@ var Copy = function Copy(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1445,7 +1521,9 @@ Copy.propTypes = {
 };
 Copy.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var HamburgerButton = function HamburgerButton(props) {
@@ -1454,7 +1532,7 @@ var HamburgerButton = function HamburgerButton(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1479,7 +1557,9 @@ HamburgerButton.propTypes = {
 };
 HamburgerButton.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var CardShow = function CardShow(props) {
@@ -1488,7 +1568,7 @@ var CardShow = function CardShow(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1517,7 +1597,9 @@ CardShow.propTypes = {
 };
 CardShow.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ListShow = function ListShow(props) {
@@ -1526,7 +1608,7 @@ var ListShow = function ListShow(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1559,7 +1641,9 @@ ListShow.propTypes = {
 };
 ListShow.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Smiling = function Smiling(props) {
@@ -1568,7 +1652,7 @@ var Smiling = function Smiling(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1595,7 +1679,9 @@ Smiling.propTypes = {
 };
 Smiling.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Delete = function Delete(props) {
@@ -1604,7 +1690,7 @@ var Delete = function Delete(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1632,7 +1718,9 @@ Delete.propTypes = {
 };
 Delete.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Upload = function Upload(props) {
@@ -1641,7 +1729,7 @@ var Upload = function Upload(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1670,7 +1758,9 @@ Upload.propTypes = {
 };
 Upload.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Wallet = function Wallet(props) {
@@ -1679,7 +1769,7 @@ var Wallet = function Wallet(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1714,7 +1804,9 @@ Wallet.propTypes = {
 };
 Wallet.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Collaborators = function Collaborators(props) {
@@ -1723,7 +1815,7 @@ var Collaborators = function Collaborators(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1750,7 +1842,9 @@ Collaborators.propTypes = {
 };
 Collaborators.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Organization = function Organization(props) {
@@ -1759,7 +1853,7 @@ var Organization = function Organization(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1786,7 +1880,9 @@ Organization.propTypes = {
 };
 Organization.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Analysis = function Analysis(props) {
@@ -1795,7 +1891,7 @@ var Analysis = function Analysis(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1826,7 +1922,9 @@ Analysis.propTypes = {
 };
 Analysis.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Reduction = function Reduction(props) {
@@ -1835,7 +1933,7 @@ var Reduction = function Reduction(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1860,7 +1958,9 @@ Reduction.propTypes = {
 };
 Reduction.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Question = function Question(props) {
@@ -1869,7 +1969,7 @@ var Question = function Question(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1891,7 +1991,9 @@ Question.propTypes = {
 };
 Question.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var SqLuser = function SqLuser(props) {
@@ -1900,7 +2002,7 @@ var SqLuser = function SqLuser(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1933,7 +2035,9 @@ SqLuser.propTypes = {
 };
 SqLuser.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Suspended = function Suspended(props) {
@@ -1942,7 +2046,7 @@ var Suspended = function Suspended(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1965,7 +2069,9 @@ Suspended.propTypes = {
 };
 Suspended.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Dev = function Dev(props) {
@@ -1974,7 +2080,7 @@ var Dev = function Dev(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -1997,7 +2103,9 @@ Dev.propTypes = {
 };
 Dev.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Unlink = function Unlink(props) {
@@ -2006,7 +2114,7 @@ var Unlink = function Unlink(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2033,7 +2141,9 @@ Unlink.propTypes = {
 };
 Unlink.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Calendar = function Calendar(props) {
@@ -2042,7 +2152,7 @@ var Calendar = function Calendar(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2077,7 +2187,9 @@ Calendar.propTypes = {
 };
 Calendar.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Time = function Time(props) {
@@ -2086,7 +2198,7 @@ var Time = function Time(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2109,7 +2221,9 @@ Time.propTypes = {
 };
 Time.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Chart = function Chart(props) {
@@ -2118,7 +2232,7 @@ var Chart = function Chart(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2143,7 +2257,9 @@ Chart.propTypes = {
 };
 Chart.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Preferences = function Preferences(props) {
@@ -2152,7 +2268,7 @@ var Preferences = function Preferences(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2189,7 +2305,9 @@ Preferences.propTypes = {
 };
 Preferences.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Enter = function Enter(props) {
@@ -2198,7 +2316,7 @@ var Enter = function Enter(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2223,7 +2341,9 @@ Enter.propTypes = {
 };
 Enter.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Return = function Return(props) {
@@ -2232,7 +2352,7 @@ var Return = function Return(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2255,7 +2375,9 @@ Return.propTypes = {
 };
 Return.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Queryhistory = function Queryhistory(props) {
@@ -2264,7 +2386,7 @@ var Queryhistory = function Queryhistory(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2293,7 +2415,9 @@ Queryhistory.propTypes = {
 };
 Queryhistory.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Send = function Send(props) {
@@ -2302,7 +2426,7 @@ var Send = function Send(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2325,7 +2449,9 @@ Send.propTypes = {
 };
 Send.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ChartsScorecard = function ChartsScorecard(props) {
@@ -2334,7 +2460,7 @@ var ChartsScorecard = function ChartsScorecard(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2357,7 +2483,9 @@ ChartsScorecard.propTypes = {
 };
 ChartsScorecard.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ChartsPie = function ChartsPie(props) {
@@ -2366,7 +2494,7 @@ var ChartsPie = function ChartsPie(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2389,7 +2517,9 @@ ChartsPie.propTypes = {
 };
 ChartsPie.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ChartsPieDoughnut = function ChartsPieDoughnut(props) {
@@ -2398,7 +2528,7 @@ var ChartsPieDoughnut = function ChartsPieDoughnut(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2423,7 +2553,9 @@ ChartsPieDoughnut.propTypes = {
 };
 ChartsPieDoughnut.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ChartsBar = function ChartsBar(props) {
@@ -2432,7 +2564,7 @@ var ChartsBar = function ChartsBar(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2459,7 +2591,9 @@ ChartsBar.propTypes = {
 };
 ChartsBar.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ChartsBarVertical = function ChartsBarVertical(props) {
@@ -2468,7 +2602,7 @@ var ChartsBarVertical = function ChartsBarVertical(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2493,7 +2627,9 @@ ChartsBarVertical.propTypes = {
 };
 ChartsBarVertical.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ChartsBarHorizontal = function ChartsBarHorizontal(props) {
@@ -2502,7 +2638,7 @@ var ChartsBarHorizontal = function ChartsBarHorizontal(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2527,7 +2663,9 @@ ChartsBarHorizontal.propTypes = {
 };
 ChartsBarHorizontal.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var DataNum = function DataNum(props) {
@@ -2536,7 +2674,7 @@ var DataNum = function DataNum(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2564,7 +2702,9 @@ DataNum.propTypes = {
 };
 DataNum.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ChartsLine = function ChartsLine(props) {
@@ -2573,7 +2713,7 @@ var ChartsLine = function ChartsLine(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2596,7 +2736,9 @@ ChartsLine.propTypes = {
 };
 ChartsLine.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var DataString = function DataString(props) {
@@ -2605,7 +2747,7 @@ var DataString = function DataString(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2633,7 +2775,9 @@ DataString.propTypes = {
 };
 DataString.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var DataTime = function DataTime(props) {
@@ -2642,7 +2786,7 @@ var DataTime = function DataTime(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2667,7 +2811,9 @@ DataTime.propTypes = {
 };
 DataTime.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var DataBool = function DataBool(props) {
@@ -2676,7 +2822,7 @@ var DataBool = function DataBool(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2704,7 +2850,9 @@ DataBool.propTypes = {
 };
 DataBool.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var DataVariant = function DataVariant(props) {
@@ -2713,7 +2861,7 @@ var DataVariant = function DataVariant(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2741,7 +2889,9 @@ DataVariant.propTypes = {
 };
 DataVariant.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Mail = function Mail(props) {
@@ -2750,7 +2900,7 @@ var Mail = function Mail(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2777,7 +2927,9 @@ Mail.propTypes = {
 };
 Mail.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Markdown = function Markdown(props) {
@@ -2786,7 +2938,7 @@ var Markdown = function Markdown(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2808,7 +2960,9 @@ Markdown.propTypes = {
 };
 Markdown.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Label = function Label(props) {
@@ -2817,7 +2971,7 @@ var Label = function Label(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2840,7 +2994,9 @@ Label.propTypes = {
 };
 Label.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Column = function Column(props) {
@@ -2849,7 +3005,7 @@ var Column = function Column(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2878,7 +3034,9 @@ Column.propTypes = {
 };
 Column.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Row = function Row(props) {
@@ -2887,7 +3045,7 @@ var Row = function Row(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2916,7 +3074,9 @@ Row.propTypes = {
 };
 Row.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Stereo = function Stereo(props) {
@@ -2925,7 +3085,7 @@ var Stereo = function Stereo(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2958,7 +3118,9 @@ Stereo.propTypes = {
 };
 Stereo.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Person = function Person(props) {
@@ -2967,7 +3129,7 @@ var Person = function Person(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -2990,7 +3152,9 @@ Person.propTypes = {
 };
 Person.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var FullScreen = function FullScreen(props) {
@@ -2999,7 +3163,7 @@ var FullScreen = function FullScreen(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3030,7 +3194,9 @@ FullScreen.propTypes = {
 };
 FullScreen.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var OffScreen = function OffScreen(props) {
@@ -3039,7 +3205,7 @@ var OffScreen = function OffScreen(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3066,7 +3232,9 @@ OffScreen.propTypes = {
 };
 OffScreen.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Comma = function Comma(props) {
@@ -3075,7 +3243,7 @@ var Comma = function Comma(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3097,7 +3265,9 @@ Comma.propTypes = {
 };
 Comma.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Percent = function Percent(props) {
@@ -3106,7 +3276,7 @@ var Percent = function Percent(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3128,7 +3298,9 @@ Percent.propTypes = {
 };
 Percent.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Applications = function Applications(props) {
@@ -3137,7 +3309,7 @@ var Applications = function Applications(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3166,7 +3338,9 @@ Applications.propTypes = {
 };
 Applications.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Activity = function Activity(props) {
@@ -3175,7 +3349,7 @@ var Activity = function Activity(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3196,7 +3370,9 @@ Activity.propTypes = {
 };
 Activity.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Recent = function Recent(props) {
@@ -3205,7 +3381,7 @@ var Recent = function Recent(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3232,7 +3408,9 @@ Recent.propTypes = {
 };
 Recent.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Myworksheet = function Myworksheet(props) {
@@ -3241,7 +3419,7 @@ var Myworksheet = function Myworksheet(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3268,7 +3446,9 @@ Myworksheet.propTypes = {
 };
 Myworksheet.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Getstart = function Getstart(props) {
@@ -3277,7 +3457,7 @@ var Getstart = function Getstart(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3306,7 +3486,9 @@ Getstart.propTypes = {
 };
 Getstart.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Folderopen = function Folderopen(props) {
@@ -3315,7 +3497,7 @@ var Folderopen = function Folderopen(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3338,7 +3520,9 @@ Folderopen.propTypes = {
 };
 Folderopen.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Filescode = function Filescode(props) {
@@ -3347,7 +3531,7 @@ var Filescode = function Filescode(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3374,7 +3558,9 @@ Filescode.propTypes = {
 };
 Filescode.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Terminal = function Terminal(props) {
@@ -3383,7 +3569,7 @@ var Terminal = function Terminal(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3408,7 +3594,9 @@ Terminal.propTypes = {
 };
 Terminal.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Tickets = function Tickets(props) {
@@ -3417,7 +3605,7 @@ var Tickets = function Tickets(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3446,7 +3634,9 @@ Tickets.propTypes = {
 };
 Tickets.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Level = function Level(props) {
@@ -3455,7 +3645,7 @@ var Level = function Level(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3478,7 +3668,9 @@ Level.propTypes = {
 };
 Level.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ChartsBarStacked = function ChartsBarStacked(props) {
@@ -3487,7 +3679,7 @@ var ChartsBarStacked = function ChartsBarStacked(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3518,7 +3710,9 @@ ChartsBarStacked.propTypes = {
 };
 ChartsBarStacked.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Credentials = function Credentials(props) {
@@ -3527,7 +3721,7 @@ var Credentials = function Credentials(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3556,7 +3750,9 @@ Credentials.propTypes = {
 };
 Credentials.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Coupon = function Coupon(props) {
@@ -3565,7 +3761,7 @@ var Coupon = function Coupon(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3592,7 +3788,9 @@ Coupon.propTypes = {
 };
 Coupon.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ThumbsUp = function ThumbsUp(props) {
@@ -3601,7 +3799,7 @@ var ThumbsUp = function ThumbsUp(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3624,7 +3822,9 @@ ThumbsUp.propTypes = {
 };
 ThumbsUp.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ThumbsDown = function ThumbsDown(props) {
@@ -3633,7 +3833,7 @@ var ThumbsDown = function ThumbsDown(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3656,7 +3856,9 @@ ThumbsDown.propTypes = {
 };
 ThumbsDown.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Pencil = function Pencil(props) {
@@ -3665,7 +3867,7 @@ var Pencil = function Pencil(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3688,7 +3890,9 @@ Pencil.propTypes = {
 };
 Pencil.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var DocTitle = function DocTitle(props) {
@@ -3697,7 +3901,7 @@ var DocTitle = function DocTitle(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3726,7 +3930,9 @@ DocTitle.propTypes = {
 };
 DocTitle.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var DocParagraph = function DocParagraph(props) {
@@ -3735,7 +3941,7 @@ var DocParagraph = function DocParagraph(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3766,7 +3972,9 @@ DocParagraph.propTypes = {
 };
 DocParagraph.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var DocPage = function DocPage(props) {
@@ -3775,7 +3983,7 @@ var DocPage = function DocPage(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3802,7 +4010,9 @@ DocPage.propTypes = {
 };
 DocPage.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var RecordDelimiter = function RecordDelimiter(props) {
@@ -3811,7 +4021,7 @@ var RecordDelimiter = function RecordDelimiter(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3844,7 +4054,9 @@ RecordDelimiter.propTypes = {
 };
 RecordDelimiter.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var FieldDelimiter = function FieldDelimiter(props) {
@@ -3853,7 +4065,7 @@ var FieldDelimiter = function FieldDelimiter(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3880,7 +4092,9 @@ FieldDelimiter.propTypes = {
 };
 FieldDelimiter.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var SkipHeader = function SkipHeader(props) {
@@ -3889,7 +4103,7 @@ var SkipHeader = function SkipHeader(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3912,7 +4126,9 @@ SkipHeader.propTypes = {
 };
 SkipHeader.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Locked = function Locked(props) {
@@ -3921,7 +4137,7 @@ var Locked = function Locked(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -3946,7 +4162,9 @@ Locked.propTypes = {
 };
 Locked.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Ueue = function Ueue(props) {
@@ -3955,7 +4173,7 @@ var Ueue = function Ueue(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4014,7 +4232,9 @@ Ueue.propTypes = {
 };
 Ueue.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Right = function Right(props) {
@@ -4023,7 +4243,7 @@ var Right = function Right(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4044,7 +4264,9 @@ Right.propTypes = {
 };
 Right.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Down = function Down(props) {
@@ -4053,7 +4275,7 @@ var Down = function Down(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4074,7 +4296,9 @@ Down.propTypes = {
 };
 Down.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Up = function Up(props) {
@@ -4083,7 +4307,7 @@ var Up = function Up(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4104,7 +4328,9 @@ Up.propTypes = {
 };
 Up.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Left = function Left(props) {
@@ -4113,7 +4339,7 @@ var Left = function Left(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4134,7 +4360,9 @@ Left.propTypes = {
 };
 Left.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ArrowLeft = function ArrowLeft(props) {
@@ -4143,7 +4371,7 @@ var ArrowLeft = function ArrowLeft(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4166,7 +4394,9 @@ ArrowLeft.propTypes = {
 };
 ArrowLeft.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ArrowRight = function ArrowRight(props) {
@@ -4175,7 +4405,7 @@ var ArrowRight = function ArrowRight(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4198,7 +4428,9 @@ ArrowRight.propTypes = {
 };
 ArrowRight.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ArrowTop = function ArrowTop(props) {
@@ -4207,7 +4439,7 @@ var ArrowTop = function ArrowTop(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4230,7 +4462,9 @@ ArrowTop.propTypes = {
 };
 ArrowTop.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var ArrowDown = function ArrowDown(props) {
@@ -4239,7 +4473,7 @@ var ArrowDown = function ArrowDown(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4262,7 +4496,9 @@ ArrowDown.propTypes = {
 };
 ArrowDown.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var SortUp = function SortUp(props) {
@@ -4271,7 +4507,7 @@ var SortUp = function SortUp(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4302,7 +4538,9 @@ SortUp.propTypes = {
 };
 SortUp.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var SortDown = function SortDown(props) {
@@ -4311,7 +4549,7 @@ var SortDown = function SortDown(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4342,7 +4580,9 @@ SortDown.propTypes = {
 };
 SortDown.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var TriangleRight = function TriangleRight(props) {
@@ -4351,7 +4591,7 @@ var TriangleRight = function TriangleRight(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4373,7 +4613,9 @@ TriangleRight.propTypes = {
 };
 TriangleRight.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var TriangleDown = function TriangleDown(props) {
@@ -4382,7 +4624,7 @@ var TriangleDown = function TriangleDown(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4404,7 +4646,9 @@ TriangleDown.propTypes = {
 };
 TriangleDown.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var LoadingSpin = function LoadingSpin(props) {
@@ -4413,7 +4657,7 @@ var LoadingSpin = function LoadingSpin(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4451,7 +4695,9 @@ LoadingSpin.propTypes = {
 };
 LoadingSpin.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Github = function Github(props) {
@@ -4460,7 +4706,7 @@ var Github = function Github(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4484,7 +4730,9 @@ Github.propTypes = {
 };
 Github.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Aws = function Aws(props) {
@@ -4493,7 +4741,7 @@ var Aws = function Aws(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4515,7 +4763,9 @@ Aws.propTypes = {
 };
 Aws.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Google = function Google(props) {
@@ -4524,7 +4774,7 @@ var Google = function Google(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4561,7 +4811,9 @@ Google.propTypes = {
 };
 Google.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Twitter = function Twitter(props) {
@@ -4570,7 +4822,7 @@ var Twitter = function Twitter(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4592,7 +4844,9 @@ Twitter.propTypes = {
 };
 Twitter.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Slack = function Slack(props) {
@@ -4601,7 +4855,7 @@ var Slack = function Slack(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4639,7 +4893,9 @@ Slack.propTypes = {
 };
 Slack.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Wechat = function Wechat(props) {
@@ -4648,7 +4904,7 @@ var Wechat = function Wechat(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4670,7 +4926,9 @@ Wechat.propTypes = {
 };
 Wechat.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 var Youtube = function Youtube(props) {
@@ -4679,7 +4937,7 @@ var Youtube = function Youtube(props) {
       otherProps = _objectWithoutProperties(props, ["color", "size"]);
 
   return /*#__PURE__*/React.createElement("svg", _extends({
-    className: clsx('icon default', className),
+    className: clsx('icon default'),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
     height: size,
@@ -4703,7 +4961,9 @@ Youtube.propTypes = {
 };
 Youtube.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 export { Activity, Add, AddFolder, AddSheet, Analysis, Applications, ArrowDown, ArrowLeft, ArrowRight, ArrowTop, Aws, Begin, Book, Calendar, CardShow, Chart, ChartsBar, ChartsBarHorizontal, ChartsBarStacked, ChartsBarVertical, ChartsLine, ChartsPie, ChartsPieDoughnut, ChartsScorecard, Check, Close, Collaborators, Column, Comma, Compute, Copy, Coupon, Credentials, Dashboard, Data, DataBool, DataNum, DataString, DataTime, DataVariant, Delete, Dev, DocPage, DocParagraph, DocTitle, Down, Download, Enter, Error, ExpandDown, ExpandLeft, ExpandRight, ExpandTop, Export, FieldDelimiter, Filescode, Folder, Folderopen, FullScreen, Getstart, Github, Google, HamburgerButton, Help, Hidden, Label, Left, Level, Link, ListShow, Loading, LoadingSpin, Locked, Mail, Markdown, More, Myworksheet, Notifications, Number, OffScreen, Organization, Pencil, Percent, Person, Pin, Preferences, Queryhistory, Question, Recent, RecordDelimiter, Reduction, Refresh, Return, Right, Row, Schema, Search, Send, Setting, Share, Show, SkipHeader, Slack, Smiling, SortDown, SortUp, SqLuser, Stereo, String, Support, Suspended, Switch, Table, Terminal, ThumbsDown, ThumbsUp, Tickets, Time, TriangleDown, TriangleRight, Twitter, Ueue, Unlink, Up, Upload, Wallet, WareHouse, Wechat, Worksheet, Youtube };

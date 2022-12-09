@@ -6,7 +6,7 @@ const Mail = props => {
   const { color, size, ...otherProps } = props;
   return (
     <svg
-      className={clsx('icon default', className)}
+      className={clsx('icon default')}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
@@ -33,7 +33,9 @@ Mail.propTypes = {
 
 Mail.defaultProps = {
   color: 'currentColor',
-  size: '20'
+  size: '20',
+  className: '',
+  style: {}
 };
 
 export default Mail;
