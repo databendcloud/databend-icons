@@ -5,12 +5,12 @@ Icons for Databend Cloud
 https://databendcloud.github.io/databend-icons/
 
 # Install
-```
+```js
 yarn add git+https://github.com/databendcloud/databend-icons.git#package
 ```
 
 # How to use
-```
+```js
 import { Loading } from '@databendcloud/databend-icons';
 ```
 
