@@ -27,7 +27,7 @@ Tips: This css is just an example, You're free to play
 ```
 
 # How to update
-Change the version field of package.json, incrementally, submit to the main branch, and ci will be built automatically，
-as illustrated in following figure：
+Change the version field of package.json, incrementally, submit to the main branch, and ci will be built automatically，as illustrated in following figure：
+
 ![image](https://user-images.githubusercontent.com/15354455/206726455-89b8f7f7-f2db-4363-8a1d-a2e071e4164c.png)
 
