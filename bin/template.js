@@ -49,6 +49,8 @@ const getElementCode = (ComponentName, attrs, svgCode) => `
   ${ComponentName}.defaultProps = {
     color: 'currentColor',
     size: '20',
+    className: '',
+    style: {}
   }
 
   export default ${ComponentName}
