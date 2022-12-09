@@ -26,9 +26,9 @@ const getElementCode = (ComponentName, attrs, svgCode) => `
   import clsx from 'clsx';
 
   const ${ComponentName} = (props) => {
-    const { color, size, className, ...otherProps } = props;
+    const { color, size, ...otherProps } = props;
     return (
-      <svg className={clsx('icon default', className)} ${attrs}>
+      <svg className={clsx('icon default')} ${attrs}>
         ${svgCode}
       </svg>
     )
