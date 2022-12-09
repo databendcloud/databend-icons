@@ -9,7 +9,7 @@ const ChartsBar = props => {
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
-      class="icon default props.className"
+      className="icon default"
       viewBox="-2 -2 24 24"
       fill={color}
       {...otherProps}
