@@ -27,7 +27,19 @@ jobs:
           npm run generate
           npm run build:bundle
 
-      - name: Pushes to package
+      - name: Pushes package.json to package
+        uses: actions/checkout@v2.3.4
+        uses: GuillaumeFalourd/copy-push-files@v1
+          with:
+            email: ${{ secrets.USER_EMAIL }}
+            name: ${{ secrets.USE_NAME }}
+            commit_message: copy package.json
+            target_branch: package
+            source_files: package.json
+            remote_repository: https://github.com/databendcloud/databend-icons
+            access_token: ${{ secrets.PACKAGES_TOKEN }}
+
+      - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
         env:
           API_TOKEN_GITHUB: ${{ secrets.PACKAGES_TOKEN }}
@@ -38,18 +50,6 @@ jobs:
           target-directory: 'dist'
           user-email: ${{ secrets.USER_EMAIL }}
           target-branch: ${{ secrets.BUILD_BRANCH }}
-      
-      - name: Pushes package.json to package
-        - uses: actions/checkout@v2.3.4
-        - uses: GuillaumeFalourd/copy-push-files@v1
-          with:
-            email: ${{ secrets.USER_EMAIL }}
-            name: ${{ secrets.USE_NAME }}
-            commit_message: copy package.json
-            target_branch: package
-            source_files: package.json
-            remote_repository: https://github.com/databendcloud/databend-icons
-            access_token: ${{ secrets.PACKAGES_TOKEN }}
       # - name: login npm 
       #   uses: ahmadnassri/action-github-registry-npm-proxy@v2
       #   with:
