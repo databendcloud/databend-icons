@@ -4,7 +4,7 @@ import * as icons from './icons'
 import Header from './components/Header'
 import IconWrapper from './components/IconWrapper'
 import { copyToClipboard } from 'copyforjs';
-import { Tooltip } from 'antd';
+import { Tooltip, Space } from 'antd';
 
 const Container = styled.ul`
   display: grid;
@@ -41,7 +41,7 @@ class List extends React.Component {
                           </Tooltip>
                         </span>
                       </Space>
-                      </Space>
+                    </Space>
                   </IconWrapper>
                 </li>
               })
