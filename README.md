@@ -1,7 +1,7 @@
 # databend-icons
 Icons for Databend Cloud
 
-# 查看效果
+# View the display effect
 https://databendcloud.github.io/databend-icons/
 
 # Install
