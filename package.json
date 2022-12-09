@@ -1,7 +1,7 @@
 {
   "name": "@databendcloud/databend-icons",
   "description": "Icons for Databend",
-  "version": "0.0.36",
+  "version": "0.0.37",
   "main": "dist/juuust-react-icon.cjs.js",
   "module": "dist/juuust-react-icon.esm.js",
   "typings": "dist/icons.d.ts",
@@ -26,7 +26,7 @@
   "scripts": {
     "fetch": "rm -rf src/svg && node bin/fetchSVG.js",
     "generate": "rm -rf src/icons && node bin/build.js",
-    "build:bundle": "sudo rm -rf dist && node_modules/.bin/rollup --c ./build/rollup.config.bundle.js",
+    "build:bundle": "rm -rf dist && node_modules/.bin/rollup --c ./build/rollup.config.bundle.js",
     "dev": "rollup -w -c ./build/rollup.config.dev.js",
     "build": "rollup -c ./build/rollup.config.prod.js",
     "release": "npm publish"

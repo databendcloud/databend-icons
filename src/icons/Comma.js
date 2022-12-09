@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import clsx from 'clsx';
 
 const Comma = props => {
-  const { color, size, ...otherProps } = props;
+  const { color, size, className, ...otherProps } = props;
   return (
     <svg
-      class="icon default"
+      className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
