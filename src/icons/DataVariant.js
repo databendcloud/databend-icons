@@ -6,10 +6,10 @@ const DataVariant = props => {
   const { color, size, ...otherProps } = props;
   return (
     <svg
+      className="icon default"
       xmlns="http://www.w3.org/2000/svg"
       width={size}
       height={size}
-      class="icon default"
       viewBox="-2 -2 24 24"
       fill={color}
       {...otherProps}

@@ -3,7 +3,6 @@ const getAttrs = (style) => {
     xmlns: 'http://www.w3.org/2000/svg',
     width: 'size',
     height: 'size',
-    class: "icon default",
     viewBox: '-2 -2 24 24',
   }
   const fillAttrs = {
@@ -29,7 +28,7 @@ const getElementCode = (ComponentName, attrs, svgCode) => `
   const ${ComponentName} = (props) => {
     const { color, size, ...otherProps } = props;
     return (
-      <svg ${attrs}>
+      <svg className="icon default" ${attrs}>
         ${svgCode}
       </svg>
     )
