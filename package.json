@@ -1,17 +1,17 @@
 {
   "name": "@databendcloud/databend-icons",
   "description": "Icons for Databend",
-  "version": "0.0.42",
-  "main": "dist/juuust-react-icon.cjs.js",
-  "module": "dist/juuust-react-icon.esm.js",
+  "version": "0.1.0",
+  "main": "dist/databend-cloud-icon.cjs.js",
+  "module": "dist/databend-cloud-icon.esm.js",
   "typings": "dist/icons.d.ts",
   "files": [
     "dist",
     ".gitignore",
     "package.json"
   ],
-  "repository": "https://github.com/leadream/juuust-react-icon.git",
-  "author": "leadream",
+  "repository": "https://github.com/databendcloud/databend-icons.git",
+  "author": "DatabendCloud",
   "keywords": [
     "react",
     "icons",
@@ -22,9 +22,9 @@
     "design"
   ],
   "bugs": {
-    "url": "https://github.com/leadream/juuust-react-icon/issues"
+    "url": "https://github.com/databendcloud/databend-icons.git/issues"
   },
-  "homepage": "https://github.com/leadream/juuust-react-icon#readme",
+  "homepage": "https://github.com/databendcloud/databend-icons.git#readme",
   "scripts": {
     "fetch": "rm -rf src/svg && node bin/fetchSVG.js",
     "generate": "rm -rf src/icons && node bin/build.js",
