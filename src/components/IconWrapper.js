@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { copyToClipboard } from 'copyforjs';
+import Tooltip from 'antd';
 
 const IconWrapper = styled.a`
   display: flex;
@@ -14,7 +15,8 @@ const IconWrapper = styled.a`
 
 export default ({children}) =>
   <IconWrapper 
-  title='点击复制svg' 
   onClick={()=> {copyToClipboard(JSON.stringify(children))}}>
-    { children }
+    <Tooltip title="点击复制svg">
+      { children }
+    </Tooltip>
   </IconWrapper>

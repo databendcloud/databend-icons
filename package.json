@@ -38,6 +38,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "antd": "^5.0.5",
     "clsx": "^1.2.1",
     "copyforjs": "^1.0.6",
     "normalize.css": "^8.0.1",
