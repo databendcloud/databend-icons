@@ -35,7 +35,7 @@ class List extends React.Component {
                       </Tooltip>
                       <Space size={12}>
                         <span>{key}</span>
-                        <span style={{marginLeft: '10px'}} onClick={() => {
+                        <span onClick={() => {
                           message.success('已复制')
                           copyToClipboard(key)
                         }}>
