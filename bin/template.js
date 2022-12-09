@@ -21,17 +21,17 @@ const getAttrs = (style) => {
 
 const getElementCode = (ComponentName, attrs, svgCode) => `
   import React from 'react';
-  import { FC } from 'react';
+  // import { FC } from 'react';
   import clsx from 'clsx';
-  interface IProps{
+  /*interface IProps{
     style?: React.CSSProperties;
     className?: string | 'g-icon-defaut-primary';
     onClick?: React.MouseEventHandler<HTMLElement>;
     children?: React.ReactNode[] | React.ReactNode;
     color: string;
     size: string | number;
-  }
-  const ${ComponentName}Icon:FC<IProps | any> = (props) => {
+  }*/
+  function ${ComponentName}Icon(props) {
     const { color, size, className, ...otherProps } = props;
     return (
         <svg className={clsx('icon default', className)} ${attrs}>
