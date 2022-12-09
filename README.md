@@ -18,11 +18,11 @@ import { Loading } from '@databendcloud/databend-icons';
 example: 
 ```css
   .icon.default{
-      fill: transparent;
-      stroke: rgb(1, 14, 41);
-    }
+     fill: transparent;
+     stroke: rgb(1, 14, 41);
+   }
   .icon.default:has(path[fill-rule="evenodd"]:not(:last-child)) {
-    fill: rgb(1, 14, 41);
+     fill: rgb(1, 14, 41);
   }
     
  his css is just an example, you can play with it
