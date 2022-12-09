@@ -39,7 +39,7 @@ jobs:
       #     user-email: ${{ secrets.USER_EMAIL }}
       #     target-branch: ${{ secrets.BUILD_BRANCH }}
       - name: Push generated files to another repository
-        uses: nkoppel/push-files-to-another-repository
+        uses: nkoppel/push-files-to-another-repository@1.1.1
         env:
           API_TOKEN_GITHUB: ${{ secrets.PACKAGES_TOKEN }}
         with:
