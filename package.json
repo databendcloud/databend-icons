@@ -1,8 +1,8 @@
 {
   "name": "@databendcloud/databend-icons",
   "description": "Icons for Databend",
-  "version": "0.0.23",
-  "main": "dist/juuust-react-icon.esm.js",
+  "version": "0.0.24",
+  "main": "dist/juuust-react-icon.cjs.js",
   "module": "dist/juuust-react-icon.esm.js",
   "typings": "dist/icons.d.ts",
   "files": [
