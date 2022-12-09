@@ -1,6 +1,8 @@
 # databend-icons
 Icons for Databend Cloud
 
+# 查看效果
+https://databendcloud.github.io/databend-icons/
 
 eg: 
 
