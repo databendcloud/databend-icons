@@ -17,7 +17,7 @@ props:
 <Loading size="20" className="class-name" onClick={action}/>
 {
   size: number // default: 20
-  className: string // clsx('icon default', className)
+  className: string // clsx('icon default', class-name)
   onClick: ()=> void;
 }
 ```
