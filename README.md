@@ -15,6 +15,11 @@ import { Loading } from '@databendcloud/databend-icons';
 
 props:
 <Loading size="20" className="class-name" onClick={action}/>
+{
+  size: number // default: 20
+  className: string // clsx('icon default', className)
+  onClick: ()=> void;
+}
 ```
 
 # May be you need css Or you can define your own style
