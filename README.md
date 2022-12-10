@@ -22,7 +22,7 @@ props:
 }
 ```
 
-# May be you need css Or you can define your own style (define your own class)
+# May be you need css Or you can define your own style (define your own className)
 Tips: This css is just an example, Feel free to change it yourself
 ```css
   .icon.default{
