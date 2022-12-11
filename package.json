@@ -1,7 +1,7 @@
 {
   "name": "@databendcloud/databend-icons",
   "description": "Icons for Databend",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/databend-cloud-icon.cjs.js",
   "module": "dist/databend-cloud-icon.esm.js",
   "typings": "dist/icons.d.ts",
@@ -42,8 +42,8 @@
     "clsx": "^1.2.1",
     "copyforjs": "^1.0.6",
     "normalize.css": "^8.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^16.13.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-html-parser": "^2.0.2",
     "styled-components": "^5.1.1"
   },
