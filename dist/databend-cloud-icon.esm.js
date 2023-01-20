@@ -58,13 +58,13 @@ var Dashboard = function Dashboard(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M18.5 3.333h-15a.833.833 0 00-.833.834v11.666c0 .46.373.834.833.834h15c.46 0 .833-.373.833-.834V4.167a.833.833 0 00-.833-.834z"
+    d: "M17.833 3.333h-15A.833.833 0 002 4.167v11.666c0 .46.373.834.833.834h15c.46 0 .834-.373.834-.834V4.167a.833.833 0 00-.834-.834z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M14.333 10.417v2.916"
+    d: "M13.667 10.417v2.916"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M11 6.667v6.666"
+    d: "M10.333 6.667v6.666"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7.667 8.333v5"
+    d: "M7 8.333v5"
   }));
 };
 Dashboard.propTypes = {
@@ -136,13 +136,13 @@ var Data = function Data(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M18.333 4.583v11.25c0 1.381-3.73 2.5-8.333 2.5-4.602 0-8.333-1.119-8.333-2.5V4.583"
+    d: "M18 4.8v10.8c0 1.325-3.582 2.4-8 2.4s-8-1.075-8-2.4V4.8"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M18.333 12.083c0 1.381-3.73 2.5-8.333 2.5-4.602 0-8.333-1.119-8.333-2.5"
+    d: "M18 12c0 1.325-3.582 2.4-8 2.4S2 13.325 2 12"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M18.333 8.333c0 1.381-3.73 2.5-8.333 2.5-4.602 0-8.333-1.119-8.333-2.5"
+    d: "M18 8.4c0 1.325-3.582 2.4-8 2.4S2 9.725 2 8.4"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M10 6.667c4.602 0 8.333-1.12 8.333-2.5 0-1.381-3.73-2.5-8.333-2.5-4.602 0-8.333 1.119-8.333 2.5 0 1.38 3.73 2.5 8.333 2.5z"
+    d: "M10 6.8c4.418 0 8-1.075 8-2.4S14.418 2 10 2 2 3.075 2 4.4s3.582 2.4 8 2.4z"
   }));
 };
 Data.propTypes = {
@@ -175,17 +175,17 @@ var Support = function Support(props) {
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     clipRule: "evenodd",
-    d: "M15.893 15.893A8.333 8.333 0 104.107 4.107a8.333 8.333 0 0011.785 11.785zm-2.357-9.429a5 5 0 11-7.071 7.071 5 5 0 017.07-7.07z"
+    d: "M15.657 15.657A8 8 0 104.343 4.343a8 8 0 0011.314 11.314zm-2.263-9.051a4.8 4.8 0 11-6.788 6.788 4.8 4.8 0 016.788-6.788z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M15.893 15.893l-2.357-2.357"
+    d: "M15.657 15.657l-2.263-2.263"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M4.107 15.893l2.357-2.357"
+    d: "M4.343 15.657l2.263-2.263"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M4.107 4.107l2.357 2.357"
+    d: "M4.343 4.343l2.263 2.263"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M15.893 4.107l-2.357 2.357"
+    d: "M15.657 4.343l-2.263 2.263"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M13.536 13.536a5 5 0 10-7.072-7.072 5 5 0 007.072 7.072z"
+    d: "M13.394 13.394a4.8 4.8 0 10-6.788-6.788 4.8 4.8 0 006.788 6.788z"
   }));
 };
 Support.propTypes = {
@@ -217,17 +217,17 @@ var Compute = function Compute(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M18.333 1.667H1.667v6.666h16.666V1.667z"
+    d: "M18 2H2v6.4h16V2z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M18.333 11.667H1.667v6.666h16.666v-6.666z"
+    d: "M18 11.6H2V18h16v-6.4z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M4.667 5.333v-.666h.666v.666h-.666z"
+    d: "M4.9 5.5v-.6h.6v.6h-.6z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M4.667 15.333v-.666h.666v.666h-.666z"
+    d: "M4.9 15.1v-.6h.6v.6h-.6z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M8 5.333v-.666h.667v.666H8z"
+    d: "M8.1 5.5v-.6h.6v.6h-.6z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M8 15.333v-.666h.667v.666H8z"
+    d: "M8.1 15.1v-.6h.6v.6h-.6z"
   }));
 };
 Compute.propTypes = {
@@ -259,9 +259,9 @@ var Setting = function Setting(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M7.618 17.988a8.331 8.331 0 01-3.623-2.21 2.5 2.5 0 00-2.16-4.1A8.371 8.371 0 012.049 7.5h.035a2.5 2.5 0 002.244-3.604 8.32 8.32 0 013.445-1.928 2.5 2.5 0 004.456 0 8.32 8.32 0 013.445 1.928A2.5 2.5 0 0017.952 7.5a8.373 8.373 0 01.213 4.18 2.5 2.5 0 00-2.16 4.1 8.331 8.331 0 01-3.623 2.208 2.501 2.501 0 00-4.764 0z"
+    d: "M7.714 17.38a7.998 7.998 0 01-3.479-2.122 2.4 2.4 0 00-2.073-3.935 8.036 8.036 0 01.204-4.012H2.4a2.4 2.4 0 002.154-3.46A7.987 7.987 0 017.86 2a2.4 2.4 0 004.278 0 7.987 7.987 0 013.307 1.85 2.4 2.4 0 002.188 3.46 8.035 8.035 0 01.204 4.012 2.4 2.4 0 00-2.073 3.935 7.998 7.998 0 01-3.479 2.122 2.401 2.401 0 00-4.572 0z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M10 12.917a2.917 2.917 0 100-5.834 2.917 2.917 0 000 5.834z"
+    d: "M10 12.51a2.8 2.8 0 100-5.6 2.8 2.8 0 000 5.6z"
   }));
 };
 Setting.propTypes = {
@@ -293,13 +293,13 @@ var Notifications = function Notifications(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M18.333 10A8.333 8.333 0 0110 18.333H1.667V10a8.333 8.333 0 1116.666 0z"
+    d: "M18 10a8 8 0 01-8 8H2v-8a8 8 0 1116 0z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5.833 7.5h7.5"
+    d: "M6 7.6h7.2"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5.833 10.833h7.5"
+    d: "M6 10.8h7.2"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5.833 14.167H10"
+    d: "M6 14h4"
   }));
 };
 Notifications.propTypes = {
@@ -331,11 +331,11 @@ var Search = function Search(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M8.75 15.833a7.083 7.083 0 100-14.166 7.083 7.083 0 000 14.166z"
+    d: "M9.213 16.427A7.214 7.214 0 109.213 2a7.214 7.214 0 000 14.427z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M11.107 5.976A3.323 3.323 0 008.75 5c-.92 0-1.754.373-2.357.976"
+    d: "M11.614 6.389a3.384 3.384 0 00-2.4-.994c-.938 0-1.787.38-2.4.994"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M13.842 13.842l3.536 3.536"
+    d: "M14.4 14.4L18 18"
   }));
 };
 Search.propTypes = {
@@ -403,7 +403,7 @@ var Error = function Error(props) {
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
-    d: "M2.5 4.583L4.583 2.5 10 7.917 15.417 2.5 17.5 4.583 12.083 10l5.417 5.417-2.083 2.083L10 12.083 4.583 17.5 2.5 15.417 7.917 10 2.5 4.583z",
+    d: "M3 4.944L4.944 3 10 8.056 15.056 3 17 4.944 11.944 10 17 15.056 15.056 17 10 11.944 4.944 17 3 15.056 8.056 10 3 4.944z",
     fillOpacity: ".8"
   }));
 };
@@ -438,7 +438,7 @@ var Check = function Check(props) {
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
-    d: "M1.667 10L3.75 7.917l4.167 4.166L16.25 3.75l2.083 2.083L7.917 16.25 1.667 10z",
+    d: "M3 9.75L4.75 8l3.5 3.5 7-7L17 6.25 8.25 15 3 9.75z",
     fillOpacity: ".8"
   }));
 };
@@ -471,15 +471,15 @@ var Hidden = function Hidden(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M2.5 6.667c.264.508.665.979 1.176 1.398C5.11 9.239 7.408 10 10 10c2.592 0 4.891-.761 6.324-1.935.51-.419.911-.89 1.176-1.398"
+    d: "M3.368 7c.234.45.588.866 1.04 1.236 1.266 1.038 3.299 1.71 5.59 1.71s4.324-.672 5.59-1.71c.452-.37.806-.787 1.04-1.236"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M12.074 10l.863 3.22"
+    d: "M11.832 9.947l.762 2.846"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M15.564 8.897l2.357 2.357"
+    d: "M14.916 8.972L17 11.055"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M2.083 11.254L4.44 8.897"
+    d: "M3 11.055l2.084-2.083"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7.053 13.22L7.916 10"
+    d: "M7.393 12.793l.763-2.846"
   }));
 };
 Hidden.propTypes = {
@@ -511,9 +511,9 @@ var Show = function Show(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M10 15c4.602 0 8.333-5 8.333-5S14.603 5 10 5c-4.602 0-8.333 5-8.333 5s3.73 5 8.333 5z"
+    d: "M10 14.6c4.418 0 8-4.8 8-4.8S14.418 5 10 5 2 9.8 2 9.8s3.582 4.8 8 4.8z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M10 12.083a2.083 2.083 0 100-4.166 2.083 2.083 0 000 4.166z"
+    d: "M10 11.8a2 2 0 100-4 2 2 0 000 4z"
   }));
 };
 Show.propTypes = {
@@ -594,15 +594,15 @@ var Share = function Share(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M14.583 6.667a2.083 2.083 0 100-4.167 2.083 2.083 0 000 4.167z"
+    d: "M14.5 6.889A1.944 1.944 0 1014.5 3a1.944 1.944 0 000 3.889z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5.417 12.083a2.083 2.083 0 100-4.166 2.083 2.083 0 000 4.166z"
+    d: "M5.944 11.944a1.944 1.944 0 100-3.888 1.944 1.944 0 000 3.888z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M12.5 5.656L7.224 8.852"
+    d: "M12.556 5.946L7.631 8.929"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7.224 11.068l5.559 3.285"
+    d: "M7.632 10.997l5.188 3.066"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M14.583 13.333a2.083 2.083 0 110 4.167 2.083 2.083 0 010-4.167z"
+    d: "M14.5 13.111a1.944 1.944 0 110 3.889 1.944 1.944 0 010-3.889z"
   }));
 };
 Share.propTypes = {
@@ -666,11 +666,11 @@ var Export = function Export(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M17.5 11.25c0 2.5-1.667 6.667-7.5 6.667S2.5 13.75 2.5 11.25"
+    d: "M16.633 11.105c0 2.21-1.473 5.895-6.631 5.895S3.37 13.316 3.37 11.105"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M10.003 2.125V13.75"
+    d: "M10.004 3.037v10.279"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5 7.083l5-5 5 5"
+    d: "M5.58 7.421L10.003 3l4.42 4.421"
   }));
 };
 Export.propTypes = {
@@ -703,11 +703,11 @@ var Download = function Download(props) {
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     clipRule: "evenodd",
-    d: "M10 12.083l-5-5h3.333V2.5h3.334v4.583H15l-5 5z"
+    d: "M10.002 11.474L5.58 7.053h2.947V3h2.947v4.053h2.948l-4.421 4.42z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M17.5 15.417h-15"
+    d: "M16.633 14.421H3.37"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M14.167 18.333H5.833"
+    d: "M13.686 17H6.317"
   }));
 };
 Download.propTypes = {
@@ -739,13 +739,13 @@ var Refresh = function Refresh(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M17.5 3.333V10"
+    d: "M16 4.667V10"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M2.5 10v6.667"
+    d: "M4 10v5.333"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M2.5 10a7.5 7.5 0 0012.708 5.397"
+    d: "M4 10a6 6 0 0010.167 4.317"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M17.5 10A7.5 7.5 0 004.604 4.792"
+    d: "M16 10A6 6 0 005.683 5.833"
   }));
 };
 Refresh.propTypes = {
@@ -777,13 +777,13 @@ var AddSheet = function AddSheet(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M16.667 9.583v-3.75l-3.75-4.166h-8.75a.833.833 0 00-.834.833v15c0 .46.373.833.834.833h5"
+    d: "M15.6 9.65V6.5L12.45 3H5.1a.7.7 0 00-.7.7v12.6a.7.7 0 00.7.7h4.2"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M13.75 12.083v5.834"
+    d: "M13.15 11.75v4.9"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M10.833 15h5.834"
+    d: "M10.7 14.2h4.9"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M12.5 1.667v4.166h4.167"
+    d: "M12.1 3v3.5h3.5"
   }));
 };
 AddSheet.propTypes = {
@@ -815,7 +815,7 @@ var Pin = function Pin(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M4.457 7.293c1.1-1.099 2.406-1.069 3.826-.29l5.309-2.943-.3-2.065 4.713 4.714-2.061-.296-2.947 5.304c.743 1.516.809 2.727-.29 3.826l-3.242-3.24-6.78 5.012 4.998-6.796-3.226-3.226z"
+    d: "M4.62 7.842c1.004-1.004 2.198-.977 3.495-.265l4.852-2.69L12.692 3 17 7.308l-1.884-.27-2.693 4.847c.68 1.385.74 2.491-.265 3.496l-2.962-2.962L3 17l4.567-6.21L4.62 7.842z"
   }));
 };
 Pin.propTypes = {
@@ -847,15 +847,15 @@ var Table = function Table(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M16.375 2.5H3.625c-.621 0-1.125.504-1.125 1.125v12.75c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V3.625c0-.621-.504-1.125-1.125-1.125z"
+    d: "M15.95 3H4.05C3.47 3 3 3.47 3 4.05v11.9c0 .58.47 1.05 1.05 1.05h11.9c.58 0 1.05-.47 1.05-1.05V4.05C17 3.47 16.53 3 15.95 3z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7.5 2.5v15"
+    d: "M7.667 3v14"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M12.5 2.5v15"
+    d: "M12.333 3v14"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M2.5 7.5h15"
+    d: "M3 7.667h14"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M2.5 12.5h15"
+    d: "M3 12.333h14"
   }));
 };
 Table.propTypes = {
@@ -887,11 +887,11 @@ var Schema = function Schema(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M5.833 5.417H2.5v9.166h3.333"
+    d: "M6.111 5.723H3v8.556h3.111"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5.833 12.083H17.5v5H5.833v-5z"
+    d: "M6.111 11.946H17v4.666H6.111v-4.666z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5.833 2.917H17.5v5H5.833v-5z"
+    d: "M6.111 3.39H17v4.667H6.111V3.39z"
   }));
 };
 Schema.propTypes = {
@@ -1083,7 +1083,7 @@ var Link = function Link(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M10.295 3.985l-6.188 6.188a3.75 3.75 0 005.304 5.303l7.365-7.366a2.5 2.5 0 00-3.535-3.535L5.875 11.94a1.25 1.25 0 001.768 1.768l6.187-6.187"
+    d: "M10.034 4.138l-5.973 5.974a3.62 3.62 0 105.12 5.12l7.112-7.111a2.414 2.414 0 10-3.414-3.414l-7.112 7.112a1.207 1.207 0 001.707 1.707l5.974-5.974"
   }));
 };
 Link.propTypes = {
@@ -1115,13 +1115,13 @@ var Help = function Help(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M10 18.333a8.307 8.307 0 005.893-2.44A8.307 8.307 0 0018.332 10a8.307 8.307 0 00-2.44-5.893A8.307 8.307 0 0010 1.667a8.307 8.307 0 00-5.893 2.44A8.307 8.307 0 001.667 10c0 2.301.932 4.384 2.44 5.893A8.307 8.307 0 0010 18.332z"
+    d: "M10 16.5a6.48 6.48 0 004.596-1.904A6.48 6.48 0 0016.5 10a6.48 6.48 0 00-1.904-4.596A6.48 6.48 0 0010 3.5a6.48 6.48 0 00-4.596 1.904A6.48 6.48 0 003.5 10a6.48 6.48 0 001.904 4.596A6.48 6.48 0 0010 16.5z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M10 11.927V10.26a2.5 2.5 0 10-2.5-2.5"
+    d: "M10 11.503v-1.3a1.95 1.95 0 10-1.95-1.95"
   }), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
     clipRule: "evenodd",
-    d: "M10 15.677a1.042 1.042 0 100-2.083 1.042 1.042 0 000 2.083z",
+    d: "M10 14.428a.813.813 0 100-1.625.813.813 0 000 1.625z",
     fillOpacity: ".8"
   }));
 };
@@ -1193,9 +1193,9 @@ var String = function String(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M3 17l7-14 7 14"
+    d: "M4 16l6-12 6 12"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M6 11h8"
+    d: "M6.571 10.857h6.858"
   }));
 };
 String.propTypes = {
@@ -1275,11 +1275,11 @@ var AddFolder = function AddFolder(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M2 2.833c0-.46.373-.833.833-.833h5l2.084 2.5H17c.46 0 .833.373.833.833v10.834c0 .46-.373.833-.833.833H2.833A.833.833 0 012 16.167V2.833z"
+    d: "M3 3.737C3 3.33 3.33 3 3.737 3h4.42L10 5.21h6.263c.407 0 .737.33.737.737v9.58c0 .406-.33.736-.737.736H3.737A.737.737 0 013 15.526V3.736z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7.5 10.25h5"
+    d: "M7.863 10.295h4.421"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M10 7.75v5"
+    d: "M10.074 8.084v4.421"
   }));
 };
 AddFolder.propTypes = {
@@ -1345,13 +1345,13 @@ var WareHouse = function WareHouse(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M9.583 17.917h8.334V2.083H5.833V6.25"
+    d: "M9.632 17H17V3H6.316v3.684"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M2.083 6.25h7.5v11.667h-7.5V6.25z"
+    d: "M3 6.684h6.632V17H3V6.684z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5.417 15.417h.833"
+    d: "M5.947 14.79h.737"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M11.667 15.417h.833"
+    d: "M11.474 14.79h.736"
   }));
 };
 WareHouse.propTypes = {
@@ -1383,11 +1383,11 @@ var Folder = function Folder(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M2.083 3.333c0-.46.373-.833.834-.833h5L10 5h7.083c.46 0 .834.373.834.833v10.834c0 .46-.373.833-.834.833H2.917a.833.833 0 01-.834-.833V3.333z"
+    d: "M3 3.737C3 3.33 3.33 3 3.737 3h4.42L10 5.21h6.263c.407 0 .737.33.737.737v9.58c0 .406-.33.736-.737.736H3.737A.737.737 0 013 15.526V3.736z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5.833 9.167l2.084 2.083-2.084 2.083"
+    d: "M6.316 8.895l1.842 1.842-1.842 1.842"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M10.833 13.333h3.334"
+    d: "M10.737 12.579h2.947"
   }));
 };
 Folder.propTypes = {
@@ -1459,10 +1459,10 @@ var Book = function Book(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M3.333 16.667v-12.5c0-1.381 1.194-2.5 2.667-2.5h10.667V15H6c-2.099 0-2.667.285-2.667 1.667z"
+    d: "M4 15.5V4.25C4 3.007 5.075 2 6.4 2H16v12H6.4c-1.89 0-2.4.257-2.4 1.5z"
   }), /*#__PURE__*/React.createElement("path", {
     clipRule: "evenodd",
-    d: "M5 18.333h11.667V15H5a1.667 1.667 0 000 3.333z"
+    d: "M5.5 17H16v-3H5.5a1.5 1.5 0 000 3z"
   }));
 };
 Book.propTypes = {
@@ -1494,9 +1494,9 @@ var Copy = function Copy(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M5.417 5.18V3.255c0-.647.524-1.172 1.172-1.172h10.156c.647 0 1.172.525 1.172 1.172v10.156c0 .648-.525 1.172-1.172 1.172h-1.947"
+    d: "M6.526 6.347V4.888c0-.49.398-.888.888-.888h7.698c.49 0 .888.398.888.888v7.697c0 .491-.398.889-.888.889h-1.475"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M13.412 5.417H3.255c-.647 0-1.172.524-1.172 1.172v10.156c0 .647.525 1.172 1.172 1.172h10.157c.647 0 1.171-.525 1.171-1.172V6.589c0-.648-.524-1.172-1.171-1.172z"
+    d: "M12.585 6.526H4.888A.888.888 0 004 7.414v7.698c0 .49.398.888.888.888h7.697c.491 0 .889-.398.889-.888V7.414a.888.888 0 00-.889-.888z"
   }));
 };
 Copy.propTypes = {
@@ -1648,13 +1648,13 @@ var Smiling = function Smiling(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M10 18.333a8.333 8.333 0 100-16.666 8.333 8.333 0 000 16.666z"
+    d: "M10 17a7 7 0 100-14 7 7 0 000 14z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M12.917 12.917s-.834 1.666-2.917 1.666c-2.083 0-2.917-1.666-2.917-1.666"
+    d: "M12.45 12.45s-.7 1.4-2.45 1.4c-1.75 0-2.45-1.4-2.45-1.4"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M12.917 7.5v1.667"
+    d: "M12.45 7.9v1.4"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7 7v1.667"
+    d: "M7.48 7.48v1.4"
   }));
 };
 Smiling.propTypes = {
@@ -1686,14 +1686,14 @@ var Delete = function Delete(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M6.25 5l.5-2.917h6.5L13.75 5"
+    d: "M6.5 5.722L6.967 3h6.066l.467 2.722"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M2.5 5h15"
+    d: "M3 5.722h14"
   }), /*#__PURE__*/React.createElement("path", {
     clipRule: "evenodd",
-    d: "M15.417 5l-.834 12.917H5.417L4.583 5h10.834z"
+    d: "M15.056 5.722l-.778 12.056H5.722L4.944 5.722h10.111z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7.917 14.583h4.166"
+    d: "M8.056 14.667h3.889"
   }));
 };
 Delete.propTypes = {
@@ -1725,15 +1725,15 @@ var Upload = function Upload(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M4.866 8.446a4.168 4.168 0 102.106 8.063"
+    d: "M5.705 8.324a3.525 3.525 0 101.781 6.818"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M15.023 8.446a4.168 4.168 0 11-2.106 8.063"
+    d: "M14.295 8.324a3.525 3.525 0 11-1.781 6.818"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M15 8.333a5 5 0 00-10 0"
+    d: "M14.275 8.228a4.228 4.228 0 10-8.456 0"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7.11 11.617L10 8.718l2.972 2.949"
+    d: "M7.604 11.005l2.443-2.451 2.513 2.493"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M10 15.833v-5.64"
+    d: "M10.047 14.57V9.8"
   }));
 };
 Upload.propTypes = {
@@ -1764,23 +1764,16 @@ var Wallet = function Wallet(props) {
     height: size,
     viewBox: "-2 -2 24 24",
     fill: color
-  }, otherProps), /*#__PURE__*/React.createElement("g", {
-    clipPath: "url(#clip0_122_16)"
-  }, /*#__PURE__*/React.createElement("path", {
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
     clipRule: "evenodd",
-    d: "M7.493 4.987l5.75-3.32 1.922 3.328-7.672-.008z"
+    d: "M7.894 5.79L12.724 3l1.615 2.796-6.445-.007z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M1.667 5.833c0-.46.373-.833.833-.833h15c.46 0 .833.373.833.833V17.5c0 .46-.373.833-.833.833h-15a.833.833 0 01-.833-.833V5.833z"
+    d: "M3 6.5a.7.7 0 01.7-.7h12.6a.7.7 0 01.7.7v9.8a.7.7 0 01-.7.7H3.7a.7.7 0 01-.7-.7V6.5z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M14.688 13.75h3.645V9.583h-3.645c-1.209 0-2.188.933-2.188 2.084 0 1.15.98 2.083 2.188 2.083z"
+    d: "M13.938 13.15H17v-3.5h-3.063c-1.014 0-1.837.784-1.837 1.75s.823 1.75 1.838 1.75z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M18.333 6.875v10"
-  })), /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
-    id: "clip0_122_16"
-  }, /*#__PURE__*/React.createElement("rect", {
-    width: "20",
-    height: "20"
-  }))));
+    d: "M17 7.375v8.4"
+  }));
 };
 Wallet.propTypes = {
   color: PropTypes.string,
@@ -1811,13 +1804,13 @@ var Collaborators = function Collaborators(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M7.917 8.333a2.917 2.917 0 100-5.833 2.917 2.917 0 000 5.833z"
+    d: "M8.25 8.9a2.45 2.45 0 100-4.9 2.45 2.45 0 000 4.9z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M13.586 2.917a2.915 2.915 0 010 5"
+    d: "M13.013 4.35a2.449 2.449 0 010 4.2"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M1.667 17v.5h12.5V17c0-1.867 0-2.8-.364-3.513a3.333 3.333 0 00-1.456-1.457c-.713-.363-1.647-.363-3.514-.363H7c-1.867 0-2.8 0-3.513.363-.628.32-1.137.83-1.457 1.457-.363.713-.363 1.646-.363 3.513z"
+    d: "M3 16.18v.42h10.5v-.42c0-1.568 0-2.352-.305-2.951a2.8 2.8 0 00-1.224-1.224c-.599-.305-1.383-.305-2.951-.305H7.48c-1.568 0-2.352 0-2.951.305a2.8 2.8 0 00-1.224 1.224C3 13.828 3 14.612 3 16.18z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M18.333 17.5V17c0-1.867 0-2.8-.363-3.513a3.333 3.333 0 00-1.457-1.457"
+    d: "M17 16.6v-.42c0-1.568 0-2.352-.305-2.951a2.8 2.8 0 00-1.224-1.224"
   }));
 };
 Collaborators.propTypes = {
@@ -1849,13 +1842,13 @@ var Organization = function Organization(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M1.667 2.083h16.666v3.334l-.582.35a2.917 2.917 0 01-3.002 0l-.582-.35-.583.35a2.917 2.917 0 01-3.001 0L10 5.416l-.583.35a2.917 2.917 0 01-3.001 0l-.583-.35-.582.35a2.917 2.917 0 01-3.002 0l-.582-.35V2.083z"
+    d: "M3 3h14v2.8l-.49.294a2.45 2.45 0 01-2.52 0L13.5 5.8l-.49.294a2.45 2.45 0 01-2.52 0L10 5.8l-.49.294a2.45 2.45 0 01-2.52 0L6.5 5.8l-.49.294a2.45 2.45 0 01-2.52 0L3 5.8V3z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M17.5 10.417h-15v7.5h15v-7.5z"
+    d: "M16.3 10H3.7v6.3h12.6V10z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M3.75 6.667v3.75"
+    d: "M4.75 6.85V10"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M16.25 6.667v3.75"
+    d: "M15.25 6.85V10"
   }));
 };
 Organization.propTypes = {
@@ -1887,17 +1880,17 @@ var Analysis = function Analysis(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M18.333 4.583c0-.69-.56-1.25-1.25-1.25H2.917c-.69 0-1.25.56-1.25 1.25v3.75h16.666v-3.75z"
+    d: "M17 5.05C17 4.47 16.53 4 15.95 4H4.05C3.47 4 3 4.47 3 5.05V8.2h14V5.05z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M1.713 16.262l5.074-5.125 2.741 2.625 3.351-2.929 1.867 1.82"
+    d: "M3.04 14.86l4.26-4.305 2.304 2.206 2.815-2.461 1.568 1.529"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M18.333 7.5v7.917c0 .69-.56 1.25-1.25 1.25H5"
+    d: "M17 7.5v6.65c0 .58-.47 1.05-1.05 1.05H5.8"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7.963 5.833h7.5"
+    d: "M8.29 6.1h6.3"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M4.63 5.833h.833"
+    d: "M5.489 6.1h.7"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M1.667 7.5v3.75"
+    d: "M3 7.5v3.15"
   }));
 };
 Analysis.propTypes = {
@@ -1998,19 +1991,19 @@ var SqLuser = function SqLuser(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M9.167 3.333v5c0 .92-1.68 1.667-3.75 1.667-2.071 0-3.75-.746-3.75-1.667v-5"
+    d: "M9.3 4.4v4.2c0 .773-1.41 1.4-3.15 1.4S3 9.373 3 8.6V4.4"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M9.167 5.833c0 .92-1.68 1.667-3.75 1.667-2.071 0-3.75-.746-3.75-1.667"
+    d: "M9.3 6.5c0 .773-1.41 1.4-3.15 1.4S3 7.273 3 6.5"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M9.167 3.333c0 .92-1.68 1.667-3.75 1.667-2.071 0-3.75-.746-3.75-1.667 0-.92 1.679-1.666 3.75-1.666 2.07 0 3.75.746 3.75 1.666z"
+    d: "M9.3 4.4c0 .773-1.41 1.4-3.15 1.4S3 5.173 3 4.4C3 3.627 4.41 3 6.15 3s3.15.627 3.15 1.4z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M13.333 2.5h2.5c.92 0 1.667.746 1.667 1.667v2.5"
+    d: "M12.8 3.7h2.1a1.4 1.4 0 011.4 1.4v2.1"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M6.667 17.5h-2.5c-.92 0-1.667-.746-1.667-1.667v-2.5"
+    d: "M7.2 16.3H5.1a1.4 1.4 0 01-1.4-1.4v-2.1"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M14.583 14.167a2.083 2.083 0 100-4.167 2.083 2.083 0 000 4.167z"
+    d: "M13.85 13.5a1.75 1.75 0 100-3.5 1.75 1.75 0 000 3.5z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M18.333 18.333h-7.5a3.75 3.75 0 017.5 0z"
+    d: "M17 17h-6.3a3.15 3.15 0 116.3 0z"
   }));
 };
 SqLuser.propTypes = {
@@ -2110,13 +2103,13 @@ var Unlink = function Unlink(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M10.789 6.68L7.548 3.438c-1.194-1.194-3.088-1.234-4.232-.09-1.145 1.145-1.105 3.04.089 4.233l3.24 3.24"
+    d: "M10.74 6.88L7.72 3.858c-1.112-1.112-2.878-1.15-3.944-.083-1.066 1.066-1.03 2.832.083 3.944l3.02 3.02"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M13.298 9.196l3.241 3.241c1.194 1.193 1.348 3.031.09 4.232-1.26 1.201-3.04 1.104-4.233-.089l-3.24-3.24"
+    d: "M13.08 9.225l3.02 3.02c1.111 1.112 1.256 2.825.082 3.944-1.173 1.12-2.832 1.029-3.944-.083l-3.02-3.02"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M8.85 8.782l-1.621-1.62"
+    d: "M8.933 8.838l-1.51-1.51"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M12.63 12.563l-1.62-1.62"
+    d: "M12.457 12.362l-1.51-1.51"
   }));
 };
 Unlink.propTypes = {
@@ -2148,21 +2141,21 @@ var Calendar = function Calendar(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M2.083 7.917h15.834v8.75c0 .46-.373.833-.834.833H2.917a.833.833 0 01-.834-.833v-8.75z"
+    d: "M3 8.526h14v7.737c0 .407-.33.737-.737.737H3.737A.737.737 0 013 16.263V8.526z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M2.083 3.75c0-.46.373-.833.834-.833h14.166c.46 0 .834.373.834.833v4.167H2.083V3.75z"
+    d: "M3 4.842c0-.407.33-.737.737-.737h12.526c.407 0 .737.33.737.737v3.684H3V4.842z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M6.667 1.667V5"
+    d: "M7.053 3v2.947"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M13.333 1.667V5"
+    d: "M12.947 3v2.947"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M11.667 14.167h2.5"
+    d: "M11.474 14.053h2.21"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5.833 14.167h2.5"
+    d: "M6.316 14.053h2.21"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M11.667 10.833h2.5"
+    d: "M11.474 11.105h2.21"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5.833 10.833h2.5"
+    d: "M6.316 11.105h2.21"
   }));
 };
 Calendar.propTypes = {
@@ -2194,9 +2187,9 @@ var Time = function Time(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M10 18.333a8.333 8.333 0 100-16.666 8.333 8.333 0 000 16.666z"
+    d: "M10 17a7 7 0 100-14 7 7 0 000 14z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M10.004 5l-.001 5.004 3.533 3.533"
+    d: "M10.003 5.8v4.203l2.967 2.968"
   }));
 };
 Time.propTypes = {
@@ -2228,11 +2221,11 @@ var Chart = function Chart(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M1.667 10S2.5 1.667 5.833 1.667c3.334 0 3.75 6.25 4.167 8.333.417 2.083 1.667 8.333 4.583 8.333 2.917 0 3.75-8.333 3.75-8.333"
+    d: "M3 10s.7-7 3.5-7 3.15 5.25 3.5 7c.35 1.75 1.4 7 3.85 7S17 10 17 10"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M4.583 10h2.5"
+    d: "M5.45 10h2.1"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M12.917 10h2.5"
+    d: "M12.45 10h2.1"
   }));
 };
 Chart.propTypes = {
@@ -2264,23 +2257,23 @@ var Preferences = function Preferences(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M17.292 4.167h-2.5"
+    d: "M16.263 4.474h-2.21"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M11.458 2.5v3.333"
+    d: "M11.105 3v2.947"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M11.458 4.167H2.292"
+    d: "M11.105 4.474H3"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5.625 10H2.292"
+    d: "M5.947 9.632H3"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M8.958 8.333v3.334"
+    d: "M8.895 8.158v2.947"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M18.125 10H8.958"
+    d: "M17 9.632H8.895"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M17.292 15.833h-2.5"
+    d: "M16.263 14.79h-2.21"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M11.458 14.167V17.5"
+    d: "M11.105 13.316v2.947"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M11.458 15.833H2.292"
+    d: "M11.105 14.79H3"
   }));
 };
 Preferences.propTypes = {
@@ -2348,9 +2341,9 @@ var Return = function Return(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M5.417 3.333L2.5 5.833 5.417 8.75"
+    d: "M5.722 4L3 6.333l2.722 2.723"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M2.5 5.833h9.58c2.869 0 5.304 2.342 5.416 5.209.118 3.029-2.385 5.625-5.415 5.625H4.999"
+    d: "M3 6.333h8.942c2.677 0 4.95 2.186 5.054 4.861.11 2.827-2.225 5.25-5.054 5.25h-6.61"
   }));
 };
 Return.propTypes = {
@@ -2382,15 +2375,15 @@ var Queryhistory = function Queryhistory(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M17.5 10V3.75c0-.69-.56-1.25-1.25-1.25H3.75c-.69 0-1.25.56-1.25 1.25v12.5c0 .69.56 1.25 1.25 1.25H10"
+    d: "M17 10V4.167C17 3.522 16.478 3 15.833 3H4.167C3.522 3 3 3.522 3 4.167v11.666C3 16.478 3.522 17 4.167 17H10"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M13.333 15.833a2.5 2.5 0 100-5 2.5 2.5 0 000 5z"
+    d: "M13.111 15.444a2.333 2.333 0 100-4.666 2.333 2.333 0 000 4.666z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M15.417 15l2.083 1.667"
+    d: "M15.056 14.667L17 16.222"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5.833 6.667h8.334"
+    d: "M6.111 6.889h7.778"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5.833 10h3.334"
+    d: "M6.111 10h3.111"
   }));
 };
 Queryhistory.propTypes = {
@@ -2422,9 +2415,9 @@ var Send = function Send(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M17.917 2.083l-5.542 15.834-3.167-7.125-7.125-3.167 15.834-5.542z"
+    d: "M17 3l-4.9 14-2.8-6.3L3 7.9 17 3z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M17.917 2.083l-8.709 8.709"
+    d: "M17 3l-7.7 7.7"
   }));
 };
 Send.propTypes = {
@@ -2490,9 +2483,9 @@ var ChartsPie = function ChartsPie(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M16.667 10A6.667 6.667 0 1110 3.333V10h6.667z"
+    d: "M17 10a7 7 0 11-7-7v7h7z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M16.361 8H12V3.639A6.682 6.682 0 0116.361 8z"
+    d: "M16.68 7.9H12.1V3.32a7.017 7.017 0 014.58 4.58z"
   }));
 };
 ChartsPie.propTypes = {
@@ -2524,11 +2517,11 @@ var ChartsPieDoughnut = function ChartsPieDoughnut(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M16.667 10h.5a.5.5 0 00-.5-.5v.5zM14 10v-.5a.5.5 0 00-.5.5h.5zm-4-4v.5a.5.5 0 00.5-.5H10zm0-2.667h.5a.5.5 0 00-.5-.5v.5zM16.167 10A6.167 6.167 0 0110 16.167v1A7.167 7.167 0 0017.167 10h-1zM14 10.5h2.667v-1H14v1zm-.5-.5a3.5 3.5 0 01-3.5 3.5v1a4.5 4.5 0 004.5-4.5h-1zM10 13.5A3.5 3.5 0 016.5 10h-1a4.5 4.5 0 004.5 4.5v-1zM6.5 10A3.5 3.5 0 0110 6.5v-1A4.5 4.5 0 005.5 10h1zm3-6.667V6h1V3.333h-1zM3.833 10A6.167 6.167 0 0110 3.833v-1A7.167 7.167 0 002.833 10h1zM10 16.167A6.167 6.167 0 013.833 10h-1A7.167 7.167 0 0010 17.167v-1z",
-    fillOpacity: ".8"
+    clipRule: "evenodd",
+    d: "M10 17a7 7 0 007-7h-2.8A4.2 4.2 0 1110 5.8V3a7 7 0 100 14z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M16.361 8v.5a.5.5 0 00.477-.65l-.477.15zm-2.896 0l-.433.25a.5.5 0 00.433.25V8zM12 3.639l.15-.478a.5.5 0 00-.65.478h.5zm0 2.896h-.5a.5.5 0 00.25.433l.25-.433zm4.361.965h-2.896v1h2.896v-1zm-4.51-3.384a6.182 6.182 0 014.033 4.034l.954-.3a7.182 7.182 0 00-4.688-4.689l-.3.955zm.649 2.42V3.638h-1v2.896h1zm-.75.432c.531.307.975.75 1.282 1.282l.866-.5a4.52 4.52 0 00-1.648-1.648l-.5.866z",
-    fillOpacity: ".8"
+    clipRule: "evenodd",
+    d: "M13.638 7.9h3.042a7.016 7.016 0 00-4.58-4.58v3.042c.638.369 1.17.9 1.538 1.538z"
   }));
 };
 ChartsPieDoughnut.propTypes = {
@@ -2560,13 +2553,13 @@ var ChartsBar = function ChartsBar(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M3.333 15h13.334"
+    d: "M3.333 15.5h14"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7 11.25H5V15h2v-3.75z"
+    d: "M7.183 11.563h-2.1V15.5h2.1v-3.938z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M11 8.75H9V15h2V8.75z"
+    d: "M11.383 8.938h-2.1V15.5h2.1V8.937z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M15 5h-2v10h2V5z"
+    d: "M15.583 5h-2.1v10.5h2.1V5z"
   }));
 };
 ChartsBar.propTypes = {
@@ -2598,11 +2591,11 @@ var ChartsBarVertical = function ChartsBarVertical(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M7 11.25H5V15h2v-3.75z"
+    d: "M6.85 11.563h-2.1V15.5h2.1v-3.938z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M11 8.75H9V15h2V8.75z"
+    d: "M11.05 8.938h-2.1V15.5h2.1V8.937z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M15 5h-2v10h2V5z"
+    d: "M15.25 5h-2.1v10.5h2.1V5z"
   }));
 };
 ChartsBarVertical.propTypes = {
@@ -2782,11 +2775,11 @@ var DataTime = function DataTime(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M10 6.667V10l2.5 1.25"
+    d: "M10 6v4l3 1.5"
   }), /*#__PURE__*/React.createElement("circle", {
     cx: "10",
     cy: "10",
-    r: "5.5"
+    r: "6.5"
   }));
 };
 DataTime.propTypes = {
@@ -2896,13 +2889,13 @@ var Mail = function Mail(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M3.333 15h13.334V5H3.333v10z"
+    d: "M3 15.5h14V5H3v10.5z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M3.333 5L10 10l6.667-5"
+    d: "M3 5l7 5.25L17 5"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M10 5H3.333v5"
+    d: "M10 5H3v5.25"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M16.667 10V5H10"
+    d: "M17 10.25V5h-7"
   }));
 };
 Mail.propTypes = {
@@ -2967,9 +2960,9 @@ var Label = function Label(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M5 3.333h10v13.334l-5-3.524-5 3.524V3.333z"
+    d: "M4.75 3h10.5v14L10 13.3 4.75 17V3z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M15 3.333H5v4h10v-4z"
+    d: "M15.25 3H4.75v4.2h10.5V3z"
   }));
 };
 Label.propTypes = {
@@ -3125,9 +3118,9 @@ var Person = function Person(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M10 8.667a2.667 2.667 0 100-5.334 2.667 2.667 0 000 5.334z"
+    d: "M10 8.6A2.8 2.8 0 1010 3a2.8 2.8 0 000 5.6z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M16 16.667a6 6 0 00-12 0"
+    d: "M16.3 17a6.3 6.3 0 10-12.6 0"
   }));
 };
 Person.propTypes = {
@@ -3272,7 +3265,7 @@ var Percent = function Percent(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M4.969 7.586c0 .661.057 1.156.172 1.484.12.323.31.485.57.485.255 0 .443-.162.562-.485.125-.323.188-.817.188-1.484 0-1.302-.25-1.953-.75-1.953-.26 0-.45.161-.57.484-.115.318-.172.807-.172 1.469zm3.46-.016c0 .563-.054 1.068-.163 1.516a3.09 3.09 0 01-.493 1.133 2.256 2.256 0 01-.851.71c-.344.162-.753.243-1.227.243-.442 0-.833-.08-1.172-.242a2.357 2.357 0 01-.843-.711 3.287 3.287 0 01-.508-1.133A6.127 6.127 0 013 7.57c0-.562.052-1.065.156-1.508.104-.442.266-.815.485-1.117.224-.307.505-.541.843-.703C4.823 4.081 5.227 4 5.695 4c.448 0 .841.08 1.18.242.344.162.63.396.86.703.229.302.4.675.515 1.117.12.443.18.946.18 1.508zm5.212-3.406L7.305 15.586H5.438l6.335-11.422h1.868zm-.993 7.984c0 .662.058 1.157.172 1.485.12.323.31.484.57.484.256 0 .443-.161.563-.484.125-.323.188-.818.188-1.485 0-1.302-.25-1.953-.75-1.953-.26 0-.45.162-.57.485-.115.317-.173.807-.173 1.468zm3.461-.015c0 .562-.054 1.068-.164 1.515a3.089 3.089 0 01-.492 1.125 2.255 2.255 0 01-.851.711c-.344.162-.753.243-1.227.243-.443 0-.83-.081-1.164-.243a2.357 2.357 0 01-.844-.71 3.29 3.29 0 01-.508-1.126 6.126 6.126 0 01-.171-1.515c0-.563.052-1.065.156-1.508a3.09 3.09 0 01.484-1.117c.219-.307.498-.542.836-.703.339-.162.742-.242 1.211-.242.448 0 .841.08 1.18.242.343.161.63.396.86.703.228.302.4.674.515 1.117.12.443.18.945.18 1.508z",
+    d: "M5.802 8.282c0 .606.053 1.059.157 1.36.11.295.284.443.523.443.233 0 .405-.148.514-.444.115-.295.172-.748.172-1.359 0-1.191-.229-1.787-.686-1.787-.239 0-.413.147-.523.443-.104.29-.157.739-.157 1.344zm3.168-.014c0 .515-.05.978-.15 1.388-.095.41-.246.755-.45 1.037a2.065 2.065 0 01-.78.65c-.315.148-.689.222-1.123.222-.405 0-.763-.074-1.072-.222a2.157 2.157 0 01-.773-.65 3.008 3.008 0 01-.465-1.037A5.608 5.608 0 014 8.268c0-.515.048-.975.143-1.38a2.83 2.83 0 01.443-1.023c.205-.281.463-.496.773-.643.31-.148.68-.222 1.108-.222.41 0 .77.074 1.08.222.315.147.577.362.787.643.21.277.367.618.472 1.023.11.405.164.865.164 1.38zm4.77-3.118l-5.8 10.456H6.231l5.8-10.456h1.71zm-.908 7.309c0 .605.052 1.058.157 1.359.11.295.284.443.522.443.234 0 .406-.148.515-.443.115-.296.172-.749.172-1.36 0-1.191-.229-1.787-.687-1.787-.238 0-.412.148-.522.443-.105.291-.157.74-.157 1.345zM16 12.445c0 .514-.05.977-.15 1.387a2.825 2.825 0 01-.45 1.03 2.064 2.064 0 01-.78.65c-.315.148-.69.222-1.123.222-.405 0-.76-.074-1.066-.222a2.156 2.156 0 01-.772-.65 3.01 3.01 0 01-.465-1.03 5.607 5.607 0 01-.157-1.387c0-.515.048-.975.143-1.38.095-.406.243-.747.443-1.023.2-.282.456-.496.766-.644.31-.148.679-.222 1.108-.222.41 0 .77.074 1.08.222.315.148.577.362.787.644.21.276.367.617.471 1.022.11.406.165.866.165 1.38z",
     fillOpacity: ".8"
   }));
 };
@@ -3305,15 +3298,15 @@ var Applications = function Applications(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M4.667 10.333v4.334a1 1 0 001 1h8.666a1 1 0 001-1v-4.334"
+    d: "M4.105 10.632v4.79c0 .61.495 1.104 1.106 1.104h9.579c.61 0 1.105-.494 1.105-1.105v-4.79"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M3.667 7c0-.368.298-.667.666-.667h11.334c.368 0 .666.299.666.667v2.667a.667.667 0 01-.666.666H4.333a.667.667 0 01-.666-.666V7z"
+    d: "M3 6.947c0-.407.33-.736.737-.736h12.526c.407 0 .737.33.737.736v2.948c0 .407-.33.737-.737.737H3.737A.737.737 0 013 9.895V6.947z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M12.333 6.333V5a.667.667 0 00-.666-.667H8.333A.667.667 0 007.667 5v1.333"
+    d: "M12.579 6.21V4.738A.737.737 0 0011.842 4H8.158a.737.737 0 00-.737.737V6.21"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7 9.667v2"
+    d: "M6.684 9.895v2.21"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M13 9.667v2"
+    d: "M13.316 9.895v2.21"
   }));
 };
 Applications.propTypes = {
@@ -3345,7 +3338,7 @@ var Activity = function Activity(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M3 9.452h3L8.296 3l3.667 13.333 2.704-6.881h3"
+    d: "M3 9.158h2.864L8.056 3l3.5 12.727 2.58-6.569H17"
   }));
 };
 Activity.propTypes = {
@@ -3377,13 +3370,13 @@ var Recent = function Recent(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M7.667 9.646V5a2 2 0 114 0v.669"
+    d: "M8.2 9.981V5.8a1.8 1.8 0 013.6 0v.602"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M11.667 9.668v4.665a2 2 0 01-4 0v-.676"
+    d: "M11.8 10.001V14.2a1.8 1.8 0 01-3.6 0v-.609"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M9.667 11.667H4.995a1.997 1.997 0 01-1.995-2c0-1.105.893-2 1.995-2h.668"
+    d: "M10 11.8H5.795A1.798 1.798 0 014 10c0-.994.804-1.8 1.795-1.8h.602"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M9.667 7.667h4.663c1.106 0 2.003.895 2.003 2 0 1.104-.897 2-2.003 2h-.641"
+    d: "M10 8.2h4.197C15.193 8.2 16 9.006 16 10s-.807 1.8-1.803 1.8h-.577"
   }));
 };
 Recent.propTypes = {
@@ -3415,13 +3408,13 @@ var Myworksheet = function Myworksheet(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M15.333 9.667v-3l-3-3.334h-7A.667.667 0 004.667 4v12c0 .368.298.667.666.667h3.334"
+    d: "M15.2 9.65V6.5L12.05 3H4.7a.7.7 0 00-.7.7v12.6a.7.7 0 00.7.7h3.5"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M13.333 14a1.333 1.333 0 100-2.667 1.333 1.333 0 000 2.667z"
+    d: "M13.1 14.2a1.4 1.4 0 100-2.8 1.4 1.4 0 000 2.8z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M16 16.667a2.667 2.667 0 10-5.333 0"
+    d: "M15.9 17a2.8 2.8 0 10-5.6 0"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M12 3.333v3.334h3.333"
+    d: "M11.7 3v3.5h3.5"
   }));
 };
 Myworksheet.propTypes = {
@@ -3453,15 +3446,15 @@ var Getstart = function Getstart(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M14.333 15.667l1.13-3.109a.667.667 0 00-.328-.824L9.965 9.15a.667.667 0 00-.596 0l-5.17 2.585a.667.667 0 00-.33.824L5 15.667"
+    d: "M14.9 16.3l1.187-3.264a.7.7 0 00-.345-.865l-5.429-2.714a.7.7 0 00-.626 0L4.258 12.17a.7.7 0 00-.345.865L5.1 16.3"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M13.333 6.333H6A.667.667 0 005.333 7v4l4.054-1.871a.667.667 0 01.559 0L14 11V7a.667.667 0 00-.667-.667z"
+    d: "M13.85 6.5h-7.7a.7.7 0 00-.7.7v4.2l4.257-1.965a.7.7 0 01.586 0L14.55 11.4V7.2a.7.7 0 00-.7-.7z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M11.333 6.333V3.667A.667.667 0 0010.667 3h-2A.667.667 0 008 3.667v2.666"
+    d: "M11.75 6.5V3.7a.7.7 0 00-.7-.7h-2.1a.7.7 0 00-.7.7v2.8"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M9.667 12.333V15"
+    d: "M10 12.8v2.8"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M3 16.333c1.333 0 1.333-.666 2.333-.666 1 0 1 .666 2 .666s1.167-.666 2.334-.666c1.166 0 1.333.666 2.333.666 1 0 1-.666 2-.666s1 .666 2.333.666"
+    d: "M3 17c1.4 0 1.4-.7 2.45-.7 1.05 0 1.05.7 2.1.7s1.225-.7 2.45-.7 1.4.7 2.45.7c1.05 0 1.05-.7 2.1-.7s1.05.7 2.45.7"
   }));
 };
 Getstart.propTypes = {
@@ -3493,9 +3486,9 @@ var Folderopen = function Folderopen(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M3.333 5v10.667L5 9h10.167V7a.667.667 0 00-.667-.667H10l-1.667-2H4A.667.667 0 003.333 5z"
+    d: "M3 4.7v11.2l1.75-7h10.675V6.8a.7.7 0 00-.7-.7H10L8.25 4H3.7a.7.7 0 00-.7.7z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M15.333 15.667L16.667 9H4.937l-1.604 6.667h12z"
+    d: "M15.6 15.9l1.4-7H4.684L3 15.9h12.6z"
   }));
 };
 Folderopen.propTypes = {
@@ -3527,13 +3520,13 @@ var Filescode = function Filescode(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M14.667 9.333v-3l-3-3.333h-7A.667.667 0 004 3.667v12c0 .368.298.666.667.666h4"
+    d: "M15.2 9.65V6.5L12.05 3H4.7a.7.7 0 00-.7.7v12.6a.7.7 0 00.7.7h4.2"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M13.667 12l1.666 1.667-1.666 1.666"
+    d: "M14.15 12.45l1.75 1.75-1.75 1.75"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M11.667 12L10 13.667l1.667 1.666"
+    d: "M12.05 12.45L10.3 14.2l1.75 1.75"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M11.333 3v3.333h3.334"
+    d: "M11.7 3v3.5h3.5"
   }));
 };
 Filescode.propTypes = {
@@ -3565,11 +3558,11 @@ var Terminal = function Terminal(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M16 4.667H4a.667.667 0 00-.667.666v9.334c0 .368.299.666.667.666h12a.667.667 0 00.667-.666V5.333A.667.667 0 0016 4.667z"
+    d: "M16.3 4.667H3.7a.7.7 0 00-.7.7v9.8a.7.7 0 00.7.7h12.6a.7.7 0 00.7-.7v-9.8a.7.7 0 00-.7-.7z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M6 8l2.333 2L6 12"
+    d: "M5.8 8.167l2.45 2.1-2.45 2.1"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M9.667 12.667H14"
+    d: "M9.65 13.067h4.55"
   }));
 };
 Terminal.propTypes = {
@@ -3601,15 +3594,15 @@ var Tickets = function Tickets(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M3.333 4.667h2.334s.333 1.666 2 1.666c1.666 0 2-1.666 2-1.666h7v10.666h-7s-.334-1.666-2-1.666c-1.667 0-2 1.666-2 1.666H3.333V4.667z"
+    d: "M3 4.4h2.45s.35 1.75 2.1 1.75 2.1-1.75 2.1-1.75H17v11.2H9.65s-.35-1.75-2.1-1.75-2.1 1.75-2.1 1.75H3V4.4z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7.667 8.333V9"
+    d: "M7.55 8.25v.7"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7.667 11v.667"
+    d: "M7.55 11.05v.7"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M10.333 9H14"
+    d: "M10.35 8.95h3.85"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M10.333 11H14"
+    d: "M10.35 11.05h3.85"
   }));
 };
 Tickets.propTypes = {
@@ -3641,9 +3634,9 @@ var Level = function Level(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M10 16L3.333 8.167 5.232 4h9.536l1.899 4.167L10 16z"
+    d: "M10 16.6L3 8.375 4.993 4h10.014L17 8.375 10 16.6z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M12.667 8L10 11 7.333 8"
+    d: "M12.8 8.2L10 11.35 7.2 8.2"
   }));
 };
 Level.propTypes = {
@@ -3675,17 +3668,17 @@ var ChartsBarStacked = function ChartsBarStacked(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M11 13H9v2h2v-2z"
+    d: "M11.2 13.6H8.8V16h2.4v-2.4z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M11 7H9v6h2V7z"
+    d: "M11.2 6.4H8.8v7.2h2.4V6.4z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7 9H5v4h2V9z"
+    d: "M6.4 8.8H4v4.8h2.4V8.8z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M7 13H5v2h2v-2z"
+    d: "M6.4 13.6H4V16h2.4v-2.4z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M15 13h-2v2h2v-2z"
+    d: "M16 13.6h-2.4V16H16v-2.4z"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M15 5h-2v8h2V5z"
+    d: "M16 4h-2.4v9.6H16V4z"
   }));
 };
 ChartsBarStacked.propTypes = {
@@ -3897,15 +3890,15 @@ var DocTitle = function DocTitle(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M3 4v12.444"
+    d: "M3.75 4v11.556"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M10 4v12.444"
+    d: "M10.25 4v11.556"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M3.389 10.222H9.61"
+    d: "M4.111 9.778H9.89"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M13.111 10.222v6.222"
+    d: "M13.139 9.778v5.777"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M13.111 12.954c0-.998.778-1.954 1.945-1.954 1.166 0 1.944.917 1.944 1.954v3.496"
+    d: "M13.139 12.314c0-.926.722-1.814 1.805-1.814 1.084 0 1.806.851 1.806 1.814v3.246"
   }));
 };
 DocTitle.propTypes = {
@@ -4226,11 +4219,53 @@ Ueue.defaultProps = {
 };
 
 var _excluded$1K = ["color", "size", "className"];
-var Right = function Right(props) {
+var Details = function Details(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
     otherProps = _objectWithoutProperties(props, _excluded$1K);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    d: "M15.833 3H4.167C3.522 3 3 3.522 3 4.167v11.666C3 16.478 3.522 17 4.167 17h11.666c.645 0 1.167-.522 1.167-1.167V4.167C17 3.522 16.478 3 15.833 3z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M8.833 5.722h-3.11v3.111h3.11v-3.11z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M11.167 5.722h3.11"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M11.167 8.444h3.11"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M5.722 11.556h8.556"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M5.722 14.278h8.556"
+  }));
+};
+Details.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+Details.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+var _excluded$1L = ["color", "size", "className"];
+var Right = function Right(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1L);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4257,12 +4292,12 @@ Right.defaultProps = {
   style: {}
 };
 
-var _excluded$1L = ["color", "size", "className"];
+var _excluded$1M = ["color", "size", "className"];
 var Down = function Down(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1L);
+    otherProps = _objectWithoutProperties(props, _excluded$1M);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4289,12 +4324,12 @@ Down.defaultProps = {
   style: {}
 };
 
-var _excluded$1M = ["color", "size", "className"];
+var _excluded$1N = ["color", "size", "className"];
 var Up = function Up(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1M);
+    otherProps = _objectWithoutProperties(props, _excluded$1N);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4321,12 +4356,12 @@ Up.defaultProps = {
   style: {}
 };
 
-var _excluded$1N = ["color", "size", "className"];
+var _excluded$1O = ["color", "size", "className"];
 var Left = function Left(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1N);
+    otherProps = _objectWithoutProperties(props, _excluded$1O);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4353,12 +4388,12 @@ Left.defaultProps = {
   style: {}
 };
 
-var _excluded$1O = ["color", "size", "className"];
+var _excluded$1P = ["color", "size", "className"];
 var ArrowLeft = function ArrowLeft(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1O);
+    otherProps = _objectWithoutProperties(props, _excluded$1P);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4387,12 +4422,12 @@ ArrowLeft.defaultProps = {
   style: {}
 };
 
-var _excluded$1P = ["color", "size", "className"];
+var _excluded$1Q = ["color", "size", "className"];
 var ArrowRight = function ArrowRight(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1P);
+    otherProps = _objectWithoutProperties(props, _excluded$1Q);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4421,12 +4456,12 @@ ArrowRight.defaultProps = {
   style: {}
 };
 
-var _excluded$1Q = ["color", "size", "className"];
+var _excluded$1R = ["color", "size", "className"];
 var ArrowTop = function ArrowTop(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1Q);
+    otherProps = _objectWithoutProperties(props, _excluded$1R);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4455,12 +4490,12 @@ ArrowTop.defaultProps = {
   style: {}
 };
 
-var _excluded$1R = ["color", "size", "className"];
+var _excluded$1S = ["color", "size", "className"];
 var ArrowDown = function ArrowDown(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1R);
+    otherProps = _objectWithoutProperties(props, _excluded$1S);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4489,12 +4524,12 @@ ArrowDown.defaultProps = {
   style: {}
 };
 
-var _excluded$1S = ["color", "size", "className"];
+var _excluded$1T = ["color", "size", "className"];
 var SortUp = function SortUp(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1S);
+    otherProps = _objectWithoutProperties(props, _excluded$1T);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4503,17 +4538,17 @@ var SortUp = function SortUp(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M9.583 3.75h8.334"
+    d: "M9.684 5.316H16"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M2.083 6.667l3.334-3.334"
+    d: "M4 7.526L6.526 5"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5.417 3.333V17.5"
+    d: "M6.526 5v10.737"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M9.583 7.917h6.667"
+    d: "M9.684 8.474h5.053"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M9.583 12.083h5"
+    d: "M9.684 11.632h3.79"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M9.583 16.25h3.334"
+    d: "M9.684 14.79h2.527"
   }));
 };
 SortUp.propTypes = {
@@ -4531,12 +4566,12 @@ SortUp.defaultProps = {
   style: {}
 };
 
-var _excluded$1T = ["color", "size", "className"];
+var _excluded$1U = ["color", "size", "className"];
 var SortDown = function SortDown(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1T);
+    otherProps = _objectWithoutProperties(props, _excluded$1U);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4545,17 +4580,17 @@ var SortDown = function SortDown(props) {
     viewBox: "-2 -2 24 24",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
-    d: "M9.583 3.333h8.334"
+    d: "M9.514 4.324H16"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5.833 17.083L2.5 13.75"
+    d: "M6.595 15.027L4 12.432"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M5.833 2.917v14.166"
+    d: "M6.595 4v11.027"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M9.583 7.5h6.667"
+    d: "M9.514 7.568h5.189"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M9.583 11.667h5"
+    d: "M9.514 10.81h3.891"
   }), /*#__PURE__*/React.createElement("path", {
-    d: "M9.583 15.833h3.334"
+    d: "M9.514 14.054h2.594"
   }));
 };
 SortDown.propTypes = {
@@ -4573,12 +4608,12 @@ SortDown.defaultProps = {
   style: {}
 };
 
-var _excluded$1U = ["color", "size", "className"];
+var _excluded$1V = ["color", "size", "className"];
 var TriangleRight = function TriangleRight(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1U);
+    otherProps = _objectWithoutProperties(props, _excluded$1V);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4606,12 +4641,12 @@ TriangleRight.defaultProps = {
   style: {}
 };
 
-var _excluded$1V = ["color", "size", "className"];
+var _excluded$1W = ["color", "size", "className"];
 var TriangleDown = function TriangleDown(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1V);
+    otherProps = _objectWithoutProperties(props, _excluded$1W);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4639,12 +4674,12 @@ TriangleDown.defaultProps = {
   style: {}
 };
 
-var _excluded$1W = ["color", "size", "className"];
+var _excluded$1X = ["color", "size", "className"];
 var LoadingSpin = function LoadingSpin(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1W);
+    otherProps = _objectWithoutProperties(props, _excluded$1X);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4688,12 +4723,12 @@ LoadingSpin.defaultProps = {
   style: {}
 };
 
-var _excluded$1X = ["color", "size", "className"];
+var _excluded$1Y = ["color", "size", "className"];
 var Github = function Github(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1X);
+    otherProps = _objectWithoutProperties(props, _excluded$1Y);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4723,12 +4758,12 @@ Github.defaultProps = {
   style: {}
 };
 
-var _excluded$1Y = ["color", "size", "className"];
+var _excluded$1Z = ["color", "size", "className"];
 var Aws = function Aws(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1Y);
+    otherProps = _objectWithoutProperties(props, _excluded$1Z);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4756,12 +4791,12 @@ Aws.defaultProps = {
   style: {}
 };
 
-var _excluded$1Z = ["color", "size", "className"];
+var _excluded$1_ = ["color", "size", "className"];
 var Google = function Google(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1Z);
+    otherProps = _objectWithoutProperties(props, _excluded$1_);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4804,12 +4839,12 @@ Google.defaultProps = {
   style: {}
 };
 
-var _excluded$1_ = ["color", "size", "className"];
+var _excluded$1$ = ["color", "size", "className"];
 var Twitter = function Twitter(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1_);
+    otherProps = _objectWithoutProperties(props, _excluded$1$);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4837,12 +4872,12 @@ Twitter.defaultProps = {
   style: {}
 };
 
-var _excluded$1$ = ["color", "size", "className"];
+var _excluded$20 = ["color", "size", "className"];
 var Slack = function Slack(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1$);
+    otherProps = _objectWithoutProperties(props, _excluded$20);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4886,12 +4921,12 @@ Slack.defaultProps = {
   style: {}
 };
 
-var _excluded$20 = ["color", "size", "className"];
+var _excluded$21 = ["color", "size", "className"];
 var Wechat = function Wechat(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$20);
+    otherProps = _objectWithoutProperties(props, _excluded$21);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4919,12 +4954,12 @@ Wechat.defaultProps = {
   style: {}
 };
 
-var _excluded$21 = ["color", "size", "className"];
+var _excluded$22 = ["color", "size", "className"];
 var Youtube = function Youtube(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$21);
+    otherProps = _objectWithoutProperties(props, _excluded$22);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4954,4 +4989,72 @@ Youtube.defaultProps = {
   style: {}
 };
 
-export { Activity, Add, AddFolder, AddSheet, Analysis, Applications, ArrowDown, ArrowLeft, ArrowRight, ArrowTop, Aws, Begin, Book, Calendar, CardShow, Chart, ChartsBar, ChartsBarHorizontal, ChartsBarStacked, ChartsBarVertical, ChartsLine, ChartsPie, ChartsPieDoughnut, ChartsScorecard, Check, Close, Collaborators, Column, Comma, Compute, Copy, Coupon, Credentials, Dashboard, Data, DataBool, DataNum, DataString, DataTime, DataVariant, Delete, Dev, DocPage, DocParagraph, DocTitle, Down, Download, Enter, Error, ExpandDown, ExpandLeft, ExpandRight, ExpandTop, Export, FieldDelimiter, Filescode, Folder, Folderopen, FullScreen, Getstart, Github, Google, HamburgerButton, Help, Hidden, Label, Left, Level, Link, ListShow, Loading, LoadingSpin, Locked, Mail, Markdown, More, Myworksheet, Notifications, Number, OffScreen, Organization, Pencil, Percent, Person, Pin, Preferences, Queryhistory, Question, Recent, RecordDelimiter, Reduction, Refresh, Return, Right, Row, Schema, Search, Send, Setting, Share, Show, SkipHeader, Slack, Smiling, SortDown, SortUp, SqLuser, Stereo, String, Support, Suspended, Switch, Table, Terminal, ThumbsDown, ThumbsUp, Tickets, Time, TriangleDown, TriangleRight, Twitter, Ueue, Unlink, Up, Upload, Wallet, WareHouse, Wechat, Worksheet, Youtube };
+var _excluded$23 = ["color", "size", "className"];
+var Airbyte = function Airbyte(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$23);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M7.276 3.941c1.712-1.923 4.546-2.487 6.877-1.377 3.096 1.475 4.225 5.232 2.54 8.13L12.9 17.209a1.608 1.608 0 01-2.181.58l4.59-7.886a4.202 4.202 0 00-1.84-5.904c-1.683-.806-3.742-.403-4.986.982a4.202 4.202 0 00.316 5.946L6.12 15.54a1.588 1.588 0 01-.97.738 1.606 1.606 0 01-1.211-.158l2.91-5.007a5.751 5.751 0 01-.885-1.98L4.18 12.208a1.607 1.607 0 01-2.181.58l4.61-7.93c.193-.326.416-.632.666-.916zm5.322 2.525a2.303 2.303 0 01.851 3.155l-4.421 7.586a1.608 1.608 0 01-2.181.58l4.105-7.062a2.333 2.333 0 01-1.564-1.156 2.298 2.298 0 01.42-2.76 2.329 2.329 0 011.84-.645c.334.031.659.134.95.302zM10.99 7.89a.721.721 0 00.21 1.26.734.734 0 00.782-.207.723.723 0 00-.453-1.196.735.735 0 00-.54.143z",
+    fillOpacity: ".8"
+  }));
+};
+Airbyte.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+Airbyte.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+var _excluded$24 = ["color", "size", "className"];
+var Dbt = function Dbt(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$24);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    d: "M17.32 2.665c.376.362.622.84.68 1.36 0 .217-.058.362-.188.637s-1.736 3.052-2.213 3.819a2.914 2.914 0 000 3.01c.477.766 2.083 3.558 2.213 3.833.13.275.188.405.188.622a2.14 2.14 0 01-.666 1.345 2.14 2.14 0 01-1.345.666c-.217 0-.362-.058-.622-.189-.26-.13-3.096-1.692-3.863-2.17-.057-.028-.115-.072-.188-.1l-3.79-2.243c.087.723.405 1.418.926 1.924.101.101.203.188.318.275-.086.043-.188.087-.275.145-.766.477-3.558 2.083-3.833 2.213-.275.13-.405.188-.637.188a2.14 2.14 0 01-1.345-.666 2.232 2.232 0 01-.68-1.36c.014-.216.072-.433.188-.621.13-.275 1.736-3.067 2.213-3.834.275-.449.42-.97.42-1.505 0-.535-.145-1.056-.42-1.504-.477-.796-2.097-3.588-2.213-3.863A1.357 1.357 0 012 4.025c.058-.52.29-.998.665-1.36.362-.376.84-.607 1.36-.665.217.014.434.072.637.188.231.101 2.271 1.288 3.356 1.924l.246.145c.087.058.16.101.217.13l.116.072 3.862 2.286a3.184 3.184 0 00-1.23-2.199c.088-.043.189-.087.276-.145.766-.477 3.558-2.097 3.833-2.213.188-.116.405-.174.637-.188.506.058.983.29 1.345.665zm-7.117 8.362l.824-.824a.28.28 0 000-.406l-.824-.824a.28.28 0 00-.406 0l-.824.824a.28.28 0 000 .405l.824.825c.102.101.29.101.405 0z",
+    fillOpacity: ".8"
+  }));
+};
+Dbt.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+Dbt.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+export { Activity, Add, AddFolder, AddSheet, Airbyte, Analysis, Applications, ArrowDown, ArrowLeft, ArrowRight, ArrowTop, Aws, Begin, Book, Calendar, CardShow, Chart, ChartsBar, ChartsBarHorizontal, ChartsBarStacked, ChartsBarVertical, ChartsLine, ChartsPie, ChartsPieDoughnut, ChartsScorecard, Check, Close, Collaborators, Column, Comma, Compute, Copy, Coupon, Credentials, Dashboard, Data, DataBool, DataNum, DataString, DataTime, DataVariant, Dbt, Delete, Details, Dev, DocPage, DocParagraph, DocTitle, Down, Download, Enter, Error, ExpandDown, ExpandLeft, ExpandRight, ExpandTop, Export, FieldDelimiter, Filescode, Folder, Folderopen, FullScreen, Getstart, Github, Google, HamburgerButton, Help, Hidden, Label, Left, Level, Link, ListShow, Loading, LoadingSpin, Locked, Mail, Markdown, More, Myworksheet, Notifications, Number, OffScreen, Organization, Pencil, Percent, Person, Pin, Preferences, Queryhistory, Question, Recent, RecordDelimiter, Reduction, Refresh, Return, Right, Row, Schema, Search, Send, Setting, Share, Show, SkipHeader, Slack, Smiling, SortDown, SortUp, SqLuser, Stereo, String, Support, Suspended, Switch, Table, Terminal, ThumbsDown, ThumbsUp, Tickets, Time, TriangleDown, TriangleRight, Twitter, Ueue, Unlink, Up, Upload, Wallet, WareHouse, Wechat, Worksheet, Youtube };
