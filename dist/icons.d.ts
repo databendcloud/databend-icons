@@ -118,6 +118,7 @@ export const SkipHeader: Icon;
 export const Locked: Icon;
 export const Ueue: Icon;
 export const Details: Icon;
+export const Equal: Icon;
 export const Right: Icon;
 export const Down: Icon;
 export const Up: Icon;
