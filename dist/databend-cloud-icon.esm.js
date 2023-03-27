@@ -4303,11 +4303,224 @@ Equal.defaultProps = {
 };
 
 var _excluded$1M = ["color", "size", "className"];
-var Right = function Right(props) {
+var ColorWheel = function ColorWheel(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
     otherProps = _objectWithoutProperties(props, _excluded$1M);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    d: "M5.917 15.833a1.75 1.75 0 001.75-1.75V9.858m-1.75 5.975a1.75 1.75 0 01-1.75-1.75V4.167h3.5v5.691m-1.75 5.975h9.916v-3.5h-5.691M7.667 9.858l5.546-5.546.137-.145 2.48 2.479-5.688 5.687m0 0l-2.988 2.988a1.75 1.75 0 01-2.475 0"
+  }));
+};
+ColorWheel.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+ColorWheel.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+var _excluded$1N = ["color", "size", "className"];
+var Effects = function Effects(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1N);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    d: "M10 14.942a3.5 3.5 0 103.208-5.998"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M6.792 8.944a3.501 3.501 0 00.875 6.89 3.5 3.5 0 003.258-4.781"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M10 11.167a3.5 3.5 0 100-7 3.5 3.5 0 000 7z"
+  }));
+};
+Effects.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+Effects.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+var _excluded$1O = ["color", "size", "className"];
+var IdentityCard = function IdentityCard(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1O);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    d: "M17.2 4H2.8a.8.8 0 00-.8.8V16a.8.8 0 00.8.8h14.4a.8.8 0 00.8-.8V4.8a.8.8 0 00-.8-.8z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M7.2 10.8a1.6 1.6 0 100-3.2 1.6 1.6 0 000 3.2z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M9.6 13.2a2.4 2.4 0 10-4.8 0"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M11.6 8.8h3.2"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M12.4 12h2.4"
+  }));
+};
+IdentityCard.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+IdentityCard.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+var _excluded$1P = ["color", "size", "className"];
+var Phone = function Phone(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1P);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    d: "M4 12.4h12.8v4.8a.8.8 0 01-.8.8H4.8a.8.8 0 01-.8-.8v-4.8z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M16.8 12.4V2.8A.8.8 0 0016 2H4.8a.8.8 0 00-.8.8v9.6"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M9.6 15.2h1.6"
+  }));
+};
+Phone.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+Phone.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+var _excluded$1Q = ["color", "size", "className"];
+var Password = function Password(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1Q);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    d: "M9.623 9.766a3.288 3.288 0 01.876 3.196 3.309 3.309 0 01-2.355 2.343 3.33 3.33 0 01-3.213-.872 3.288 3.288 0 01.04-4.626 3.33 3.33 0 014.651-.04h0z"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M9.667 9.667L15.333 4"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M12.102 7.3l1.81 1.8 2.11-2.1-1.81-1.8-2.11 2.1z"
+  }));
+};
+Password.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+Password.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+var _excluded$1R = ["color", "size", "className"];
+var Func = function Func(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1R);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    d: "M17.43 6.77a.18.18 0 00-.014-.258.187.187 0 00-.12-.047h-1.65a.178.178 0 00-.14.063l-2.792 3.3a.18.18 0 01-.304-.044l-1.443-3.21a.18.18 0 00-.165-.107H6.97l.02-.107.182-.961c.239-1.259.863-1.85 1.95-1.85.422 0 .806.04 1.108.107l.32-1.517A5.318 5.318 0 009.305 2C6.957 2 5.751 3.007 5.308 5.347l-.214 1.122H2.876a.18.18 0 00-.177.146l-.245 1.177a.183.183 0 00.177.22h2.143L2.75 17.78a.183.183 0 00.178.22h1.504a.18.18 0 00.177-.145l2.038-9.84h3.086l1.55 3.16a.18.18 0 01-.028.2l-4.104 4.612a.183.183 0 00.016.257c.034.03.078.045.12.045h1.653a.178.178 0 00.138-.064l2.81-3.333a.183.183 0 01.258-.022c.02.018.036.038.047.063l1.495 3.242c.03.064.093.107.166.107h1.468a.182.182 0 00.163-.261l-2.163-4.52a.18.18 0 01.03-.2l4.076-4.532z",
+    fillOpacity: ".8"
+  }));
+};
+Func.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+Func.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+var _excluded$1S = ["color", "size", "className"];
+var Right = function Right(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$1S);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4334,12 +4547,12 @@ Right.defaultProps = {
   style: {}
 };
 
-var _excluded$1N = ["color", "size", "className"];
+var _excluded$1T = ["color", "size", "className"];
 var Down = function Down(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1N);
+    otherProps = _objectWithoutProperties(props, _excluded$1T);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4366,12 +4579,12 @@ Down.defaultProps = {
   style: {}
 };
 
-var _excluded$1O = ["color", "size", "className"];
+var _excluded$1U = ["color", "size", "className"];
 var Up = function Up(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1O);
+    otherProps = _objectWithoutProperties(props, _excluded$1U);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4398,12 +4611,12 @@ Up.defaultProps = {
   style: {}
 };
 
-var _excluded$1P = ["color", "size", "className"];
+var _excluded$1V = ["color", "size", "className"];
 var Left = function Left(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1P);
+    otherProps = _objectWithoutProperties(props, _excluded$1V);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4430,12 +4643,12 @@ Left.defaultProps = {
   style: {}
 };
 
-var _excluded$1Q = ["color", "size", "className"];
+var _excluded$1W = ["color", "size", "className"];
 var ArrowLeft = function ArrowLeft(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1Q);
+    otherProps = _objectWithoutProperties(props, _excluded$1W);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4464,12 +4677,12 @@ ArrowLeft.defaultProps = {
   style: {}
 };
 
-var _excluded$1R = ["color", "size", "className"];
+var _excluded$1X = ["color", "size", "className"];
 var ArrowRight = function ArrowRight(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1R);
+    otherProps = _objectWithoutProperties(props, _excluded$1X);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4498,12 +4711,12 @@ ArrowRight.defaultProps = {
   style: {}
 };
 
-var _excluded$1S = ["color", "size", "className"];
+var _excluded$1Y = ["color", "size", "className"];
 var ArrowTop = function ArrowTop(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1S);
+    otherProps = _objectWithoutProperties(props, _excluded$1Y);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4532,12 +4745,12 @@ ArrowTop.defaultProps = {
   style: {}
 };
 
-var _excluded$1T = ["color", "size", "className"];
+var _excluded$1Z = ["color", "size", "className"];
 var ArrowDown = function ArrowDown(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1T);
+    otherProps = _objectWithoutProperties(props, _excluded$1Z);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4566,12 +4779,12 @@ ArrowDown.defaultProps = {
   style: {}
 };
 
-var _excluded$1U = ["color", "size", "className"];
+var _excluded$1_ = ["color", "size", "className"];
 var SortUp = function SortUp(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1U);
+    otherProps = _objectWithoutProperties(props, _excluded$1_);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4608,12 +4821,12 @@ SortUp.defaultProps = {
   style: {}
 };
 
-var _excluded$1V = ["color", "size", "className"];
+var _excluded$1$ = ["color", "size", "className"];
 var SortDown = function SortDown(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1V);
+    otherProps = _objectWithoutProperties(props, _excluded$1$);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4650,12 +4863,12 @@ SortDown.defaultProps = {
   style: {}
 };
 
-var _excluded$1W = ["color", "size", "className"];
+var _excluded$20 = ["color", "size", "className"];
 var TriangleRight = function TriangleRight(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1W);
+    otherProps = _objectWithoutProperties(props, _excluded$20);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4683,12 +4896,12 @@ TriangleRight.defaultProps = {
   style: {}
 };
 
-var _excluded$1X = ["color", "size", "className"];
+var _excluded$21 = ["color", "size", "className"];
 var TriangleDown = function TriangleDown(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1X);
+    otherProps = _objectWithoutProperties(props, _excluded$21);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4716,12 +4929,12 @@ TriangleDown.defaultProps = {
   style: {}
 };
 
-var _excluded$1Y = ["color", "size", "className"];
+var _excluded$22 = ["color", "size", "className"];
 var LoadingSpin = function LoadingSpin(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1Y);
+    otherProps = _objectWithoutProperties(props, _excluded$22);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4765,12 +4978,12 @@ LoadingSpin.defaultProps = {
   style: {}
 };
 
-var _excluded$1Z = ["color", "size", "className"];
+var _excluded$23 = ["color", "size", "className"];
 var Github = function Github(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1Z);
+    otherProps = _objectWithoutProperties(props, _excluded$23);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4800,12 +5013,12 @@ Github.defaultProps = {
   style: {}
 };
 
-var _excluded$1_ = ["color", "size", "className"];
+var _excluded$24 = ["color", "size", "className"];
 var Aws = function Aws(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1_);
+    otherProps = _objectWithoutProperties(props, _excluded$24);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4833,12 +5046,12 @@ Aws.defaultProps = {
   style: {}
 };
 
-var _excluded$1$ = ["color", "size", "className"];
+var _excluded$25 = ["color", "size", "className"];
 var Google = function Google(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$1$);
+    otherProps = _objectWithoutProperties(props, _excluded$25);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4881,12 +5094,12 @@ Google.defaultProps = {
   style: {}
 };
 
-var _excluded$20 = ["color", "size", "className"];
+var _excluded$26 = ["color", "size", "className"];
 var Twitter = function Twitter(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$20);
+    otherProps = _objectWithoutProperties(props, _excluded$26);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4914,12 +5127,12 @@ Twitter.defaultProps = {
   style: {}
 };
 
-var _excluded$21 = ["color", "size", "className"];
+var _excluded$27 = ["color", "size", "className"];
 var Slack = function Slack(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$21);
+    otherProps = _objectWithoutProperties(props, _excluded$27);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4963,12 +5176,45 @@ Slack.defaultProps = {
   style: {}
 };
 
-var _excluded$22 = ["color", "size", "className"];
-var Wechat = function Wechat(props) {
+var _excluded$28 = ["color", "size", "className"];
+var WeChat = function WeChat(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$22);
+    otherProps = _objectWithoutProperties(props, _excluded$28);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    d: "M12.831 7.902c.184 0 .366.014.546.033C12.887 5.678 10.447 4 7.663 4 4.55 4 2 6.1 2 8.766c0 1.539.849 2.802 2.266 3.783L3.7 14.235l1.98-.983c.708.139 1.276.281 1.983.281.178 0 .354-.008.529-.022a4.127 4.127 0 01-.175-1.174c0-2.448 2.124-4.435 4.814-4.435zm-3.044-1.52c.426 0 .708.278.708.7 0 .42-.282.702-.708.702-.425 0-.85-.282-.85-.702 0-.422.425-.7.85-.7zM5.823 7.784c-.424 0-.852-.28-.852-.7 0-.423.428-.7.852-.7.425 0 .707.277.707.7 0 .42-.282.7-.707.7zM18 12.27c0-2.24-2.266-4.067-4.81-4.067-2.694 0-4.816 1.826-4.816 4.067 0 2.244 2.121 4.066 4.816 4.066.564 0 1.133-.14 1.699-.28l1.553.84-.426-1.4C17.153 14.653 18 13.534 18 12.27zm-6.372-.702c-.282 0-.566-.277-.566-.56 0-.28.284-.56.566-.56.428 0 .709.28.709.56 0 .283-.28.56-.709.56zm3.115 0c-.28 0-.563-.277-.563-.56 0-.28.283-.56.563-.56.425 0 .709.28.709.56 0 .283-.284.56-.71.56z",
+    fillOpacity: ".8"
+  }));
+};
+WeChat.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+WeChat.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+var _excluded$29 = ["color", "size", "className"];
+var WeChatMoments = function WeChatMoments(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$29);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -4981,7 +5227,7 @@ var Wechat = function Wechat(props) {
     fillOpacity: ".8"
   }));
 };
-Wechat.propTypes = {
+WeChatMoments.propTypes = {
   color: PropTypes.string,
   size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
   className: PropTypes.string,
@@ -4989,19 +5235,19 @@ Wechat.propTypes = {
   onClick: PropTypes.func,
   children: PropTypes.node
 };
-Wechat.defaultProps = {
+WeChatMoments.defaultProps = {
   color: 'currentColor',
   size: '20',
   className: '',
   style: {}
 };
 
-var _excluded$23 = ["color", "size", "className"];
+var _excluded$2a = ["color", "size", "className"];
 var Youtube = function Youtube(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$23);
+    otherProps = _objectWithoutProperties(props, _excluded$2a);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -5031,12 +5277,12 @@ Youtube.defaultProps = {
   style: {}
 };
 
-var _excluded$24 = ["color", "size", "className"];
+var _excluded$2b = ["color", "size", "className"];
 var Airbyte = function Airbyte(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$24);
+    otherProps = _objectWithoutProperties(props, _excluded$2b);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -5066,12 +5312,12 @@ Airbyte.defaultProps = {
   style: {}
 };
 
-var _excluded$25 = ["color", "size", "className"];
+var _excluded$2c = ["color", "size", "className"];
 var Dbt = function Dbt(props) {
   var color = props.color,
     size = props.size,
     className = props.className,
-    otherProps = _objectWithoutProperties(props, _excluded$25);
+    otherProps = _objectWithoutProperties(props, _excluded$2c);
   return /*#__PURE__*/React.createElement("svg", _extends({
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
@@ -5099,4 +5345,171 @@ Dbt.defaultProps = {
   style: {}
 };
 
-export { Activity, Add, AddFolder, AddSheet, Airbyte, Analysis, Applications, ArrowDown, ArrowLeft, ArrowRight, ArrowTop, Aws, Begin, Book, Calendar, CardShow, Chart, ChartsBar, ChartsBarHorizontal, ChartsBarStacked, ChartsBarVertical, ChartsLine, ChartsPie, ChartsPieDoughnut, ChartsScorecard, Check, Close, Collaborators, Column, Comma, Compute, Copy, Coupon, Credentials, Dashboard, Data, DataBool, DataNum, DataString, DataTime, DataVariant, Dbt, Delete, Details, Dev, DocPage, DocParagraph, DocTitle, Down, Download, Enter, Equal, Error, ExpandDown, ExpandLeft, ExpandRight, ExpandTop, Export, FieldDelimiter, Filescode, Folder, Folderopen, FullScreen, Getstart, Github, Google, HamburgerButton, Help, Hidden, Label, Left, Level, Link, ListShow, Loading, LoadingSpin, Locked, Mail, Markdown, More, Myworksheet, Notifications, Number, OffScreen, Organization, Pencil, Percent, Person, Pin, Preferences, Queryhistory, Question, Recent, RecordDelimiter, Reduction, Refresh, Return, Right, Row, Schema, Search, Send, Setting, Share, Show, SkipHeader, Slack, Smiling, SortDown, SortUp, SqLuser, Stereo, String, Support, Suspended, Switch, Table, Terminal, ThumbsDown, ThumbsUp, Tickets, Time, TriangleDown, TriangleRight, Twitter, Ueue, Unlink, Up, Upload, Wallet, WareHouse, Wechat, Worksheet, Youtube };
+var _excluded$2d = ["color", "size", "className"];
+var Linux = function Linux(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$2d);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M15.721 14.7c-.367-.298-.225-.955-.605-1.279.369-2.242-.665-4.22-1.897-5.488-1.033-1.063-.7-2.097-.7-2.993 0-1.431-.588-2.94-2.367-2.94C8.25 2 7.73 3.587 7.71 4.492c-.045 2.175.44 2.74-.833 4.323-1.498 1.862-1.718 3.72-1.38 4.704a1.957 1.957 0 01-.77.557c-1.102.48-.294 1.283-.599 1.853a1.044 1.044 0 00-.128.494c0 .5.398.933 1.119.868.975-.087 1.873.603 2.454.603.514 0 .935-.292 1.131-.693.918-.227 2.051-.198 2.969.038.165.461.61.761 1.108.761 1.088 0 1.296-1.232 2.544-1.65.45-.15.675-.586.675-.992 0-.26-.093-.507-.279-.659zM9.623 7.722c-.213 0-.389-.173-.667-.38-.352-.26-.71-.41-.706-.685 0-.19.253-.248.58-.455.35-.222.487-.447.832-.447.353 0 .46.179.94.386.472.205.8.285.8.516 0 .236-.493.405-.772.578-.408.252-.618.487-1.007.487zm1.11-3.477c.588.094.654 1.128.373 1.636l-.237-.097c.123-.362.12-.957-.29-.996-.26-.024-.429.32-.465.615a1.125 1.125 0 00-.349-.084c.042-.615.44-1.158.968-1.074zm-2.269.22c.45-.112.717.413.719.957l-.207.128c-.028-.23-.13-.599-.386-.52-.274.085-.23.722-.076.853l-.204.112c-.28-.47-.28-1.42.154-1.53zm-1.41 12.83c-1.309-.596-1.753-.46-2.003-.46-.518 0-.688-.386-.493-.752.165-.31.114-.635.074-.895-.063-.4-.075-.53.318-.701a2.27 2.27 0 00.965-.75c.505-.624 1.015.358 1.433 1.234.272.567.806.854.97 1.483.151.58-.473 1.2-1.264.84zm4.658-1.25c-.923.449-2.098.655-2.978.2-.129-.375-.337-.618-.56-.863.358-.094.625-.542.305-.992-.34-.48-1.036-.816-1.74-1.36-.658-.51-.865-1.762.03-3.165-.436 1.242-.18 2.386.038 2.714.045-.659.098-1.76.998-3.077.454-.666.46-1.545.47-2.094l.414.283c.304.225.558.472.924.472.54 0 .839-.31 1.254-.569.163-.1.409-.2.615-.342.347 1.65 1.784 3.636 1.864 4.767.334-.688-.095-2.343-.095-2.343.562.857.606 1.571.631 2.447.393.16.814.58.853 1.13l-.164-.018c-.084-.613-1.737-1.513-1.886-.36-.793.121-.505 1.378-.665 2.193-.073.373-.21.667-.308.977zm3.23-.027c-.656.253-1.099.792-1.404 1.125-.587.645-1.363.336-1.445-.267-.087-.645.24-.996.381-1.716.129-.658-.015-1.67.288-1.779.196 1.169 1.377.677 1.646.359.438 0 .475.148.573.558.061.256.146.472.385.727.279.297.193.755-.423.993zM9.61 7.348c-.435 0-.759-.29-1.023-.513-.135-.114.033-.325.168-.21.258.219.518.45.855.45.404 0 .76-.346 1.244-.537.165-.065.26.19.096.255-.47.184-.846.555-1.34.555z",
+    fillOpacity: ".8"
+  }));
+};
+Linux.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+Linux.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+var _excluded$2e = ["color", "size", "className"];
+var Apple = function Apple(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$2e);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    d: "M11.95 4.518c.935-1.143.726-2.391.623-2.495-.104-.103-1.456.104-2.392 1.352-.832 1.143-.832 2.392-.727 2.496.106.103 1.456 0 2.495-1.353zm2.287 5.823c-.103-1.663 1.456-2.702 1.767-2.911v-.104s-1.353-1.663-3.326-1.559c-1.247.104-1.872.727-2.702.727-1.04 0-1.976-.727-3.119-.727-.936 0-3.638.832-3.845 4.365-.207 3.535 2.286 6.86 3.222 7.483.936.624 1.56.417 2.599-.103.52-.313 2.182-.416 3.118.207 1.143.416 2.806.104 4.678-4.054-.21.002-2.288-.518-2.392-3.324z",
+    fillOpacity: ".8"
+  }));
+};
+Apple.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+Apple.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+var _excluded$2f = ["color", "size", "className"];
+var Zhihu = function Zhihu(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$2f);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    d: "M11.113 4v12.2h1.277l.537 1.521 2.266-1.52h2.8V4h-6.88zm5.274 10.584h-1.275l-1.6 1.073-.379-1.073h-.383V5.665h3.635v8.92h.002zM10.29 9.47H7.462c.045-.956.092-2.221.14-3.682h2.788l-.002-.173c0-.013-.004-.313-.049-.62-.044-.319-.14-.743-.447-.743H5.216c.093-.438.334-1.484.626-1.997l.136-.239L5.703 2c-.017 0-.417-.019-.881.226-.76.405-1.101 1.201-1.25 1.797-.392 1.557-.95 2.639-1.187 3.101-.07.136-.112.217-.132.273-.038.104-.017.208.06.277.224.202.813-.062.82-.064l.047-.022c.296-.134 1.173-.532 1.486-1.8h1.208c.015.687.066 2.948.061 3.683H2.933l-.045.032c-.492.36-.65 1.346-.656 1.388l-.03.196H5.76c-.262 1.668-.565 2.415-.724 2.713-.08.15-.156.299-.228.443-.454.9-.925 1.828-2.69 3.272-.077.06-.149.17-.102.291.05.134.198.194.524.194.115 0 .251-.006.413-.021 1.063-.094 2.146-.384 2.877-1.866.362-.747.675-1.527.935-2.319l2.907 3.407.106-.255c.017-.04.405-.986.109-2.042l-.01-.039-2.303-2.62-.468.354a10.3 10.3 0 00.266-1.514h3.38v-.17c0-.854-.394-1.361-.41-1.382l-.05-.064z",
+    fillOpacity: ".8"
+  }));
+};
+Zhihu.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+Zhihu.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+var _excluded$2g = ["color", "size", "className"];
+var Mysql = function Mysql(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$2g);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    d: "M9.161 14.587a2.81 2.81 0 01-.256-.198 4.907 4.907 0 01-.238-.22 6.887 6.887 0 01-.442-.478 10.303 10.303 0 01-.768-1.052 13.078 13.078 0 01-.643-1.135 16.343 16.343 0 01-.542-1.188l.37.044a4.908 4.908 0 01-.23.326 1.708 1.708 0 01-.093.11l.013-.014-.001.002-.004.005-.007.01-.016.024a1.694 1.694 0 00-.09.153 2.036 2.036 0 00-.214.678 1.786 1.786 0 00-.01.117v.014l-.001.008v.005l-.002.014-.003.033-.005.067-.023.268-.048.535-.015.176-.172.06-.019.006-.01.003-.015.004a.422.422 0 01-.144.008.546.546 0 01-.125-.028.7.7 0 01-.184-.097c-.1-.074-.17-.155-.231-.234-.06-.08-.11-.16-.155-.241a3.094 3.094 0 01-.17-.363l-.023-.06-.014-.038-.01-.032a5.742 5.742 0 01-.188-.752 5.368 5.368 0 01-.087-1.03c.006-.348.05-.7.143-1.046l.003-.01.011-.03.029-.074.028-.077a8.515 8.515 0 00.153-.464 2.92 2.92 0 00.07-.294.791.791 0 00.013-.13c0 .005.001.014.007.033.007.018.018.05.052.09l-.04-.047-.023-.055.004.01v.001l-.001-.003-.007-.01a.5.5 0 00-.068-.085.95.95 0 00-.129-.114l-.032-.024-.028-.033-.025-.03-.02-.024-.037-.048a3.602 3.602 0 01-.196-.283A5.137 5.137 0 013.63 5.91l-.004-.014-.002-.007v-.001l.003.012v-.002l-.007-.023-.014-.046-.03-.095a9.6 9.6 0 00-.127-.374A6.04 6.04 0 003.31 5a3.25 3.25 0 00-.078-.165 1.48 1.48 0 00-.078-.138c-.013-.02-.02-.028-.044-.061l-.06-.082-.124-.164a37.022 37.022 0 00-.247-.325l-.124-.16a7.585 7.585 0 00-.122-.151l-.028-.034-.014-.016-.003-.003-.001-.002-.014-.016-.003-.004-.012-.016a2.084 2.084 0 01-.212-.335 1.48 1.48 0 01-.108-.277 1.076 1.076 0 01-.032-.175.878.878 0 01.004-.213.766.766 0 01.42-.578l.003-.002c-.024.013.009-.004.003-.001l.016-.008a.65.65 0 01.118-.042 1.201 1.201 0 01.437-.02c.1.012.19.035.277.061.171.054.322.124.463.201l-.044-.021.08.034.076.034a7.29 7.29 0 01.448.221c.1.054.2.11.3.176.054.034.105.07.156.107.052.04.106.083.164.138l.012.012.018.02-.008-.009.003.002a.223.223 0 00.033.027c.016.01.032.019.05.025a.143.143 0 00.078.01l.04-.005.036.001.084.004.08.003a10.203 10.203 0 01.485.039c.11.012.22.026.337.047a2.534 2.534 0 01.288.07c.038.014.078.028.126.052l-.051-.021.038.013.033.013.063.024a6.06 6.06 0 01.36.155 9.48 9.48 0 012.528 1.73c.061.06.122.12.182.182l.045.046.022.024.001.001-.01-.011.002.003.008.007.013.013.093.096a10.423 10.423 0 011.237 1.62c.178.289.343.588.488.897.146.31.275.628.38.956l-.014-.037a75.699 75.699 0 00.648 1.46 27.524 27.524 0 00.424.886l.022.04.005.01.003.006-.008-.013.002.003.012.02.05.081a5.183 5.183 0 00.169.25l.002.002-.006-.005-.02-.016-.035-.023h.002l.004.003.009.005.018.01.04.022a2.652 2.652 0 00.252.12c.114.047.23.085.343.11l.036.008.019.007.488.194.245.1.124.051.064.028.035.015.02.01.026.012.02.01.014.01a91.221 91.221 0 01.845.589c.094.066.187.133.281.203l-.02-.014.056.036.055.036a6.579 6.579 0 01.321.229c.071.055.141.113.213.183.036.036.073.074.111.124a.684.684 0 01.09.16c.009.027.018.06.021.1l.03.329-.324-.02-.03-.001-.033-.002-.067-.002-.135-.003a7.673 7.673 0 00-.812.032 4.796 4.796 0 00-.528.08c-.172.037-.34.084-.495.15l-.029.011-.031.007h-.006l-.01.002-.02.003a.649.649 0 00-.11.033.24.24 0 00-.044.024l-.005.002.003-.01-.04-.186.007.01.005.006.009.012a.623.623 0 01.042.07 1.047 1.047 0 01.109.286l-.022-.053.03.053.033.054a4.63 4.63 0 00.212.315c.05.067.103.131.157.188.028.029.055.056.083.08a.517.517 0 00.081.057l.029.016.02.021c-.002-.002 0 0 0 0l.002.003.006.007.013.014a.96.96 0 00.092.085 4.571 4.571 0 00.426.314c.2.129.41.247.623.36l.163.084a6.572 6.572 0 01.48.28c.103.067.205.137.304.212.098.074.194.153.282.24l-.003-.002a3.196 3.196 0 01.268.24c.027.028.054.058.077.091l-.003-.003.155.084-.163-.067h-.002l-.002-.002a.846.846 0 00-.084-.081 1.96 1.96 0 00-.187-.142 3.055 3.055 0 00-.098-.065l-.002-.002a3.873 3.873 0 00-.61-.385 7.23 7.23 0 00-.49-.232l-.17-.07a7.582 7.582 0 01-.67-.319 4.862 4.862 0 01-.324-.191 2.928 2.928 0 01-.274-.203l-.02-.018-.01-.01-.006-.006-.008-.007.05.036a.816.816 0 01-.143-.084 1.383 1.383 0 01-.116-.096 2.46 2.46 0 01-.199-.205 4.111 4.111 0 01-.335-.444l-.012-.018-.01-.035a.7.7 0 00-.097-.2l-.009-.011-.003-.005-.002-.001.001.001-.067-.083.027-.103a.38.38 0 01.115-.189.603.603 0 01.138-.097.924.924 0 01.23-.083l.017-.004.01-.002.011-.002-.06.018c.186-.093.376-.16.567-.213.192-.052.384-.09.577-.121a7.371 7.371 0 011.015-.088l.074-.001h.077l-.294.309a.173.173 0 00.007.04l.005.012c0 .002-.003-.003-.01-.01a.655.655 0 00-.057-.056 1.98 1.98 0 00-.169-.13 4.092 4.092 0 00-.292-.188l-.05-.03-.049-.027-.004-.002-.017-.011a22.647 22.647 0 00-.282-.183l-.287-.183a89.862 89.862 0 00-.575-.363l.034.02-.096-.037-.12-.044-.243-.087-.49-.173.054.016a2.87 2.87 0 01-.467-.13 3.441 3.441 0 01-.328-.14l-.054-.028-.028-.015-.014-.007-.018-.01-.015-.009-.02-.014a.5.5 0 01-.038-.033l-.013-.012-.01-.01a.873.873 0 01-.078-.089 5.976 5.976 0 01-.194-.27l-.059-.087-.014-.023-.002-.003-.001-.001-.01-.016-.003-.006-.007-.012-.027-.046a23.266 23.266 0 01-.473-.912 57.42 57.42 0 01-.695-1.461l-.006-.014-.008-.024a7.934 7.934 0 00-.818-1.651A9.835 9.835 0 009.255 6.17a4.5 4.5 0 00-.078-.078l-.008-.009-.004-.003-.017-.017-.02-.021-.04-.04a7.89 7.89 0 00-.51-.468 8.685 8.685 0 00-2.253-1.372l-.05-.02-.044-.016-.03-.01-.021-.01-.017-.007a1.604 1.604 0 00-.158-.038 3.918 3.918 0 00-.27-.038 7.422 7.422 0 00-.433-.035l-.073-.003-.07-.003.077-.004a1.081 1.081 0 01-.546-.067 1.188 1.188 0 01-.408-.271l-.014-.015-.008-.008-.013-.015.03.032a.794.794 0 00-.075-.063 3.609 3.609 0 00-.34-.212 6.128 6.128 0 00-.39-.195l-.066-.03-.064-.029-.028-.012-.016-.01c-.1-.055-.2-.102-.291-.13a.789.789 0 00-.126-.031.327.327 0 00-.077-.004c-.002 0-.003 0 0 0l.011-.004.012-.004.01-.005.01-.005c-.005.003.026-.013.001 0 0 0 .006-.003.016-.013a.165.165 0 00.047-.09c.002-.02-.002-.007.005.02a.58.58 0 00.042.108 1.19 1.19 0 00.116.19l.003.005-.012-.015.003.003.005.006.02.024.037.046a8.478 8.478 0 01.262.34l.247.338.122.169.061.085.035.048.04.06c.048.078.086.151.12.223.036.072.066.142.095.212.057.139.107.276.154.413.046.136.09.273.13.411l.03.104.014.052.007.028.006.02.001.006.003.012a4.198 4.198 0 00.311.886 4.193 4.193 0 00.327.561l.026.035.02.026-.06-.057a1.741 1.741 0 01.334.35 1.253 1.253 0 01.073.118l.012.025.007.014.004.008.007.016-.063-.102c.052.063.076.12.092.165a.606.606 0 01.026.116.843.843 0 01.005.157 1.57 1.57 0 01-.032.226 3.671 3.671 0 01-.102.37 6.925 6.925 0 01-.187.509l-.034.083-.036.085.014-.04a3.62 3.62 0 00-.15.865 5.084 5.084 0 00.172 1.567l.013.046.018.053.038.104c.053.137.114.268.183.37.034.051.071.094.1.118.014.012.025.018.027.02H5.58a.175.175 0 00-.024.004l-.008.002-.006.002-.015.005-.187.237.151-1.073a2.413 2.413 0 01.442-1.02l.024-.03.013-.016.016-.02.008-.009.004-.004a2.803 2.803 0 00.225-.258l.072-.095.243-.332.127.376a18.324 18.324 0 00.45 1.195c.166.392.346.78.547 1.155a9.885 9.885 0 00.665 1.094c.122.176.251.346.388.51.07.083.14.163.214.24.074.078.15.155.232.224z",
+    fillOpacity: ".8"
+  }));
+};
+Mysql.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+Mysql.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+var _excluded$2h = ["color", "size", "className"];
+var OpenAi = function OpenAi(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$2h);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    height: size,
+    viewBox: "-2 -2 24 24",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    d: "M16.73 8.55c.2-.55.25-1.1.2-1.65-.05-.55-.25-1.1-.5-1.6-.45-.75-1.1-1.35-1.85-1.7-.8-.35-1.65-.45-2.5-.25-.4-.4-.85-.75-1.35-1-.5-.25-1.1-.35-1.65-.35-.85 0-1.7.25-2.4.75s-1.2 1.2-1.45 2c-.6.15-1.1.4-1.6.7-.45.35-.8.8-1.1 1.25-.45.75-.6 1.6-.5 2.45.1.85.45 1.65 1 2.3-.2.55-.25 1.1-.2 1.65.05.55.25 1.1.5 1.6.45.75 1.1 1.35 1.85 1.7.8.35 1.65.45 2.5.25.4.4.85.75 1.35 1 .5.25 1.1.35 1.65.35.85 0 1.7-.25 2.4-.75s1.2-1.2 1.45-2c.55-.1 1.1-.35 1.55-.7.45-.35.85-.75 1.1-1.25.45-.75.6-1.6.5-2.45-.1-.85-.4-1.65-.95-2.3zm-6 8.4c-.8 0-1.4-.25-1.95-.7 0 0 .05-.05.1-.05l3.2-1.85c.1-.05.15-.1.2-.2.05-.1.05-.15.05-.25V9.4l1.35.8v3.7a2.948 2.948 0 01-2.95 3.05zM4.28 14.2c-.35-.6-.5-1.3-.35-2 0 0 .05.05.1.05l3.2 1.85c.1.05.15.05.25.05s.2 0 .25-.05l3.9-2.25v1.55l-3.25 1.9c-.7.4-1.5.5-2.25.3-.8-.2-1.45-.7-1.85-1.4zm-.85-6.95c.35-.6.9-1.05 1.55-1.3V9.75c0 .1 0 .2.05.25.05.1.1.15.2.2l3.9 2.25-1.35.8-3.2-1.85c-.7-.4-1.2-1.05-1.4-1.8-.2-.75-.15-1.65.25-2.35zM14.48 9.8l-3.9-2.25 1.35-.8 3.2 1.85c.5.3.9.7 1.15 1.2.25.5.4 1.05.35 1.65A3 3 0 0114.68 14v-3.8c0-.1 0-.2-.05-.25 0 0-.05-.1-.15-.15zm1.35-2s-.05-.05-.1-.05l-3.2-1.85c-.1-.05-.15-.05-.25-.05s-.2 0-.25.05l-3.9 2.25V6.6l3.25-1.9c.5-.3 1.05-.4 1.65-.4.55 0 1.1.2 1.6.55.45.35.85.8 1.05 1.3.2.5.25 1.1.15 1.65zm-8.4 2.8l-1.35-.8V6.05c0-.55.15-1.15.45-1.6.3-.5.75-.85 1.25-1.1.5-.25 1.1-.35 1.65-.25.55.05 1.1.3 1.55.65 0 0-.05.05-.1.05l-3.2 1.85c-.1.05-.15.1-.2.2-.05.1-.05.15-.05.25v4.5zm.7-1.6l1.75-1 1.75 1v2l-1.75 1-1.75-1V9z",
+    fillOpacity: ".8"
+  }));
+};
+OpenAi.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+OpenAi.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+export { Activity, Add, AddFolder, AddSheet, Airbyte, Analysis, Apple, Applications, ArrowDown, ArrowLeft, ArrowRight, ArrowTop, Aws, Begin, Book, Calendar, CardShow, Chart, ChartsBar, ChartsBarHorizontal, ChartsBarStacked, ChartsBarVertical, ChartsLine, ChartsPie, ChartsPieDoughnut, ChartsScorecard, Check, Close, Collaborators, ColorWheel, Column, Comma, Compute, Copy, Coupon, Credentials, Dashboard, Data, DataBool, DataNum, DataString, DataTime, DataVariant, Dbt, Delete, Details, Dev, DocPage, DocParagraph, DocTitle, Down, Download, Effects, Enter, Equal, Error, ExpandDown, ExpandLeft, ExpandRight, ExpandTop, Export, FieldDelimiter, Filescode, Folder, Folderopen, FullScreen, Func, Getstart, Github, Google, HamburgerButton, Help, Hidden, IdentityCard, Label, Left, Level, Link, Linux, ListShow, Loading, LoadingSpin, Locked, Mail, Markdown, More, Mysql, Myworksheet, Notifications, Number, OffScreen, OpenAi, Organization, Password, Pencil, Percent, Person, Phone, Pin, Preferences, Queryhistory, Question, Recent, RecordDelimiter, Reduction, Refresh, Return, Right, Row, Schema, Search, Send, Setting, Share, Show, SkipHeader, Slack, Smiling, SortDown, SortUp, SqLuser, Stereo, String, Support, Suspended, Switch, Table, Terminal, ThumbsDown, ThumbsUp, Tickets, Time, TriangleDown, TriangleRight, Twitter, Ueue, Unlink, Up, Upload, Wallet, WareHouse, WeChat, WeChatMoments, Worksheet, Youtube, Zhihu };
