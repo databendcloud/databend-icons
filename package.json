@@ -1,7 +1,7 @@
 {
   "name": "@databendcloud/databend-icons",
   "description": "Icons for Databend",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "dist/databend-cloud-icon.cjs.js",
   "module": "dist/databend-cloud-icon.esm.js",
   "typings": "dist/icons.d.ts",
