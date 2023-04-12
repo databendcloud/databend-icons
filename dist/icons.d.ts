@@ -125,6 +125,7 @@ export const IdentityCard: Icon;
 export const Phone: Icon;
 export const Password: Icon;
 export const Func: Icon;
+export const Ag: Icon;
 export const Right: Icon;
 export const Down: Icon;
 export const Up: Icon;
