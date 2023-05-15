@@ -129,6 +129,8 @@ export const Ag: Icon;
 export const SidebarLeft: Icon;
 export const SidebarTop: Icon;
 export const SidebarBottom: Icon;
+export const Dollar: Icon;
+export const Rmb: Icon;
 export const Right: Icon;
 export const Down: Icon;
 export const Up: Icon;
