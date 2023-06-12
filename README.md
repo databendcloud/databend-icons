@@ -5,8 +5,9 @@ Icons for Databend Cloud
 https://databendcloud.github.io/databend-icons/
 
 # Install
+若在本地没有配置环境变量（下载包鉴权）：请参考 https://databendcloud.github.io/databend-ui/guide
 ```js
-yarn add git+https://github.com/databendcloud/databend-icons.git#package
+yarn add @databendcloud/databend-icons
 ```
 
 # How to use
