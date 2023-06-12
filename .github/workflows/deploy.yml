@@ -42,20 +42,24 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
 
-      - name: Publish
-        run: npm publish
+      - name: Pushes to another repository
+        uses: cpina/github-action-push-to-another-repository@main
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
+          API_TOKEN_GITHUB: ${{ secrets.PACKAGES_TOKEN }}
+        with:
+          source-directory: 'dist'
+          destination-github-username: ${{ secrets.USE_NAME }}
+          destination-repository-name: ${{ secrets.REPOSITORY_NAME }}
+          target-directory: 'dist'
+          user-email: ${{ secrets.USER_EMAIL }}
+          target-branch: ${{ secrets.BUILD_BRANCH }}
 
-      # - name: Pushes to another repository
-      #   uses: cpina/github-action-push-to-another-repository@main
-      #   env:
-      #     API_TOKEN_GITHUB: ${{ secrets.PACKAGES_TOKEN }}
+      # - name: login npm 
+      #   uses: ahmadnassri/action-github-registry-npm-proxy@v2
       #   with:
-      #     source-directory: 'dist'
-      #     destination-github-username: ${{ secrets.USE_NAME }}
-      #     destination-repository-name: ${{ secrets.REPOSITORY_NAME }}
-      #     target-directory: 'dist'
-      #     user-email: ${{ secrets.USER_EMAIL }}
-      #     target-branch: ${{ secrets.BUILD_BRANCH }}
+      #     token: ${{ secrets.PACKAGES_TOKEN }}
+      #     scope: databendcloud
+      
+      # - name: release
+      #   run: npm run release
       
