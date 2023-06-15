@@ -42,6 +42,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
 
+      - name: Publish
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.PACKAGES_TOKEN }}
+
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@main
         env:

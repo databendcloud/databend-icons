@@ -30,7 +30,7 @@ Add.propTypes = {
 };
 
 Add.defaultProps = {
-  color: 'rgb(1, 14, 41)',
+  color: 'currentColor',
   size: '20',
   className: '',
   style: {}

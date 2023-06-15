@@ -1,8 +1,8 @@
 <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M11 13H9V15H11V13Z" stroke="#0C162B" stroke-opacity="0.8" stroke-linejoin="round"/>
-<path d="M11 7H9V13H11V7Z" stroke="#0C162B" stroke-opacity="0.8" stroke-linejoin="round"/>
-<path d="M7 9H5V13H7V9Z" stroke="#0C162B" stroke-opacity="0.8" stroke-linejoin="round"/>
-<path d="M7 13H5V15H7V13Z" stroke="#0C162B" stroke-opacity="0.8" stroke-linejoin="round"/>
-<path d="M15 13H13V15H15V13Z" stroke="#0C162B" stroke-opacity="0.8" stroke-linejoin="round"/>
-<path d="M15 5H13V13H15V5Z" stroke="#0C162B" stroke-opacity="0.8" stroke-linejoin="round"/>
+<path d="M11.2 13.6H8.8V16H11.2V13.6Z" stroke="#0C162B" stroke-opacity="0.8" stroke-linejoin="round"/>
+<path d="M11.2 6.39999H8.8V13.6H11.2V6.39999Z" stroke="#0C162B" stroke-opacity="0.8" stroke-linejoin="round"/>
+<path d="M6.4 8.79997H4V13.6H6.4V8.79997Z" stroke="#0C162B" stroke-opacity="0.8" stroke-linejoin="round"/>
+<path d="M6.4 13.6H4V16H6.4V13.6Z" stroke="#0C162B" stroke-opacity="0.8" stroke-linejoin="round"/>
+<path d="M16 13.6H13.6V16H16V13.6Z" stroke="#0C162B" stroke-opacity="0.8" stroke-linejoin="round"/>
+<path d="M16 4H13.6V13.6H16V4Z" stroke="#0C162B" stroke-opacity="0.8" stroke-linejoin="round"/>
 </svg>
