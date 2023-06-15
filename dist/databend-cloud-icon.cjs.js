@@ -60,8 +60,7 @@ var Dashboard = function Dashboard(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17.2 4H2.8a.8.8 0 00-.8.8V16a.8.8 0 00.8.8h14.4a.8.8 0 00.8-.8V4.8a.8.8 0 00-.8-.8z"
@@ -98,8 +97,7 @@ var Worksheet = function Worksheet(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4.4 17V3h8.05l3.15 3.675V17H4.4z"
@@ -138,8 +136,7 @@ var Data = function Data(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17 5.45v9.45c0 1.16-3.134 2.1-7 2.1s-7-.94-7-2.1V5.45"
@@ -176,8 +173,7 @@ var Support = function Support(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     clipRule: "evenodd",
@@ -219,8 +215,7 @@ var Compute = function Compute(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17 3H3v5.6h14V3z"
@@ -261,8 +256,7 @@ var Setting = function Setting(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M8 16.457A6.998 6.998 0 014.955 14.6a2.1 2.1 0 00-1.814-3.443 7.031 7.031 0 01.179-3.51h.029a2.1 2.1 0 001.885-3.028A6.989 6.989 0 018.128 3a2.1 2.1 0 003.744 0 6.989 6.989 0 012.893 1.62 2.1 2.1 0 001.914 3.027 7.03 7.03 0 01.178 3.51 2.1 2.1 0 00-1.814 3.443 6.998 6.998 0 01-3.042 1.857 2.101 2.101 0 00-4.002 0z"
@@ -295,8 +289,7 @@ var Notifications = function Notifications(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17 10a7 7 0 01-7 7H3v-7a7 7 0 1114 0z"
@@ -333,8 +326,7 @@ var Search = function Search(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M9.312 15.624A6.312 6.312 0 109.312 3a6.312 6.312 0 000 12.624z"
@@ -369,8 +361,7 @@ var Close = function Close(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5 5l10 10"
@@ -403,8 +394,7 @@ var Error = function Error(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
@@ -438,8 +428,7 @@ var Check = function Check(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
@@ -473,8 +462,7 @@ var Hidden = function Hidden(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3.368 7c.234.45.588.866 1.04 1.236 1.266 1.038 3.299 1.71 5.59 1.71s4.324-.672 5.59-1.71c.452-.37.806-.787 1.04-1.236"
@@ -513,8 +501,7 @@ var Show = function Show(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 14.6c4.418 0 8-4.8 8-4.8S14.418 5 10 5 2 9.8 2 9.8s3.582 4.8 8 4.8z"
@@ -547,8 +534,7 @@ var Loading = function Loading(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17 10.941A6.994 6.994 0 003.707 7.897"
@@ -596,8 +582,7 @@ var Share = function Share(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M14.5 6.889A1.944 1.944 0 1014.5 3a1.944 1.944 0 000 3.889z"
@@ -636,8 +621,7 @@ var Begin = function Begin(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M6 16V4l9 6-9 6z"
@@ -668,8 +652,7 @@ var Export = function Export(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.633 11.105c0 2.21-1.473 5.895-6.631 5.895S3.37 13.316 3.37 11.105"
@@ -704,8 +687,7 @@ var Download = function Download(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     clipRule: "evenodd",
@@ -741,8 +723,7 @@ var Refresh = function Refresh(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16 4.667V10"
@@ -779,8 +760,7 @@ var AddSheet = function AddSheet(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M15.6 9.65V6.5L12.45 3H5.1a.7.7 0 00-.7.7v12.6a.7.7 0 00.7.7h4.2"
@@ -817,8 +797,7 @@ var Pin = function Pin(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4.62 7.842c1.004-1.004 2.198-.977 3.495-.265l4.852-2.69L12.692 3 17 7.308l-1.884-.27-2.693 4.847c.68 1.385.74 2.491-.265 3.496l-2.962-2.962L3 17l4.567-6.21L4.62 7.842z"
@@ -849,8 +828,7 @@ var Table = function Table(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M15.95 3H4.05C3.47 3 3 3.47 3 4.05v11.9c0 .58.47 1.05 1.05 1.05h11.9c.58 0 1.05-.47 1.05-1.05V4.05C17 3.47 16.53 3 15.95 3z"
@@ -889,8 +867,7 @@ var Schema = function Schema(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M6.111 5.723H3v8.556h3.111"
@@ -925,8 +902,7 @@ var ExpandTop = function ExpandTop(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.25 2.5H3.75c-.69 0-1.25.56-1.25 1.25v12.5c0 .69.56 1.25 1.25 1.25h12.5c.69 0 1.25-.56 1.25-1.25V3.75c0-.69-.56-1.25-1.25-1.25z"
@@ -965,8 +941,7 @@ var ExpandDown = function ExpandDown(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M2.5 4.167c0-.92.746-1.667 1.667-1.667h11.666c.92 0 1.667.746 1.667 1.667v11.666c0 .92-.746 1.667-1.667 1.667H4.167c-.92 0-1.667-.746-1.667-1.667V4.167z"
@@ -1005,8 +980,7 @@ var ExpandRight = function ExpandRight(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M2.5 3.75c0-.69.56-1.25 1.25-1.25h12.5c.69 0 1.25.56 1.25 1.25v12.5c0 .69-.56 1.25-1.25 1.25H3.75c-.69 0-1.25-.56-1.25-1.25V3.75z"
@@ -1045,8 +1019,7 @@ var ExpandLeft = function ExpandLeft(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.25 2.5H3.75c-.69 0-1.25.56-1.25 1.25v12.5c0 .69.56 1.25 1.25 1.25h12.5c.69 0 1.25-.56 1.25-1.25V3.75c0-.69-.56-1.25-1.25-1.25z"
@@ -1085,8 +1058,7 @@ var Link = function Link(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10.034 4.138l-5.973 5.974a3.62 3.62 0 105.12 5.12l7.112-7.111a2.414 2.414 0 10-3.414-3.414l-7.112 7.112a1.207 1.207 0 001.707 1.707l5.974-5.974"
@@ -1117,8 +1089,7 @@ var Help = function Help(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 16.5a6.48 6.48 0 004.596-1.904A6.48 6.48 0 0016.5 10a6.48 6.48 0 00-1.904-4.596A6.48 6.48 0 0010 3.5a6.48 6.48 0 00-4.596 1.904A6.48 6.48 0 003.5 10a6.48 6.48 0 001.904 4.596A6.48 6.48 0 0010 16.5z"
@@ -1156,8 +1127,7 @@ var More = function More(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5 11.25a1.25 1.25 0 100-2.5 1.25 1.25 0 000 2.5z",
@@ -1195,8 +1165,7 @@ var String = function String(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4 16l6-12 6 12"
@@ -1229,8 +1198,7 @@ var Number = function Number(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4 3v3"
@@ -1277,8 +1245,7 @@ var AddFolder = function AddFolder(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 3.737C3 3.33 3.33 3 3.737 3h4.42L10 5.21h6.263c.407 0 .737.33.737.737v9.58c0 .406-.33.736-.737.736H3.737A.737.737 0 013 15.526V3.736z"
@@ -1313,8 +1280,7 @@ var Add = function Add(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5 10h10"
@@ -1347,8 +1313,7 @@ var WareHouse = function WareHouse(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M9.632 17H17V3H6.316v3.684"
@@ -1385,8 +1350,7 @@ var Folder = function Folder(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 3.737C3 3.33 3.33 3 3.737 3h4.42L10 5.21h6.263c.407 0 .737.33.737.737v9.58c0 .406-.33.736-.737.736H3.737A.737.737 0 013 15.526V3.736z"
@@ -1417,8 +1381,7 @@ var Switch = function Switch(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
@@ -1457,8 +1420,7 @@ var Book = function Book(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4 15.5V4.25C4 3.007 5.075 2 6.4 2H16v12H6.4c-1.89 0-2.4.257-2.4 1.5z"
@@ -1492,8 +1454,7 @@ var Copy = function Copy(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M6.526 6.347V4.888c0-.49.398-.888.888-.888h7.698c.49 0 .888.398.888.888v7.697c0 .491-.398.889-.888.889h-1.475"
@@ -1526,8 +1487,7 @@ var HamburgerButton = function HamburgerButton(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3.312 4.98h13.334"
@@ -1562,8 +1522,7 @@ var CardShow = function CardShow(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.25 2.5H3.75c-.69 0-1.25.56-1.25 1.25v12.5c0 .69.56 1.25 1.25 1.25h12.5c.69 0 1.25-.56 1.25-1.25V3.75c0-.69-.56-1.25-1.25-1.25z"
@@ -1602,8 +1561,7 @@ var ListShow = function ListShow(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.25 2.5H3.75c-.69 0-1.25.56-1.25 1.25v12.5c0 .69.56 1.25 1.25 1.25h12.5c.69 0 1.25-.56 1.25-1.25V3.75c0-.69-.56-1.25-1.25-1.25z"
@@ -1646,8 +1604,7 @@ var Smiling = function Smiling(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 17a7 7 0 100-14 7 7 0 000 14z"
@@ -1684,8 +1641,7 @@ var Delete = function Delete(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M6.5 5.722L6.967 3h6.066l.467 2.722"
@@ -1723,8 +1679,7 @@ var Upload = function Upload(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5.705 8.324a3.525 3.525 0 101.781 6.818"
@@ -1763,8 +1718,7 @@ var Wallet = function Wallet(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     clipRule: "evenodd",
@@ -1802,8 +1756,7 @@ var Collaborators = function Collaborators(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M8.25 8.9a2.45 2.45 0 100-4.9 2.45 2.45 0 000 4.9z"
@@ -1840,8 +1793,7 @@ var Organization = function Organization(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 3h14v2.8l-.49.294a2.45 2.45 0 01-2.52 0L13.5 5.8l-.49.294a2.45 2.45 0 01-2.52 0L10 5.8l-.49.294a2.45 2.45 0 01-2.52 0L6.5 5.8l-.49.294a2.45 2.45 0 01-2.52 0L3 5.8V3z"
@@ -1878,8 +1830,7 @@ var Analysis = function Analysis(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17 5.05C17 4.47 16.53 4 15.95 4H4.05C3.47 4 3 4.47 3 5.05V8.2h14V5.05z"
@@ -1920,8 +1871,7 @@ var Reduction = function Reduction(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("rect", {
     x: "3",
@@ -1956,8 +1906,7 @@ var Question = function Question(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M11.636 14.62a.35.35 0 01-.124.267.421.421 0 01-.293.113H9.273a.42.42 0 01-.293-.113.35.35 0 01-.123-.267v-1.423a.35.35 0 01.123-.267.42.42 0 01.293-.113h1.946c.113 0 .211.037.293.113a.35.35 0 01.124.267v1.423zM10.293 5c.576 0 1.116.075 1.62.225.515.141.958.343 1.329.606.38.254.68.559.895.915.216.348.324.733.324 1.155 0 .338-.061.634-.185.888a2.75 2.75 0 01-.478.69 4.214 4.214 0 01-.618.563c-.226.16-.448.32-.664.48-.206.159-.396.328-.571.506a1.361 1.361 0 00-.34.563.65.65 0 01-.154.268.32.32 0 01-.263.113H9.304a.42.42 0 01-.293-.113.35.35 0 01-.124-.268c0-.31.067-.586.201-.83.144-.245.32-.465.525-.662.206-.207.427-.395.664-.564.247-.169.474-.328.68-.479a3.3 3.3 0 00.509-.479.763.763 0 00.216-.52.718.718 0 00-.34-.634c-.226-.16-.576-.24-1.05-.24-.463 0-.797.066-1.003.197-.196.122-.34.258-.432.409-.093.15-.175.29-.248.422-.061.122-.19.183-.386.183H6.34a.39.39 0 01-.247-.084A.29.29 0 016 8.085c.01-.33.113-.672.309-1.029.195-.366.473-.7.834-1 .37-.31.818-.563 1.343-.76C9.011 5.099 9.613 5 10.292 5z",
@@ -1989,8 +1938,7 @@ var SqLuser = function SqLuser(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M9.3 4.4v4.2c0 .773-1.41 1.4-3.15 1.4S3 9.373 3 8.6V4.4"
@@ -2033,8 +1981,7 @@ var Suspended = function Suspended(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5.5 4.5h3v11h-3v-11z"
@@ -2067,8 +2014,7 @@ var Dev = function Dev(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4.706 4l4.941 4.941-4.941 4.941"
@@ -2101,8 +2047,7 @@ var Unlink = function Unlink(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10.74 6.88L7.72 3.858c-1.112-1.112-2.878-1.15-3.944-.083-1.066 1.066-1.03 2.832.083 3.944l3.02 3.02"
@@ -2139,8 +2084,7 @@ var Calendar = function Calendar(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 8.526h14v7.737c0 .407-.33.737-.737.737H3.737A.737.737 0 013 16.263V8.526z"
@@ -2185,8 +2129,7 @@ var Time = function Time(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 17a7 7 0 100-14 7 7 0 000 14z"
@@ -2219,8 +2162,7 @@ var Chart = function Chart(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 10s.7-7 3.5-7 3.15 5.25 3.5 7c.35 1.75 1.4 7 3.85 7S17 10 17 10"
@@ -2255,8 +2197,7 @@ var Preferences = function Preferences(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.263 4.474h-2.21"
@@ -2303,8 +2244,7 @@ var Enter = function Enter(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M18.333 18.333V1.667H10v6.666H1.667v10h16.666z"
@@ -2339,8 +2279,7 @@ var Return = function Return(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5.722 4L3 6.333l2.722 2.723"
@@ -2373,8 +2312,7 @@ var Queryhistory = function Queryhistory(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17 10V4.167C17 3.522 16.478 3 15.833 3H4.167C3.522 3 3 3.522 3 4.167v11.666C3 16.478 3.522 17 4.167 17H10"
@@ -2413,8 +2351,7 @@ var Send = function Send(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17 3l-4.9 14-2.8-6.3L3 7.9 17 3z"
@@ -2447,8 +2384,7 @@ var ChartsScorecard = function ChartsScorecard(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M15 4H5a1 1 0 00-1 1v10a1 1 0 001 1h10a1 1 0 001-1V5a1 1 0 00-1-1z"
@@ -2481,8 +2417,7 @@ var ChartsPie = function ChartsPie(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17 10a7 7 0 11-7-7v7h7z"
@@ -2515,8 +2450,7 @@ var ChartsPieDoughnut = function ChartsPieDoughnut(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     clipRule: "evenodd",
@@ -2551,8 +2485,7 @@ var ChartsBar = function ChartsBar(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3.333 15.5h14"
@@ -2589,8 +2522,7 @@ var ChartsBarVertical = function ChartsBarVertical(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M6.85 11.563h-2.1V15.5h2.1v-3.938z"
@@ -2625,8 +2557,7 @@ var ChartsBarHorizontal = function ChartsBarHorizontal(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M8.75 15v-2H5v2h3.75z"
@@ -2661,8 +2592,7 @@ var DataNum = function DataNum(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M2.5 8.636V7.158h2.826v6.786H3.51V8.636H2.5z",
@@ -2700,8 +2630,7 @@ var ChartsLine = function ChartsLine(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 3v14h14"
@@ -2734,8 +2663,7 @@ var DataString = function DataString(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5.91 12.147H3.79l-.34 1.036H2l2.057-5.865H5.66l2.057 5.865H6.25l-.34-1.036zm-.355-1.103L4.85 8.897l-.696 2.147h1.4z",
@@ -2773,8 +2701,7 @@ var DataTime = function DataTime(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 6v4l3 1.5"
@@ -2809,8 +2736,7 @@ var DataBool = function DataBool(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M7.746 7.099l-2.125 4.11v2.03H4.125v-2.03L2 7.1h1.697L4.886 9.67 6.066 7.1h1.68z",
@@ -2848,8 +2774,7 @@ var DataVariant = function DataVariant(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 9.846c.36-.014.625-.091.794-.231.17-.147.254-.353.254-.618 0-.199-.037-.592-.11-1.18l-.067-.563a7.795 7.795 0 01-.055-.871c0-.625.191-1.11.574-1.456.382-.353.893-.53 1.533-.53h.794v1.544h-.43c-.235 0-.404.052-.507.155-.103.103-.155.261-.155.474 0 .162.03.53.089 1.103.066.714.099 1.18.099 1.401 0 .405-.1.74-.298 1.004-.191.265-.485.434-.882.508v.022c.397.08.69.253.882.518.199.257.298.592.298 1.004 0 .22-.033.688-.1 1.4-.058.56-.088.924-.088 1.093 0 .213.052.371.155.474.103.11.272.166.507.166h.43v1.544h-.794c-.64 0-1.15-.176-1.533-.53-.383-.345-.574-.834-.574-1.467 0-.257.019-.544.055-.86l.067-.574c.073-.588.11-.981.11-1.18a.749.749 0 00-.254-.596c-.169-.154-.434-.239-.794-.253v-1.5z",
@@ -2887,8 +2812,7 @@ var Mail = function Mail(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 15.5h14V5H3v10.5z"
@@ -2925,8 +2849,7 @@ var Markdown = function Markdown(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.846 14.846H3.154A1.155 1.155 0 012 13.692V6.154C2 5.518 2.518 5 3.154 5h13.692C17.483 5 18 5.518 18 6.154v7.538c0 .637-.517 1.154-1.154 1.154zm-11-2.307v-3l1.539 1.923 1.538-1.923v3h1.539V7.308H8.923L7.385 9.23 5.846 7.308H4.308v5.23h1.538zm10.308-2.616h-1.539V7.308h-1.538v2.615h-1.539l2.308 2.692 2.308-2.692z",
@@ -2958,8 +2881,7 @@ var Label = function Label(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4.75 3h10.5v14L10 13.3 4.75 17V3z"
@@ -2992,8 +2914,7 @@ var Column = function Column(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("rect", {
     x: "6",
@@ -3032,8 +2953,7 @@ var Row = function Row(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("rect", {
     x: "3",
@@ -3072,8 +2992,7 @@ var Stereo = function Stereo(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 17V6.5L6.5 3H17v10.5L13.5 17H3z"
@@ -3116,8 +3035,7 @@ var Person = function Person(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 8.6A2.8 2.8 0 1010 3a2.8 2.8 0 000 5.6z"
@@ -3150,8 +3068,7 @@ var FullScreen = function FullScreen(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M12 4h4v4"
@@ -3192,8 +3109,7 @@ var OffScreen = function OffScreen(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M13 4v3h3"
@@ -3230,8 +3146,7 @@ var Comma = function Comma(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M12 10.941c-.18.514-.333.94-.461 1.278-.116.35-.231.639-.347.865-.115.238-.23.432-.346.582-.115.15-.256.288-.423.413a5.723 5.723 0 01-.615.395c-.244.138-.539.313-.885.526a19.6 19.6 0 01-.23-.432.897.897 0 00-.155-.263 5.91 5.91 0 00-.192-.263L8 13.647a10.9 10.9 0 00.885-.563c.205-.138.371-.301.5-.489.128-.188.243-.426.346-.714.102-.288.243-.695.423-1.221V9.608H8.308V6H12v4.941z",
@@ -3263,8 +3178,7 @@ var Percent = function Percent(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5.802 8.282c0 .606.053 1.059.157 1.36.11.295.284.443.523.443.233 0 .405-.148.514-.444.115-.295.172-.748.172-1.359 0-1.191-.229-1.787-.686-1.787-.239 0-.413.147-.523.443-.104.29-.157.739-.157 1.344zm3.168-.014c0 .515-.05.978-.15 1.388-.095.41-.246.755-.45 1.037a2.065 2.065 0 01-.78.65c-.315.148-.689.222-1.123.222-.405 0-.763-.074-1.072-.222a2.157 2.157 0 01-.773-.65 3.008 3.008 0 01-.465-1.037A5.608 5.608 0 014 8.268c0-.515.048-.975.143-1.38a2.83 2.83 0 01.443-1.023c.205-.281.463-.496.773-.643.31-.148.68-.222 1.108-.222.41 0 .77.074 1.08.222.315.147.577.362.787.643.21.277.367.618.472 1.023.11.405.164.865.164 1.38zm4.77-3.118l-5.8 10.456H6.231l5.8-10.456h1.71zm-.908 7.309c0 .605.052 1.058.157 1.359.11.295.284.443.522.443.234 0 .406-.148.515-.443.115-.296.172-.749.172-1.36 0-1.191-.229-1.787-.687-1.787-.238 0-.412.148-.522.443-.105.291-.157.74-.157 1.345zM16 12.445c0 .514-.05.977-.15 1.387a2.825 2.825 0 01-.45 1.03 2.064 2.064 0 01-.78.65c-.315.148-.69.222-1.123.222-.405 0-.76-.074-1.066-.222a2.156 2.156 0 01-.772-.65 3.01 3.01 0 01-.465-1.03 5.607 5.607 0 01-.157-1.387c0-.515.048-.975.143-1.38.095-.406.243-.747.443-1.023.2-.282.456-.496.766-.644.31-.148.679-.222 1.108-.222.41 0 .77.074 1.08.222.315.148.577.362.787.644.21.276.367.617.471 1.022.11.406.165.866.165 1.38z",
@@ -3296,8 +3210,7 @@ var Applications = function Applications(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4.105 10.632v4.79c0 .61.495 1.104 1.106 1.104h9.579c.61 0 1.105-.494 1.105-1.105v-4.79"
@@ -3336,8 +3249,7 @@ var Activity = function Activity(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 9.158h2.864L8.056 3l3.5 12.727 2.58-6.569H17"
@@ -3368,8 +3280,7 @@ var Recent = function Recent(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M8.2 9.981V5.8a1.8 1.8 0 013.6 0v.602"
@@ -3406,8 +3317,7 @@ var Myworksheet = function Myworksheet(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M15.2 9.65V6.5L12.05 3H4.7a.7.7 0 00-.7.7v12.6a.7.7 0 00.7.7h3.5"
@@ -3444,8 +3354,7 @@ var Getstart = function Getstart(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M14.9 16.3l1.187-3.264a.7.7 0 00-.345-.865l-5.429-2.714a.7.7 0 00-.626 0L4.258 12.17a.7.7 0 00-.345.865L5.1 16.3"
@@ -3484,8 +3393,7 @@ var Folderopen = function Folderopen(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 4.7v11.2l1.75-7h10.675V6.8a.7.7 0 00-.7-.7H10L8.25 4H3.7a.7.7 0 00-.7.7z"
@@ -3518,8 +3426,7 @@ var Filescode = function Filescode(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M15.2 9.65V6.5L12.05 3H4.7a.7.7 0 00-.7.7v12.6a.7.7 0 00.7.7h4.2"
@@ -3556,8 +3463,7 @@ var Terminal = function Terminal(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.3 4.667H3.7a.7.7 0 00-.7.7v9.8a.7.7 0 00.7.7h12.6a.7.7 0 00.7-.7v-9.8a.7.7 0 00-.7-.7z"
@@ -3592,8 +3498,7 @@ var Tickets = function Tickets(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 4.4h2.45s.35 1.75 2.1 1.75 2.1-1.75 2.1-1.75H17v11.2H9.65s-.35-1.75-2.1-1.75-2.1 1.75-2.1 1.75H3V4.4z"
@@ -3632,8 +3537,7 @@ var Level = function Level(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 16.6L3 8.375 4.993 4h10.014L17 8.375 10 16.6z"
@@ -3666,8 +3570,7 @@ var ChartsBarStacked = function ChartsBarStacked(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M11.2 13.6H8.8V16h2.4v-2.4z"
@@ -3708,8 +3611,7 @@ var Credentials = function Credentials(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M8 16V9a2 2 0 114 0v7"
@@ -3748,8 +3650,7 @@ var Coupon = function Coupon(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4.75 7.5L13.5 4l1.4 3.5"
@@ -3786,8 +3687,7 @@ var ThumbsUp = function ThumbsUp(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M11.39 7.894V5.098C11.39 3.939 10.451 3 9.293 3L6.496 9.293v7.691h8.125c.697.008 1.294-.5 1.398-1.189l.965-6.292a1.4 1.4 0 00-1.398-1.609H11.39z"
@@ -3820,8 +3720,7 @@ var ThumbsDown = function ThumbsDown(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M8.61 12.09v2.797c0 1.158.939 2.097 2.097 2.097l2.797-6.292V3H5.379A1.398 1.398 0 003.981 4.19l-.965 6.293a1.398 1.398 0 001.398 1.608H8.61z"
@@ -3854,8 +3753,7 @@ var Pencil = function Pencil(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 17h3L17 6l-3-3L3 14v3z"
@@ -3888,8 +3786,7 @@ var DocTitle = function DocTitle(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3.75 4v11.556"
@@ -3928,8 +3825,7 @@ var DocParagraph = function DocParagraph(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 5h6"
@@ -3970,8 +3866,7 @@ var DocPage = function DocPage(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5 3.7a.7.7 0 01.7-.7h8.4a.7.7 0 01.7.7V17l-2.45-1.75L9.9 17l-2.45-1.75L5 17V3.7z"
@@ -4008,8 +3903,7 @@ var RecordDelimiter = function RecordDelimiter(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M3 10.158h14"
@@ -4052,8 +3946,7 @@ var FieldDelimiter = function FieldDelimiter(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4 3v14"
@@ -4090,8 +3983,7 @@ var SkipHeader = function SkipHeader(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.3 4H3.7a.7.7 0 00-.7.7v11.2a.7.7 0 00.7.7h12.6a.7.7 0 00.7-.7V4.7a.7.7 0 00-.7-.7z"
@@ -4124,8 +4016,7 @@ var Locked = function Locked(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M15.9 9.3H4.7a.7.7 0 00-.7.7v6.3a.7.7 0 00.7.7h11.2a.7.7 0 00.7-.7V10a.7.7 0 00-.7-.7z"
@@ -4160,8 +4051,7 @@ var Ueue = function Ueue(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 12.333V10"
@@ -4230,8 +4120,7 @@ var Details = function Details(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M15.833 3H4.167C3.522 3 3 3.522 3 4.167v11.666C3 16.478 3.522 17 4.167 17h11.666c.645 0 1.167-.522 1.167-1.167V4.167C17 3.522 16.478 3 15.833 3z"
@@ -4272,8 +4161,7 @@ var Equal = function Equal(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("rect", {
     x: "3",
@@ -4314,8 +4202,7 @@ var ColorWheel = function ColorWheel(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5.917 15.833a1.75 1.75 0 001.75-1.75V9.858m-1.75 5.975a1.75 1.75 0 01-1.75-1.75V4.167h3.5v5.691m-1.75 5.975h9.916v-3.5h-5.691M7.667 9.858l5.546-5.546.137-.145 2.48 2.479-5.688 5.687m0 0l-2.988 2.988a1.75 1.75 0 01-2.475 0"
@@ -4346,8 +4233,7 @@ var Effects = function Effects(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 14.942a3.5 3.5 0 103.208-5.998"
@@ -4382,8 +4268,7 @@ var IdentityCard = function IdentityCard(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17.2 4H2.8a.8.8 0 00-.8.8V16a.8.8 0 00.8.8h14.4a.8.8 0 00.8-.8V4.8a.8.8 0 00-.8-.8z"
@@ -4422,8 +4307,7 @@ var Phone = function Phone(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4 12.4h12.8v4.8a.8.8 0 01-.8.8H4.8a.8.8 0 01-.8-.8v-4.8z"
@@ -4458,8 +4342,7 @@ var Password = function Password(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M9.623 9.766a3.288 3.288 0 01.876 3.196 3.309 3.309 0 01-2.355 2.343 3.33 3.33 0 01-3.213-.872 3.288 3.288 0 01.04-4.626 3.33 3.33 0 014.651-.04h0z"
@@ -4494,8 +4377,7 @@ var Func = function Func(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17.43 6.77a.18.18 0 00-.014-.258.187.187 0 00-.12-.047h-1.65a.178.178 0 00-.14.063l-2.792 3.3a.18.18 0 01-.304-.044l-1.443-3.21a.18.18 0 00-.165-.107H6.97l.02-.107.182-.961c.239-1.259.863-1.85 1.95-1.85.422 0 .806.04 1.108.107l.32-1.517A5.318 5.318 0 009.305 2C6.957 2 5.751 3.007 5.308 5.347l-.214 1.122H2.876a.18.18 0 00-.177.146l-.245 1.177a.183.183 0 00.177.22h2.143L2.75 17.78a.183.183 0 00.178.22h1.504a.18.18 0 00.177-.145l2.038-9.84h3.086l1.55 3.16a.18.18 0 01-.028.2l-4.104 4.612a.183.183 0 00.016.257c.034.03.078.045.12.045h1.653a.178.178 0 00.138-.064l2.81-3.333a.183.183 0 01.258-.022c.02.018.036.038.047.063l1.495 3.242c.03.064.093.107.166.107h1.468a.182.182 0 00.163-.261l-2.163-4.52a.18.18 0 01.03-.2l4.076-4.532z",
@@ -4527,8 +4409,7 @@ var Ag = function Ag(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M7.914 10.916H4.977l-.47 1.27H2.5L5.347 5h2.22l2.846 7.185H8.384l-.47-1.269zM7.42 9.565l-.975-2.63-.964 2.63h1.94z",
@@ -4563,8 +4444,7 @@ var SidebarLeft = function SidebarLeft(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
@@ -4598,8 +4478,7 @@ var SidebarTop = function SidebarTop(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
@@ -4633,8 +4512,7 @@ var SidebarBottom = function SidebarBottom(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
@@ -4668,8 +4546,7 @@ var Dollar = function Dollar(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M12.804 11.588c0 .416-.108.808-.324 1.176-.208.36-.52.66-.936.9-.408.232-.892.368-1.452.408v.972h-.768v-.984c-.8-.072-1.444-.312-1.932-.72-.488-.416-.74-.976-.756-1.68h1.8c.048.576.344.924.888 1.044v-2.292a10.55 10.55 0 01-1.392-.432 2.25 2.25 0 01-.912-.696c-.256-.32-.384-.756-.384-1.308 0-.696.248-1.264.744-1.704.504-.44 1.152-.692 1.944-.756v-.972h.768v.972c.768.064 1.38.296 1.836.696.464.4.724.952.78 1.656h-1.812a1.068 1.068 0 00-.252-.6c-.136-.176-.32-.3-.552-.372v2.268c.6.152 1.072.3 1.416.444.352.136.656.364.912.684.256.312.384.744.384 1.296zM8.388 7.892c0 .264.08.48.24.648.16.16.392.292.696.396V6.86c-.288.04-.516.148-.684.324-.168.176-.252.412-.252.708zm1.704 4.836c.304-.056.54-.18.708-.372a.993.993 0 00.264-.696c0-.264-.084-.476-.252-.636-.168-.16-.408-.292-.72-.396v2.1z",
@@ -4701,8 +4578,7 @@ var Rmb = function Rmb(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M11.688 9.092h1.368v1.164l-1.98.024-.42.804v.108h2.4v1.164h-2.4V14h-1.68v-1.644h-2.4v-1.164h2.4v-.108l-.42-.816-1.98-.012V9.092h1.368L6.132 5.624h1.896l1.788 3.912 1.776-3.912h1.896l-1.8 3.468z",
@@ -4734,8 +4610,7 @@ var Trace = function Trace(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10 4a6 6 0 106 6"
@@ -4772,8 +4647,7 @@ var Filter = function Filter(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4 5l4.8 5.606v4.209L11.2 16v-5.394L16 5H4z"
@@ -4804,8 +4678,7 @@ var Select = function Select(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M6 8.5l4.034-3L14 8.5"
@@ -4838,8 +4711,7 @@ var Right = function Right(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M7.917 5l5 5-5 5"
@@ -4870,8 +4742,7 @@ var Down = function Down(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M15 8l-5 5-5-5"
@@ -4902,8 +4773,7 @@ var Up = function Up(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5 12l5-5 5 5"
@@ -4934,8 +4804,7 @@ var Left = function Left(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M11.5 14.5l-5-5 5-5"
@@ -4966,8 +4835,7 @@ var ArrowLeft = function ArrowLeft(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5 9.997h10"
@@ -5000,8 +4868,7 @@ var ArrowRight = function ArrowRight(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M15 9.997H5"
@@ -5034,8 +4901,7 @@ var ArrowTop = function ArrowTop(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M15 10l-5-5-5 5"
@@ -5068,8 +4934,7 @@ var ArrowDown = function ArrowDown(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M5 10l5 5 5-5"
@@ -5102,8 +4967,7 @@ var SortUp = function SortUp(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M9.684 5.316H16"
@@ -5144,8 +5008,7 @@ var SortDown = function SortDown(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M9.514 4.324H16"
@@ -5186,8 +5049,7 @@ var TriangleRight = function TriangleRight(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M13.157 9.785a.5.5 0 010 .822L7.035 14.85a.5.5 0 01-.785-.411V5.955a.5.5 0 01.785-.411l6.122 4.241z",
@@ -5219,8 +5081,7 @@ var TriangleDown = function TriangleDown(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M10.411 13.353a.5.5 0 01-.822 0L5.348 7.23a.5.5 0 01.41-.785h8.483a.5.5 0 01.412.785l-4.242 6.122z",
@@ -5252,8 +5113,7 @@ var LoadingSpin = function LoadingSpin(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16 10.415A5.942 5.942 0 004.707 7.83"
@@ -5301,8 +5161,7 @@ var Github = function Github(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
@@ -5336,8 +5195,7 @@ var Aws = function Aws(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M6.51 9.075c-.018.567.265.817.272.977a.204.204 0 01-.102.156l-.32.224a.267.267 0 01-.141.048c-.01 0-.205.046-.512-.64a1.965 1.965 0 01-1.565.736c-.407.022-1.51-.23-1.453-1.405-.04-.957.851-1.551 1.773-1.501.177 0 .54.009 1.175.157v-.391c.067-.661-.368-1.175-1.12-1.098-.06 0-.486-.012-1.147.253-.184.085-.207.07-.268.07-.186 0-.11-.536-.074-.604.13-.16.897-.46 1.649-.455a1.921 1.921 0 011.392.432 1.757 1.757 0 01.442 1.309v1.732zm-2.16.81c.81-.012 1.154-.5 1.232-.762.062-.251.051-.41.051-.685a4.297 4.297 0 00-.989-.121c-.378-.029-1.07.14-1.043.806a.694.694 0 00.749.762zm4.273.576c-.197.018-.288-.121-.317-.259L7.06 6.086a.955.955 0 01-.048-.215.115.115 0 01.096-.131h.557c.219-.022.29.15.313.26l.893 3.52.83-3.52c.013-.081.073-.277.32-.257h.428c.055-.004.278-.012.317.26l.836 3.565.922-3.565c.011-.055.068-.285.316-.26h.494c.02-.003.153-.02.13.215-.01.046.086-.267-1.318 4.247-.029.138-.12.277-.317.26h-.467c-.274.028-.313-.242-.317-.27l-.83-3.427-.819 3.424c-.004.027-.043.298-.317.269h-.457zm6.837.141c-.147 0-.848-.008-1.434-.307a.32.32 0 01-.195-.298v-.269c0-.211.155-.172.22-.147.251.102.412.179.72.24.917.188 1.32-.057 1.419-.112a.575.575 0 00.13-.874c-.261-.22-.386-.228-1.328-.525-.116-.032-1.092-.34-1.094-1.309-.015-.706.626-1.404 1.738-1.398.317 0 1.16.103 1.389.39.034.052.05.114.048.176v.253c0 .11-.04.166-.122.166-.192-.021-.535-.279-1.229-.268-.172-.01-.997.022-.96.624-.01.474.665.652.742.672.912.274 1.217.32 1.579.74.428.556.197 1.207.108 1.386-.477.937-1.71.86-1.731.86zm1.005 2.621c-1.75 1.293-4.292 1.982-6.462 1.982a11.728 11.728 0 01-7.932-3.018c-.163-.148-.02-.35.179-.237a15.935 15.935 0 007.922 2.103 15.756 15.756 0 006.04-1.239c.294-.125.544.195.253.41zm.73-.832c-.224-.288-1.482-.134-2.046-.067-.17.02-.198-.128-.044-.237 1.001-.704 2.646-.502 2.835-.265.19.236-.05 1.885-.989 2.672-.143.122-.281.058-.217-.102.21-.531.685-1.712.46-2z",
@@ -5369,8 +5227,7 @@ var Google = function Google(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M4.474 9.665h.688v.967a2.587 2.587 0 01-.767.106c-1.142 0-1.814-.978-1.814-1.933 0-.936.608-1.593 1.455-1.593.536 0 .847.181 1.126.434v.315l.524-.523c-.331-.224-.81-.436-1.495-.436C2.687 7.002 2 8.077 2 8.962c0 1.257.916 2.015 2.068 2.015.558 0 1.054-.085 1.627-.244v-.999a.15.15 0 01.056-.117l.18-.18H4.705l-.23.228z",
@@ -5417,8 +5274,7 @@ var Twitter = function Twitter(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M7.032 16.008c6.038 0 9.34-5.004 9.34-9.343 0-.142-.003-.284-.01-.425A6.677 6.677 0 0018 4.54a6.542 6.542 0 01-1.885.517 3.296 3.296 0 001.443-1.817 6.582 6.582 0 01-2.084.798A3.284 3.284 0 009.88 7.033 9.32 9.32 0 013.113 3.6 3.282 3.282 0 004.13 7.985a3.257 3.257 0 01-1.486-.41v.041a3.284 3.284 0 002.633 3.22 3.287 3.287 0 01-1.482.056 3.286 3.286 0 003.066 2.28 6.584 6.584 0 01-4.077 1.406c-.262 0-.523-.015-.783-.045a9.29 9.29 0 005.032 1.475",
@@ -5450,8 +5306,7 @@ var Slack = function Slack(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("g", {
     clipPath: "url(#clip0_303_60)",
@@ -5499,8 +5354,7 @@ var WeChat = function WeChat(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M12.831 7.902c.184 0 .366.014.546.033C12.887 5.678 10.447 4 7.663 4 4.55 4 2 6.1 2 8.766c0 1.539.849 2.802 2.266 3.783L3.7 14.235l1.98-.983c.708.139 1.276.281 1.983.281.178 0 .354-.008.529-.022a4.127 4.127 0 01-.175-1.174c0-2.448 2.124-4.435 4.814-4.435zm-3.044-1.52c.426 0 .708.278.708.7 0 .42-.282.702-.708.702-.425 0-.85-.282-.85-.702 0-.422.425-.7.85-.7zM5.823 7.784c-.424 0-.852-.28-.852-.7 0-.423.428-.7.852-.7.425 0 .707.277.707.7 0 .42-.282.7-.707.7zM18 12.27c0-2.24-2.266-4.067-4.81-4.067-2.694 0-4.816 1.826-4.816 4.067 0 2.244 2.121 4.066 4.816 4.066.564 0 1.133-.14 1.699-.28l1.553.84-.426-1.4C17.153 14.653 18 13.534 18 12.27zm-6.372-.702c-.282 0-.566-.277-.566-.56 0-.28.284-.56.566-.56.428 0 .709.28.709.56 0 .283-.28.56-.709.56zm3.115 0c-.28 0-.563-.277-.563-.56 0-.28.283-.56.563-.56.425 0 .709.28.709.56 0 .283-.284.56-.71.56z",
@@ -5532,8 +5386,7 @@ var WeChatMoments = function WeChatMoments(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M13.265 7.793V2.47s-2.604-1.396-5.644-.32l5.644 5.642zm.493 3.13V2.69s3.079 1.396 3.946 4.785l-3.946 3.449zm-1.656 2.394l5.683-5.345s1.006 1.635-.494 5.345h-5.19zm-2.902.677h7.676s-.927 2.512-4.243 3.549L9.2 13.994zM6.694 12.3v5.003s1.994 1.277 5.408.42l-5.408-5.423zm-4.44.259l3.888-3.49v7.935s-2.35-.816-3.889-4.445zm-.1-.558s-.889-2.87.355-5.363h5.348L2.155 12zm.691-5.922S3.97 3.528 7.03 2.33l3.65 3.748H2.845z",
@@ -5565,8 +5418,7 @@ var Youtube = function Youtube(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
@@ -5600,8 +5452,7 @@ var Airbyte = function Airbyte(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
@@ -5635,8 +5486,7 @@ var Dbt = function Dbt(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M17.32 2.665c.376.362.622.84.68 1.36 0 .217-.058.362-.188.637s-1.736 3.052-2.213 3.819a2.914 2.914 0 000 3.01c.477.766 2.083 3.558 2.213 3.833.13.275.188.405.188.622a2.14 2.14 0 01-.666 1.345 2.14 2.14 0 01-1.345.666c-.217 0-.362-.058-.622-.189-.26-.13-3.096-1.692-3.863-2.17-.057-.028-.115-.072-.188-.1l-3.79-2.243c.087.723.405 1.418.926 1.924.101.101.203.188.318.275-.086.043-.188.087-.275.145-.766.477-3.558 2.083-3.833 2.213-.275.13-.405.188-.637.188a2.14 2.14 0 01-1.345-.666 2.232 2.232 0 01-.68-1.36c.014-.216.072-.433.188-.621.13-.275 1.736-3.067 2.213-3.834.275-.449.42-.97.42-1.505 0-.535-.145-1.056-.42-1.504-.477-.796-2.097-3.588-2.213-3.863A1.357 1.357 0 012 4.025c.058-.52.29-.998.665-1.36.362-.376.84-.607 1.36-.665.217.014.434.072.637.188.231.101 2.271 1.288 3.356 1.924l.246.145c.087.058.16.101.217.13l.116.072 3.862 2.286a3.184 3.184 0 00-1.23-2.199c.088-.043.189-.087.276-.145.766-.477 3.558-2.097 3.833-2.213.188-.116.405-.174.637-.188.506.058.983.29 1.345.665zm-7.117 8.362l.824-.824a.28.28 0 000-.406l-.824-.824a.28.28 0 00-.406 0l-.824.824a.28.28 0 000 .405l.824.825c.102.101.29.101.405 0z",
@@ -5668,8 +5518,7 @@ var Linux = function Linux(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     fillRule: "evenodd",
@@ -5703,8 +5552,7 @@ var Apple = function Apple(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M11.95 4.518c.935-1.143.726-2.391.623-2.495-.104-.103-1.456.104-2.392 1.352-.832 1.143-.832 2.392-.727 2.496.106.103 1.456 0 2.495-1.353zm2.287 5.823c-.103-1.663 1.456-2.702 1.767-2.911v-.104s-1.353-1.663-3.326-1.559c-1.247.104-1.872.727-2.702.727-1.04 0-1.976-.727-3.119-.727-.936 0-3.638.832-3.845 4.365-.207 3.535 2.286 6.86 3.222 7.483.936.624 1.56.417 2.599-.103.52-.313 2.182-.416 3.118.207 1.143.416 2.806.104 4.678-4.054-.21.002-2.288-.518-2.392-3.324z",
@@ -5736,8 +5584,7 @@ var Zhihu = function Zhihu(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M11.113 4v12.2h1.277l.537 1.521 2.266-1.52h2.8V4h-6.88zm5.274 10.584h-1.275l-1.6 1.073-.379-1.073h-.383V5.665h3.635v8.92h.002zM10.29 9.47H7.462c.045-.956.092-2.221.14-3.682h2.788l-.002-.173c0-.013-.004-.313-.049-.62-.044-.319-.14-.743-.447-.743H5.216c.093-.438.334-1.484.626-1.997l.136-.239L5.703 2c-.017 0-.417-.019-.881.226-.76.405-1.101 1.201-1.25 1.797-.392 1.557-.95 2.639-1.187 3.101-.07.136-.112.217-.132.273-.038.104-.017.208.06.277.224.202.813-.062.82-.064l.047-.022c.296-.134 1.173-.532 1.486-1.8h1.208c.015.687.066 2.948.061 3.683H2.933l-.045.032c-.492.36-.65 1.346-.656 1.388l-.03.196H5.76c-.262 1.668-.565 2.415-.724 2.713-.08.15-.156.299-.228.443-.454.9-.925 1.828-2.69 3.272-.077.06-.149.17-.102.291.05.134.198.194.524.194.115 0 .251-.006.413-.021 1.063-.094 2.146-.384 2.877-1.866.362-.747.675-1.527.935-2.319l2.907 3.407.106-.255c.017-.04.405-.986.109-2.042l-.01-.039-2.303-2.62-.468.354a10.3 10.3 0 00.266-1.514h3.38v-.17c0-.854-.394-1.361-.41-1.382l-.05-.064z",
@@ -5769,8 +5616,7 @@ var Mysql = function Mysql(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M9.161 14.587a2.81 2.81 0 01-.256-.198 4.907 4.907 0 01-.238-.22 6.887 6.887 0 01-.442-.478 10.303 10.303 0 01-.768-1.052 13.078 13.078 0 01-.643-1.135 16.343 16.343 0 01-.542-1.188l.37.044a4.908 4.908 0 01-.23.326 1.708 1.708 0 01-.093.11l.013-.014-.001.002-.004.005-.007.01-.016.024a1.694 1.694 0 00-.09.153 2.036 2.036 0 00-.214.678 1.786 1.786 0 00-.01.117v.014l-.001.008v.005l-.002.014-.003.033-.005.067-.023.268-.048.535-.015.176-.172.06-.019.006-.01.003-.015.004a.422.422 0 01-.144.008.546.546 0 01-.125-.028.7.7 0 01-.184-.097c-.1-.074-.17-.155-.231-.234-.06-.08-.11-.16-.155-.241a3.094 3.094 0 01-.17-.363l-.023-.06-.014-.038-.01-.032a5.742 5.742 0 01-.188-.752 5.368 5.368 0 01-.087-1.03c.006-.348.05-.7.143-1.046l.003-.01.011-.03.029-.074.028-.077a8.515 8.515 0 00.153-.464 2.92 2.92 0 00.07-.294.791.791 0 00.013-.13c0 .005.001.014.007.033.007.018.018.05.052.09l-.04-.047-.023-.055.004.01v.001l-.001-.003-.007-.01a.5.5 0 00-.068-.085.95.95 0 00-.129-.114l-.032-.024-.028-.033-.025-.03-.02-.024-.037-.048a3.602 3.602 0 01-.196-.283A5.137 5.137 0 013.63 5.91l-.004-.014-.002-.007v-.001l.003.012v-.002l-.007-.023-.014-.046-.03-.095a9.6 9.6 0 00-.127-.374A6.04 6.04 0 003.31 5a3.25 3.25 0 00-.078-.165 1.48 1.48 0 00-.078-.138c-.013-.02-.02-.028-.044-.061l-.06-.082-.124-.164a37.022 37.022 0 00-.247-.325l-.124-.16a7.585 7.585 0 00-.122-.151l-.028-.034-.014-.016-.003-.003-.001-.002-.014-.016-.003-.004-.012-.016a2.084 2.084 0 01-.212-.335 1.48 1.48 0 01-.108-.277 1.076 1.076 0 01-.032-.175.878.878 0 01.004-.213.766.766 0 01.42-.578l.003-.002c-.024.013.009-.004.003-.001l.016-.008a.65.65 0 01.118-.042 1.201 1.201 0 01.437-.02c.1.012.19.035.277.061.171.054.322.124.463.201l-.044-.021.08.034.076.034a7.29 7.29 0 01.448.221c.1.054.2.11.3.176.054.034.105.07.156.107.052.04.106.083.164.138l.012.012.018.02-.008-.009.003.002a.223.223 0 00.033.027c.016.01.032.019.05.025a.143.143 0 00.078.01l.04-.005.036.001.084.004.08.003a10.203 10.203 0 01.485.039c.11.012.22.026.337.047a2.534 2.534 0 01.288.07c.038.014.078.028.126.052l-.051-.021.038.013.033.013.063.024a6.06 6.06 0 01.36.155 9.48 9.48 0 012.528 1.73c.061.06.122.12.182.182l.045.046.022.024.001.001-.01-.011.002.003.008.007.013.013.093.096a10.423 10.423 0 011.237 1.62c.178.289.343.588.488.897.146.31.275.628.38.956l-.014-.037a75.699 75.699 0 00.648 1.46 27.524 27.524 0 00.424.886l.022.04.005.01.003.006-.008-.013.002.003.012.02.05.081a5.183 5.183 0 00.169.25l.002.002-.006-.005-.02-.016-.035-.023h.002l.004.003.009.005.018.01.04.022a2.652 2.652 0 00.252.12c.114.047.23.085.343.11l.036.008.019.007.488.194.245.1.124.051.064.028.035.015.02.01.026.012.02.01.014.01a91.221 91.221 0 01.845.589c.094.066.187.133.281.203l-.02-.014.056.036.055.036a6.579 6.579 0 01.321.229c.071.055.141.113.213.183.036.036.073.074.111.124a.684.684 0 01.09.16c.009.027.018.06.021.1l.03.329-.324-.02-.03-.001-.033-.002-.067-.002-.135-.003a7.673 7.673 0 00-.812.032 4.796 4.796 0 00-.528.08c-.172.037-.34.084-.495.15l-.029.011-.031.007h-.006l-.01.002-.02.003a.649.649 0 00-.11.033.24.24 0 00-.044.024l-.005.002.003-.01-.04-.186.007.01.005.006.009.012a.623.623 0 01.042.07 1.047 1.047 0 01.109.286l-.022-.053.03.053.033.054a4.63 4.63 0 00.212.315c.05.067.103.131.157.188.028.029.055.056.083.08a.517.517 0 00.081.057l.029.016.02.021c-.002-.002 0 0 0 0l.002.003.006.007.013.014a.96.96 0 00.092.085 4.571 4.571 0 00.426.314c.2.129.41.247.623.36l.163.084a6.572 6.572 0 01.48.28c.103.067.205.137.304.212.098.074.194.153.282.24l-.003-.002a3.196 3.196 0 01.268.24c.027.028.054.058.077.091l-.003-.003.155.084-.163-.067h-.002l-.002-.002a.846.846 0 00-.084-.081 1.96 1.96 0 00-.187-.142 3.055 3.055 0 00-.098-.065l-.002-.002a3.873 3.873 0 00-.61-.385 7.23 7.23 0 00-.49-.232l-.17-.07a7.582 7.582 0 01-.67-.319 4.862 4.862 0 01-.324-.191 2.928 2.928 0 01-.274-.203l-.02-.018-.01-.01-.006-.006-.008-.007.05.036a.816.816 0 01-.143-.084 1.383 1.383 0 01-.116-.096 2.46 2.46 0 01-.199-.205 4.111 4.111 0 01-.335-.444l-.012-.018-.01-.035a.7.7 0 00-.097-.2l-.009-.011-.003-.005-.002-.001.001.001-.067-.083.027-.103a.38.38 0 01.115-.189.603.603 0 01.138-.097.924.924 0 01.23-.083l.017-.004.01-.002.011-.002-.06.018c.186-.093.376-.16.567-.213.192-.052.384-.09.577-.121a7.371 7.371 0 011.015-.088l.074-.001h.077l-.294.309a.173.173 0 00.007.04l.005.012c0 .002-.003-.003-.01-.01a.655.655 0 00-.057-.056 1.98 1.98 0 00-.169-.13 4.092 4.092 0 00-.292-.188l-.05-.03-.049-.027-.004-.002-.017-.011a22.647 22.647 0 00-.282-.183l-.287-.183a89.862 89.862 0 00-.575-.363l.034.02-.096-.037-.12-.044-.243-.087-.49-.173.054.016a2.87 2.87 0 01-.467-.13 3.441 3.441 0 01-.328-.14l-.054-.028-.028-.015-.014-.007-.018-.01-.015-.009-.02-.014a.5.5 0 01-.038-.033l-.013-.012-.01-.01a.873.873 0 01-.078-.089 5.976 5.976 0 01-.194-.27l-.059-.087-.014-.023-.002-.003-.001-.001-.01-.016-.003-.006-.007-.012-.027-.046a23.266 23.266 0 01-.473-.912 57.42 57.42 0 01-.695-1.461l-.006-.014-.008-.024a7.934 7.934 0 00-.818-1.651A9.835 9.835 0 009.255 6.17a4.5 4.5 0 00-.078-.078l-.008-.009-.004-.003-.017-.017-.02-.021-.04-.04a7.89 7.89 0 00-.51-.468 8.685 8.685 0 00-2.253-1.372l-.05-.02-.044-.016-.03-.01-.021-.01-.017-.007a1.604 1.604 0 00-.158-.038 3.918 3.918 0 00-.27-.038 7.422 7.422 0 00-.433-.035l-.073-.003-.07-.003.077-.004a1.081 1.081 0 01-.546-.067 1.188 1.188 0 01-.408-.271l-.014-.015-.008-.008-.013-.015.03.032a.794.794 0 00-.075-.063 3.609 3.609 0 00-.34-.212 6.128 6.128 0 00-.39-.195l-.066-.03-.064-.029-.028-.012-.016-.01c-.1-.055-.2-.102-.291-.13a.789.789 0 00-.126-.031.327.327 0 00-.077-.004c-.002 0-.003 0 0 0l.011-.004.012-.004.01-.005.01-.005c-.005.003.026-.013.001 0 0 0 .006-.003.016-.013a.165.165 0 00.047-.09c.002-.02-.002-.007.005.02a.58.58 0 00.042.108 1.19 1.19 0 00.116.19l.003.005-.012-.015.003.003.005.006.02.024.037.046a8.478 8.478 0 01.262.34l.247.338.122.169.061.085.035.048.04.06c.048.078.086.151.12.223.036.072.066.142.095.212.057.139.107.276.154.413.046.136.09.273.13.411l.03.104.014.052.007.028.006.02.001.006.003.012a4.198 4.198 0 00.311.886 4.193 4.193 0 00.327.561l.026.035.02.026-.06-.057a1.741 1.741 0 01.334.35 1.253 1.253 0 01.073.118l.012.025.007.014.004.008.007.016-.063-.102c.052.063.076.12.092.165a.606.606 0 01.026.116.843.843 0 01.005.157 1.57 1.57 0 01-.032.226 3.671 3.671 0 01-.102.37 6.925 6.925 0 01-.187.509l-.034.083-.036.085.014-.04a3.62 3.62 0 00-.15.865 5.084 5.084 0 00.172 1.567l.013.046.018.053.038.104c.053.137.114.268.183.37.034.051.071.094.1.118.014.012.025.018.027.02H5.58a.175.175 0 00-.024.004l-.008.002-.006.002-.015.005-.187.237.151-1.073a2.413 2.413 0 01.442-1.02l.024-.03.013-.016.016-.02.008-.009.004-.004a2.803 2.803 0 00.225-.258l.072-.095.243-.332.127.376a18.324 18.324 0 00.45 1.195c.166.392.346.78.547 1.155a9.885 9.885 0 00.665 1.094c.122.176.251.346.388.51.07.083.14.163.214.24.074.078.15.155.232.224z",
@@ -5802,8 +5648,7 @@ var OpenAi = function OpenAi(props) {
     className: clsx('icon default', className),
     xmlns: "http://www.w3.org/2000/svg",
     width: size,
-    height: size,
-    viewBox: "-2 -2 24 24",
+    viewBox: "0 0 20 20",
     fill: color
   }, otherProps), /*#__PURE__*/React.createElement("path", {
     d: "M16.73 8.55c.2-.55.25-1.1.2-1.65-.05-.55-.25-1.1-.5-1.6-.45-.75-1.1-1.35-1.85-1.7-.8-.35-1.65-.45-2.5-.25-.4-.4-.85-.75-1.35-1-.5-.25-1.1-.35-1.65-.35-.85 0-1.7.25-2.4.75s-1.2 1.2-1.45 2c-.6.15-1.1.4-1.6.7-.45.35-.8.8-1.1 1.25-.45.75-.6 1.6-.5 2.45.1.85.45 1.65 1 2.3-.2.55-.25 1.1-.2 1.65.05.55.25 1.1.5 1.6.45.75 1.1 1.35 1.85 1.7.8.35 1.65.45 2.5.25.4.4.85.75 1.35 1 .5.25 1.1.35 1.65.35.85 0 1.7-.25 2.4-.75s1.2-1.2 1.45-2c.55-.1 1.1-.35 1.55-.7.45-.35.85-.75 1.1-1.25.45-.75.6-1.6.5-2.45-.1-.85-.4-1.65-.95-2.3zm-6 8.4c-.8 0-1.4-.25-1.95-.7 0 0 .05-.05.1-.05l3.2-1.85c.1-.05.15-.1.2-.2.05-.1.05-.15.05-.25V9.4l1.35.8v3.7a2.948 2.948 0 01-2.95 3.05zM4.28 14.2c-.35-.6-.5-1.3-.35-2 0 0 .05.05.1.05l3.2 1.85c.1.05.15.05.25.05s.2 0 .25-.05l3.9-2.25v1.55l-3.25 1.9c-.7.4-1.5.5-2.25.3-.8-.2-1.45-.7-1.85-1.4zm-.85-6.95c.35-.6.9-1.05 1.55-1.3V9.75c0 .1 0 .2.05.25.05.1.1.15.2.2l3.9 2.25-1.35.8-3.2-1.85c-.7-.4-1.2-1.05-1.4-1.8-.2-.75-.15-1.65.25-2.35zM14.48 9.8l-3.9-2.25 1.35-.8 3.2 1.85c.5.3.9.7 1.15 1.2.25.5.4 1.05.35 1.65A3 3 0 0114.68 14v-3.8c0-.1 0-.2-.05-.25 0 0-.05-.1-.15-.15zm1.35-2s-.05-.05-.1-.05l-3.2-1.85c-.1-.05-.15-.05-.25-.05s-.2 0-.25.05l-3.9 2.25V6.6l3.25-1.9c.5-.3 1.05-.4 1.65-.4.55 0 1.1.2 1.6.55.45.35.85.8 1.05 1.3.2.5.25 1.1.15 1.65zm-8.4 2.8l-1.35-.8V6.05c0-.55.15-1.15.45-1.6.3-.5.75-.85 1.25-1.1.5-.25 1.1-.35 1.65-.25.55.05 1.1.3 1.55.65 0 0-.05.05-.1.05l-3.2 1.85c-.1.05-.15.1-.2.2-.05.1-.05.15-.05.25v4.5zm.7-1.6l1.75-1 1.75 1v2l-1.75 1-1.75-1V9z",
@@ -5819,6 +5664,72 @@ OpenAi.propTypes = {
   children: PropTypes.node
 };
 OpenAi.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+var _excluded$2r = ["color", "size", "className"];
+var K8s = function K8s(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$2r);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    viewBox: "0 0 20 20",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M16.015 4.763c.274.146.494.384.585.677l1.39 5.983a1.25 1.25 0 01-.219.878l-3.86 4.775a.912.912 0 01-.842.385H6.921a1.332 1.332 0 01-.841-.384L2.22 12.3a1.154 1.154 0 01-.202-.878l1.372-6.02a.983.983 0 01.549-.677l5.58-2.69C9.666 2 9.831 2 9.977 2c.146 0 .31.018.457.091l5.58 2.672zm-.311 6.404c0 .018.018.018.036.018a.431.431 0 01.33.384.398.398 0 01-.366.256c-.037 0-.055 0-.092-.018-.018-.018-.018-.018-.036-.018-.022 0-.037-.006-.05-.012a.064.064 0 00-.024-.006c-.054-.014-.098-.038-.147-.064a2.152 2.152 0 00-.054-.028c-.036 0-.073-.018-.11-.037h-.018a3.078 3.078 0 00-.585-.164h-.019a.208.208 0 00-.146.055s0 .018-.018.018l-.147-.018a4.522 4.522 0 01-1.976 2.488l.055.146s-.018 0-.018.019a.216.216 0 00-.018.183c.073.183.164.366.292.53v.037c.037.037.055.055.073.091.055.055.092.11.129.183.018.019.036.037.036.055 0 0 .019 0 .019.019a.47.47 0 01.018.274.306.306 0 01-.165.201 1.292 1.292 0 00-.032.012c-.039.013-.07.025-.114.025a.41.41 0 01-.348-.22c-.018 0-.018-.018-.018-.018-.01-.01-.014-.018-.019-.027-.004-.01-.009-.019-.018-.028a.655.655 0 01-.073-.201l-.037-.11v-.018a3.096 3.096 0 00-.237-.567.285.285 0 00-.147-.11c0-.018 0-.018-.018-.018l-.073-.129-.143.045c-.143.045-.293.093-.443.12-.33.092-.659.128-.988.128-.549 0-1.08-.091-1.592-.293l-.073.147c0 .009 0 .014-.002.016s-.007.002-.016.002a.285.285 0 00-.146.11c-.092.183-.183.366-.238.567l-.037.11c-.01.037-.023.069-.037.1-.013.033-.027.065-.036.101-.018.018-.037.037-.037.055-.018 0-.018.018-.018.018a.41.41 0 01-.348.22.34.34 0 01-.128-.037.377.377 0 01-.146-.494c.018 0 .018-.018.018-.018a.096.096 0 00.019-.027c.004-.01.009-.019.018-.028.024-.032.044-.064.063-.093.024-.037.044-.07.065-.09.036-.037.055-.055.073-.091v-.019c.11-.164.22-.347.293-.53a.216.216 0 00-.018-.183s-.019 0-.019-.018l.092-.129a2.907 2.907 0 01-.494-.329 4.416 4.416 0 01-1.5-2.14l-.165.018s0-.019-.019-.019a.208.208 0 00-.146-.055h-.018c-.22.037-.403.092-.604.165H4.78c-.037 0-.074.018-.11.037l-.068.026c-.042.017-.087.035-.133.047l-.025-.004c-.022-.004-.049-.009-.049.004 0 .009 0 .014-.002.016s-.007.002-.016.002c-.036.018-.055.018-.091.018a.34.34 0 01-.366-.256.357.357 0 01.292-.42c.011-.011.015-.015.02-.017.005-.002.01-.002.017-.002.021 0 .037-.006.05-.011.008-.004.016-.007.023-.007a.883.883 0 00.11-.01c.037-.004.073-.008.11-.008.036-.019.073-.019.11-.019.22-.018.42-.055.622-.11.055-.036.11-.073.128-.127 0 0 .018 0 .018-.019l.146-.036a4.345 4.345 0 01.668-3.047.402.402 0 00.028-.046l-.107-.106c.009-.052-.025-.116-.058-.15-.146-.146-.33-.256-.512-.366l-.11-.055a1.993 1.993 0 01-.201-.11c-.019 0-.055-.036-.055-.036s0-.018-.019-.018a.394.394 0 01-.073-.513c.055-.091.147-.128.256-.128.092 0 .183.037.257.092l.018.018c.009.01.018.014.027.018.01.005.019.01.028.019.027.027.05.055.073.082.023.028.046.055.073.082l.02.018c.019.014.04.03.053.056.128.146.293.292.458.42a.26.26 0 00.11.037c.021 0 .036-.006.049-.011a.066.066 0 01.024-.007h.018l.11.073a4.362 4.362 0 012.25-1.28l.094-.017c.184-.03.356-.06.528-.075l.019-.147V5.55c.055-.037.073-.092.091-.147 0-.22 0-.42-.036-.622v-.018c0-.037 0-.073-.019-.11-.018-.073-.036-.146-.036-.22v-.09c0-.092.036-.184.11-.257.09-.091.2-.146.31-.128.184.018.33.201.312.384v.11a.931.931 0 00-.019.11.891.891 0 01-.018.11.228.228 0 01-.01.054.229.229 0 00-.008.055V4.8c-.037.22-.037.42-.037.622.018.055.037.11.091.146V5.55l.019.146c.86.092 1.701.42 2.378.952.074.073.151.146.23.22.077.072.155.145.228.219l.146-.092h.019c.018.018.054.018.073.018a.26.26 0 00.11-.036c.164-.11.329-.256.457-.403a.209.209 0 01.02-.017.168.168 0 00.053-.056c.037-.055.091-.11.146-.165.019 0 .037-.018.055-.036l.019-.018a.437.437 0 01.256-.092.35.35 0 01.256.128c.128.165.091.384-.073.512 0 .007.002.012.005.015.003.006.006.01-.005.022-.01.01-.019.014-.028.018-.009.005-.018.01-.027.019a1.999 1.999 0 00-.1.055 1.978 1.978 0 01-.101.054l-.11.055c-.183.11-.348.22-.512.366-.037.037-.055.11-.055.165v.018l-.11.11c.293.457.512.97.64 1.5.11.531.147 1.08.073 1.61l.147.037a.22.22 0 00.128.128c.201.055.42.092.622.11h.018a.232.232 0 00.11.018c.073 0 .146 0 .22.018.036 0 .073 0 .073.019zM6.156 7.584l-.003-.003v.018a.093.093 0 00.003-.015zm3.803 3.272l.494-.238.128-.53-.348-.44h-.549l-.347.44.128.53.494.238zm3.55-.275a3.502 3.502 0 00-.074-1.152 3.725 3.725 0 00-.44-1.08l-1.371 1.244a.295.295 0 00-.074.128c-.036.165.055.33.22.366l1.738.494zm-2.562-1.848l1.5-1.06a3.443 3.443 0 00-2.068-.989l.11 1.848c0 .055.018.092.055.128.092.128.274.147.403.073zM9.5 6.666l-.366.073a3.633 3.633 0 00-1.701.933l1.518 1.08.033.01c.038.015.07.026.114.026.164 0 .31-.128.31-.293l.092-1.83zm-1.244 2.89L6.903 8.35a3.851 3.851 0 00-.53 2.232l1.774-.512c.073-.018.11-.037.147-.091a.294.294 0 00-.037-.421zm.146 1.574l-1.811.311a3.6 3.6 0 001.409 1.793l.695-1.683a.216.216 0 00.018-.183c-.018-.146-.164-.238-.31-.238zm1.556 2.671c.274 0 .53-.036.786-.09.128-.037.238-.056.348-.074l-.878-1.592c-.055-.055-.092-.091-.147-.128a.284.284 0 00-.366.073l-.896 1.629a4.1 4.1 0 001.153.183zm1.92-.585c.44-.274.824-.659 1.099-1.098a2.75 2.75 0 00.347-.695l-1.83-.311c-.054 0-.11.018-.164.037a.298.298 0 00-.165.347l.714 1.72z",
+    fillOpacity: ".8"
+  }));
+};
+K8s.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+K8s.defaultProps = {
+  color: 'currentColor',
+  size: '20',
+  className: '',
+  style: {}
+};
+
+var _excluded$2s = ["color", "size", "className"];
+var Nginx = function Nginx(props) {
+  var color = props.color,
+    size = props.size,
+    className = props.className,
+    otherProps = _objectWithoutProperties(props, _excluded$2s);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    className: clsx('icon default', className),
+    xmlns: "http://www.w3.org/2000/svg",
+    width: size,
+    viewBox: "0 0 20 20",
+    fill: color
+  }, otherProps), /*#__PURE__*/React.createElement("path", {
+    d: "M16.583 5.406L10.99 2.21c-.48-.28-1.079-.28-1.598 0L3.799 5.406c-.48.28-.799.799-.799 1.398v6.392c0 .56.32 1.119.799 1.398l5.593 3.196c.48.28 1.079.28 1.598 0l5.593-3.196c.48-.28.799-.799.799-1.398V6.804c0-.56-.32-1.079-.799-1.398zm-3.755 8.07c-.36 0-.8-.16-1.079-.48L8.194 8.762v3.955c0 .44-.32.759-.76.759h-.04c-.439 0-.759-.36-.759-.76V7.284c0-.4.36-.759.88-.759.399 0 .798.16 1.078.48l3.556 4.235V7.283c0-.439.36-.759.759-.759h.04c.439 0 .759.36.759.76v5.433c.04.44-.36.759-.88.759z",
+    fillOpacity: ".8"
+  }));
+};
+Nginx.propTypes = {
+  color: PropTypes.string,
+  size: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+  className: PropTypes.string,
+  style: PropTypes.any,
+  onClick: PropTypes.func,
+  children: PropTypes.node
+};
+Nginx.defaultProps = {
   color: 'currentColor',
   size: '20',
   className: '',
@@ -5902,6 +5813,7 @@ exports.HamburgerButton = HamburgerButton;
 exports.Help = Help;
 exports.Hidden = Hidden;
 exports.IdentityCard = IdentityCard;
+exports.K8s = K8s;
 exports.Label = Label;
 exports.Left = Left;
 exports.Level = Level;
@@ -5916,6 +5828,7 @@ exports.Markdown = Markdown;
 exports.More = More;
 exports.Mysql = Mysql;
 exports.Myworksheet = Myworksheet;
+exports.Nginx = Nginx;
 exports.Notifications = Notifications;
 exports.Number = Number;
 exports.OffScreen = OffScreen;

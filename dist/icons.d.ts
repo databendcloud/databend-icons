@@ -162,3 +162,5 @@ export const Apple: Icon;
 export const Zhihu: Icon;
 export const Mysql: Icon;
 export const OpenAi: Icon;
+export const K8s: Icon;
+export const Nginx: Icon;
