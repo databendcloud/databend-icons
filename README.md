@@ -11,7 +11,7 @@ yarn add git+https://github.com/databendcloud/databend-icons.git#package
 
 # How to use
 ```js
-import { Loading } from 'databend-icons';
+import { Loading } from '@databendcloud/databend-icons';
 
 props:
 <Loading size="20" className="class-name" onClick={action}/>
