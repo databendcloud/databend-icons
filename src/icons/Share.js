@@ -9,16 +9,15 @@ const Share = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M14.583 6.667a2.083 2.083 0 100-4.167 2.083 2.083 0 000 4.167z"></path>
-      <path d="M5.417 12.083a2.083 2.083 0 100-4.166 2.083 2.083 0 000 4.166z"></path>
-      <path d="M12.5 5.656L7.224 8.852"></path>
-      <path d="M7.224 11.068l5.559 3.285"></path>
-      <path d="M14.583 13.333a2.083 2.083 0 110 4.167 2.083 2.083 0 010-4.167z"></path>
+      <path d="M14.5 6.889A1.944 1.944 0 1014.5 3a1.944 1.944 0 000 3.889z"></path>
+      <path d="M5.944 11.944a1.944 1.944 0 100-3.888 1.944 1.944 0 000 3.888z"></path>
+      <path d="M12.556 5.946L7.631 8.929"></path>
+      <path d="M7.632 10.997l5.188 3.066"></path>
+      <path d="M14.5 13.111a1.944 1.944 0 110 3.889 1.944 1.944 0 010-3.889z"></path>
     </svg>
   );
 };

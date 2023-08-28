@@ -9,14 +9,13 @@ const Terminal = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M16 4.667H4a.667.667 0 00-.667.666v9.334c0 .368.299.666.667.666h12a.667.667 0 00.667-.666V5.333A.667.667 0 0016 4.667z"></path>
-      <path d="M6 8l2.333 2L6 12"></path>
-      <path d="M9.667 12.667H14"></path>
+      <path d="M16.3 4.667H3.7a.7.7 0 00-.7.7v9.8a.7.7 0 00.7.7h12.6a.7.7 0 00.7-.7v-9.8a.7.7 0 00-.7-.7z"></path>
+      <path d="M5.8 8.167l2.45 2.1-2.45 2.1"></path>
+      <path d="M9.65 13.067h4.55"></path>
     </svg>
   );
 };

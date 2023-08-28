@@ -9,17 +9,16 @@ const ChartsBarStacked = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M11 13H9v2h2v-2z"></path>
-      <path d="M11 7H9v6h2V7z"></path>
-      <path d="M7 9H5v4h2V9z"></path>
-      <path d="M7 13H5v2h2v-2z"></path>
-      <path d="M15 13h-2v2h2v-2z"></path>
-      <path d="M15 5h-2v8h2V5z"></path>
+      <path d="M11.2 13.6H8.8V16h2.4v-2.4z"></path>
+      <path d="M11.2 6.4H8.8v7.2h2.4V6.4z"></path>
+      <path d="M6.4 8.8H4v4.8h2.4V8.8z"></path>
+      <path d="M6.4 13.6H4V16h2.4v-2.4z"></path>
+      <path d="M16 13.6h-2.4V16H16v-2.4z"></path>
+      <path d="M16 4h-2.4v9.6H16V4z"></path>
     </svg>
   );
 };

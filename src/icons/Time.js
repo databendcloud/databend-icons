@@ -9,13 +9,12 @@ const Time = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M10 18.333a8.333 8.333 0 100-16.666 8.333 8.333 0 000 16.666z"></path>
-      <path d="M10.004 5l-.001 5.004 3.533 3.533"></path>
+      <path d="M10 17a7 7 0 100-14 7 7 0 000 14z"></path>
+      <path d="M10.003 5.8v4.203l2.967 2.968"></path>
     </svg>
   );
 };

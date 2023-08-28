@@ -9,15 +9,14 @@ const Recent = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M7.667 9.646V5a2 2 0 114 0v.669"></path>
-      <path d="M11.667 9.668v4.665a2 2 0 01-4 0v-.676"></path>
-      <path d="M9.667 11.667H4.995a1.997 1.997 0 01-1.995-2c0-1.105.893-2 1.995-2h.668"></path>
-      <path d="M9.667 7.667h4.663c1.106 0 2.003.895 2.003 2 0 1.104-.897 2-2.003 2h-.641"></path>
+      <path d="M8.2 9.981V5.8a1.8 1.8 0 013.6 0v.602"></path>
+      <path d="M11.8 10.001V14.2a1.8 1.8 0 01-3.6 0v-.609"></path>
+      <path d="M10 11.8H5.795A1.798 1.798 0 014 10c0-.994.804-1.8 1.795-1.8h.602"></path>
+      <path d="M10 8.2h4.197C15.193 8.2 16 9.006 16 10s-.807 1.8-1.803 1.8h-.577"></path>
     </svg>
   );
 };

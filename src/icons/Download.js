@@ -9,17 +9,16 @@ const Download = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
       <path
         clipRule="evenodd"
-        d="M10 12.083l-5-5h3.333V2.5h3.334v4.583H15l-5 5z"
+        d="M10.002 11.474L5.58 7.053h2.947V3h2.947v4.053h2.948l-4.421 4.42z"
       ></path>
-      <path d="M17.5 15.417h-15"></path>
-      <path d="M14.167 18.333H5.833"></path>
+      <path d="M16.633 14.421H3.37"></path>
+      <path d="M13.686 17H6.317"></path>
     </svg>
   );
 };

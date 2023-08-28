@@ -9,20 +9,19 @@ const Support = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
       <path
         clipRule="evenodd"
-        d="M15.893 15.893A8.333 8.333 0 104.107 4.107a8.333 8.333 0 0011.785 11.785zm-2.357-9.429a5 5 0 11-7.071 7.071 5 5 0 017.07-7.07z"
+        d="M14.95 14.95a7 7 0 10-9.9-9.9 7 7 0 009.9 9.9zm-1.98-7.92a4.2 4.2 0 11-5.94 5.94 4.2 4.2 0 015.94-5.94z"
       ></path>
-      <path d="M15.893 15.893l-2.357-2.357"></path>
-      <path d="M4.107 15.893l2.357-2.357"></path>
-      <path d="M4.107 4.107l2.357 2.357"></path>
-      <path d="M15.893 4.107l-2.357 2.357"></path>
-      <path d="M13.536 13.536a5 5 0 10-7.072-7.072 5 5 0 007.072 7.072z"></path>
+      <path d="M14.95 14.95l-1.98-1.98"></path>
+      <path d="M5.05 14.95l1.98-1.98"></path>
+      <path d="M5.05 5.05l1.98 1.98"></path>
+      <path d="M14.95 5.05l-1.98 1.98"></path>
+      <path d="M12.97 12.97a4.2 4.2 0 10-5.94-5.94 4.2 4.2 0 005.94 5.94z"></path>
     </svg>
   );
 };

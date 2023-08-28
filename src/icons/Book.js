@@ -9,16 +9,12 @@ const Book = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M3.333 16.667v-12.5c0-1.381 1.194-2.5 2.667-2.5h10.667V15H6c-2.099 0-2.667.285-2.667 1.667z"></path>
-      <path
-        clipRule="evenodd"
-        d="M5 18.333h11.667V15H5a1.667 1.667 0 000 3.333z"
-      ></path>
+      <path d="M4 15.5V4.25C4 3.007 5.075 2 6.4 2H16v12H6.4c-1.89 0-2.4.257-2.4 1.5z"></path>
+      <path clipRule="evenodd" d="M5.5 17H16v-3H5.5a1.5 1.5 0 000 3z"></path>
     </svg>
   );
 };

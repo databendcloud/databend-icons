@@ -9,16 +9,15 @@ const Hidden = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M2.5 6.667c.264.508.665.979 1.176 1.398C5.11 9.239 7.408 10 10 10c2.592 0 4.891-.761 6.324-1.935.51-.419.911-.89 1.176-1.398"></path>
-      <path d="M12.074 10l.863 3.22"></path>
-      <path d="M15.564 8.897l2.357 2.357"></path>
-      <path d="M2.083 11.254L4.44 8.897"></path>
-      <path d="M7.053 13.22L7.916 10"></path>
+      <path d="M3.368 7c.234.45.588.866 1.04 1.236 1.266 1.038 3.299 1.71 5.59 1.71s4.324-.672 5.59-1.71c.452-.37.806-.787 1.04-1.236"></path>
+      <path d="M11.832 9.947l.762 2.846"></path>
+      <path d="M14.916 8.972L17 11.055"></path>
+      <path d="M3 11.055l2.084-2.083"></path>
+      <path d="M7.393 12.793l.763-2.846"></path>
     </svg>
   );
 };

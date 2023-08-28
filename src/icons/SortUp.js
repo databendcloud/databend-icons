@@ -9,17 +9,16 @@ const SortUp = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M9.583 3.75h8.334"></path>
-      <path d="M2.083 6.667l3.334-3.334"></path>
-      <path d="M5.417 3.333V17.5"></path>
-      <path d="M9.583 7.917h6.667"></path>
-      <path d="M9.583 12.083h5"></path>
-      <path d="M9.583 16.25h3.334"></path>
+      <path d="M9.684 5.316H16"></path>
+      <path d="M4 7.526L6.526 5"></path>
+      <path d="M6.526 5v10.737"></path>
+      <path d="M9.684 8.474h5.053"></path>
+      <path d="M9.684 11.632h3.79"></path>
+      <path d="M9.684 14.79h2.527"></path>
     </svg>
   );
 };

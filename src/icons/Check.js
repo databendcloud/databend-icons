@@ -9,15 +9,14 @@ const Check = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M1.667 10L3.75 7.917l4.167 4.166L16.25 3.75l2.083 2.083L7.917 16.25 1.667 10z"
+        d="M3 9.75L4.75 8l3.5 3.5 7-7L17 6.25 8.25 15 3 9.75z"
         fillOpacity=".8"
       ></path>
     </svg>

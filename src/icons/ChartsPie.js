@@ -9,13 +9,12 @@ const ChartsPie = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M16.667 10A6.667 6.667 0 1110 3.333V10h6.667z"></path>
-      <path d="M16.361 8H12V3.639A6.682 6.682 0 0116.361 8z"></path>
+      <path d="M17 10a7 7 0 11-7-7v7h7z"></path>
+      <path d="M16.68 7.9H12.1V3.32a7.017 7.017 0 014.58 4.58z"></path>
     </svg>
   );
 };

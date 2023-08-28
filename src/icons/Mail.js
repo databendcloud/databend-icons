@@ -9,15 +9,14 @@ const Mail = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M3.333 15h13.334V5H3.333v10z"></path>
-      <path d="M3.333 5L10 10l6.667-5"></path>
-      <path d="M10 5H3.333v5"></path>
-      <path d="M16.667 10V5H10"></path>
+      <path d="M3 15.5h14V5H3v10.5z"></path>
+      <path d="M3 5l7 5.25L17 5"></path>
+      <path d="M10 5H3v5.25"></path>
+      <path d="M17 10.25V5h-7"></path>
     </svg>
   );
 };

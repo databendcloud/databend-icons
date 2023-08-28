@@ -9,15 +9,14 @@ const WareHouse = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M9.583 17.917h8.334V2.083H5.833V6.25"></path>
-      <path d="M2.083 6.25h7.5v11.667h-7.5V6.25z"></path>
-      <path d="M5.417 15.417h.833"></path>
-      <path d="M11.667 15.417h.833"></path>
+      <path d="M9.632 17H17V3H6.316v3.684"></path>
+      <path d="M3 6.684h6.632V17H3V6.684z"></path>
+      <path d="M5.947 14.79h.737"></path>
+      <path d="M11.474 14.79h.736"></path>
     </svg>
   );
 };

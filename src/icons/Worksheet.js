@@ -9,16 +9,15 @@ const Worksheet = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M3.333 18.333V1.667h9.584l3.75 4.375v12.291H3.333z"></path>
-      <path d="M8.75 11.667h-2.5v2.916h2.5v-2.916z"></path>
-      <path d="M5.833 14.583h8.334"></path>
-      <path d="M11.25 9.583h-2.5v5h2.5v-5z"></path>
-      <path d="M13.75 7.5h-2.5v7.083h2.5V7.5z"></path>
+      <path d="M4.4 17V3h8.05l3.15 3.675V17H4.4z"></path>
+      <path d="M8.95 11.4h-2.1v2.45h2.1V11.4z"></path>
+      <path d="M6.5 13.85h7"></path>
+      <path d="M11.05 9.65h-2.1v4.2h2.1v-4.2z"></path>
+      <path d="M13.15 7.9h-2.1v5.95h2.1V7.9z"></path>
     </svg>
   );
 };

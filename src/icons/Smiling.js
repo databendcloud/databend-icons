@@ -9,15 +9,14 @@ const Smiling = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M10 18.333a8.333 8.333 0 100-16.666 8.333 8.333 0 000 16.666z"></path>
-      <path d="M12.917 12.917s-.834 1.666-2.917 1.666c-2.083 0-2.917-1.666-2.917-1.666"></path>
-      <path d="M12.917 7.5v1.667"></path>
-      <path d="M7 7v1.667"></path>
+      <path d="M10 17a7 7 0 100-14 7 7 0 000 14z"></path>
+      <path d="M12.45 12.45s-.7 1.4-2.45 1.4c-1.75 0-2.45-1.4-2.45-1.4"></path>
+      <path d="M12.45 7.9v1.4"></path>
+      <path d="M7.48 7.48v1.4"></path>
     </svg>
   );
 };

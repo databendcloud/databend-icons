@@ -9,13 +9,12 @@ const Label = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M5 3.333h10v13.334l-5-3.524-5 3.524V3.333z"></path>
-      <path d="M15 3.333H5v4h10v-4z"></path>
+      <path d="M4.75 3h10.5v14L10 13.3 4.75 17V3z"></path>
+      <path d="M15.25 3H4.75v4.2h10.5V3z"></path>
     </svg>
   );
 };

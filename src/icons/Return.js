@@ -9,13 +9,12 @@ const Return = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M5.417 3.333L2.5 5.833 5.417 8.75"></path>
-      <path d="M2.5 5.833h9.58c2.869 0 5.304 2.342 5.416 5.209.118 3.029-2.385 5.625-5.415 5.625H4.999"></path>
+      <path d="M5.722 4L3 6.333l2.722 2.723"></path>
+      <path d="M3 6.333h8.942c2.677 0 4.95 2.186 5.054 4.861.11 2.827-2.225 5.25-5.054 5.25h-6.61"></path>
     </svg>
   );
 };

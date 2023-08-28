@@ -9,15 +9,14 @@ const AddSheet = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M16.667 9.583v-3.75l-3.75-4.166h-8.75a.833.833 0 00-.834.833v15c0 .46.373.833.834.833h5"></path>
-      <path d="M13.75 12.083v5.834"></path>
-      <path d="M10.833 15h5.834"></path>
-      <path d="M12.5 1.667v4.166h4.167"></path>
+      <path d="M15.6 9.65V6.5L12.45 3H5.1a.7.7 0 00-.7.7v12.6a.7.7 0 00.7.7h4.2"></path>
+      <path d="M13.15 11.75v4.9"></path>
+      <path d="M10.7 14.2h4.9"></path>
+      <path d="M12.1 3v3.5h3.5"></path>
     </svg>
   );
 };

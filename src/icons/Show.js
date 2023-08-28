@@ -9,13 +9,12 @@ const Show = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M10 15c4.602 0 8.333-5 8.333-5S14.603 5 10 5c-4.602 0-8.333 5-8.333 5s3.73 5 8.333 5z"></path>
-      <path d="M10 12.083a2.083 2.083 0 100-4.166 2.083 2.083 0 000 4.166z"></path>
+      <path d="M10 14.6c4.418 0 8-4.8 8-4.8S14.418 5 10 5 2 9.8 2 9.8s3.582 4.8 8 4.8z"></path>
+      <path d="M10 11.8a2 2 0 100-4 2 2 0 000 4z"></path>
     </svg>
   );
 };

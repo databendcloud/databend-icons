@@ -9,16 +9,15 @@ const Upload = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M4.866 8.446a4.168 4.168 0 102.106 8.063"></path>
-      <path d="M15.023 8.446a4.168 4.168 0 11-2.106 8.063"></path>
-      <path d="M15 8.333a5 5 0 00-10 0"></path>
-      <path d="M7.11 11.617L10 8.718l2.972 2.949"></path>
-      <path d="M10 15.833v-5.64"></path>
+      <path d="M5.705 8.324a3.525 3.525 0 101.781 6.818"></path>
+      <path d="M14.295 8.324a3.525 3.525 0 11-1.781 6.818"></path>
+      <path d="M14.275 8.228a4.228 4.228 0 10-8.456 0"></path>
+      <path d="M7.604 11.005l2.443-2.451 2.513 2.493"></path>
+      <path d="M10.047 14.57V9.8"></path>
     </svg>
   );
 };

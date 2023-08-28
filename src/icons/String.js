@@ -9,13 +9,12 @@ const String = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M3 17l7-14 7 14"></path>
-      <path d="M6 11h8"></path>
+      <path d="M4 16l6-12 6 12"></path>
+      <path d="M6.571 10.857h6.858"></path>
     </svg>
   );
 };

@@ -9,16 +9,15 @@ const Tickets = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M3.333 4.667h2.334s.333 1.666 2 1.666c1.666 0 2-1.666 2-1.666h7v10.666h-7s-.334-1.666-2-1.666c-1.667 0-2 1.666-2 1.666H3.333V4.667z"></path>
-      <path d="M7.667 8.333V9"></path>
-      <path d="M7.667 11v.667"></path>
-      <path d="M10.333 9H14"></path>
-      <path d="M10.333 11H14"></path>
+      <path d="M3 4.4h2.45s.35 1.75 2.1 1.75 2.1-1.75 2.1-1.75H17v11.2H9.65s-.35-1.75-2.1-1.75-2.1 1.75-2.1 1.75H3V4.4z"></path>
+      <path d="M7.55 8.25v.7"></path>
+      <path d="M7.55 11.05v.7"></path>
+      <path d="M10.35 8.95h3.85"></path>
+      <path d="M10.35 11.05h3.85"></path>
     </svg>
   );
 };

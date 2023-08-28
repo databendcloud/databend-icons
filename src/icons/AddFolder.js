@@ -9,14 +9,13 @@ const AddFolder = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M2 2.833c0-.46.373-.833.833-.833h5l2.084 2.5H17c.46 0 .833.373.833.833v10.834c0 .46-.373.833-.833.833H2.833A.833.833 0 012 16.167V2.833z"></path>
-      <path d="M7.5 10.25h5"></path>
-      <path d="M10 7.75v5"></path>
+      <path d="M3 3.737C3 3.33 3.33 3 3.737 3h4.42L10 5.21h6.263c.407 0 .737.33.737.737v9.58c0 .406-.33.736-.737.736H3.737A.737.737 0 013 15.526V3.736z"></path>
+      <path d="M7.863 10.295h4.421"></path>
+      <path d="M10.074 8.084v4.421"></path>
     </svg>
   );
 };

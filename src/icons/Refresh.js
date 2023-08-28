@@ -9,15 +9,14 @@ const Refresh = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M17.5 3.333V10"></path>
-      <path d="M2.5 10v6.667"></path>
-      <path d="M2.5 10a7.5 7.5 0 0012.708 5.397"></path>
-      <path d="M17.5 10A7.5 7.5 0 004.604 4.792"></path>
+      <path d="M16 4.667V10"></path>
+      <path d="M4 10v5.333"></path>
+      <path d="M4 10a6 6 0 0010.167 4.317"></path>
+      <path d="M16 10A6 6 0 005.683 5.833"></path>
     </svg>
   );
 };

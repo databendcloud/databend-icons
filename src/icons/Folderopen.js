@@ -9,13 +9,12 @@ const Folderopen = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M3.333 5v10.667L5 9h10.167V7a.667.667 0 00-.667-.667H10l-1.667-2H4A.667.667 0 003.333 5z"></path>
-      <path d="M15.333 15.667L16.667 9H4.937l-1.604 6.667h12z"></path>
+      <path d="M3 4.7v11.2l1.75-7h10.675V6.8a.7.7 0 00-.7-.7H10L8.25 4H3.7a.7.7 0 00-.7.7z"></path>
+      <path d="M15.6 15.9l1.4-7H4.684L3 15.9h12.6z"></path>
     </svg>
   );
 };

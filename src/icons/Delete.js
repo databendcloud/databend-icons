@@ -9,18 +9,17 @@ const Delete = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M6.25 5l.5-2.917h6.5L13.75 5"></path>
-      <path d="M2.5 5h15"></path>
+      <path d="M6.5 5.722L6.967 3h6.066l.467 2.722"></path>
+      <path d="M3 5.722h14"></path>
       <path
         clipRule="evenodd"
-        d="M15.417 5l-.834 12.917H5.417L4.583 5h10.834z"
+        d="M15.056 5.722l-.778 12.056H5.722L4.944 5.722h10.111z"
       ></path>
-      <path d="M7.917 14.583h4.166"></path>
+      <path d="M8.056 14.667h3.889"></path>
     </svg>
   );
 };

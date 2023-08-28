@@ -9,15 +9,14 @@ const Error = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
       <path
         fillRule="evenodd"
         clipRule="evenodd"
-        d="M2.5 4.583L4.583 2.5 10 7.917 15.417 2.5 17.5 4.583 12.083 10l5.417 5.417-2.083 2.083L10 12.083 4.583 17.5 2.5 15.417 7.917 10 2.5 4.583z"
+        d="M3 4.944L4.944 3 10 8.056 15.056 3 17 4.944 11.944 10 17 15.056 15.056 17 10 11.944 4.944 17 3 15.056 8.056 10 3 4.944z"
         fillOpacity=".8"
       ></path>
     </svg>

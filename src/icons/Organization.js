@@ -9,15 +9,14 @@ const Organization = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M1.667 2.083h16.666v3.334l-.582.35a2.917 2.917 0 01-3.002 0l-.582-.35-.583.35a2.917 2.917 0 01-3.001 0L10 5.416l-.583.35a2.917 2.917 0 01-3.001 0l-.583-.35-.582.35a2.917 2.917 0 01-3.002 0l-.582-.35V2.083z"></path>
-      <path d="M17.5 10.417h-15v7.5h15v-7.5z"></path>
-      <path d="M3.75 6.667v3.75"></path>
-      <path d="M16.25 6.667v3.75"></path>
+      <path d="M3 3h14v2.8l-.49.294a2.45 2.45 0 01-2.52 0L13.5 5.8l-.49.294a2.45 2.45 0 01-2.52 0L10 5.8l-.49.294a2.45 2.45 0 01-2.52 0L6.5 5.8l-.49.294a2.45 2.45 0 01-2.52 0L3 5.8V3z"></path>
+      <path d="M16.3 10H3.7v6.3h12.6V10z"></path>
+      <path d="M4.75 6.85V10"></path>
+      <path d="M15.25 6.85V10"></path>
     </svg>
   );
 };

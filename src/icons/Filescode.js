@@ -9,15 +9,14 @@ const Filescode = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M14.667 9.333v-3l-3-3.333h-7A.667.667 0 004 3.667v12c0 .368.298.666.667.666h4"></path>
-      <path d="M13.667 12l1.666 1.667-1.666 1.666"></path>
-      <path d="M11.667 12L10 13.667l1.667 1.666"></path>
-      <path d="M11.333 3v3.333h3.334"></path>
+      <path d="M15.2 9.65V6.5L12.05 3H4.7a.7.7 0 00-.7.7v12.6a.7.7 0 00.7.7h4.2"></path>
+      <path d="M14.15 12.45l1.75 1.75-1.75 1.75"></path>
+      <path d="M12.05 12.45L10.3 14.2l1.75 1.75"></path>
+      <path d="M11.7 3v3.5h3.5"></path>
     </svg>
   );
 };

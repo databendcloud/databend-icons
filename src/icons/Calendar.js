@@ -9,19 +9,18 @@ const Calendar = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M2.083 7.917h15.834v8.75c0 .46-.373.833-.834.833H2.917a.833.833 0 01-.834-.833v-8.75z"></path>
-      <path d="M2.083 3.75c0-.46.373-.833.834-.833h14.166c.46 0 .834.373.834.833v4.167H2.083V3.75z"></path>
-      <path d="M6.667 1.667V5"></path>
-      <path d="M13.333 1.667V5"></path>
-      <path d="M11.667 14.167h2.5"></path>
-      <path d="M5.833 14.167h2.5"></path>
-      <path d="M11.667 10.833h2.5"></path>
-      <path d="M5.833 10.833h2.5"></path>
+      <path d="M3 8.526h14v7.737c0 .407-.33.737-.737.737H3.737A.737.737 0 013 16.263V8.526z"></path>
+      <path d="M3 4.842c0-.407.33-.737.737-.737h12.526c.407 0 .737.33.737.737v3.684H3V4.842z"></path>
+      <path d="M7.053 3v2.947"></path>
+      <path d="M12.947 3v2.947"></path>
+      <path d="M11.474 14.053h2.21"></path>
+      <path d="M6.316 14.053h2.21"></path>
+      <path d="M11.474 11.105h2.21"></path>
+      <path d="M6.316 11.105h2.21"></path>
     </svg>
   );
 };

@@ -9,13 +9,12 @@ const Send = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M17.917 2.083l-5.542 15.834-3.167-7.125-7.125-3.167 15.834-5.542z"></path>
-      <path d="M17.917 2.083l-8.709 8.709"></path>
+      <path d="M17 3l-4.9 14-2.8-6.3L3 7.9 17 3z"></path>
+      <path d="M17 3l-7.7 7.7"></path>
     </svg>
   );
 };

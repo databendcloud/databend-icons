@@ -9,15 +9,13 @@ const Dashboard = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M18.5 3.333h-15a.833.833 0 00-.833.834v11.666c0 .46.373.834.833.834h15c.46 0 .833-.373.833-.834V4.167a.833.833 0 00-.833-.834z"></path>
-      <path d="M14.333 10.417v2.916"></path>
-      <path d="M11 6.667v6.666"></path>
-      <path d="M7.667 8.333v5"></path>
+      <path d="M4.455 14.273a7 7 0 1111.09 0"></path>
+      <path d="M6.278 12.449a4.455 4.455 0 117.443 0"></path>
+      <path clipRule="evenodd" d="M10 11.91L15.09 17H4.91L10 11.91z"></path>
     </svg>
   );
 };

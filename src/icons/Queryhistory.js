@@ -9,16 +9,15 @@ const Queryhistory = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M17.5 10V3.75c0-.69-.56-1.25-1.25-1.25H3.75c-.69 0-1.25.56-1.25 1.25v12.5c0 .69.56 1.25 1.25 1.25H10"></path>
-      <path d="M13.333 15.833a2.5 2.5 0 100-5 2.5 2.5 0 000 5z"></path>
-      <path d="M15.417 15l2.083 1.667"></path>
-      <path d="M5.833 6.667h8.334"></path>
-      <path d="M5.833 10h3.334"></path>
+      <path d="M17 10V4.167C17 3.522 16.478 3 15.833 3H4.167C3.522 3 3 3.522 3 4.167v11.666C3 16.478 3.522 17 4.167 17H10"></path>
+      <path d="M13.111 15.444a2.333 2.333 0 100-4.666 2.333 2.333 0 000 4.666z"></path>
+      <path d="M15.056 14.667L17 16.222"></path>
+      <path d="M6.111 6.889h7.778"></path>
+      <path d="M6.111 10h3.111"></path>
     </svg>
   );
 };

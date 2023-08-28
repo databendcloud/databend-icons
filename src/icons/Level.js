@@ -9,13 +9,12 @@ const Level = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M10 16L3.333 8.167 5.232 4h9.536l1.899 4.167L10 16z"></path>
-      <path d="M12.667 8L10 11 7.333 8"></path>
+      <path d="M10 16.6L3 8.375 4.993 4h10.014L17 8.375 10 16.6z"></path>
+      <path d="M12.8 8.2L10 11.35 7.2 8.2"></path>
     </svg>
   );
 };

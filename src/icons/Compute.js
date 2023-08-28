@@ -9,17 +9,16 @@ const Compute = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M18.333 1.667H1.667v6.666h16.666V1.667z"></path>
-      <path d="M18.333 11.667H1.667v6.666h16.666v-6.666z"></path>
-      <path d="M4.667 5.333v-.666h.666v.666h-.666z"></path>
-      <path d="M4.667 15.333v-.666h.666v.666h-.666z"></path>
-      <path d="M8 5.333v-.666h.667v.666H8z"></path>
-      <path d="M8 15.333v-.666h.667v.666H8z"></path>
+      <path d="M17 3H3v5.6h14V3z"></path>
+      <path d="M17 11.4H3V17h14v-5.6z"></path>
+      <path d="M5.6 6v-.4H6V6h-.4z"></path>
+      <path d="M5.6 14.4V14H6v.4h-.4z"></path>
+      <path d="M8.4 6v-.4h.4V6h-.4z"></path>
+      <path d="M8.4 14.4V14h.4v.4h-.4z"></path>
     </svg>
   );
 };

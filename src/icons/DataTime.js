@@ -9,13 +9,12 @@ const DataTime = props => {
       className={clsx('icon default', className)}
       xmlns="http://www.w3.org/2000/svg"
       width={size}
-      height={size}
-      viewBox="-2 -2 24 24"
+      viewBox="0 0 20 20"
       fill={color}
       {...otherProps}
     >
-      <path d="M10 6.667V10l2.5 1.25"></path>
-      <circle cx="10" cy="10" r="5.5"></circle>
+      <path d="M10 6v4l3 1.5"></path>
+      <circle cx="10" cy="10" r="6.5"></circle>
     </svg>
   );
 };
