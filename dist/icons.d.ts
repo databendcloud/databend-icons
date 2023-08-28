@@ -7,8 +7,7 @@
   }
 
   type Icon = ComponentType<Props>;
-  export const Dashboard: Icon;
-export const Worksheet: Icon;
+  export const Worksheet: Icon;
 export const Data: Icon;
 export const Support: Icon;
 export const Compute: Icon;
@@ -134,6 +133,8 @@ export const Rmb: Icon;
 export const Trace: Icon;
 export const Filter: Icon;
 export const Select: Icon;
+export const Rename: Icon;
+export const DataLock: Icon;
 export const Right: Icon;
 export const Down: Icon;
 export const Up: Icon;
