@@ -88,19 +88,22 @@ const generateIconCode = async ({name}) => {
 
 // append export code to icons.js
 const appendToIconsIndex = ({ComponentName, name}) => {
-  const exportString = `export { default as ${ComponentName} } from './icons/${name}';\r\n`;
-  fs.appendFileSync(
-    path.join(rootDir, 'src', 'icons.js'),
-    exportString,
-    'utf-8',
-  );
+  if (ComponentName !== 'Dashboard') {
+    const exportString = `export { default as ${ComponentName} } from './icons/${name}';\r\n`;
+    fs.appendFileSync(
+      path.join(rootDir, 'src', 'icons.js'),
+      exportString,
+      'utf-8',
+    );
 
-  const exportTypeString = `export const ${ComponentName}: Icon;\n`;
-  fs.appendFileSync(
-    path.join(rootDir, 'src', 'icons.d.ts'),
-    exportTypeString,
-    'utf-8',
-  );
+    const exportTypeString = `export const ${ComponentName}: Icon;\n`;
+    fs.appendFileSync(
+      path.join(rootDir, 'src', 'icons.d.ts'),
+      exportTypeString,
+      'utf-8',
+    );
+  }
+  
 }
 
 generateIconsIndex()

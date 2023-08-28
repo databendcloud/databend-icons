@@ -125,7 +125,6 @@ export { default as Trace } from './icons/Trace';
 export { default as Filter } from './icons/Filter';
 export { default as Select } from './icons/Select';
 export { default as Rename } from './icons/Rename';
-export { default as Dashboard } from './icons/Dashboard';
 export { default as DataLock } from './icons/DataLock';
 export { default as Right } from './icons/Right';
 export { default as Down } from './icons/Down';
