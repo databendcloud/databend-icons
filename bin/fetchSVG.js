@@ -5,7 +5,7 @@ const Figma = require('figma-js')
 const PQueue = require('p-queue')
 require('dotenv').config()
 
-const FIGMA_TOKEN = '381851-463491fd-bc81-48b9-9361-fcd66526949b';
+const FIGMA_TOKEN = 'figd_SgsYGuPPIXZUkWmfD-Rllb_gbKwqg7-9GtN4xa-A';
 const FIGMA_FILE_URL = 'https://www.figma.com/file/n1PpBmC70z0lUN9816jeBl/Icon?node-id=0%3A1';
 
 const options = {
