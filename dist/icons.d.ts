@@ -135,6 +135,7 @@ export const Filter: Icon;
 export const Select: Icon;
 export const Rename: Icon;
 export const DataLock: Icon;
+export const Owner: Icon;
 export const Right: Icon;
 export const Down: Icon;
 export const Up: Icon;
